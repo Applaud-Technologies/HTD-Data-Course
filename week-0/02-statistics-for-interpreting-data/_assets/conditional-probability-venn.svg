@@ -1,0 +1,38 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="600" height="400" fill="#f9f9f9" />
+  
+  <!-- Sample Space (Omega) -->
+  <rect x="50" y="50" width="500" height="300" fill="#f0f0f0" stroke="#333" stroke-width="2" rx="10" ry="10" />
+  <text x="70" y="80" font-family="Arial" font-size="16" font-weight="bold">Ω (Sample Space)</text>
+  
+  <!-- Event A circle -->
+  <circle cx="250" cy="200" r="120" fill="#4285f4" fill-opacity="0.4" stroke="#4285f4" stroke-width="2" />
+  <text x="250" y="160" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Event A</text>
+  
+  <!-- Event B circle -->
+  <circle cx="350" cy="200" r="120" fill="#ea4335" fill-opacity="0.4" stroke="#ea4335" stroke-width="2" />
+  <text x="350" y="160" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">Event B</text>
+  
+  <!-- Highlighted intersection area -->
+  <path d="M 350,200 m -70.41,-85.96 a 120,120 0 0 0 0,171.91 a 120,120 0 0 0 0,-171.91 z" fill="#8F4099" fill-opacity="0.6" stroke="none" />
+  <text x="300" y="210" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#fff">A ∩ B</text>
+  
+  <!-- Formulas -->
+  <rect x="60" y="320" width="480" height="70" fill="white" stroke="#ccc" stroke-width="1" rx="5" ry="5" />
+  <text x="80" y="345" font-family="Arial" font-size="16">P(A|B) = P(A ∩ B) / P(B)   "Probability of A given B"</text>
+  <text x="80" y="375" font-family="Arial" font-size="16">P(B|A) = P(A ∩ B) / P(A)   "Probability of B given A"</text>
+  
+  <!-- Legend -->
+  <rect x="430" y="70" width="110" height="130" fill="white" stroke="#ccc" stroke-width="1" rx="5" ry="5" />
+  <text x="440" y="90" font-family="Arial" font-size="14" font-weight="bold">Legend</text>
+  
+  <circle cx="450" cy="110" r="8" fill="#4285f4" fill-opacity="0.4" stroke="#4285f4" stroke-width="2" />
+  <text x="465" y="115" font-family="Arial" font-size="14">Event A</text>
+  
+  <circle cx="450" cy="140" r="8" fill="#ea4335" fill-opacity="0.4" stroke="#ea4335" stroke-width="2" />
+  <text x="465" y="145" font-family="Arial" font-size="14">Event B</text>
+  
+  <circle cx="450" cy="170" r="8" fill="#8F4099" fill-opacity="0.6" />
+  <text x="465" y="175" font-family="Arial" font-size="14">A ∩ B</text>
+</svg>
