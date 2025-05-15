@@ -129,7 +129,7 @@ Etsy has published extensively about their experimentation culture. Their engine
 
 Metric-driven development (MDD) is what happens when data literacy permeates your engineering culture. Instead of:
 
-```
+```python
 // Traditional feature development
 1. Product specifies feature
 2. Engineers build feature
@@ -139,7 +139,7 @@ Metric-driven development (MDD) is what happens when data literacy permeates you
 
 You get:
 
-```
+```python
 // Metric-driven development
 1. Product specifies feature + measurable success metrics
 2. Engineers instrument for those metrics
@@ -307,7 +307,7 @@ LIMIT 10;
 
 **Big Data Approach**:
 
-```
+```python
 // Distributed recommendation system
 1. Map: For each user purchase, emit (product_attribute, 1)
 2. Reduce: Sum weights by attribute

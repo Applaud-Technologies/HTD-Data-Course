@@ -49,7 +49,7 @@ When building data processing pipelines, this distinction affects everything fro
 
 
 
-![Diagram: Discrete vs Continuous Data in Software Systems](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-discrete-vs-continuous-data-in-software-systems.png)
+![Diagram: Discrete vs Continuous Data in Software Systems](_assets/diagram-discrete-vs-continuous-data-in-software-systems.png)
 
 
 > **Diagram: Discrete vs Continuous Data in Software Systems**
@@ -157,7 +157,7 @@ def calculate_mode(values):
 
 
 
-![Diagram: Central Tendency Measure Usage in Software Metrics](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-central-tendency-measure-usage-in-software-metrics.png)
+![Diagram: Central Tendency Measure Usage in Software Metrics](_assets/diagram-central-tendency-measure-usage-in-software-metrics.png)
 
 > **Diagram: Central Tendency Measure Usage in Software Metrics**
 > 
@@ -177,7 +177,7 @@ In telemetry systems for production applications, the median often provides more
 
 .
 
-![Diagram: Statistical Measure Selection Flowchart](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-statistical-measure-selection-flowchart.png)
+![Diagram: Statistical Measure Selection Flowchart]_assets/diagram-statistical-measure-selection-flowchart.png)
 
 
 
@@ -188,7 +188,7 @@ In telemetry systems for production applications, the median often provides more
 
 
 
-### 
+
 
 ### Understanding Variance and Standard Deviation
 
@@ -239,7 +239,7 @@ A **sample space** represents all possible outcomes of a process or experiment. 
 
 Consider a simple availability check for a three-server system:
 
-```
+```python
 Sample Space = {
     (up, up, up),
     (up, up, down),
@@ -264,17 +264,17 @@ The concept of sample spaces provides a rigorous framework for fault tolerance a
 
 Probability quantifies the likelihood of events occurring within a sample space. For discrete events, probability is calculated as:
 
-```
+```python
 P(Event) = Number of favorable outcomes / Total number of possible outcomes
 ```
 
 For our server example, the probability of all servers being up might be:
-```
+```python
 P(all up) = 1/8 = 0.125
 ```
 
 However, real systems have non-uniform probabilities. If each server has 99% uptime independently, then:
-```
+```python
 P(all up) = 0.99 × 0.99 × 0.99 ≈ 0.97
 ```
 
@@ -282,13 +282,13 @@ P(all up) = 0.99 × 0.99 × 0.99 ≈ 0.97
 
 **Conditional probability** expresses how the occurrence of one event affects the probability of another. For two events A and B:
 
-```
+```python
 P(A|B) = P(A and B) / P(B)
 ```
 
 This becomes crucial when analyzing error conditions. For example, if 5% of requests fail, but among mobile users, 12% of requests fail:
 
-```
+```python
 P(failure | mobile) = 0.12
 ```
 
@@ -298,7 +298,7 @@ This indicates mobile users experience a higher failure rate, warranting investi
 
 **Bayes' theorem** allows us to reverse conditional probabilities:
 
-```
+```python
 P(A|B) = P(B|A) × P(A) / P(B)
 ```
 
@@ -407,7 +407,7 @@ When time-series data follows known patterns, deviations from these patterns oft
 
 
 
-![Diagram: System Metrics with Seasonal Patterns](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-system-metrics-with-seasonal-patterns.png)
+![Diagram: System Metrics with Seasonal Patterns]_assets/diagram-system-metrics-with-seasonal-patterns.png)
 
 
 > **Diagram: System Metrics with Seasonal Patterns**
@@ -468,7 +468,7 @@ def iqr_outliers(data, k=1.5):
 
 For visualization, box plots clearly highlight outliers by showing data distribution through quartiles. Points plotted beyond the whiskers (typically 1.5 × IQR) are considered outliers:
 
-```
+```python
     +-----+     o     o
     |     |
 ----+     +----
@@ -512,7 +512,7 @@ In performance testing, outliers often highlight potential bottlenecks under spe
 
 
 
-![Diagram: Outlier Analysis Decision Tree](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-outlier-analysis-decision-tree.png)
+![Diagram: Outlier Analysis Decision Tree](_assets/diagram-outlier-analysis-decision-tree.png)
 
 
 
@@ -587,7 +587,7 @@ To establish causation, we need evidence beyond correlation:
 5. **Dose-response relationship**: Stronger "doses" of the cause produce stronger effects
 
 The gold standard for establishing causation is **A/B testing** (randomized controlled experiments):
-```
+```python
 1. Randomly divide users/systems into groups
 2. Apply change to treatment group only
 3. Measure outcomes between groups
@@ -608,7 +608,7 @@ In practice, establishing causation in complex systems often requires multiple l
 
 
 
-![Diagram: Establishing Causation in Software Systems](D:\_TheVault\2_Work\AT-CRS-HTD\01-Data Engineering Course\_week-01\01 Data Literacy\02-statistics-for-interpreting-data\_assets\diagram-establishing-causation-in-software-systems.png)
+![Diagram: Establishing Causation in Software Systems](_assets/diagram-establishing-causation-in-software-systems.png)
 
 
 

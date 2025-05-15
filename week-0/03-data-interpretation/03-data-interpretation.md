@@ -31,7 +31,7 @@ Raw data is like code without documentation—technically complete but lacking m
 
 Consider this server response time dataset:
 
-```
+```python
 2023-08-01, 120ms
 2023-08-02, 122ms
 2023-08-03, 118ms

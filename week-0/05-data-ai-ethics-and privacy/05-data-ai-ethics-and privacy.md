@@ -1,10 +1,14 @@
 # Data/AI Ethics and Privacy
 
+
+
 ## Introduction
 
 Ethical data practices are as fundamental to data engineering as security testing is to software development. Every dataset contains hidden assumptions, every algorithm encodes values, and every visualization makes choices about what to emphasize. 
 
 As software developers working with data, you navigate these ethical dimensions daily—often without explicit frameworks for doing so. Whether you're deciding what user data to collect, choosing how to handle missing values, or determining the best way to present findings, these decisions have real-world impacts that extend far beyond technical considerations. This lesson provides practical frameworks for ethical data work, helping you identify biases, evaluate data quality, and communicate insights responsibly. We will examine how to build data systems that are not only technically sound but ethically robust.
+
+
 
 ## Learning Outcomes
 
@@ -15,6 +19,8 @@ By the end of this lesson, you will be able to:
 3. Identify specific points where bias can enter the data lifecycle from initial collection through processing, analysis, and final presentation.
 4. Implement ethical and legal considerations when acquiring and interpreting data, including privacy regulations and appropriate licensing compliance.
 5. Develop bias mitigation strategies through transparent visualization techniques, proper scaling, and honest communication of data limitations.
+
+
 
 ## Cognitive vs. Statistical Biases
 
@@ -33,6 +39,8 @@ Let's examine some key cognitive biases that frequently appear in data interpret
 
 These biases affect even experienced professionals. Consider this scenario: A team analyzes user behavior data after implementing a new feature. The product manager who championed the feature highlights metrics showing increased engagement, while downplaying metrics showing increased customer support tickets. This selective interpretation represents confirmation bias in action.
 
+
+
 ### Recognizing Statistical Biases
 
 Statistical biases, by contrast, are systematic errors in data collection or analysis methodology. They represent structural problems that distort results regardless of who's interpreting them.
@@ -47,19 +55,55 @@ Statistical biases, by contrast, are systematic errors in data collection or ana
 
 Consider this diagram of how these biases might occur in software development:
 
-```
-                Software Quality Assurance
-                         |
-     +-----------------+-+----------------+
-     |                 |                  |
-Cognitive Biases   Statistical Biases  Combined Effects
-     |                 |                  |
-Developer assumes    Test coverage      False confidence
-users understand    only includes      in software quality
-UI conventions      happy paths        due to both factors
+
+```mermaid
+%%{init: {'flowchart': {'curve': 'basis'}}}%%
+graph TD
+    %% Note Node (Black Box at the Top)
+    N[Biases in Software Quality Assurance:<br>Cognitive, Statistical, and Combined Effects<br>Undermine Quality Outcomes]:::note
+
+    %% Root Node
+    A[Software Quality Assurance]:::root
+
+    %% Bias Category Nodes
+    B[Cognitive Biases]:::cognitive
+    C[Statistical Biases]:::statistical
+    D[Combined Effects]:::combined
+
+    %% Detail Nodes (Manifestations of Biases)
+    B1[Developer assumes<br>users understand<br>UI conventions]:::detail
+    C1[Test coverage<br>only includes<br>happy paths]:::detail
+    D1[False confidence<br>in software quality<br>due to both factors]:::detail
+
+    %% Flow: Note → Root → Bias Categories → Manifestations
+    N --> A
+    A --> B
+    A --> C
+    A --> D
+    B --> B1
+    C --> C1
+    D --> D1
+
+    %% Styling
+    classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:white;
+    classDef cognitive fill:#2ECC71,stroke:#333,stroke-width:2px,color:white;
+    classDef statistical fill:#F1C40F,stroke:#333,stroke-width:2px,color:white;
+    classDef combined fill:#9B59B6,stroke:#333,stroke-width:2px,color:white;
+    classDef detail fill:#d3d3d3,stroke:#333,stroke-width:2px,color:black;
+    classDef note fill:#000000,stroke:#333,stroke-width:2px,color:white,font-weight:bold;
 ```
 
+
+
+
+> **Diagram: Biases in Software Development**
+> 
+> This flowchart highlights how Cognitive Biases (e.g., developers assuming UI conventions are understood), Statistical Biases (e.g., test coverage limited to happy paths), and their Combined Effects (e.g., false confidence in quality) undermine SQA, emphasizing the need for deliberate examination to ensure reliable outcomes.
+
+
+
 The difference matters because addressing cognitive biases requires awareness and conscious counteracting of our thinking patterns, while fixing statistical biases involves redesigning methodologies and data collection processes.
+
 
 
 ## Evaluating Data Source Quality
@@ -81,17 +125,14 @@ Data credibility exists on a spectrum. Government census data typically has high
 
 Let's consider a framework for evaluating data source reliability:
 
-```
-Credibility Assessment Framework:
-1. Source Authority (institutional reputation, expertise)
-2. Methodology Transparency (documented collection process)
-3. Timeliness (recency, temporal relevance)
-4. Sample Representation (demographic coverage, selection methods)
-5. Validation History (peer review, replication attempts)
-6. Conflict of Interest (funding sources, collection motivations)
-```
+![Credibility Assessment Framework](_assets/credibility-assessment-framework.png)
+> **Credibility Assessment Framework**
+
+
 
 Each factor contributes to an overall credibility score, helping you decide how much to trust insights derived from the data.
+
+
 
 ### Testing for Completeness and Bias
 
@@ -108,6 +149,7 @@ Consider this case study of a fitness app company analyzing user activity data:
 Initial analysis showed impressive engagement metrics with users averaging 8,000 steps daily. However, closer examination revealed 90% of active users were using newer smartphones with automatic fitness tracking. Users with older devices required manual data entry and were underrepresented. The high engagement metrics reflected a sample biased toward tech-savvy, potentially more affluent and health-conscious users—not the general population.
 
 This mirrors how developers evaluate third-party libraries. Just as you'd check a library's maintenance history, documentation quality, and security vulnerabilities before integration, data professionals must assess datasets before building models or drawing conclusions from them.
+
 
 
 ## The Data Lifecycle and Bias Points
@@ -127,13 +169,28 @@ Bias can enter at any stage of the data lifecycle, but collection represents the
 
 Here's a visual representation of how bias enters the data lifecycle:
 
-```
-Conceptualization → Collection → Processing → Analysis → Reporting
-      ↓               ↓            ↓           ↓          ↓
-Question Bias     Sampling Bias  Cleaning    Modeling   Visualization
-                  Measurement    Processing  Parameter   Language
-                  Bias           Choices     Selection   Emphasis
-```
+
+
+![Bias in the Data Lifecycle](_assets/bias-in-the-data-lifecycle.png)
+
+
+
+> **Bias in the Data Lifecycle**
+>
+> - Bias can enter at any stage of the data lifecycle
+> - Collection represents the "original sin" that affects all downstream processes
+> - Each stage has specific types of biases associated with it
+> - These biases build upon each other throughout the process
+
+
+
+![Stages of the Data Lifecycle](_assets/stages-of-the-data-lifecycle.png)
+
+
+
+![Key Insights About Bias](_assets/key-insights-about-bias.png)
+
+
 
 ### Analysis and Reporting Biases
 
@@ -148,6 +205,7 @@ Even with perfectly collected data, bias can emerge during analysis and presenta
 Consider a real-world example from criminal justice: Early recidivism prediction models showed higher false positive rates for Black defendants than white defendants. The bias didn't just appear in model training—it existed in the historical arrest data used for training, reflecting systemic biases in policing practices. The model then amplified these biases through feature selection and optimization choices.
 
 This parallels software development, where bugs can be introduced at requirements, design, implementation, testing, or deployment phases. Each transition between stages creates opportunities for errors to emerge or be corrected. Similarly, each step in the data lifecycle presents both risks for bias introduction and opportunities for bias mitigation.
+
 
 
 ## Ethical Data Acquisition and Interpretation
@@ -165,6 +223,8 @@ Key considerations before scraping include:
 - Considering rate limiting to avoid server impact
 - Evaluating whether scraping violates copyright
 
+
+
 **Data licensing compliance** requires understanding the specific terms of data usage. Open data licenses like Creative Commons have specific variants that may prohibit commercial use or require attribution. Proprietary data often comes with strict limitations on redistribution or derivative works.
 
 **Privacy regulations** like GDPR (Europe), CCPA (California), and HIPAA (US healthcare) impose requirements on collecting, processing, and storing personal data. These regulations generally require:
@@ -177,6 +237,8 @@ Key considerations before scraping include:
 Consider this hypothetical privacy violation scenario:
 
 A fitness app collected GPS data to track running routes. The developer released an "anonymized" dataset of running patterns for research purposes. However, researchers demonstrated they could identify individuals by correlating start/end points with public housing records. Although names were removed, the data remained personally identifiable through combination with other datasets.
+
+
 
 ### Privacy-Preserving Approaches
 
@@ -196,6 +258,7 @@ Several techniques help maintain ethics while working with sensitive data:
 These approaches parallel how software developers handle personally identifiable information—using encryption, access controls, and data minimization principles to protect user privacy while enabling functionality.
 
 
+
 ## Bias Mitigation Strategies
 
 
@@ -211,15 +274,19 @@ Visualizations powerfully shape how people interpret data. Ethical visualization
 
 Consider this diagram of how visualization design choices affect perception:
 
-```
-Same Data, Different Perceptions:
+![Transparent Data Visualization](_assets/transparent-data-visualization.png)
 
-Linear Scale:  [    |    |    |    ] (Modest growth)
-Log Scale:     [|   |    |     |   ] (Dramatic curve)
+![Linear vs. Log Scale](_assets/linear-vs-log-scale.png)
 
-Y-axis from 0: [    |                ] (Small difference)
-Truncated axis:[            |        ] (Large difference)
-```
+![Zero-Baseline vs. Truncated Y-Axis](_assets/zero-baseline-vs-truncated-y-axis.png)
+
+![Comprehensive Representation](_assets/comprehensive-representation.png)
+
+![Contextual Elements](_assets/contextual-elements.png)
+
+![Key Principles for Ethical Data Visualization](_assets/key-insights-about-bias.png)
+
+
 
 ### Communicating Data Limitations
 
@@ -238,6 +305,7 @@ A practical example of bias mitigation is how some companies have revised their 
 This mirrors how ethical UI design avoids dark patterns and misleading simplifications. Just as a responsible UX designer would avoid manipulative design patterns, ethical data professionals avoid misleading visualization techniques and incomplete data narratives.
 
 
+
 ## Key Takeaways
 
 - Biases can be categorized as cognitive (from our thinking processes) or statistical (from methodological issues), requiring different mitigation approaches.
@@ -246,11 +314,15 @@ This mirrors how ethical UI design avoids dark patterns and misleading simplific
 - Ethical data acquisition involves understanding legal frameworks, respecting privacy, and adhering to licensing requirements.
 - Responsible data communication requires transparent visualization, acknowledgment of limitations, and avoiding misleading presentations.
 
+
+
 ## Conclusion
 
 In this lesson, we explored the ethical dimensions that permeate data work at every stage—from collection and processing to analysis and reporting. We examined how both cognitive and statistical biases can affect our interpretation, how to critically evaluate data sources, and how to mitigate bias throughout the data lifecycle. 
 
 As data professionals, our technical choices carry ethical weight, affecting real people through the systems we build and the insights we generate. This responsibility becomes even more significant as we move toward more sophisticated AI systems. In our next lesson on LLMs and Agentic AI, we'll build on these ethical foundations while exploring how language models work, identifying appropriate use cases, evaluating their capabilities and limitations, and developing effective prompting strategies that maximize utility while minimizing risks.
+
+
 
 ## Glossary
 
