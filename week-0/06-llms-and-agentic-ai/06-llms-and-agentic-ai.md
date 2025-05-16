@@ -1,5 +1,7 @@
 # LLMs and Agentic AI
 
+
+
 ## Introduction
 
 The architectural leap from sequential to parallel processing in AI systems mirrors transformative shifts that experienced developers have navigated before—from synchronous to asynchronous programming, from monoliths to microservices, from imperative to declarative paradigms. 
@@ -7,6 +9,8 @@ The architectural leap from sequential to parallel processing in AI systems mirr
 Large Language Models represent this same magnitude of change for AI systems. Rather than processing tokens sequentially like traditional RNNs, transformers use self-attention mechanisms to process entire sequences simultaneously, creating direct pathways between related elements regardless of their distance. This fundamental redesign enables LLMs to understand context, handle ambiguity, and generate coherent outputs across diverse domains. 
 
 For software developers, these models offer powerful new capabilities but also introduce unique resource constraints, deployment considerations, and interaction patterns that require rethinking traditional approaches to system design. We will examine how these models work, how to deploy them effectively, and how to leverage their capabilities across different domains.
+
+
 
 ## Learning Outcomes
 
@@ -18,6 +22,8 @@ By the end of this lesson, you will be able to:
 4. Implement effective prompts using clear instructions, context provision, and output format specification to generate high-quality AI responses for specific data analysis tasks.
 5. Evaluate emerging LLM innovations including retrieval-augmented generation and explainability techniques to assess their impact on data analysis reliability and transparency.
 
+
+
 ## LLM Architecture and Attention Mechanisms
 
 ### Transformer Architecture Evolution
@@ -28,7 +34,7 @@ This parallelization enables these models to capture relationships between dista
 
 The transformer achieves this through self-attention mechanisms that directly compute relevance between all token pairs, creating a fully-connected graph rather than a linear chain. This is computationally expensive—O(n²) with sequence length—but enables capturing relationships that sequential models would miss.
 
-```
+```python
 // Simplified self-attention mechanism
 function selfAttention(tokens) {
   // Project each token into query, key, and value spaces
@@ -50,7 +56,11 @@ function selfAttention(tokens) {
 }
 ```
 
+
+
 This attention mechanism enables an LLM to understand context in ways traditional models cannot. When processing a phrase like "The trophy wouldn't fit in the suitcase because it was too big," a transformer can directly link "it" to "trophy" by computing strong attention between these tokens, regardless of distance or intermediate content.
+
+
 
 ### Self-Attention and Parallel Processing
 
@@ -68,10 +78,19 @@ The position encoding component addresses a critical challenge—unlike RNNs, tr
 
 From an implementation perspective, each layer in a transformer consists of multi-head attention followed by a feed-forward network, with residual connections and layer normalization ensuring stable gradient flow during training. This repeatable building block enables scaling to enormous depths—modern models typically have dozens of layers, each adding representational capacity.
 
-<img src="__diagram: Transformer Architecture Overview__" alt="Transformer Architecture" />
+
+
+![](_assets/transformer-architecture-overview.png)
+
+![Diagram: Transformer Architecture Overview](_assets/transformer-architecture.png)
 
 > **Diagram: Transformer Architecture Overview**
 > The diagram illustrates how a transformer processes text input through parallel pathways. Input tokens first receive embeddings and positional encoding, then pass through multiple layers of multi-head attention and feed-forward networks. Each attention head computes weighted relationships between all tokens simultaneously, enabling the model to capture long-range dependencies regardless of distance. Residual connections and layer normalization maintain gradient flow through the deep network.
+
+
+
+![](_assets/self-attention.png)
+
 
 ## Computational Requirements and Deployment Strategies
 
@@ -81,13 +100,13 @@ Large language models present unprecedented resource challenges. A model like GP
 
 The memory footprint of an LLM can be approximated with this formula:
 
-```
+```PYTHON
 model_size_in_GB = (num_parameters * precision_in_bytes) / (1024^3)
 ```
 
 For example, a 7B parameter model in FP16 precision requires about 14GB just to store the model weights:
 
-```
+```python
 (7,000,000,000 parameters * 2 bytes) / (1024^3) ≈ 13.8 GB
 ```
 
@@ -111,6 +130,8 @@ Optimization techniques can significantly improve these metrics:
 3. **Distillation** - Training smaller models to mimic larger ones preserves capabilities with reduced resources
 4. **Efficient attention mechanisms** - Variants like Flash Attention optimize memory access patterns
 
+
+
 ### Deployment Architectures
 
 Choosing the right deployment architecture for LLMs involves balancing performance, cost, and operational complexity. Several patterns have emerged for integrating these models into production systems:
@@ -132,10 +153,22 @@ Many production systems employ tiered approaches:
 
 This resembles how web architectures use CDNs and caching layers in front of application servers and databases—routing requests based on complexity and resource requirements.
 
-<img src="__diagram: LLM Deployment Decision Tree__" alt="Deployment Decision Tree" />
+
+
+![LLM Deployment Decision Tree](_assets/llm-deployment-decision-tree.png)
 
 > **Diagram: LLM Deployment Decision Tree**
 > The diagram presents a decision tree for selecting optimal LLM deployment strategies based on key constraints. Starting with throughput requirements (batch vs. real-time), it branches through latency sensitivity, budget constraints, and customization needs. Each path leads to recommended architectures ranging from API services to dedicated GPU clusters, with hybrid options that combine small local models with more powerful remote ones for complex queries.
+
+
+
+![How to Use the Decision Tree](_assets/how-to-use-the-decision-tree.png)
+
+
+
+![Cost vs. Performance Trade-offs](_assets/cost-vs-performance-trade-offs.png)
+
+
 
 For cost-effective deployment, consider these strategies:
 
@@ -143,8 +176,12 @@ For cost-effective deployment, consider these strategies:
 2. **Request batching** - Group multiple requests for batch processing when latency permits
 3. **Tiered deployment** - Route requests to appropriately sized models based on complexity
 
+
+
 **Case Study: E-commerce Product Description Generation**
 An e-commerce platform implemented a hybrid LLM architecture for generating product descriptions. A small quantized model (2B parameters) deployed at the edge handles basic descriptions using structured product attributes. Complex products or those needing creative writing are routed to a larger cloud-based model (70B parameters). This tiered approach reduced average generation latency by 75% while maintaining quality, with only 12% of requests requiring the larger model.
+
+
 
 ## Domain-Specific LLM Applications
 
@@ -160,7 +197,10 @@ In financial services, specialized models like BloombergGPT have demonstrated su
 
 This specialized training enables the model to understand financial terminology, regulatory requirements, and market dynamics with significantly higher accuracy than general-purpose alternatives. When benchmarked against general LLMs of similar size, BloombergGPT showed fewer errors on financial analysis tasks and better performance on regulatory compliance questions.
 
+
+
 Legal document analysis represents another transformative application. Law firms and corporate legal departments employ LLMs to:
+
 - Extract key provisions from contracts
 - Compare documents against templates to identify deviations
 - Summarize case law and identify relevant precedents
@@ -169,6 +209,8 @@ Legal document analysis represents another transformative application. Law firms
 JPMorgan's Contract Intelligence (COIN) system exemplifies this approach. COIN processes 12,000 commercial credit agreements annually, extracting critical data points and flagging unusual terms—completing in seconds what previously required 360,000 hours of legal work.
 
 The most effective implementations combine LLMs with retrieval systems that ground responses in authoritative sources—a technique called retrieval-augmented generation (RAG). This approach mitigates hallucination risks by referencing specific documents rather than relying solely on the model's internal representations.
+
+
 
 ### Healthcare and Educational Implementations
 
@@ -184,7 +226,10 @@ These applications require extraordinary precision and domain understanding. Rat
 
 For diagnostic support, multimodal models that combine text and image understanding are particularly promising. Systems like Med-PaLM M can analyze X-rays, CT scans, and other medical imaging alongside patient history to suggest potential findings, serving as an AI assistant rather than autonomous diagnostic tool.
 
+
+
 Educational applications demonstrate another specialized domain where LLMs excel. These implementations focus on:
+
 - Personalized tutoring and explanations
 - Automated assessment with detailed feedback
 - Curriculum materials and exercise generation
@@ -192,12 +237,16 @@ Educational applications demonstrate another specialized domain where LLMs excel
 
 The Khan Academy implementation illustrates the potential. Their Khanmigo tutor provides personalized support through carefully designed interactions that guide students through problem-solving rather than simply providing answers. The system employs specialized prompt templates that encourage Socratic questioning, provide scaffolded hints, and adapt explanation complexity based on student responses.
 
-<img src="__diagram: Domain-Specific LLM Implementation Stack__" alt="Domain-Specific LLM Implementation" />
+<img src="_assets/bridging-structured-and-unstructured-data.png" alt="Bridging Structured and Unstructured Data" style="zoom:47%;" />
 
 > **Diagram: Domain-Specific LLM Implementation Stack**
 > The diagram illustrates the layered architecture of domain-specific LLM implementations. At the foundation is a base model (7B-70B parameters) typically accessed via API or fine-tuned locally. Above this sits the domain knowledge layer, incorporating specialized datasets, retrieval systems, and knowledge graphs. The application layer implements domain-specific workflows, guardrails, and evaluation metrics. The top layer provides user interfaces tailored to domain practitioners through specialized templates and interaction patterns.
 
+
+
 What makes domain-specific implementations particularly valuable is their ability to bridge structured and unstructured data. In healthcare, this means integrating electronic health records with natural language documentation. In education, it means connecting curriculum standards with adaptive content generation.
+
+
 
 ## Effective Prompt Engineering
 
@@ -215,7 +264,7 @@ Think of these components as analogous to function parameters, documentation, an
 
 Consider this evolution of a data analysis prompt:
 
-```
+```python
 // Weak prompt
 "Analyze this sales data."
 
@@ -230,11 +279,13 @@ Present your findings as bullet points followed by a brief paragraph
 explaining potential factors driving these trends."
 ```
 
+
+
 The strong prompt provides clear instructions (identify top categories by growth), relevant context (comparison to previous year), and format specifications (bullet points plus explanatory paragraph).
 
 For systematic prompt development, templates provide consistency and reusability. Effective template structures include:
 
-```
+```python
 # Data Analysis Template
 
 ## Task Definition
@@ -258,7 +309,11 @@ Provide your analysis as:
 4. Recommended Next Steps
 ```
 
+
+
 These templates function similarly to code templates or design patterns—they provide consistent structure while allowing customization for specific requirements.
+
+
 
 ### Advanced Prompting Techniques
 
@@ -266,7 +321,7 @@ Beyond basic components, several advanced techniques can significantly enhance L
 
 **Few-shot learning** provides examples of desired inputs and outputs within the prompt itself. This technique helps the model understand the expected reasoning process and output format by demonstration rather than description. For data analysis, include 1-3 examples of similar analyses that demonstrate your preferred approach and level of detail.
 
-```
+```python
 # Few-shot example for anomaly detection
 
 Task: Identify anomalies in time series data
@@ -280,9 +335,11 @@ Your task:
 Data: [15.2, 14.8, 15.1, 14.9, 15.0, 35.7, 15.2, 14.9]
 ```
 
+
+
 **Chain-of-thought prompting** explicitly requests step-by-step reasoning, which improves accuracy for complex analytical tasks by forcing the model to decompose problems. This approach significantly enhances performance on tasks requiring multi-step reasoning or calculation.
 
-```
+```python
 # Chain-of-thought prompt for market analysis
 
 Analyze the following market data for a product line:
@@ -298,18 +355,27 @@ Think through this step by step:
 5. Recommend which product deserves more marketing budget
 ```
 
+
+
 **Structured output formatting** constraints help generate consistent, parseable responses. For data analysis, this might involve requesting JSON, CSV, or markdown table formats that can be directly consumed by downstream processes.
 
-<img src="__diagram: Advanced Prompt Engineering Techniques__" alt="Advanced Prompt Engineering" />
+
+
+![Advanced Prompt Engineering Techniques](_assets/advanced-prompt-engineering-techniques.png)
 
 > **Diagram: Advanced Prompt Engineering Techniques**
 > The diagram compares four advanced prompting techniques along two axes: implementation complexity and result reliability. Chain-of-thought prompting appears in the upper-right quadrant, offering high reliability but requiring more complex implementation. Few-shot learning occupies the upper-left, delivering strong results with moderate complexity. Structured output formatting and role-based prompting complete the quadrant, with each technique positioned according to their relative strengths and implementation requirements for data analysis applications.
 
+
+
 For maximum effectiveness, prompts should anticipate common LLM limitations in data analysis:
+
 - Tendency to fabricate statistics when data is ambiguous
 - Overconfidence in identifying patterns with limited data
 - Challenges with complex mathematical operations
 - Recency bias toward patterns mentioned early in the context
+
+
 
 ## Emerging LLM Innovations
 
@@ -332,7 +398,7 @@ This approach addresses several critical limitations:
 - **Domain adaptation** - Specialized knowledge can be incorporated via retrieval
 - **Traceability** - Outputs can cite specific sources for verification
 
-```
+```python
 // Pseudocode for advanced RAG implementation
 function generateAnalysisWithRAG(query, dataContext) {
   // 1. Query decomposition into sub-questions
@@ -360,7 +426,11 @@ function generateAnalysisWithRAG(query, dataContext) {
 }
 ```
 
+
+
 What makes RAG particularly valuable for data analysis is its ability to combine the structured reasoning and natural language capabilities of LLMs with the precision and recency of traditional data systems. This creates a bridge between the qualitative explanations humans need and the quantitative precision data requires.
+
+
 
 ### Model Evaluation and Explainability
 
@@ -376,16 +446,21 @@ As LLMs become increasingly integrated into data analysis workflows, developing 
 
 **Contrastive explanations** highlight how changes to inputs affect outputs, helping reveal model decision boundaries. By systematically varying input data and observing changes in analysis results, developers can build better intuition about model behavior and identify potential biases or blind spots.
 
-<img src="__diagram: LLM Evaluation Framework__" alt="LLM Evaluation Framework" />
+
+![LLM Evaluation Framework](_assets/llm-evaluation-framework.png)
 
 > **Diagram: LLM Evaluation Framework**
 > The diagram presents a systematic approach to evaluating LLM outputs for data analysis applications. The framework consists of four interconnected quadrants: factual accuracy (verifying outputs against ground truth), logical consistency (testing for internal contradictions), relevance assessment (measuring alignment with analysis goals), and bias detection (identifying skewed interpretations of data). Each quadrant includes automated and human evaluation components, with connections showing how findings from one area inform assessments in others.
+
+
 
 Emerging model distillation techniques also show promise for improving explainability. By training smaller, more interpretable models to mimic the behavior of larger LLMs on specific data analysis tasks, developers can create specialized systems that maintain performance while being easier to understand and debug.
 
 The most significant recent advance may be the development of mechanistic interpretability—the study of how specific capabilities emerge from neural network components. While still in its infancy, this field aims to reverse-engineer how LLMs represent and manipulate concepts, potentially enabling more transparent and controllable data analysis systems.
 
 From a practical development perspective, these innovations are enabling a new generation of LLM applications that provide not just answers but explain their reasoning, assess their own reliability, and integrate seamlessly with traditional data analysis tools. As these capabilities mature, they're transforming LLMs from interesting prototypes into production-ready systems that can be deployed even in highly regulated environments.
+
+
 
 ## Key Takeaways
 
@@ -395,11 +470,15 @@ Domain-specific implementations in business, legal, healthcare, and educational 
 
 Emerging innovations like retrieval-augmented generation and explainability techniques address key limitations, creating more reliable, transparent, and useful AI systems for data analysis applications. As these technologies continue to evolve, they're enabling a new generation of AI-powered tools that augment human capabilities rather than simply automating routine tasks.
 
+
+
 ## Conclusion
 
 In this lesson, we explored how the transformer architecture's self-attention mechanisms have revolutionized AI by enabling parallel processing of information and direct connections between related elements. We examined the resource requirements that make LLM deployment challenging and the optimization strategies—from quantization to tiered architectures—that make implementation practical across different environments. 
 
 By studying domain-specific applications in business, legal, healthcare, and education, we saw how these systems bridge the gap between unstructured and structured data, while effective prompt engineering techniques provide the crucial interface layer for unlocking their potential. As we look ahead to executive priorities in data management, these technical capabilities directly translate to business outcomes—LLMs can enhance data quality initiatives, support compliance requirements through better documentation, and demonstrate business impact through accelerated insights. The challenge for technical teams will be balancing these powerful capabilities against resource constraints, regulatory requirements, and the need for explainable, trustworthy systems that executives can confidently deploy across their organizations.
+
+
 
 ## Glossary
 
