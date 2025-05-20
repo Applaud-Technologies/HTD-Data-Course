@@ -1,0 +1,94 @@
+-- Create the database
+CREATE DATABASE CustomerCreditRisk;
+GO
+
+-- Switch to the database context
+USE CustomerCreditRisk;
+GO
+
+-- Create Job lookup table
+CREATE TABLE Job (
+    JobID INT PRIMARY KEY,
+    JobDescription NVARCHAR(50) NOT NULL,
+    CONSTRAINT CHK_JobID CHECK (JobID BETWEEN 0 AND 3)
+);
+GO
+
+-- Create Housing lookup table
+CREATE TABLE Housing (
+    HousingID INT IDENTITY(1,1) PRIMARY KEY,
+    HousingType NVARCHAR(10) NOT NULL,
+    CONSTRAINT CHK_HousingType CHECK (HousingType IN ('own', 'rent', 'free')),
+    CONSTRAINT UQ_HousingType UNIQUE (HousingType)
+);
+GO
+
+-- Create Purpose lookup table
+CREATE TABLE Purpose (
+    PurposeID INT IDENTITY(1,1) PRIMARY KEY,
+    PurposeDescription NVARCHAR(50) NOT NULL,
+    CONSTRAINT CHK_PurposeDescription CHECK (PurposeDescription IN ('car', 'furniture/equipment', 'radio/TV', 'domestic appliances', 'repairs', 'education', 'business', 'vacation/others')),
+    CONSTRAINT UQ_PurposeDescription UNIQUE (PurposeDescription)
+);
+GO
+
+-- Create Customers table
+CREATE TABLE Customers (
+    CustomerID INT IDENTITY(1,1) PRIMARY KEY,
+    FirstName NVARCHAR(50) NOT NULL,
+    LastInitial NCHAR(1) NOT NULL,
+    Age INT NOT NULL,
+    Sex NVARCHAR(10) NOT NULL,
+    JobID INT NOT NULL,
+    HousingID INT NOT NULL,
+    SavingAccounts NVARCHAR(20),
+    CheckingAccount NVARCHAR(20),
+    CONSTRAINT CHK_Age CHECK (Age > 0),
+    CONSTRAINT CHK_Sex CHECK (Sex IN ('male', 'female')),
+    CONSTRAINT CHK_SavingAccounts CHECK (SavingAccounts IN ('little', 'moderate', 'quite rich', 'rich', 'NA')),
+    CONSTRAINT CHK_CheckingAccount CHECK (CheckingAccount IN ('little', 'moderate', 'rich', 'NA')),
+    CONSTRAINT FK_Job FOREIGN KEY (JobID) REFERENCES Job(JobID),
+    CONSTRAINT FK_Housing FOREIGN KEY (HousingID) REFERENCES Housing(HousingID)
+);
+GO
+
+-- Create Loans table
+CREATE TABLE Loans (
+    LoanID INT IDENTITY(1,1) PRIMARY KEY,
+    CustomerID INT NOT NULL,
+    CreditAmount INT NOT NULL,
+    Duration INT NOT NULL,
+    PurposeID INT NOT NULL,
+    CONSTRAINT CHK_CreditAmount CHECK (CreditAmount > 0),
+    CONSTRAINT CHK_Duration CHECK (Duration > 0),
+    CONSTRAINT FK_Customer FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    CONSTRAINT FK_Purpose FOREIGN KEY (PurposeID) REFERENCES Purpose(PurposeID)
+);
+GO
+
+-- Insert predefined values into Job table
+INSERT INTO Job (JobID, JobDescription) VALUES
+(0, 'unskilled and non-resident'),
+(1, 'unskilled and resident'),
+(2, 'skilled'),
+(3, 'highly skilled');
+GO
+
+-- Insert predefined values into Housing table
+INSERT INTO Housing (HousingType) VALUES
+('own'),
+('rent'),
+('free');
+GO
+
+-- Insert predefined values into Purpose table
+INSERT INTO Purpose (PurposeDescription) VALUES
+('car'),
+('furniture/equipment'),
+('radio/TV'),
+('domestic appliances'),
+('repairs'),
+('education'),
+('business'),
+('vacation/others');
+GO
