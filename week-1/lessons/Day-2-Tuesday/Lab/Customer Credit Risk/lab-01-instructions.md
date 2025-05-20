@@ -45,27 +45,27 @@ Run the following SQL script to insert the data:
 -- Insert into Customers table (joining with Housing and Job)
 INSERT INTO Customers (FirstName, LastInitial, Age, Sex, JobID, HousingID, SavingAccounts, CheckingAccount)
 SELECT 
-    s.FirstName,
-    s.LastInitial,
-    s.Age,
-    s.Sex,
-    s.Job AS JobID,
+    cd.First_name,
+    cd.Last_initial,
+    cd.Age,
+    cd.Sex,
+    cd.Job AS JobID,
     h.HousingID,
-    s.[Saving accounts] AS SavingAccounts,
-    s.[Checking account] AS CheckingAccount
-FROM Staging_CustomerCreditData s
-JOIN Housing h ON s.Housing = h.HousingType;
+    cd.[Saving_accounts] AS SavingAccounts,
+    cd.[Checking_account] AS CheckingAccount
+FROM customer_credit_data cd
+JOIN Housing h ON cd.Housing = h.HousingType;
 
 -- Insert into Loans table (joining with Customers and Purpose)
 INSERT INTO Loans (CustomerID, CreditAmount, Duration, PurposeID)
 SELECT 
     c.CustomerID,
-    s.[Credit amount] AS CreditAmount,
-    s.Duration,
+    cd.[Credit_amount] AS CreditAmount,
+    cd.Duration,
     p.PurposeID
-FROM Staging_CustomerCreditData s
-JOIN Customers c ON c.FirstName = s.FirstName AND c.LastInitial = s.LastInitial AND c.Age = s.Age
-JOIN Purpose p ON s.Purpose = p.PurposeDescription;
+FROM customer_credit_data cd
+JOIN Customers c ON c.FirstName = cd.First_name AND c.LastInitial = cd.Last_initial AND c.Age = cd.Age
+JOIN Purpose p ON cd.Purpose = p.PurposeDescription;
 ```
 
 **Note:** The join on `Customers` uses `FirstName`, `LastInitial`, and `Age` to match records, assuming these uniquely identify a customer in this dataset. In a real-world scenario, you might need a more robust unique identifier.
