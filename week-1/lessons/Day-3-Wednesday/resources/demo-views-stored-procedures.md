@@ -122,13 +122,13 @@ VALUES
 (1004, 4, 1, 89.99, 0);        -- Running Shoes
 
 -- Verify data
-SELECT 'Customers:' AS TableName, COUNT(*) AS RowCount FROM dbo.Customers
+SELECT 'Customers' AS TableName, COUNT(*) AS RecordCount FROM dbo.Customers
 UNION ALL
-SELECT 'Products:', COUNT(*) FROM dbo.Products
+SELECT 'Products', COUNT(*) FROM dbo.Products
 UNION ALL
-SELECT 'Orders:', COUNT(*) FROM dbo.Orders
+SELECT 'Orders', COUNT(*) FROM dbo.Orders
 UNION ALL
-SELECT 'OrderItems:', COUNT(*) FROM dbo.OrderItems;
+SELECT 'OrderItems', COUNT(*) FROM dbo.OrderItems;
 
 -- =============================================
 -- PART 2: STANDARD VIEWS DEMO
@@ -161,16 +161,23 @@ GO
 -- Use the view to get all order details
 SELECT * FROM dbo.vw_OrderSummary;
 
--- Use the view to find electronics purchases
-SELECT 
-    OrderID, 
-    CustomerName, 
-    ProductName, 
-    Category,
-    LineTotal
-FROM dbo.vw_OrderSummary
-WHERE Category = 'Electronics'
-ORDER BY OrderDate DESC;
+
+
+-- Select the database
+USE SimpleEcomm;
+GO
+
+
+IF EXISTS (SELECT * FROM sys.views WHERE name = 'vw_CustomerSales' AND schema_id = SCHEMA_ID('dbo'))
+BEGIN
+    DROP VIEW dbo.vw_CustomerSales;
+END
+GO
+
+
+-- =============================================
+-- PART 2: STANDARD VIEWS DEMO
+-- =============================================
 
 -- DEMO 2: Aggregation View - Customer Sales
 -- This view summarizes sales data at the customer level
@@ -198,18 +205,6 @@ GO
 SELECT * FROM dbo.vw_CustomerSales
 ORDER BY TotalSpent DESC;
 
--- Create an index on the view to materialize it
--- Note: In Enterprise edition, this creates a materialized view
--- that stores the aggregated results for better performance
-CREATE UNIQUE CLUSTERED INDEX IX_CustomerSales 
-ON dbo.vw_CustomerSales(CustomerID);
-GO
-
--- Now queries against this view will use the index
-SELECT CustomerName, City, State, TotalSpent
-FROM dbo.vw_CustomerSales
-WHERE TotalSpent > 500
-ORDER BY TotalSpent DESC;
 
 -- =============================================
 -- PART 3: STORED PROCEDURES DEMO
@@ -231,7 +226,9 @@ BEGIN
     
     -- Main query
     SELECT 
-        o.OrderID,
+        c.CustomerID,
+        c.FirstName,
+        c.LastName,
         o.OrderDate,
         o.Status,
         p.ProductName,
@@ -243,6 +240,7 @@ BEGIN
         dbo.Orders o
         JOIN dbo.OrderItems oi ON o.OrderID = oi.OrderID
         JOIN dbo.Products p ON oi.ProductID = p.ProductID
+        JOIN dbo.Customers c ON c.CustomerID = o.CustomerID
     WHERE 
         o.CustomerID = @CustomerID
         AND o.OrderDate BETWEEN @StartDate AND @EndDate
@@ -265,6 +263,11 @@ EXEC dbo.usp_GetCustomerOrders
     @CustomerID = 1, 
     @StartDate = '2023-01-01', 
     @EndDate = '2023-12-31';
+
+
+-- =============================================
+-- PART 3: STORED PROCEDURES DEMO
+-- =============================================
 
 -- DEMO 2: Advanced Stored Procedure with Error Handling
 -- This proc creates a new order with multiple items
@@ -291,6 +294,29 @@ BEGIN
             THROW 50001, 'Customer does not exist', 1;
         END
         
+        -- Validate JSON format
+        IF ISJSON(@Items) = 0
+        BEGIN
+            THROW 50004, 'Invalid JSON format for Items', 1;
+        END
+        
+        -- Validate all ProductIDs exist and have valid UnitPrice
+        IF EXISTS (
+            SELECT 1
+            FROM OPENJSON(@Items)
+            WITH (ProductID INT '$.ProductID') AS Items
+            WHERE ProductID IS NOT NULL
+            AND NOT EXISTS (
+                SELECT 1 
+                FROM dbo.Products 
+                WHERE ProductID = Items.ProductID 
+                AND UnitPrice IS NOT NULL
+            )
+        )
+        BEGIN
+            THROW 50003, 'One or more ProductIDs do not exist or have invalid UnitPrice', 1;
+        END
+        
         -- Create order header
         INSERT INTO dbo.Orders (CustomerID, OrderDate, Status)
         VALUES (@CustomerID, GETDATE(), 'Pending');
@@ -302,11 +328,17 @@ BEGIN
         INSERT INTO dbo.OrderItems (OrderID, ProductID, Quantity, UnitPrice, Discount)
         SELECT 
             @OrderID,
-            JSON_VALUE(item, '$.ProductID') AS ProductID,
-            JSON_VALUE(item, '$.Quantity') AS Quantity,
-            (SELECT UnitPrice FROM dbo.Products WHERE ProductID = JSON_VALUE(item, '$.ProductID')) AS UnitPrice,
-            ISNULL(JSON_VALUE(item, '$.Discount'), 0) AS Discount
-        FROM OPENJSON(@Items) WITH (item NVARCHAR(MAX) '$') as Items;
+            Items.ProductID,
+            Items.Quantity,
+            (SELECT UnitPrice FROM dbo.Products WHERE ProductID = Items.ProductID) AS UnitPrice,
+            ISNULL(Items.Discount, 0) AS Discount
+        FROM OPENJSON(@Items)
+        WITH (
+            ProductID INT '$.ProductID',
+            Quantity INT '$.Quantity',
+            Discount DECIMAL(5,2) '$.Discount'
+        ) AS Items
+        WHERE Items.ProductID IS NOT NULL;
         
         -- Update product stock quantities
         UPDATE p
@@ -318,7 +350,6 @@ BEGIN
         -- Check for any negative stock
         IF EXISTS (SELECT 1 FROM dbo.Products WHERE StockQuantity < 0)
         BEGIN
-            -- Rollback if any product went negative
             THROW 50002, 'Insufficient stock for one or more products', 1;
         END
         
@@ -348,6 +379,7 @@ BEGIN
         IF @@TRANCOUNT > 0
             ROLLBACK TRANSACTION;
             
+        -- Capture error details
         SELECT 
             ERROR_NUMBER() AS ErrorNumber,
             ERROR_SEVERITY() AS ErrorSeverity,
@@ -357,11 +389,7 @@ BEGIN
             ERROR_MESSAGE() AS ErrorMessage;
             
         -- Re-throw the error
-        SET @ErrorMsg = ERROR_MESSAGE();
-        SET @ErrorSeverity = ERROR_SEVERITY();
-        SET @ErrorState = ERROR_STATE();
-        
-        RAISERROR(@ErrorMsg, @ErrorSeverity, @ErrorState);
+        THROW;
     END CATCH;
 END;
 GO
@@ -398,8 +426,178 @@ BEGIN CATCH
         ERROR_MESSAGE() AS ErrorMessage;
 END CATCH;
 
+
+
+-- ========================================================
+-- TEST VIEW: vw_CustomerSales
+-- ========================================================
+
+-- Use the view to find electronics purchases
+SELECT 
+    OrderID, 
+    CustomerName, 
+    ProductName, 
+    Category,
+    LineTotal
+FROM dbo.vw_OrderSummary
+WHERE Category = 'Electronics'
+ORDER BY OrderDate DESC;
+
+
+-- Use the view to find product purchases
+SELECT 
+    OrderID, 
+    CustomerName, 
+    ProductName, 
+    Category,
+    LineTotal
+FROM dbo.vw_OrderSummary
+WHERE ProductName = 'Wireless Headphones'
+ORDER BY OrderDate DESC;
+
+-- ProductName	        Category
+-- ================================
+-- Laptop Pro	        Electronics
+-- Wireless Headphones	Electronics
+-- Coffee Maker	        Home
+-- Running Shoes	    Apparel
+-- Protein Powder	    Health
+-- Smart Watch	        Electronics
+-- Yoga Mat	            Fitness
+
+
+-- ========================================================
+-- TEST VIEW: vw_OrderSummary
+-- ========================================================
+
+-- Use the aggregation view
+SELECT * FROM dbo.vw_CustomerSales
+ORDER BY TotalSpent DESC;
+
+
+-- Basic query to retrieve all columns from the view
+SELECT 
+    CustomerID,
+    CustomerName,
+    City,
+    State,
+    OrderCount,
+    TotalSpent
+FROM dbo.vw_CustomerSales
+ORDER BY TotalSpent DESC;
+
+
+-- Query to find customers who spent more than $500
+SELECT 
+    CustomerName,
+    City,
+    State,
+    TotalSpent,
+    OrderCount
+FROM dbo.vw_CustomerSales
+WHERE TotalSpent > 500
+ORDER BY TotalSpent DESC;
+
+
+-- Query to get the top 3 customers by total spending
+SELECT TOP 3
+    CustomerName,
+    City,
+    State,
+    TotalSpent,
+    OrderCount
+FROM dbo.vw_CustomerSales
+ORDER BY TotalSpent DESC;
+
+
+-- Query to summarize total sales and order count by state
+SELECT 
+    State,
+    COUNT(*) AS CustomerCount,
+    SUM(OrderCount) AS TotalOrders,
+    SUM(TotalSpent) AS TotalStateSales
+FROM dbo.vw_CustomerSales
+GROUP BY State
+ORDER BY TotalStateSales DESC;
+
+
+-- Query to include customer email from the Customers table
+SELECT 
+    v.CustomerName,
+    v.City,
+    v.State,
+    v.TotalSpent,
+    v.OrderCount,
+    c.Email
+FROM dbo.vw_CustomerSales v
+JOIN dbo.Customers c ON v.CustomerID = c.CustomerID
+WHERE v.OrderCount > 1
+ORDER BY v.TotalSpent DESC;
+
+-- =======================================================
+-- TEST STORED PROCEDURES: usp_GetCustomerOrders USE CASE 1
+-- =======================================================
+
+-- Execute stored procedure with only required parameter
+EXEC dbo.usp_GetCustomerOrders @CustomerID = 1;
+
+
+-- =======================================================
+-- TEST STORED PROCEDURES: usp_GetCustomerOrders USE CASE 1
+-- =======================================================
+
+-- Execute with all parameters
+EXEC dbo.usp_GetCustomerOrders 
+    @CustomerID = 1, 
+    @StartDate = '2025-01-01', 
+    @EndDate = '2025-12-31';
+
+
+
+-- =================================================
+-- TEST STORED PROCEDURE: usp_CreateOrder USE CASE 1
+-- =================================================
+
+-- Test the order creation procedure (Success case)
+DECLARE @NewOrderID INT;
+DECLARE @ItemsJSON NVARCHAR(MAX) = N'[
+    {"ProductID": 3, "Quantity": 1, "Discount": 0},
+    {"ProductID": 5, "Quantity": 2, "Discount": 5}
+]';
+
+EXEC dbo.usp_CreateOrder 
+    @CustomerID = 4,
+    @Items = @ItemsJSON,
+    @OrderID = @NewOrderID OUTPUT;
+
+SELECT @NewOrderID AS NewOrderID;
+
+
+-- =================================================
+-- TEST STORED PROCEDURE: usp_CreateOrder USE CASE 2
+-- =================================================
+
+-- Test with error case (non-existent customer)
+DECLARE @NewOrderID2 INT;
+DECLARE @ItemsJSON2 NVARCHAR(MAX) = N'[
+    {"ProductID": 1, "Quantity": 1, "Discount": 0}
+]';
+
+BEGIN TRY
+    EXEC dbo.usp_CreateOrder 
+        @CustomerID = 999, -- Non-existent customer
+        @Items = @ItemsJSON2,
+        @OrderID = @NewOrderID2 OUTPUT;
+END TRY
+BEGIN CATCH
+    SELECT 
+        ERROR_NUMBER() AS ErrorNumber,
+        ERROR_MESSAGE() AS ErrorMessage;
+END CATCH;
+
+
 -- =============================================
--- PART 4: GRANTING PERMISSIONS
+-- PART 4: GRANTING PERMISSIONS (OPTIONAL)
 -- =============================================
 
 -- Create a role for reporting users
@@ -432,122 +630,3 @@ DROP TABLE dbo.Products;
 DROP TABLE dbo.Customers;
 */
 
-/*
--- PostgreSQL View & Stored Procedure Equivalent Notes:
-
--- PostgreSQL View syntax is similar:
-CREATE VIEW order_summary AS
-SELECT 
-    o.order_id,
-    o.order_date,
-    o.status,
-    c.customer_id,
-    c.first_name || ' ' || c.last_name AS customer_name,
-    -- other columns
-FROM 
-    orders o
-    JOIN customers c ON o.customer_id = c.customer_id
-    -- other joins;
-
--- PostgreSQL Materialized View:
-CREATE MATERIALIZED VIEW customer_sales AS
-SELECT 
-    c.customer_id,
-    c.first_name || ' ' || c.last_name AS customer_name,
-    c.city,
-    COUNT(*) AS order_count,
-    SUM(oi.quantity * oi.unit_price * (1 - oi.discount/100)) AS total_spent
-FROM 
-    customers c
-    JOIN orders o ON c.customer_id = o.customer_id
-    JOIN order_items oi ON o.order_id = oi.order_id
-GROUP BY 
-    c.customer_id,
-    c.first_name,
-    c.last_name,
-    c.city;
-
--- Refresh the materialized view:
-REFRESH MATERIALIZED VIEW customer_sales;
-
--- PostgreSQL Stored Procedure/Function:
-CREATE OR REPLACE FUNCTION get_customer_orders(
-    p_customer_id INTEGER,
-    p_start_date DATE DEFAULT '1900-01-01',
-    p_end_date DATE DEFAULT '9999-12-31'
-) 
-RETURNS TABLE(
-    order_id INTEGER,
-    order_date TIMESTAMP,
-    status TEXT,
-    product_name TEXT,
-    quantity INTEGER,
-    unit_price NUMERIC,
-    discount NUMERIC,
-    line_total NUMERIC
-) AS $$
-BEGIN
-    RETURN QUERY
-    SELECT 
-        o.order_id,
-        o.order_date,
-        o.status,
-        p.product_name,
-        oi.quantity,
-        oi.unit_price,
-        oi.discount,
-        (oi.quantity * oi.unit_price * (1 - oi.discount/100)) AS line_total
-    FROM 
-        orders o
-        JOIN order_items oi ON o.order_id = oi.order_id
-        JOIN products p ON oi.product_id = p.product_id
-    WHERE 
-        o.customer_id = p_customer_id
-        AND o.order_date BETWEEN p_start_date AND p_end_date
-    ORDER BY 
-        o.order_date DESC;
-END;
-$$ LANGUAGE plpgsql;
-
--- MySQL View syntax is similar to SQL Server
--- MySQL doesn't have materialized views
--- MySQL stored procedures:
-DELIMITER //
-CREATE PROCEDURE usp_get_customer_orders(
-    IN p_customer_id INT,
-    IN p_start_date DATE,
-    IN p_end_date DATE
-)
-BEGIN
-    -- Set default dates if NULL
-    IF p_start_date IS NULL THEN SET p_start_date = '1900-01-01'; END IF;
-    IF p_end_date IS NULL THEN SET p_end_date = '9999-12-31'; END IF;
-    
-    -- Main query
-    SELECT 
-        o.order_id,
-        o.order_date,
-        o.status,
-        p.product_name,
-        oi.quantity,
-        oi.unit_price,
-        oi.discount,
-        (oi.quantity * oi.unit_price * (1 - oi.discount/100)) AS line_total
-    FROM 
-        orders o
-        JOIN order_items oi ON o.order_id = oi.order_id
-        JOIN products p ON oi.product_id = p.product_id
-    WHERE 
-        o.customer_id = p_customer_id
-        AND o.order_date BETWEEN p_start_date AND p_end_date
-    ORDER BY 
-        o.order_date DESC;
-        
-    -- Return count
-    SELECT COUNT(*) AS order_count 
-    FROM orders 
-    WHERE customer_id = p_customer_id
-    AND order_date BETWEEN p_start_date AND p_end_date;
-END //
-DELIMITER ;
-*/
