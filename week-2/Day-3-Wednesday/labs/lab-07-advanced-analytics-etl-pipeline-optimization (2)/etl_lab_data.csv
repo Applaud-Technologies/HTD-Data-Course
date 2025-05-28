@@ -1,0 +1,1001 @@
+customer_id,customer_name,email,city,loyalty_tier,product_id,product_name,category,unit_price,quantity,transaction_date,transaction_id
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-01 00:00:00,TXN0041
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-01 00:00:00,TXN0065
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-01 00:00:00,TXN0072
+CUST088,Lisa Gibbs,kimberlyjames@example.com,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-01 00:00:00,TXN0080
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-01 00:00:00,TXN0128
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-01 00:00:00,TXN0186
+CUST121,William Barrett,alan09@example.net,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-01 00:00:00,TXN0367
+CUST121,William Barrett,alan09@example.net,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-01 00:00:00,TXN0414
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-01 00:00:00,TXN0426
+CUST150,Maria Johnson,anthony44@example.com,Austin,Premium+,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-01 00:00:00,TXN0434
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-01 00:00:00,TXN0463
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-01 00:00:00,TXN0512
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-01 00:00:00,TXN0550
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-02 00:00:00,TXN0054
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-01-02 00:00:00,TXN0114
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-02 00:00:00,TXN0154
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-02 00:00:00,TXN0247
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-02 00:00:00,TXN0269
+CUST132,Teresa Ramirez,jeff73@example.com,Phoenix,BASIC,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-02 00:00:00,TXN0310
+CUST072,Michael Burton,terrykevin@example.net,New York,Basic+,PROD004,4K Monitor,Electronics,299.99,1,2024-01-02 00:00:00,TXN0318
+CUST087,Melissa Hernandez,christopher31@example.net,Phoenix,Standard,PROD010,Plant Pot,Home & Garden,19.99,1,2024-01-02 00:00:00,TXN0346
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-02 00:00:00,TXN0384
+CUST119,Victoria Evans,dvaughn@example.com,Boston,Standard,PROD011,Watering Can,Home & Garden,24.99,999,2024-01-02 00:00:00,TXN0453
+CUST124,Curtis Buchanan,alyssa42@example.com,Denver,Standard,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-02 00:00:00,TXN0516
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-01-02 00:00:00,TXN0534
+CUST132,Teresa Ramirez,jeff73@example.com,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-02 00:00:00,TXN0554
+CUST140,Judith Maynard,lutzmelanie@example.com,Phoenix,Premium+,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-02 00:00:00,TXN0575
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-01-02 00:00:00,TXN0591
+CUST011,,julie69@example.com,Chicago,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-03 00:00:00,TXN0120
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic+,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-03 00:00:00,TXN0199
+CUST091,David Mann,ojones@example.com,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-03 00:00:00,TXN0206
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-03 00:00:00,TXN0293
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-03 00:00:00,TXN0307
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-03 00:00:00,TXN0311
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard+,PROD007,Office Chair,Office Supplies,249.99,3,2024-01-03 00:00:00,TXN0369
+CUST103,Bruce Collier,scantu@example.net,Denver,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-03 00:00:00,TXN0377
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-01-03 00:00:00,TXN0390
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD004,4K Monitor,Electronics,299.99,5,2024-01-03 00:00:00,TXN0418
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,2,2024-01-03 00:00:00,TXN0419
+CUST016,Mark Lynch,nathanielmartin@example.net,Atlanta,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-03 00:00:00,TXN0457
+CUST091,David Mann,ojones@example.com,New York,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-03 00:00:00,TXN0585
+CUST079,Robert Peterson,angela83@example.org,Chicago,Basic,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-04 00:00:00,TXN0038
+CUST139,Jodi Walker,acostaregina@example.net,New York,Premium,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-04 00:00:00,TXN0066
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-04 00:00:00,TXN0068
+CUST095,David Davis,keyemily@example.com,Boston,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-04 00:00:00,TXN0144
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium,PROD011,Watering Can,Home & Garden,24.99,1,2024-01-04 00:00:00,TXN0160
+CUST146,Parker Cain,willisanna@example.com,Austin,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-01-04 00:00:00,TXN0192
+CUST040,,jonesnicole@example.org,Denver,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-04 00:00:00,TXN0193
+CUST057,Amber Wright,bryantlaurie@example.net,Atlanta,PREMIUM,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-04 00:00:00,TXN0200
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-04 00:00:00,TXN0225
+CUST119,Victoria Evans,dvaughn@example.com,Boston,Standard,PROD008,Standing Desk,Office Supplies,399.99,1,2024-01-04 00:00:00,TXN0227
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-04 00:00:00,TXN0276
+CUST034,Michael Evans,sarah10@example.com,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-04 00:00:00,TXN0337
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-04 00:00:00,TXN0358
+CUST150,Maria Johnson,anthony44@example.com,Austin,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-01-04 00:00:00,TXN0365
+CUST129,,cwilson@example.org,Atlanta,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-04 00:00:00,TXN0394
+CUST136,Linda Ramirez,vanessafernandez@example.org,Chicago,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-01-04 00:00:00,TXN0412
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-04 00:00:00,TXN0450
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-04 00:00:00,TXN0477
+CUST110,Evelyn Garcia,dgarcia@example.org,Portland,Standard,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-04 00:00:00,TXN0479
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-04 00:00:00,TXN0489
+CUST097,Robert Costa,vbailey@example.com,Austin,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-04 00:00:00,TXN0527
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-04 00:00:00,TXN0539
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-05 00:00:00,TXN0044
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-05 00:00:00,TXN0092
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic+,PROD010,Plant Pot,Home & Garden,19.99,2,2024-01-05 00:00:00,TXN0148
+CUST108,Kimberly Gibson,molly39@example.com,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-05 00:00:00,TXN0156
+CUST028,John Lewis,kbarrera@example.com,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-05 00:00:00,TXN0162
+CUST112,Michael Santos,melissa86@example.com,New York,Standard,PROD001,Laptop,Electronics,999.99,4,2024-01-05 00:00:00,TXN0207
+CUST014,Patricia Peterson,ryan70@example.net,Boston,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-05 00:00:00,TXN0239
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-05 00:00:00,TXN0283
+CUST034,Michael Evans,sarah10@example.com,Phoenix,basic,PROD010,Plant Pot,Home & Garden,19.99,999,2024-01-05 00:00:00,TXN0331
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-05 00:00:00,TXN0333
+CUST104,Jennifer Olson,jsanchez@example.org,Phoenix,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-05 00:00:00,TXN0351
+CUST005,Ian Cooper,lindsay78@example.org,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,2,2024-01-05 00:00:00,TXN0469
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-01-05 00:00:00,TXN0513
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD007,Office Chair,Office Supplies,249.99,2,2024-01-05 00:00:00,TXN0540
+CUST108,Kimberly Gibson,molly39@example.com,Boston,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-05 00:00:00,TXN0562
+CUST112,Michael Santos,melissa86@example.com,New York,Standard,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-06 00:00:00,TXN0059
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-06 00:00:00,TXN0121
+CUST122,Connor King,courtneyberger@example.net,Portland,Basic,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-06 00:00:00,TXN0173
+CUST085,Tony Little,agarcia@example.net,Boston,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-06 00:00:00,TXN0246
+CUST078,,lrosales@example.com,Atlanta,Premium,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-06 00:00:00,TXN0343
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-06 00:00:00,TXN0417
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-06 00:00:00,TXN0488
+CUST003,Matthew Gardner,shaneramirez@example.org,Chicago,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-06 00:00:00,TXN0528
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta, Standard ,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-06 00:00:00,TXN0547
+CUST023,Mr. Nathaniel Khan,esanchez@example.com,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-06 00:00:00,TXN0555
+CUST085,Tony Little,agarcia@example.net,Boston,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-07 00:00:00,TXN0090
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-07 00:00:00,TXN0131
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-01-07 00:00:00,TXN0170
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-07 00:00:00,TXN0212
+CUST140,Judith Maynard,lutzmelanie@example.com,Phoenix,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-07 00:00:00,TXN0304
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-07 00:00:00,TXN0520
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-07 00:00:00,TXN0587
+CUST079,Robert Peterson,angela83@example.org,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-08 00:00:00,TXN0019
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-08 00:00:00,TXN0034
+CUST074,Matthew Smith,gshort@example.com,Boston,Premium,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-08 00:00:00,TXN0070
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-08 00:00:00,TXN0135
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-08 00:00:00,TXN0145
+CUST139,Jodi Walker,acostaregina@example.net,New York,Premium+,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-08 00:00:00,TXN0152
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium+,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-08 00:00:00,TXN0197
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-01-08 00:00:00,TXN0263
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-01-08 00:00:00,TXN0445
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-08 00:00:00,TXN0448
+CUST139,Jodi Walker,acostaregina@example.net,New York,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-01-08 00:00:00,TXN0461
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-08 00:00:00,TXN0467
+CUST004,Jay Ramirez,susanrogers@example.org,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-09 00:00:00,TXN0025
+CUST053,Steven Flynn,donnacampbell@example.net,Atlanta,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-09 00:00:00,TXN0069
+CUST001,Allison Hill,donaldgarcia@example.net,New York,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-09 00:00:00,TXN0151
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-09 00:00:00,TXN0155
+CUST042,Rebecca Valencia,jason31@example.com,Phoenix,Basic,PROD004,4K Monitor,Electronics,299.99,5,2024-01-09 00:00:00,TXN0261
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-09 00:00:00,TXN0289
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-09 00:00:00,TXN0292
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD004,4K Monitor,Electronics,299.99,1,2024-01-09 00:00:00,TXN0322
+CUST140,Judith Maynard,lutzmelanie@example.com,Phoenix,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-09 00:00:00,TXN0423
+CUST074,Matthew Smith,gshort@example.com,Boston,Premium,PROD007,Office Chair,Office Supplies,249.99,2,2024-01-09 00:00:00,TXN0458
+CUST139,,acostaregina@example.net,New York,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-09 00:00:00,TXN0538
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD011,Watering Can,Home & Garden,24.99,5,2024-01-09 00:00:00,TXN0568
+CUST063,Tommy Evans,acastaneda@example.net,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-10 00:00:00,TXN0077
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-10 00:00:00,TXN0082
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD008,Standing Desk,Office Supplies,399.99,1,2024-01-10 00:00:00,TXN0091
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-10 00:00:00,TXN0105
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD008,Standing Desk,Office Supplies,399.99,1,2024-01-10 00:00:00,TXN0126
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-10 00:00:00,TXN0163
+CUST038,Denise Jacobs,james48@example.com,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,1,2024-01-10 00:00:00,TXN0218
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-10 00:00:00,TXN0223
+CUST034,Michael Evans,sarah10@example.com,Phoenix,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-10 00:00:00,TXN0253
+CUST082,David Martinez,leslienewton@example.net,Seattle,Basic,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-10 00:00:00,TXN0270
+CUST012,Brittany Moore,ycarlson@example.com,Portland,Standard,PROD010,Plant Pot,Home & Garden,19.99,2,2024-01-10 00:00:00,TXN0502
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-10 00:00:00,TXN0560
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-11 00:00:00,TXN0048
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-01-11 00:00:00,TXN0061
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD010,Plant Pot,Home & Garden,19.99,2,2024-01-11 00:00:00,TXN0103
+CUST074,Matthew Smith,gshort@example.com,Boston,Premium,PROD011,Watering Can,Home & Garden,24.99,5,2024-01-11 00:00:00,TXN0108
+CUST136,Linda Ramirez,vanessafernandez@example.org,Chicago,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-11 00:00:00,TXN0124
+CUST087,Melissa Hernandez,christopher31@example.net,Phoenix,Standard,PROD004,4K Monitor,Electronics,299.99,3,2024-01-11 00:00:00,TXN0215
+CUST042,Rebecca Valencia,jason31@example.com,Phoenix,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-11 00:00:00,TXN0254
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-11 00:00:00,TXN0306
+CUST139,Jodi Walker,acostaregina@example.net,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-11 00:00:00,TXN0326
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-01-11 00:00:00,TXN0447
+CUST044,Michael Reyes,garrisonjeffrey@example.com,Austin,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-01-11 00:00:00,TXN0509
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-11 00:00:00,TXN0536
+CUST063,Tommy Evans,acastaneda@example.net,Portland,Premium,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-11 00:00:00,TXN0558
+CUST133,Walter Rush,ndavis@example.net,Portland,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-11 00:00:00,TXN0600
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-01-12 00:00:00,TXN0040
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-12 00:00:00,TXN0122
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,Standard,PROD011,Watering Can,Home & Garden,24.99,1,2024-01-12 00:00:00,TXN0220
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-12 00:00:00,TXN0282
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-01-12 00:00:00,TXN0300
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-12 00:00:00,TXN0303
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-01-12 00:00:00,TXN0336
+CUST023,Mr. Nathaniel Khan,esanchez@example.com,Chicago,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-12 00:00:00,TXN0430
+CUST039,Terry Williams,ccalderon@example.org,Atlanta,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,-1,2024-01-12 00:00:00,TXN0482
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-12 00:00:00,TXN0552
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-12 00:00:00,TXN0570
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-13 00:00:00,TXN0111
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-01-13 00:00:00,TXN0294
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-13 00:00:00,TXN0391
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-13 00:00:00,TXN0399
+CUST130,,paulwatson@example.net,Dallas,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-13 00:00:00,TXN0424
+CUST016,Mark Lynch,nathanielmartin@example.net,Atlanta,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-01-13 00:00:00,TXN0446
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-01-13 00:00:00,TXN0521
+CUST127,Richard Smith,gibsonemily@example.net,Phoenix,Basic,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-13 00:00:00,TXN0564
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-01-14 00:00:00,TXN0008
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-01-14 00:00:00,TXN0149
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard+,PROD002,Wireless Mouse,Electronics,29.99,5,2024-01-14 00:00:00,TXN0189
+CUST002,Angie Henderson,davisjesse@example.net,Boston,Basic,PROD004,4K Monitor,Electronics,299.99,3,2024-01-14 00:00:00,TXN0201
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-14 00:00:00,TXN0248
+CUST130,Johnathan Davis,paulwatson@example.net,Dallas,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-14 00:00:00,TXN0364
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-14 00:00:00,TXN0408
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-14 00:00:00,TXN0454
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD004,4K Monitor,Electronics,299.99,5,2024-01-14 00:00:00,TXN0472
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-01-14 00:00:00,TXN0492
+CUST086,Dawn Hensley,shortrichard@example.org,Boston,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-14 00:00:00,TXN0493
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-14 00:00:00,TXN0594
+CUST005,Ian Cooper,lindsay78@example.org,Chicago,Basic,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-15 00:00:00,TXN0014
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-15 00:00:00,TXN0073
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-15 00:00:00,TXN0086
+CUST018,David Bradley,millertodd@example.org,Austin,Standard,PROD004,4K Monitor,Electronics,299.99,3,2024-01-15 00:00:00,TXN0097
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-15 00:00:00,TXN0117
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-15 00:00:00,TXN0133
+CUST028,John Lewis,kbarrera@example.com,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-15 00:00:00,TXN0158
+CUST088,,kimberlyjames@example.com,Boston,Basic,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-15 00:00:00,TXN0249
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-15 00:00:00,TXN0327
+CUST078,,lrosales@example.com,Atlanta,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-15 00:00:00,TXN0476
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-15 00:00:00,TXN0483
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,STANDARD,PROD004,4K Monitor,Electronics,299.99,3,2024-01-15 00:00:00,TXN0505
+CUST025,Maria Brown,lauren13@example.org,Atlanta,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-15 00:00:00,TXN0530
+CUST070,Julie Scott,gary91@example.org,Boston,Standard,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-15 00:00:00,TXN0543
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-15 00:00:00,TXN0589
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD011,Watering Can,Home & Garden,24.99,5,2024-01-16 00:00:00,TXN0071
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,STANDARD,PROD008,Standing Desk,Office Supplies,399.99,1,2024-01-16 00:00:00,TXN0112
+CUST127,Richard Smith,gibsonemily@example.net,Phoenix,Basic,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-16 00:00:00,TXN0137
+CUST006,Jamie Arnold,barbara10@example.net,Austin,Standard,PROD001,Laptop,Electronics,999.99,3,2024-01-16 00:00:00,TXN0147
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-01-16 00:00:00,TXN0257
+CUST032,Cynthia Wilson,bethwilliams@example.org,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-01-16 00:00:00,TXN0328
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-16 00:00:00,TXN0356
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-16 00:00:00,TXN0431
+CUST002,Angie Henderson,davisjesse@example.net,Boston,Basic+,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-16 00:00:00,TXN0432
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-16 00:00:00,TXN0443
+CUST148,Lindsay Bell,ericolson@example.org,Austin,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-16 00:00:00,TXN0475
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-01-16 00:00:00,TXN0578
+CUST028,John Lewis,kbarrera@example.com,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-16 00:00:00,TXN0599
+CUST088,Lisa Gibbs,kimberlyjames@example.com,Boston,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-17 00:00:00,TXN0030
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-01-17 00:00:00,TXN0039
+CUST002,Angie Henderson,davisjesse@example.net,Boston,Basic,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-17 00:00:00,TXN0273
+CUST102,Michelle Collins,tranchristopher@example.org,Portland, Premium ,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-17 00:00:00,TXN0296
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-17 00:00:00,TXN0320
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD001,Laptop,Electronics,999.99,5,2024-01-17 00:00:00,TXN0347
+CUST028,John Lewis,kbarrera@example.com,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,2,2024-01-17 00:00:00,TXN0368
+CUST141,Theodore Jones Jr.,cameronhill@example.net,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-17 00:00:00,TXN0507
+CUST120,James Webb,patrickhoward@example.com,Denver, Basic ,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-18 00:00:00,TXN0004
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-01-18 00:00:00,TXN0005
+CUST091,David Mann,ojones@example.com,New York,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-18 00:00:00,TXN0009
+CUST085,Tony Little,agarcia@example.net,Boston,Standard,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-18 00:00:00,TXN0018
+CUST058,Kristin Stewart,usalazar@example.net,Seattle,Basic+,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-18 00:00:00,TXN0047
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-18 00:00:00,TXN0051
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-01-18 00:00:00,TXN0182
+CUST069,Mrs. Marie Harrington DDS,herringjames@example.org,Dallas,Basic,PROD001,Laptop,Electronics,999.99,2,2024-01-18 00:00:00,TXN0185
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-18 00:00:00,TXN0264
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD001,Laptop,Electronics,999.99,3,2024-01-18 00:00:00,TXN0298
+CUST091,,ojones@example.com,New York,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-18 00:00:00,TXN0308
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-18 00:00:00,TXN0403
+CUST004,Jay Ramirez,susanrogers@example.org,Boston,Standard,PROD001,Laptop,Electronics,999.99,5,2024-01-18 00:00:00,TXN0518
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-18 00:00:00,TXN0522
+CUST079,Robert Peterson,angela83@example.org,Chicago,Basic,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-18 00:00:00,TXN0551
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-01-18 00:00:00,TXN0559
+CUST017,,hickmannatasha@example.com,Chicago,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-01-18 00:00:00,TXN0561
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-19 00:00:00,TXN0023
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium,PROD001,Laptop,Electronics,999.99,2,2024-01-19 00:00:00,TXN0043
+CUST079,Robert Peterson,angela83@example.org,Chicago,Basic,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-19 00:00:00,TXN0049
+CUST085,Tony Little,agarcia@example.net,Boston,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-01-19 00:00:00,TXN0062
+CUST013,Julie King,frazierdanny@example.net,Austin,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-01-19 00:00:00,TXN0116
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-19 00:00:00,TXN0178
+CUST104,Jennifer Olson,jsanchez@example.org,Phoenix, Premium ,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-19 00:00:00,TXN0209
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-19 00:00:00,TXN0237
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-19 00:00:00,TXN0250
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-19 00:00:00,TXN0256
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-19 00:00:00,TXN0259
+CUST136,Linda Ramirez,vanessafernandez@example.org,Chicago,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-19 00:00:00,TXN0275
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-19 00:00:00,TXN0280
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-01-19 00:00:00,TXN0297
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-01-19 00:00:00,TXN0321
+CUST058,Kristin Stewart,usalazar@example.net,Seattle, Basic ,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-19 00:00:00,TXN0340
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-19 00:00:00,TXN0349
+CUST050,Mary Martinez,william65@example.com,New York,Basic,PROD006,USB-C Hub,Electronics,59.99,-1,2024-01-19 00:00:00,TXN0371
+CUST038,Denise Jacobs,james48@example.com,Seattle,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,-1,2024-01-19 00:00:00,TXN0406
+CUST122,Connor King,courtneyberger@example.net,Portland,Basic,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-19 00:00:00,TXN0416
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,PREMIUM,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-19 00:00:00,TXN0420
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,-1,2024-01-19 00:00:00,TXN0473
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-19 00:00:00,TXN0504
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-01-19 00:00:00,TXN0546
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-19 00:00:00,TXN0556
+CUST104,Jennifer Olson,jsanchez@example.org,Phoenix,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-20 00:00:00,TXN0015
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-20 00:00:00,TXN0024
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD001,Laptop,Electronics,999.99,1,2024-01-20 00:00:00,TXN0136
+CUST012,Brittany Moore,ycarlson@example.com,Portland,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-20 00:00:00,TXN0159
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-20 00:00:00,TXN0214
+CUST091,David Mann,ojones@example.com,New York,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-20 00:00:00,TXN0226
+CUST021,Austin Smith,briannasmith@example.net,Austin, Basic ,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-20 00:00:00,TXN0305
+CUST032,Cynthia Wilson,bethwilliams@example.org,Seattle,Premium,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-01-20 00:00:00,TXN0338
+CUST132,Teresa Ramirez,jeff73@example.com,Phoenix,Basic,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-20 00:00:00,TXN0362
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-20 00:00:00,TXN0400
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-20 00:00:00,TXN0433
+CUST137,Bonnie Howard,briannasmith@example.com,Boston,Basic,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-20 00:00:00,TXN0498
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-20 00:00:00,TXN0565
+CUST023,Mr. Nathaniel Khan,esanchez@example.com,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-21 00:00:00,TXN0064
+CUST077,Samuel Rivas,ramirezshannon@example.com,Denver,Basic,PROD001,Laptop,Electronics,999.99,1,2024-01-21 00:00:00,TXN0100
+CUST041,,russellwilliams@example.com,Austin,Standard,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-21 00:00:00,TXN0191
+CUST036,,cheryl80@example.net,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-21 00:00:00,TXN0202
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-21 00:00:00,TXN0210
+CUST054,Frances Cardenas,emilywalker@example.org,Portland,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-21 00:00:00,TXN0402
+CUST104,Jennifer Olson,jsanchez@example.org,Phoenix, Premium ,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-21 00:00:00,TXN0429
+CUST060,,rsims@example.com,Atlanta,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-21 00:00:00,TXN0474
+CUST120,James Webb,patrickhoward@example.com,Denver, Basic ,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-21 00:00:00,TXN0500
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-21 00:00:00,TXN0549
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-01-21 00:00:00,TXN0572
+CUST025,Maria Brown,lauren13@example.org,Atlanta,Standard,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-21 00:00:00,TXN0596
+CUST121,William Barrett,alan09@example.net,Portland, Premium ,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-22 00:00:00,TXN0060
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD011,Watering Can,Home & Garden,24.99,1,2024-01-22 00:00:00,TXN0094
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-22 00:00:00,TXN0125
+CUST116,,lynchpatrick@example.net,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-01-22 00:00:00,TXN0169
+CUST097,Robert Costa,vbailey@example.com,Austin,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-01-22 00:00:00,TXN0190
+CUST012,Brittany Moore,ycarlson@example.com,Portland,Standard,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-22 00:00:00,TXN0290
+CUST124,Curtis Buchanan,alyssa42@example.com,Denver,Standard,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-22 00:00:00,TXN0353
+CUST063,Tommy Evans,acastaneda@example.net,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-01-22 00:00:00,TXN0487
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-22 00:00:00,TXN0567
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-22 00:00:00,TXN0586
+CUST115,Robert Carter,ryan38@example.com,Portland,premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-23 00:00:00,TXN0083
+CUST007,Jamie Chavez,francisco53@example.net,New York,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-23 00:00:00,TXN0153
+CUST124,Curtis Buchanan,alyssa42@example.com,Denver,Standard,PROD004,4K Monitor,Electronics,299.99,1,2024-01-23 00:00:00,TXN0181
+CUST131,Kimberly Matthews,nicolepena@example.com,New York,Premium,PROD004,4K Monitor,Electronics,299.99,3,2024-01-23 00:00:00,TXN0217
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-01-23 00:00:00,TXN0266
+CUST110,Evelyn Garcia,dgarcia@example.org,Portland,Standard,PROD001,Laptop,Electronics,999.99,5,2024-01-23 00:00:00,TXN0281
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-23 00:00:00,TXN0287
+CUST120,James Webb,patrickhoward@example.com,Denver,Basic,PROD011,Watering Can,Home & Garden,24.99,5,2024-01-23 00:00:00,TXN0335
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York, Premium ,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-23 00:00:00,TXN0354
+CUST137,Bonnie Howard,briannasmith@example.com,Boston,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-23 00:00:00,TXN0398
+CUST140,Judith Maynard,lutzmelanie@example.com,Phoenix, Premium ,PROD007,Office Chair,Office Supplies,249.99,4,2024-01-23 00:00:00,TXN0405
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,4,2024-01-23 00:00:00,TXN0466
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-23 00:00:00,TXN0593
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-01-24 00:00:00,TXN0101
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-24 00:00:00,TXN0123
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-24 00:00:00,TXN0174
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD001,Laptop,Electronics,999.99,4,2024-01-24 00:00:00,TXN0255
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-01-24 00:00:00,TXN0258
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD001,Laptop,Electronics,999.99,4,2024-01-24 00:00:00,TXN0262
+CUST012,Brittany Moore,ycarlson@example.com,Portland,Standard,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-24 00:00:00,TXN0286
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-24 00:00:00,TXN0301
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-24 00:00:00,TXN0309
+CUST096,Casey Stone,lmoon@example.net,Portland,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-24 00:00:00,TXN0375
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD011,Watering Can,Home & Garden,24.99,3,2024-01-24 00:00:00,TXN0439
+CUST040,,jonesnicole@example.org,Denver,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-24 00:00:00,TXN0441
+CUST097,Robert Costa,vbailey@example.com,Austin,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-24 00:00:00,TXN0573
+CUST086,Dawn Hensley,shortrichard@example.org,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-01-25 00:00:00,TXN0084
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-01-25 00:00:00,TXN0104
+CUST150,Maria Johnson,anthony44@example.com,Austin,premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-25 00:00:00,TXN0165
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-25 00:00:00,TXN0245
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-25 00:00:00,TXN0268
+CUST048,Jeffrey Chandler,samuel81@example.com,Phoenix,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-25 00:00:00,TXN0319
+CUST140,Judith Maynard,lutzmelanie@example.com,Phoenix,Premium,PROD007,Office Chair,Office Supplies,249.99,0,2024-01-25 00:00:00,TXN0465
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-01-25 00:00:00,TXN0486
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-25 00:00:00,TXN0526
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-01-25 00:00:00,TXN0537
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-26 00:00:00,TXN0031
+CUST063,,acastaneda@example.net,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-26 00:00:00,TXN0213
+CUST007,Jamie Chavez,francisco53@example.net,New York,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-26 00:00:00,TXN0267
+CUST032,Cynthia Wilson,bethwilliams@example.org,Seattle,PREMIUM,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-26 00:00:00,TXN0299
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD001,Laptop,Electronics,999.99,1,2024-01-26 00:00:00,TXN0363
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-26 00:00:00,TXN0374
+CUST013,Julie King,frazierdanny@example.net,Austin,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-01-26 00:00:00,TXN0471
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-26 00:00:00,TXN0523
+CUST049,Renee Mcdaniel,michaeljones@example.net,Phoenix,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-27 00:00:00,TXN0011
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-27 00:00:00,TXN0079
+CUST095,David Davis,keyemily@example.com,Boston,STANDARD,PROD011,Watering Can,Home & Garden,24.99,5,2024-01-27 00:00:00,TXN0139
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium+,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-01-27 00:00:00,TXN0260
+CUST016,Mark Lynch,nathanielmartin@example.net,Atlanta,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-01-27 00:00:00,TXN0352
+CUST075,Madison Poole,ryangross@example.net,Denver,PREMIUM,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-27 00:00:00,TXN0359
+CUST095,David Davis,keyemily@example.com,Boston,STANDARD,PROD006,USB-C Hub,Electronics,59.99,1,2024-01-27 00:00:00,TXN0385
+CUST005,Ian Cooper,lindsay78@example.org,Chicago,Basic,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-27 00:00:00,TXN0392
+CUST039,Terry Williams,ccalderon@example.org,Atlanta,Basic,PROD007,Office Chair,Office Supplies,249.99,2,2024-01-27 00:00:00,TXN0393
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix, Standard ,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-01-27 00:00:00,TXN0451
+CUST082,David Martinez,leslienewton@example.net,Seattle,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-27 00:00:00,TXN0481
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle,Standard,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-27 00:00:00,TXN0485
+CUST053,Steven Flynn,donnacampbell@example.net,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-27 00:00:00,TXN0501
+CUST002,Angie Henderson,davisjesse@example.net,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-01-27 00:00:00,TXN0517
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-27 00:00:00,TXN0577
+CUST124,Curtis Buchanan,alyssa42@example.com,Denver,Standard,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-27 00:00:00,TXN0592
+CUST118,,erica21@example.com,Denver,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-28 00:00:00,TXN0001
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-28 00:00:00,TXN0037
+CUST021,Austin Smith,briannasmith@example.net,Austin, Basic ,PROD010,Plant Pot,Home & Garden,19.99,1,2024-01-28 00:00:00,TXN0053
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-28 00:00:00,TXN0168
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD001,Laptop,Electronics,999.99,4,2024-01-28 00:00:00,TXN0203
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-01-28 00:00:00,TXN0265
+CUST133,Walter Rush,ndavis@example.net,Portland,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-01-28 00:00:00,TXN0302
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-28 00:00:00,TXN0455
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-28 00:00:00,TXN0544
+CUST122,Connor King,courtneyberger@example.net,Portland,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-01-29 00:00:00,TXN0013
+CUST073,Barbara Riggs,reedross@example.com,Dallas,BASIC,PROD008,Standing Desk,Office Supplies,399.99,4,2024-01-29 00:00:00,TXN0029
+CUST058,Kristin Stewart,usalazar@example.net,Seattle,Basic,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-29 00:00:00,TXN0036
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-01-29 00:00:00,TXN0052
+CUST095,David Davis,keyemily@example.com,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,4,2024-01-29 00:00:00,TXN0142
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-29 00:00:00,TXN0195
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,999,2024-01-29 00:00:00,TXN0224
+CUST129,Susan Turner,cwilson@example.org,Atlanta,BASIC,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-01-29 00:00:00,TXN0233
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-29 00:00:00,TXN0272
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-29 00:00:00,TXN0315
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-01-29 00:00:00,TXN0334
+CUST120,James Webb,patrickhoward@example.com,Denver,Basic,PROD002,Wireless Mouse,Electronics,29.99,3,2024-01-29 00:00:00,TXN0357
+CUST019,Beth Keller,josephbrennan@example.com,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-29 00:00:00,TXN0372
+CUST108,Kimberly Gibson,molly39@example.com,Boston,Basic,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-29 00:00:00,TXN0459
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-01-29 00:00:00,TXN0470
+CUST119,Victoria Evans,dvaughn@example.com,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-29 00:00:00,TXN0576
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-01-29 00:00:00,TXN0580
+CUST103,Bruce Collier,scantu@example.net,Denver,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-30 00:00:00,TXN0063
+CUST060,Sara Ramirez,rsims@example.com,Atlanta,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-30 00:00:00,TXN0106
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD011,Watering Can,Home & Garden,24.99,1,2024-01-30 00:00:00,TXN0107
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-01-30 00:00:00,TXN0129
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-01-30 00:00:00,TXN0138
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-30 00:00:00,TXN0277
+CUST097,Robert Costa,vbailey@example.com,Austin,Premium,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-30 00:00:00,TXN0397
+CUST028,John Lewis,kbarrera@example.com,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-30 00:00:00,TXN0422
+CUST029,Michael Cross,smoore@example.org,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-30 00:00:00,TXN0425
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD001,Laptop,Electronics,999.99,1,2024-01-30 00:00:00,TXN0436
+CUST077,Samuel Rivas,ramirezshannon@example.com,Denver,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-30 00:00:00,TXN0484
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-30 00:00:00,TXN0497
+CUST126,,zcoffey@example.net,Atlanta,Premium+,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-01-30 00:00:00,TXN0508
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-01-30 00:00:00,TXN0590
+CUST070,Julie Scott,gary91@example.org,Boston,Standard,PROD010,Plant Pot,Home & Garden,19.99,5,2024-01-31 00:00:00,TXN0003
+CUST048,Jeffrey Chandler,samuel81@example.com,Phoenix,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-01-31 00:00:00,TXN0021
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,Premium,PROD008,Standing Desk,Office Supplies,399.99,5,2024-01-31 00:00:00,TXN0042
+CUST070,Julie Scott,gary91@example.org,Boston,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-01-31 00:00:00,TXN0076
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD001,Laptop,Electronics,999.99,3,2024-01-31 00:00:00,TXN0087
+CUST049,Renee Mcdaniel,michaeljones@example.net,Phoenix,Premium,PROD006,USB-C Hub,Electronics,59.99,5,2024-01-31 00:00:00,TXN0232
+CUST036,,cheryl80@example.net,New York,Premium,PROD001,Laptop,Electronics,999.99,3,2024-01-31 00:00:00,TXN0271
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD001,Laptop,Electronics,999.99,4,2024-01-31 00:00:00,TXN0285
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-01-31 00:00:00,TXN0378
+CUST057,Amber Wright,bryantlaurie@example.net,Atlanta,Premium+,PROD004,4K Monitor,Electronics,299.99,2,2024-01-31 00:00:00,TXN0440
+CUST107,Mary Grimes,wryan@example.com,Boston,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-31 00:00:00,TXN0442
+CUST049,Renee Mcdaniel,michaeljones@example.net,Phoenix,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-01-31 00:00:00,TXN0494
+CUST055,Angel Riggs,gibsonolivia@example.net,Portland,Basic+,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-31 00:00:00,TXN0531
+CUST134,Tricia Williams,john29@example.org,Portland,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-01-31 00:00:00,TXN0595
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-01 00:00:00,TXN0007
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,2,2024-02-01 00:00:00,TXN0088
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-01 00:00:00,TXN0140
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD011,Watering Can,Home & Garden,24.99,5,2024-02-01 00:00:00,TXN0198
+CUST081,Matthew Wood,ronald85@example.com,Boston,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-02-01 00:00:00,TXN0361
+CUST053,Steven Flynn,donnacampbell@example.net,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-02-01 00:00:00,TXN0449
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD006,USB-C Hub,Electronics,59.99,5,2024-02-01 00:00:00,TXN0499
+CUST098,,zroberts@example.net,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-01 00:00:00,TXN0506
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-02-01 00:00:00,TXN0510
+CUST040,Michael Hoffman,jonesnicole@example.org,Denver,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-02 00:00:00,TXN0075
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD004,4K Monitor,Electronics,299.99,0,2024-02-02 00:00:00,TXN0078
+CUST122,Connor King,courtneyberger@example.net,Portland,Basic,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-02 00:00:00,TXN0157
+CUST136,,vanessafernandez@example.org,Chicago,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-02 00:00:00,TXN0166
+CUST107,Mary Grimes,wryan@example.com,Boston,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-02 00:00:00,TXN0196
+CUST024,,dshields@example.net,Portland,Premium,PROD010,Plant Pot,Home & Garden,19.99,5,2024-02-02 00:00:00,TXN0229
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-02 00:00:00,TXN0234
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-02-02 00:00:00,TXN0284
+CUST011,Derek Wright,julie69@example.com,Chicago,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-02 00:00:00,TXN0295
+CUST103,Bruce Collier,scantu@example.net,Denver,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-02 00:00:00,TXN0355
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-02-02 00:00:00,TXN0376
+CUST077,Samuel Rivas,ramirezshannon@example.com,Denver,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-02-02 00:00:00,TXN0382
+CUST039,Terry Williams,ccalderon@example.org,Atlanta,Basic,PROD001,Laptop,Electronics,999.99,2,2024-02-02 00:00:00,TXN0514
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-02 00:00:00,TXN0519
+CUST071,Alexander Collins,tsanders@example.org,Atlanta,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-03 00:00:00,TXN0010
+CUST071,Alexander Collins,tsanders@example.org,Atlanta,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-02-03 00:00:00,TXN0022
+CUST011,Derek Wright,julie69@example.com,Chicago,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-03 00:00:00,TXN0057
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-03 00:00:00,TXN0102
+CUST020,Tanya Campos,jenniferross@example.net,Denver,Basic,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-03 00:00:00,TXN0216
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-03 00:00:00,TXN0236
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-02-03 00:00:00,TXN0251
+CUST020,Tanya Campos,jenniferross@example.net,Denver,Basic,PROD010,Plant Pot,Home & Garden,19.99,999,2024-02-03 00:00:00,TXN0316
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-03 00:00:00,TXN0332
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-03 00:00:00,TXN0396
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-02-03 00:00:00,TXN0444
+CUST046,Benjamin Ayala,darlene68@example.com,Atlanta,Basic,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-02-03 00:00:00,TXN0462
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,PREMIUM,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-03 00:00:00,TXN0480
+CUST048,Jeffrey Chandler,samuel81@example.com,Phoenix,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-03 00:00:00,TXN0511
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD004,4K Monitor,Electronics,299.99,5,2024-02-03 00:00:00,TXN0588
+CUST050,Mary Martinez,william65@example.com,New York,basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-04 00:00:00,TXN0020
+CUST051,Stephanie Gilbert,richard04@example.com,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-04 00:00:00,TXN0046
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-04 00:00:00,TXN0204
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-02-04 00:00:00,TXN0456
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-04 00:00:00,TXN0581
+CUST130,Johnathan Davis,paulwatson@example.net,Dallas,PREMIUM,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-02-04 00:00:00,TXN0582
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-05 00:00:00,TXN0016
+CUST136,Linda Ramirez,vanessafernandez@example.org,Chicago,Standard,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-05 00:00:00,TXN0017
+CUST071,Alexander Collins,tsanders@example.org,Atlanta,Standard,PROD001,Laptop,Electronics,999.99,1,2024-02-05 00:00:00,TXN0026
+CUST058,Kristin Stewart,usalazar@example.net,Seattle,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-05 00:00:00,TXN0127
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD004,4K Monitor,Electronics,299.99,4,2024-02-05 00:00:00,TXN0183
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-05 00:00:00,TXN0230
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-02-05 00:00:00,TXN0325
+CUST127,Richard Smith,gibsonemily@example.net,Phoenix,Basic,PROD001,Laptop,Electronics,999.99,3,2024-02-05 00:00:00,TXN0329
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-05 00:00:00,TXN0330
+CUST103,Bruce Collier,scantu@example.net,Denver,Standard,PROD001,Laptop,Electronics,999.99,5,2024-02-05 00:00:00,TXN0370
+CUST036,Christopher Bass,cheryl80@example.net,New York,PREMIUM,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-02-05 00:00:00,TXN0395
+CUST052,,steven73@example.net,New York,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-05 00:00:00,TXN0409
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD010,Plant Pot,Home & Garden,19.99,1,2024-02-05 00:00:00,TXN0452
+CUST053,Steven Flynn,donnacampbell@example.net,Atlanta,Basic,PROD007,Office Chair,Office Supplies,249.99,2,2024-02-05 00:00:00,TXN0496
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-05 00:00:00,TXN0553
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-05 00:00:00,TXN0557
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-02-06 00:00:00,TXN0006
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-02-06 00:00:00,TXN0028
+CUST014,Patricia Peterson,ryan70@example.net,Boston,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-06 00:00:00,TXN0033
+CUST006,Jamie Arnold,barbara10@example.net,Austin,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-06 00:00:00,TXN0056
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-02-06 00:00:00,TXN0113
+CUST102,,tranchristopher@example.org,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-06 00:00:00,TXN0115
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-06 00:00:00,TXN0179
+CUST081,Matthew Wood,ronald85@example.com,Boston,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-06 00:00:00,TXN0208
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD001,Laptop,Electronics,999.99,5,2024-02-06 00:00:00,TXN0279
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-06 00:00:00,TXN0313
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-06 00:00:00,TXN0360
+CUST122,Connor King,courtneyberger@example.net,Portland,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-02-06 00:00:00,TXN0387
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD001,Laptop,Electronics,999.99,3,2024-02-06 00:00:00,TXN0421
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-06 00:00:00,TXN0529
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD004,4K Monitor,Electronics,299.99,5,2024-02-07 00:00:00,TXN0055
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-07 00:00:00,TXN0058
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-02-07 00:00:00,TXN0081
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-07 00:00:00,TXN0089
+CUST019,Beth Keller,josephbrennan@example.com,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-07 00:00:00,TXN0109
+CUST095,David Davis,keyemily@example.com,Boston,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-07 00:00:00,TXN0130
+CUST034,Michael Evans,sarah10@example.com,Phoenix,Basic,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-07 00:00:00,TXN0175
+CUST127,Richard Smith,gibsonemily@example.net,Phoenix,Basic,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-07 00:00:00,TXN0221
+CUST039,Terry Williams,ccalderon@example.org,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-07 00:00:00,TXN0242
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-02-07 00:00:00,TXN0344
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-02-07 00:00:00,TXN0388
+CUST011,Derek Wright,julie69@example.com,Chicago,PREMIUM,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-07 00:00:00,TXN0491
+CUST005,Ian Cooper,lindsay78@example.org,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-02-07 00:00:00,TXN0503
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-07 00:00:00,TXN0574
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD007,Office Chair,Office Supplies,249.99,5,2024-02-08 00:00:00,TXN0035
+CUST060,Sara Ramirez,rsims@example.com,Atlanta,Premium,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-08 00:00:00,TXN0150
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-02-08 00:00:00,TXN0219
+CUST056,Abigail Potter,osbornejeffery@example.net,Portland,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-08 00:00:00,TXN0274
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-08 00:00:00,TXN0278
+CUST133,Walter Rush,ndavis@example.net,Portland,Standard,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-08 00:00:00,TXN0379
+CUST150,Maria Johnson,anthony44@example.com,Austin,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-08 00:00:00,TXN0386
+CUST069,Mrs. Marie Harrington DDS,herringjames@example.org,Dallas,Basic,PROD007,Office Chair,Office Supplies,249.99,5,2024-02-08 00:00:00,TXN0490
+CUST088,,kimberlyjames@example.com,Boston,basic,PROD010,Plant Pot,Home & Garden,19.99,5,2024-02-08 00:00:00,TXN0541
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-02-08 00:00:00,TXN0583
+CUST049,Renee Mcdaniel,michaeljones@example.net,Phoenix,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-09 00:00:00,TXN0067
+CUST121,William Barrett,alan09@example.net,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-02-09 00:00:00,TXN0093
+CUST125,Terry Coffey,julie51@example.com,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-09 00:00:00,TXN0096
+CUST060,Sara Ramirez,rsims@example.com,Atlanta, Premium ,PROD008,Standing Desk,Office Supplies,399.99,1,2024-02-09 00:00:00,TXN0132
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-09 00:00:00,TXN0164
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-09 00:00:00,TXN0252
+CUST054,Frances Cardenas,emilywalker@example.org,Portland,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-09 00:00:00,TXN0348
+CUST132,Teresa Ramirez,jeff73@example.com,Phoenix,Basic+,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-09 00:00:00,TXN0380
+CUST082,David Martinez,leslienewton@example.net,Seattle,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-09 00:00:00,TXN0381
+CUST070,Julie Scott,gary91@example.org,Boston,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-02-09 00:00:00,TXN0410
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-09 00:00:00,TXN0468
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-09 00:00:00,TXN0515
+CUST002,Angie Henderson,davisjesse@example.net,Boston,Basic,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-09 00:00:00,TXN0566
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-02-10 00:00:00,TXN0027
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-02-10 00:00:00,TXN0032
+CUST137,Bonnie Howard,briannasmith@example.com,Boston,Basic,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-10 00:00:00,TXN0095
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-10 00:00:00,TXN0098
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,1,2024-02-10 00:00:00,TXN0119
+CUST103,Bruce Collier,scantu@example.net,Denver,Standard,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-10 00:00:00,TXN0188
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-10 00:00:00,TXN0341
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-10 00:00:00,TXN0342
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-10 00:00:00,TXN0389
+CUST050,Mary Martinez,william65@example.com,New York,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-10 00:00:00,TXN0428
+CUST143,,russellbeasley@example.com,Boston,Basic,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-10 00:00:00,TXN0478
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-10 00:00:00,TXN0542
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-10 00:00:00,TXN0563
+CUST046,Benjamin Ayala,darlene68@example.com,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-02-11 00:00:00,TXN0002
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD008,Standing Desk,Office Supplies,399.99,1,2024-02-11 00:00:00,TXN0074
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-11 00:00:00,TXN0146
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-02-11 00:00:00,TXN0167
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD011,Watering Can,Home & Garden,24.99,5,2024-02-11 00:00:00,TXN0222
+CUST095,David Davis,keyemily@example.com,Boston,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-11 00:00:00,TXN0228
+CUST011,Derek Wright,julie69@example.com,Chicago,Premium,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-11 00:00:00,TXN0231
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium+,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-11 00:00:00,TXN0243
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-11 00:00:00,TXN0312
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-11 00:00:00,TXN0317
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD008,Standing Desk,Office Supplies,399.99,5,2024-02-11 00:00:00,TXN0366
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-11 00:00:00,TXN0407
+CUST141,Theodore Jones Jr.,cameronhill@example.net,New York,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-11 00:00:00,TXN0415
+CUST058,Kristin Stewart,usalazar@example.net,Seattle,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-11 00:00:00,TXN0525
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD001,Laptop,Electronics,999.99,3,2024-02-11 00:00:00,TXN0598
+CUST060,Sara Ramirez,rsims@example.com,Atlanta,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-02-12 00:00:00,TXN0045
+CUST081,Matthew Wood,ronald85@example.com,Boston,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-12 00:00:00,TXN0171
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-12 00:00:00,TXN0176
+CUST032,Cynthia Wilson,bethwilliams@example.org,Seattle,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-12 00:00:00,TXN0177
+CUST130,Johnathan Davis,paulwatson@example.net,Dallas, Premium ,PROD004,4K Monitor,Electronics,299.99,2,2024-02-12 00:00:00,TXN0180
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD001,Laptop,Electronics,999.99,5,2024-02-12 00:00:00,TXN0184
+CUST047,Ashley Waller,beverlyterrell@example.org,Dallas,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-12 00:00:00,TXN0187
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-12 00:00:00,TXN0194
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-02-12 00:00:00,TXN0205
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-02-12 00:00:00,TXN0241
+CUST018,David Bradley,millertodd@example.org,Austin,Standard,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-12 00:00:00,TXN0288
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-02-12 00:00:00,TXN0324
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-12 00:00:00,TXN0345
+CUST062,Jason Daniels,abrown@example.com,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,1,2024-02-12 00:00:00,TXN0411
+CUST072,Michael Burton,terrykevin@example.net,New York,Basic,PROD009,Desk Lamp,Office Supplies,89.99,5,2024-02-12 00:00:00,TXN0533
+CUST048,Jeffrey Chandler,samuel81@example.com,Phoenix,Standard,PROD011,Watering Can,Home & Garden,24.99,5,2024-02-12 00:00:00,TXN0545
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-12 00:00:00,TXN0584
+CUST049,Renee Mcdaniel,michaeljones@example.net,Phoenix,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-02-13 00:00:00,TXN0118
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-13 00:00:00,TXN0143
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-13 00:00:00,TXN0161
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD006,USB-C Hub,Electronics,59.99,999,2024-02-13 00:00:00,TXN0172
+CUST100,April Booth,mgutierrez@example.net,Austin,Standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-13 00:00:00,TXN0238
+CUST085,Tony Little,agarcia@example.net,Boston,Standard,PROD002,Wireless Mouse,Electronics,29.99,5,2024-02-13 00:00:00,TXN0240
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-13 00:00:00,TXN0314
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-13 00:00:00,TXN0350
+CUST141,Theodore Jones Jr.,cameronhill@example.net,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-02-13 00:00:00,TXN0373
+CUST074,Matthew Smith,gshort@example.com,Boston,Premium,PROD002,Wireless Mouse,Electronics,29.99,5,2024-02-13 00:00:00,TXN0404
+CUST087,Melissa Hernandez,christopher31@example.net,Phoenix,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-02-13 00:00:00,TXN0427
+CUST079,Robert Peterson,angela83@example.org,Chicago,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-13 00:00:00,TXN0437
+CUST097,Robert Costa,vbailey@example.com,Austin,premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-13 00:00:00,TXN0460
+CUST006,Jamie Arnold,barbara10@example.net,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-13 00:00:00,TXN0464
+CUST070,Julie Scott,gary91@example.org,Boston,Standard,PROD001,Laptop,Electronics,999.99,1,2024-02-13 00:00:00,TXN0532
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-02-14 00:00:00,TXN0012
+CUST113,Stacy Freeman,williamsonjimmy@example.net,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-14 00:00:00,TXN0050
+CUST117,,dlittle@example.com,Phoenix,Standard,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-14 00:00:00,TXN0085
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-14 00:00:00,TXN0099
+CUST077,Samuel Rivas,ramirezshannon@example.com,Denver,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-14 00:00:00,TXN0110
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-14 00:00:00,TXN0134
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-14 00:00:00,TXN0141
+CUST044,Michael Reyes,garrisonjeffrey@example.com,Austin,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-14 00:00:00,TXN0211
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-14 00:00:00,TXN0291
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-14 00:00:00,TXN0435
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-02-14 00:00:00,TXN0438
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium,PROD010,Plant Pot,Home & Garden,19.99,999,2024-02-14 00:00:00,TXN0524
+CUST077,Samuel Rivas,ramirezshannon@example.com,Denver,Basic,PROD006,USB-C Hub,Electronics,59.99,5,2024-02-14 00:00:00,TXN0569
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-14 00:00:00,TXN0571
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD001,Laptop,Electronics,999.99,2,2024-02-15 00:00:00,TXN0235
+CUST101,Peter Garrett,harrisandrea@example.com,Atlanta, Basic ,PROD003,Mechanical Keyboard,Electronics,79.99,5,2024-02-15 00:00:00,TXN0244
+CUST019,Beth Keller,josephbrennan@example.com,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-15 00:00:00,TXN0323
+CUST043,Cynthia Martin,nicolejohnson@example.net,Dallas,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-15 00:00:00,TXN0339
+CUST131,Kimberly Matthews,nicolepena@example.com,New York,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-02-15 00:00:00,TXN0383
+CUST058,Kristin Stewart,usalazar@example.net,Seattle,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-02-15 00:00:00,TXN0401
+CUST026,Jerry Henderson,steven17@example.net,Chicago,premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-15 00:00:00,TXN0413
+CUST063,Tommy Evans,acastaneda@example.net,Portland,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-02-15 00:00:00,TXN0495
+CUST054,Frances Cardenas,emilywalker@example.org,Portland, Standard ,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-15 00:00:00,TXN0535
+CUST069,Mrs. Marie Harrington DDS,herringjames@example.org,Dallas,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-15 00:00:00,TXN0548
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-02-15 00:00:00,TXN0579
+CUST018,David Bradley,millertodd@example.org,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-15 00:00:00,TXN0597
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-02-15 00:00:00,TXN0661
+CUST058,Kristin Stewart Jr,usalazar@company.com,Chicago,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-02-15 00:00:00,TXN0663
+CUST019,Beth Keller,josephbrennan@example.com,Portland,PREMIUM,PROD001,Laptop,Electronics,999.99,1,2024-02-15 00:00:00,TXN0684
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD002,Wireless Mouse,Electronics,29.99,-1,2024-02-15 00:00:00,TXN0713
+CUST140,Judith Parks,lutzmelanie@gmail.com,Seattle,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-02-15 00:00:00,TXN0717
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic+,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-15 00:00:00,TXN0782
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-02-15 00:00:00,TXN0895
+CUST124,Curtis Buchanan,alyssa42@example.com,Denver,Standard,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-15 00:00:00,TXN0920
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-02-15 00:00:00,TXN0928
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-15 00:00:00,TXN0940
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-02-15 00:00:00,TXN0944
+CUST137,Bonnie Howard,briannasmith@example.com,Boston,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-15 00:00:00,TXN0982
+CUST042,Rebecca Deleon,vdickson@example.org,Dallas,Standard,PROD010,Plant Pot,Home & Garden,19.99,3,2024-02-15 00:00:00,TXN0999
+CUST077,Samuel Rivas Jr,ramirezshannon@hotmail.com,Seattle,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-16 00:00:00,TXN0740
+CUST060,Sara Ramirez Jr,reevesjimmy@example.com,Seattle,Standard,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-16 00:00:00,TXN0771
+CUST046,,darlene68@example.com,Atlanta,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-02-16 00:00:00,TXN0774
+CUST082,David Martinez,leslienewton@example.net,Seattle,Basic,PROD011,Watering Can,Home & Garden,24.99,2,2024-02-16 00:00:00,TXN0870
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-02-16 00:00:00,TXN0896
+CUST049,Renee Mccall,michaeljones@gmail.com,Portland,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-16 00:00:00,TXN0903
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD004,4K Monitor,Electronics,299.99,1,2024-02-17 00:00:00,TXN0704
+CUST125,Terry Coffey,julie51@example.com,Portland,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-17 00:00:00,TXN0833
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,PREMIUM,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-17 00:00:00,TXN0918
+CUST085,Tony Little Jr,taylor75@example.org,Chicago,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-17 00:00:00,TXN1000
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-02-18 00:00:00,TXN0636
+CUST025,Maria Brown,lauren13@example.org,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-18 00:00:00,TXN0640
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-02-18 00:00:00,TXN0685
+CUST117,,dlittle@example.com,Phoenix,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-18 00:00:00,TXN0701
+CUST032,Cynthia Wilson,bethwilliams@example.org,Seattle,Premium,PROD001,Laptop,Electronics,999.99,4,2024-02-18 00:00:00,TXN0748
+CUST057,Amber Wright,bryantlaurie@example.net,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,3,2024-02-18 00:00:00,TXN0761
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,1,2024-02-18 00:00:00,TXN0770
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-18 00:00:00,TXN0925
+CUST062,Jason Daniels Jr,gateskathy@example.com,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-18 00:00:00,TXN0947
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-18 00:00:00,TXN0955
+CUST107,Mary Grimes,wryan@example.com,Boston,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-19 00:00:00,TXN0645
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-19 00:00:00,TXN0726
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle, Premium ,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-19 00:00:00,TXN0730
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-02-19 00:00:00,TXN0745
+CUST096,Casey Stone,lmoon@example.net,Portland,Basic,PROD001,Laptop,Electronics,999.99,2,2024-02-19 00:00:00,TXN0843
+CUST106,Richard Adams,campbellkenneth@example.net,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,1,2024-02-19 00:00:00,TXN0939
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-20 00:00:00,TXN0657
+CUST019,,josephbrennan@example.com,Portland,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-02-20 00:00:00,TXN0666
+CUST119,Victoria Evans,dvaughn@example.com,Boston,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-20 00:00:00,TXN0735
+CUST081,Matthew Warner,ronald85@outlook.com,Seattle,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-02-20 00:00:00,TXN0888
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-20 00:00:00,TXN0930
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-20 00:00:00,TXN0953
+CUST140,Judith Parks,lutzmelanie@gmail.com,Seattle,Standard,PROD004,4K Monitor,Electronics,299.99,4,2024-02-21 00:00:00,TXN0631
+CUST104,Jennifer Reyes,jsanchez@yahoo.com,New York,Standard,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-21 00:00:00,TXN0741
+CUST018,David Spence,millertodd@hotmail.com,Boston,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-21 00:00:00,TXN0790
+CUST097,Robert Costa,vbailey@example.com,Austin,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-02-21 00:00:00,TXN0793
+CUST006,Jamie Arnold Jr,kendragalloway@example.org,New York,PREMIUM,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-21 00:00:00,TXN0796
+CUST112,Michael Santos Jr,melissa86@outlook.com,Chicago,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-02-21 00:00:00,TXN0801
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-21 00:00:00,TXN0804
+CUST039,Terry Williams Jr,kellie42@example.net,Boston,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-02-21 00:00:00,TXN0830
+CUST143,Ashley Pena,russellbeasley@example.com,Boston,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-21 00:00:00,TXN0876
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-02-21 00:00:00,TXN0898
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-21 00:00:00,TXN0915
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-02-21 00:00:00,TXN0923
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-02-21 00:00:00,TXN0962
+CUST049,Renee Mccall,michaeljones@gmail.com,Portland,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-02-21 00:00:00,TXN0965
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD004,4K Monitor,Electronics,299.99,4,2024-02-22 00:00:00,TXN0608
+CUST003,Matthew Blake,shaneramirez@company.com,Denver,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-02-22 00:00:00,TXN0664
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-22 00:00:00,TXN0672
+CUST096,Casey Stone,lmoon@example.net,Portland,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-22 00:00:00,TXN0697
+CUST070,Julie Oconnell,gary91@hotmail.com,Dallas,Basic,PROD002,Wireless Mouse,Electronics,29.99,0,2024-02-22 00:00:00,TXN0709
+CUST119,Victoria Evans,dvaughn@example.com,Boston,Standard,PROD002,Wireless Mouse,Electronics,29.99,2,2024-02-22 00:00:00,TXN0742
+CUST038,Denise Jacobs,james48@example.com,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-22 00:00:00,TXN0775
+CUST075,,ryangross@example.net,Denver,premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-22 00:00:00,TXN0809
+CUST009,William Bowman Jr,lydiatrujillo@example.com,Denver,Standard,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-02-22 00:00:00,TXN0821
+CUST006,Jamie Arnold Jr,kendragalloway@example.org,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-22 00:00:00,TXN0905
+CUST004,Jay Ramirez,susanrogers@example.org,Boston,Standard,PROD011,Watering Can,Home & Garden,24.99,1,2024-02-22 00:00:00,TXN0921
+CUST096,Casey Stone,lmoon@example.net,Portland,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-22 00:00:00,TXN0931
+CUST034,,sarah10@hotmail.com,Boston,Standard,PROD008,Standing Desk,Office Supplies,399.99,4,2024-02-22 00:00:00,TXN0938
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-23 00:00:00,TXN0619
+CUST055,Angel Lee,psnyder@example.org,Atlanta,Premium,PROD008,Standing Desk,Office Supplies,399.99,1,2024-02-23 00:00:00,TXN0662
+CUST077,Samuel Rivas Jr,ramirezshannon@hotmail.com,Seattle,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-23 00:00:00,TXN0668
+CUST004,,susanrogers@example.org,Boston,Standard,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-23 00:00:00,TXN0681
+CUST004,Jay Ramirez,susanrogers@example.org,Boston,Standard+,PROD001,Laptop,Electronics,999.99,2,2024-02-23 00:00:00,TXN0743
+CUST080,Jason West,davisjeffrey@example.net,Chicago,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-02-23 00:00:00,TXN0844
+CUST046,Benjamin Ayala,darlene68@example.com,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-02-23 00:00:00,TXN0970
+CUST072,,terrykevin@yahoo.com,Austin,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-23 00:00:00,TXN0998
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-02-24 00:00:00,TXN0731
+CUST011,Derek Cox,williamdavis@example.org,Denver,Standard,PROD004,4K Monitor,Electronics,299.99,3,2024-02-24 00:00:00,TXN0737
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-24 00:00:00,TXN0785
+CUST013,Julie King,frazierdanny@example.net,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-24 00:00:00,TXN0805
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-24 00:00:00,TXN0834
+CUST088,Lisa Evans,ntorres@example.org,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-24 00:00:00,TXN0887
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-24 00:00:00,TXN0922
+CUST090,Christopher Jones,ortizhannah@example.com,Atlanta,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-02-25 00:00:00,TXN0635
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium,PROD001,Laptop,Electronics,999.99,1,2024-02-25 00:00:00,TXN0654
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-02-25 00:00:00,TXN0695
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-25 00:00:00,TXN0696
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,PREMIUM,PROD006,USB-C Hub,Electronics,59.99,2,2024-02-25 00:00:00,TXN0778
+CUST123,Amanda Diaz,christopherphillips@example.net,Phoenix,Basic,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-25 00:00:00,TXN0794
+CUST025,Maria Brown,lauren13@example.org,Atlanta,Standard,PROD001,Laptop,Electronics,999.99,2,2024-02-25 00:00:00,TXN0808
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-02-25 00:00:00,TXN0852
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-25 00:00:00,TXN0854
+CUST092,Derek Thomas,martinkyle@example.net,Austin,premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-25 00:00:00,TXN0875
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-02-25 00:00:00,TXN0899
+CUST060,Sara Ramirez Jr,reevesjimmy@example.com,Seattle,Standard,PROD007,Office Chair,Office Supplies,249.99,2,2024-02-26 00:00:00,TXN0602
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,standard,PROD007,Office Chair,Office Supplies,249.99,2,2024-02-26 00:00:00,TXN0706
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-02-26 00:00:00,TXN0710
+CUST148,Lindsay Bell,ericolson@example.org,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-26 00:00:00,TXN0765
+CUST049,Renee Mccall,michaeljones@gmail.com,Portland,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-26 00:00:00,TXN0769
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-02-26 00:00:00,TXN0783
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-26 00:00:00,TXN0811
+CUST095,David Johnston,keyemily@company.com,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-02-26 00:00:00,TXN0812
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD010,Plant Pot,Home & Garden,19.99,1,2024-02-26 00:00:00,TXN0845
+CUST124,,alyssa42@example.com,Denver,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-26 00:00:00,TXN0936
+CUST095,,keyemily@company.com,Denver,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-02-27 00:00:00,TXN0716
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-02-27 00:00:00,TXN0756
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-02-27 00:00:00,TXN0807
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-02-27 00:00:00,TXN0824
+CUST014,Patricia Peterson Jr,ryan70@company.com,Seattle,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-27 00:00:00,TXN0886
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD010,Plant Pot,Home & Garden,19.99,2,2024-02-27 00:00:00,TXN0963
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-02-27 00:00:00,TXN0976
+CUST038,Denise Jacobs,james48@example.com,Seattle, Premium ,PROD001,Laptop,Electronics,999.99,1,2024-02-27 00:00:00,TXN0984
+CUST014,Patricia Peterson Jr,ryan70@company.com,Seattle,Standard,PROD001,Laptop,Electronics,999.99,3,2024-02-27 00:00:00,TXN0992
+CUST140,Judith Parks,lutzmelanie@gmail.com,Seattle,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-02-27 00:00:00,TXN0994
+CUST002,Angie Johnson,davisjesse@company.com,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-02-28 00:00:00,TXN0605
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-02-28 00:00:00,TXN0649
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-02-28 00:00:00,TXN0670
+CUST039,Terry Williams Jr,kellie42@example.net,Boston,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-02-28 00:00:00,TXN0671
+CUST007,Jamie Chavez,francisco53@example.net,New York,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-02-28 00:00:00,TXN0676
+CUST110,Evelyn Garcia,dgarcia@example.org,Portland,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-28 00:00:00,TXN0751
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-02-28 00:00:00,TXN0822
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-02-28 00:00:00,TXN0841
+CUST059,Terry Griffin,juliawells@example.com,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,2,2024-02-28 00:00:00,TXN0904
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-02-28 00:00:00,TXN0911
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,1,2024-02-29 00:00:00,TXN0625
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium,PROD001,Laptop,Electronics,999.99,0,2024-02-29 00:00:00,TXN0626
+CUST010,Daniel Hahn,jason76@example.net,Dallas,Basic,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-02-29 00:00:00,TXN0707
+CUST072,Michael Burton Jr,terrykevin@yahoo.com,Austin,Premium,PROD002,Wireless Mouse,Electronics,29.99,0,2024-02-29 00:00:00,TXN0723
+CUST062,Jason Daniels Jr,gateskathy@example.com,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-02-29 00:00:00,TXN0764
+CUST082,David Martinez,leslienewton@example.net,Seattle, Basic ,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-02-29 00:00:00,TXN0780
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-02-29 00:00:00,TXN0859
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,3,2024-02-29 00:00:00,TXN0879
+CUST002,Angie Johnson,davisjesse@company.com,New York,Premium+,PROD011,Watering Can,Home & Garden,24.99,2,2024-02-29 00:00:00,TXN0897
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-01 00:00:00,TXN0614
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-03-01 00:00:00,TXN0678
+CUST127,Richard Baker,xcarson@example.org,Portland,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-01 00:00:00,TXN0679
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-03-01 00:00:00,TXN0691
+CUST060,,reevesjimmy@example.com,Seattle,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-01 00:00:00,TXN0763
+CUST085,Tony Little Jr,taylor75@example.org,Chicago,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-01 00:00:00,TXN0786
+CUST003,Matthew Blake,shaneramirez@company.com,Denver,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-03-01 00:00:00,TXN0789
+CUST050,Mary Terry,jamesortega@example.com,Boston,Premium,PROD004,4K Monitor,Electronics,299.99,1,2024-03-01 00:00:00,TXN0846
+CUST034,Michael Howell,sarah10@hotmail.com,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,3,2024-03-02 00:00:00,TXN0728
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD004,4K Monitor,Electronics,299.99,2,2024-03-02 00:00:00,TXN0916
+CUST131,Kimberly Matthews,nicolepena@example.com,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-03-03 00:00:00,TXN0629
+CUST110,Evelyn Garcia,dgarcia@example.org,Portland,Standard,PROD004,4K Monitor,Electronics,299.99,4,2024-03-03 00:00:00,TXN0650
+CUST103,Bruce Collier Jr,scantu@hotmail.com,Atlanta,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-03-03 00:00:00,TXN0688
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-03 00:00:00,TXN0698
+CUST123,,christopherphillips@example.net,Phoenix,Basic,PROD001,Laptop,Electronics,999.99,1,2024-03-03 00:00:00,TXN0755
+CUST120,James Haney,patrickhoward@yahoo.com,Seattle,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-03-03 00:00:00,TXN0814
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-03 00:00:00,TXN0827
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD001,Laptop,Electronics,999.99,4,2024-03-03 00:00:00,TXN0836
+CUST058,Kristin Stewart Jr,usalazar@company.com,Chicago,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-03 00:00:00,TXN0856
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle, Standard ,PROD001,Laptop,Electronics,999.99,4,2024-03-03 00:00:00,TXN0890
+CUST103,Bruce Collier Jr,scantu@hotmail.com,Atlanta,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-03 00:00:00,TXN0932
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD007,Office Chair,Office Supplies,249.99,2,2024-03-03 00:00:00,TXN0972
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-03-04 00:00:00,TXN0795
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-04 00:00:00,TXN0853
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD001,Laptop,Electronics,999.99,3,2024-03-04 00:00:00,TXN0900
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium+,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-04 00:00:00,TXN0926
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-05 00:00:00,TXN0693
+CUST018,David Spence,millertodd@hotmail.com,Boston,Premium,PROD008,Standing Desk,Office Supplies,399.99,3,2024-03-05 00:00:00,TXN0712
+CUST001,Allison Hill,donaldgarcia@example.net,New York,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-05 00:00:00,TXN0720
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-03-05 00:00:00,TXN0734
+CUST096,,lmoon@example.net,Portland,Basic,PROD001,Laptop,Electronics,999.99,3,2024-03-05 00:00:00,TXN0837
+CUST026,,steven17@example.net,Chicago,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-03-05 00:00:00,TXN0839
+CUST095,David Johnston,keyemily@company.com,Denver,Premium,PROD008,Standing Desk,Office Supplies,399.99,4,2024-03-06 00:00:00,TXN0647
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-06 00:00:00,TXN0673
+CUST083,Daniel Washington,tina34@example.org,Chicago,BASIC,PROD004,4K Monitor,Electronics,299.99,4,2024-03-06 00:00:00,TXN0708
+CUST081,Matthew Warner,ronald85@outlook.com,Seattle,standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-06 00:00:00,TXN0729
+CUST070,Julie Oconnell,gary91@hotmail.com,Dallas,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-06 00:00:00,TXN0760
+CUST038,Denise Jacobs,james48@example.com,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-03-06 00:00:00,TXN0825
+CUST125,Terry Coffey,julie51@example.com,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,2,2024-03-06 00:00:00,TXN0889
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-03-06 00:00:00,TXN0946
+CUST148,Lindsay Bell,ericolson@example.org,Austin,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-07 00:00:00,TXN0652
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD011,Watering Can,Home & Garden,24.99,1,2024-03-07 00:00:00,TXN0719
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-07 00:00:00,TXN0747
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic+,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-07 00:00:00,TXN0772
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-07 00:00:00,TXN0777
+CUST103,Bruce Collier Jr,scantu@hotmail.com,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,4,2024-03-07 00:00:00,TXN0835
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-07 00:00:00,TXN0929
+CUST101,Peter Kim,omartinez@example.net,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-08 00:00:00,TXN0611
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-08 00:00:00,TXN0738
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD008,Standing Desk,Office Supplies,399.99,4,2024-03-08 00:00:00,TXN0758
+CUST071,Alexander Collins,tsanders@example.org,Atlanta,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-08 00:00:00,TXN0861
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-08 00:00:00,TXN0902
+CUST057,Amber Wright,bryantlaurie@example.net,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,-1,2024-03-08 00:00:00,TXN0959
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-03-08 00:00:00,TXN0987
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-03-09 00:00:00,TXN0607
+CUST079,Robert Peterson Jr,angela83@company.com,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-03-09 00:00:00,TXN0615
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-03-09 00:00:00,TXN0658
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD002,Wireless Mouse,Electronics,29.99,3,2024-03-09 00:00:00,TXN0667
+CUST100,April Booth,mgutierrez@example.net,Austin,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-03-09 00:00:00,TXN0682
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,basic,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-09 00:00:00,TXN0702
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-09 00:00:00,TXN0776
+CUST009,William Bowman Jr,lydiatrujillo@example.com,Denver,Standard,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-09 00:00:00,TXN0847
+CUST079,Robert Peterson Jr,angela83@company.com,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-09 00:00:00,TXN0880
+CUST051,Stephanie Gilbert,richard04@example.com,Phoenix,Basic,PROD008,Standing Desk,Office Supplies,399.99,4,2024-03-10 00:00:00,TXN0604
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD004,4K Monitor,Electronics,299.99,1,2024-03-10 00:00:00,TXN0757
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-10 00:00:00,TXN0759
+CUST019,Beth Keller,josephbrennan@example.com,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,2,2024-03-10 00:00:00,TXN0797
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-10 00:00:00,TXN0832
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-10 00:00:00,TXN0906
+CUST134,Tricia Williams,john29@example.org,Portland,Standard,PROD002,Wireless Mouse,Electronics,29.99,999,2024-03-10 00:00:00,TXN0983
+CUST074,Matthew Smith,gshort@example.com,Boston,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-10 00:00:00,TXN0990
+CUST133,Walter Rush,ndavis@example.net,Portland,Standard,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-11 00:00:00,TXN0677
+CUST053,Steven Flynn Jr,donnacampbell@gmail.com,Boston,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-03-11 00:00:00,TXN0690
+CUST058,Kristin Stewart Jr,usalazar@company.com,Chicago,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-11 00:00:00,TXN0711
+CUST044,Michael Reyes,garrisonjeffrey@example.com,Austin,Basic,PROD010,Plant Pot,Home & Garden,19.99,4,2024-03-11 00:00:00,TXN0749
+CUST130,Johnathan Davis,paulwatson@example.net,Dallas,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-03-11 00:00:00,TXN0948
+CUST037,,josephpreston@example.net,New York,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-03-12 00:00:00,TXN0616
+CUST130,Johnathan Davis,paulwatson@example.net,Dallas,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-12 00:00:00,TXN0623
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-03-12 00:00:00,TXN0721
+CUST085,Tony Little Jr,taylor75@example.org,Chicago,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-03-12 00:00:00,TXN0802
+CUST134,,john29@example.org,Portland,standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-12 00:00:00,TXN0829
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas, Premium ,PROD006,USB-C Hub,Electronics,59.99,3,2024-03-12 00:00:00,TXN0840
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-12 00:00:00,TXN0871
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-12 00:00:00,TXN0885
+CUST006,Jamie Arnold Jr,kendragalloway@example.org,New York,Premium,PROD001,Laptop,Electronics,999.99,1,2024-03-12 00:00:00,TXN0909
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-03-12 00:00:00,TXN0933
+CUST016,Mark Lynch,nathanielmartin@example.net,Atlanta,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-12 00:00:00,TXN0935
+CUST005,Ian Cooper,lindsay78@example.org,Chicago,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-03-12 00:00:00,TXN0952
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-03-13 00:00:00,TXN0617
+CUST113,Stacy Mccall,williamsonjimmy@company.com,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-13 00:00:00,TXN0655
+CUST079,Robert Peterson Jr,angela83@company.com,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-13 00:00:00,TXN0660
+CUST015,Deborah Mason,williamrodriguez@example.net,Seattle,Standard,PROD004,4K Monitor,Electronics,299.99,1,2024-03-13 00:00:00,TXN0692
+CUST014,Patricia Peterson Jr,ryan70@company.com,Seattle,Standard,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-13 00:00:00,TXN0806
+CUST050,Mary Terry,jamesortega@example.com,Boston,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-13 00:00:00,TXN0823
+CUST117,Thomas Thomas,dlittle@example.com,Phoenix,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-03-13 00:00:00,TXN0901
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-03-13 00:00:00,TXN0927
+CUST087,Melissa Hernandez,christopher31@example.net,Phoenix,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-13 00:00:00,TXN0942
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-13 00:00:00,TXN0997
+CUST140,Judith Parks,lutzmelanie@gmail.com,Seattle,Standard,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-14 00:00:00,TXN0630
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-03-14 00:00:00,TXN0632
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-14 00:00:00,TXN0633
+CUST048,Jeffrey Lam,jonathanfletcher@example.org,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-14 00:00:00,TXN0752
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-03-14 00:00:00,TXN0788
+CUST001,Allison Hill,donaldgarcia@example.net,New York,Basic,PROD001,Laptop,Electronics,999.99,4,2024-03-14 00:00:00,TXN0791
+CUST115,Robert Carter,ryan38@example.com,Portland,premium,PROD001,Laptop,Electronics,999.99,3,2024-03-14 00:00:00,TXN0813
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD002,Wireless Mouse,Electronics,29.99,4,2024-03-14 00:00:00,TXN0949
+CUST107,Mary Grimes,wryan@example.com,Boston,Premium+,PROD001,Laptop,Electronics,999.99,1,2024-03-14 00:00:00,TXN0966
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-03-14 00:00:00,TXN0973
+CUST085,Tony Little Jr,taylor75@example.org,Chicago,Premium,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-03-15 00:00:00,TXN0601
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,BASIC,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-03-15 00:00:00,TXN0627
+CUST149,Justin Wilson,audrey68@example.net,Phoenix,Basic,PROD001,Laptop,Electronics,999.99,1,2024-03-15 00:00:00,TXN0648
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-15 00:00:00,TXN0715
+CUST134,Tricia Williams,john29@example.org,Portland,Standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-15 00:00:00,TXN0724
+CUST028,John Smith,ybaker@example.com,Denver,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-15 00:00:00,TXN0732
+CUST051,Stephanie Gilbert,richard04@example.com,Phoenix,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-15 00:00:00,TXN0848
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium+,PROD005,Noise Cancelling Headphones,Electronics,149.99,2,2024-03-15 00:00:00,TXN0862
+CUST067,David Murphy,wmurphy@example.com,Denver,Standard,PROD010,Plant Pot,Home & Garden,19.99,3,2024-03-15 00:00:00,TXN0881
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-15 00:00:00,TXN0924
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD007,Office Chair,Office Supplies,249.99,2,2024-03-15 00:00:00,TXN0964
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,PREMIUM,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-16 00:00:00,TXN0665
+CUST140,Judith Parks,lutzmelanie@gmail.com,Seattle,Standard,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-16 00:00:00,TXN0683
+CUST004,Jay Ramirez,susanrogers@example.org,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,1,2024-03-16 00:00:00,TXN0705
+CUST122,Connor Williams,courtneyberger@company.com,Chicago,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-16 00:00:00,TXN0819
+CUST073,Barbara Riggs,reedross@example.com,Dallas,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-03-16 00:00:00,TXN0865
+CUST150,Maria Johnson,anthony44@example.com,Austin,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-16 00:00:00,TXN0883
+CUST110,Evelyn Garcia,dgarcia@example.org,Portland,Standard,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-16 00:00:00,TXN0893
+CUST014,,ryan70@company.com,Seattle,Standard,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-17 00:00:00,TXN0621
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-17 00:00:00,TXN0624
+CUST083,Daniel Washington,tina34@example.org,Chicago, Basic ,PROD004,4K Monitor,Electronics,299.99,4,2024-03-17 00:00:00,TXN0643
+CUST148,Lindsay Bell,ericolson@example.org,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-03-17 00:00:00,TXN0700
+CUST108,Kimberly Hall,vwilliams@example.com,New York,PREMIUM,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-17 00:00:00,TXN0792
+CUST079,Robert Peterson Jr,angela83@company.com,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-17 00:00:00,TXN0810
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD004,4K Monitor,Electronics,299.99,3,2024-03-17 00:00:00,TXN0850
+CUST054,Frances Cardenas,emilywalker@example.org,Portland, Standard ,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-03-17 00:00:00,TXN0891
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD009,Desk Lamp,Office Supplies,89.99,4,2024-03-17 00:00:00,TXN0945
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-17 00:00:00,TXN0950
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-17 00:00:00,TXN0951
+CUST028,John Smith,ybaker@example.com,Denver,standard,PROD001,Laptop,Electronics,999.99,2,2024-03-17 00:00:00,TXN0961
+CUST118,Stephanie Marshall,erica21@example.com,Denver,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-17 00:00:00,TXN0967
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-18 00:00:00,TXN0639
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-03-18 00:00:00,TXN0689
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-18 00:00:00,TXN0725
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-18 00:00:00,TXN0914
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,4,2024-03-18 00:00:00,TXN0969
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-18 00:00:00,TXN0971
+CUST144,Jesse Perry,edwardslarry@example.com,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,2,2024-03-18 00:00:00,TXN0989
+CUST020,Tanya Santos,clam@example.org,Phoenix,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,2,2024-03-18 00:00:00,TXN0996
+CUST068,Trevor Fisher,ruizkaitlyn@example.org,New York,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-19 00:00:00,TXN0609
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-03-19 00:00:00,TXN0680
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-03-19 00:00:00,TXN0842
+CUST077,Samuel Rivas Jr,ramirezshannon@hotmail.com,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,2,2024-03-19 00:00:00,TXN0868
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,2,2024-03-20 00:00:00,TXN0718
+CUST081,Matthew Warner,ronald85@outlook.com,Seattle,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-20 00:00:00,TXN0733
+CUST025,Maria Brown,lauren13@example.org,Atlanta,Standard,PROD002,Wireless Mouse,Electronics,29.99,3,2024-03-20 00:00:00,TXN0816
+CUST016,Mark Lynch,nathanielmartin@example.net,Atlanta,Basic,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-20 00:00:00,TXN0818
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,3,2024-03-20 00:00:00,TXN0831
+CUST099,Brandon King,cordovarichard@example.net,Atlanta,Standard,PROD001,Laptop,Electronics,999.99,1,2024-03-20 00:00:00,TXN0894
+CUST048,Jeffrey Lam,jonathanfletcher@example.org,Portland,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-03-21 00:00:00,TXN0618
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD004,4K Monitor,Electronics,299.99,4,2024-03-21 00:00:00,TXN0622
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,4,2024-03-21 00:00:00,TXN0628
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-21 00:00:00,TXN0651
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD008,Standing Desk,Office Supplies,399.99,4,2024-03-21 00:00:00,TXN0754
+CUST042,Rebecca Deleon,vdickson@example.org,Dallas,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-21 00:00:00,TXN0798
+CUST106,Richard Adams,campbellkenneth@example.net,Austin, Basic ,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-21 00:00:00,TXN0817
+CUST018,David Spence,millertodd@hotmail.com,Boston,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-03-21 00:00:00,TXN0826
+CUST027,Matthew Fernandez,novaksara@example.org,Atlanta,Standard,PROD001,Laptop,Electronics,999.99,3,2024-03-21 00:00:00,TXN0864
+CUST121,William Crawford,kimberly39@example.com,Austin,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-03-21 00:00:00,TXN0877
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-21 00:00:00,TXN0910
+CUST058,Kristin Stewart Jr,usalazar@company.com,Chicago,Premium,PROD008,Standing Desk,Office Supplies,399.99,-1,2024-03-21 00:00:00,TXN0956
+CUST002,Angie Johnson,davisjesse@company.com,New York,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-21 00:00:00,TXN0968
+CUST100,April Booth,mgutierrez@example.net,Austin,Standard,PROD007,Office Chair,Office Supplies,249.99,0,2024-03-21 00:00:00,TXN0991
+CUST072,Michael Burton Jr,terrykevin@yahoo.com,Austin,Premium+,PROD012,Garden Tool Set,Home & Garden,79.99,1,2024-03-22 00:00:00,TXN0606
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,1,2024-03-22 00:00:00,TXN0703
+CUST095,David Johnston,keyemily@company.com,Denver,Premium,PROD004,4K Monitor,Electronics,299.99,3,2024-03-22 00:00:00,TXN0714
+CUST091,David Mann Jr,ronaldstephens@example.net,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-22 00:00:00,TXN0768
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD004,4K Monitor,Electronics,299.99,2,2024-03-23 00:00:00,TXN0634
+CUST121,William Crawford,kimberly39@example.com,Austin,Standard,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-23 00:00:00,TXN0762
+CUST115,Robert Carter,ryan38@example.com,Portland,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-23 00:00:00,TXN0851
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-23 00:00:00,TXN0863
+CUST104,Jennifer Reyes,jsanchez@yahoo.com,New York,Standard,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-23 00:00:00,TXN0872
+CUST030,,brian97@example.net,Denver,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-23 00:00:00,TXN0980
+CUST114,Nicole Hamilton MD,wallaceheather@example.org,Dallas,PREMIUM,PROD004,4K Monitor,Electronics,299.99,3,2024-03-23 00:00:00,TXN0993
+CUST146,Parker Cain,willisanna@example.com,Austin,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-03-24 00:00:00,TXN0637
+CUST008,Timothy Wong,amandasanchez@example.com,Dallas,Standard,PROD007,Office Chair,Office Supplies,249.99,2,2024-03-24 00:00:00,TXN0800
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-24 00:00:00,TXN0907
+CUST035,Ariel Medina,david51@example.org,Boston,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-24 00:00:00,TXN0974
+CUST111,Jennifer Pena,charlesharrington@example.com,Seattle,Premium,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-25 00:00:00,TXN0603
+CUST081,Matthew Warner,ronald85@outlook.com,Seattle,Standard,PROD010,Plant Pot,Home & Garden,19.99,4,2024-03-25 00:00:00,TXN0610
+CUST048,,jonathanfletcher@example.org,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-25 00:00:00,TXN0620
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-03-25 00:00:00,TXN0669
+CUST026,Jerry Henderson,steven17@example.net,Chicago,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-03-25 00:00:00,TXN0913
+CUST037,Elizabeth Alvarado,josephpreston@example.net,New York,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-03-26 00:00:00,TXN0644
+CUST013,Julie King,frazierdanny@example.net,Austin,Basic+,PROD001,Laptop,Electronics,999.99,1,2024-03-26 00:00:00,TXN0653
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD001,Laptop,Electronics,999.99,4,2024-03-26 00:00:00,TXN0659
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-26 00:00:00,TXN0686
+CUST082,David Martinez,leslienewton@example.net,Seattle,Basic,PROD010,Plant Pot,Home & Garden,19.99,2,2024-03-26 00:00:00,TXN0784
+CUST089,Natalie Meza,colleenbaker@example.org,Austin, Premium ,PROD006,USB-C Hub,Electronics,59.99,2,2024-03-26 00:00:00,TXN0787
+CUST017,Linda Burns,hickmannatasha@example.com,Chicago,Basic,PROD006,USB-C Hub,Electronics,59.99,3,2024-03-26 00:00:00,TXN0866
+CUST031,Kim Brown,yorkcasey@example.org,Boston,Basic,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-26 00:00:00,TXN0882
+CUST023,Mr. Lee,esanchez@company.com,Seattle,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,4,2024-03-26 00:00:00,TXN0892
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-27 00:00:00,TXN0656
+CUST036,Christopher Bass,cheryl80@example.net,New York,Premium,PROD004,4K Monitor,Electronics,299.99,3,2024-03-27 00:00:00,TXN0674
+CUST006,Jamie Arnold Jr,kendragalloway@example.org,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-03-27 00:00:00,TXN0746
+CUST039,Terry Williams Jr,kellie42@example.net,Boston,Standard,PROD001,Laptop,Electronics,999.99,2,2024-03-27 00:00:00,TXN0753
+CUST112,Michael Santos Jr,melissa86@outlook.com,Chicago,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-27 00:00:00,TXN0779
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD004,4K Monitor,Electronics,299.99,2,2024-03-27 00:00:00,TXN0855
+CUST003,Matthew Blake,shaneramirez@company.com,Denver, Premium ,PROD008,Standing Desk,Office Supplies,399.99,2,2024-03-27 00:00:00,TXN0858
+CUST084,Eric Erickson,joshuamccann@example.net,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-27 00:00:00,TXN0867
+CUST047,Ashley Waller,beverlyterrell@example.org,Dallas,Premium,PROD011,Watering Can,Home & Garden,24.99,3,2024-03-27 00:00:00,TXN0878
+CUST013,Julie King,frazierdanny@example.net,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,1,2024-03-27 00:00:00,TXN0908
+CUST078,Mary Rogers,lrosales@example.com,Atlanta,PREMIUM,PROD009,Desk Lamp,Office Supplies,89.99,2,2024-03-27 00:00:00,TXN0954
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium+,PROD002,Wireless Mouse,Electronics,29.99,2,2024-03-27 00:00:00,TXN0988
+CUST146,Parker Cain,willisanna@example.com,Austin,Premium,PROD001,Laptop,Electronics,999.99,4,2024-03-28 00:00:00,TXN0727
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-03-28 00:00:00,TXN0803
+CUST062,Jason Daniels Jr,gateskathy@example.com,Chicago,Basic,PROD001,Laptop,Electronics,999.99,4,2024-03-28 00:00:00,TXN0869
+CUST057,Amber Wright,bryantlaurie@example.net,Atlanta,Premium,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-28 00:00:00,TXN0874
+CUST003,Matthew Blake,shaneramirez@company.com,Denver,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-03-28 00:00:00,TXN0912
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-03-28 00:00:00,TXN0941
+CUST064,Kimberly Morrison,tracynelson@example.com,Atlanta,Standard,PROD008,Standing Desk,Office Supplies,399.99,3,2024-03-28 00:00:00,TXN0943
+CUST116,Rebecca Jackson,lynchpatrick@example.net,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-03-28 00:00:00,TXN0958
+CUST091,David Mann Jr,ronaldstephens@example.net,Seattle,Premium,PROD008,Standing Desk,Office Supplies,399.99,2,2024-03-29 00:00:00,TXN0612
+CUST077,,ramirezshannon@hotmail.com,Seattle,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-29 00:00:00,TXN0613
+CUST102,Michelle Collins,tranchristopher@example.org,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-29 00:00:00,TXN0739
+CUST051,Stephanie Gilbert,richard04@example.com,Phoenix,Basic,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-29 00:00:00,TXN0744
+CUST128,Kaitlyn Harvey,rose31@example.net,Phoenix,basic,PROD001,Laptop,Electronics,999.99,4,2024-03-29 00:00:00,TXN0750
+CUST130,,paulwatson@example.net,Dallas,PREMIUM,PROD007,Office Chair,Office Supplies,249.99,1,2024-03-29 00:00:00,TXN0849
+CUST105,Katie Suarez,hillkristy@example.com,Atlanta,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-29 00:00:00,TXN0857
+CUST050,Mary Terry,jamesortega@example.com,Boston,Premium,PROD009,Desk Lamp,Office Supplies,89.99,1,2024-03-29 00:00:00,TXN0884
+CUST098,Shannon Rivera,zroberts@example.net,New York,Premium,PROD006,USB-C Hub,Electronics,59.99,1,2024-03-29 00:00:00,TXN0937
+CUST054,Frances Cardenas,emilywalker@example.org,Portland,Standard+,PROD010,Plant Pot,Home & Garden,19.99,3,2024-03-29 00:00:00,TXN0977
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD011,Watering Can,Home & Garden,24.99,4,2024-03-29 00:00:00,TXN0981
+CUST069,Mrs. Howell,davidcaldwell@example.net,Austin,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-03-29 00:00:00,TXN0985
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD008,Standing Desk,Office Supplies,399.99,2,2024-03-29 00:00:00,TXN0995
+CUST071,Alexander Collins,tsanders@example.org,Atlanta,Standard,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-30 00:00:00,TXN0641
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-30 00:00:00,TXN0646
+CUST022,Crystal Whitehead,chad34@example.net,Seattle,Premium,PROD004,4K Monitor,Electronics,299.99,3,2024-03-30 00:00:00,TXN0675
+CUST129,Susan Turner,cwilson@example.org,Atlanta,Basic,PROD007,Office Chair,Office Supplies,249.99,4,2024-03-30 00:00:00,TXN0687
+CUST046,Benjamin Ayala,darlene68@example.com,Atlanta,Basic,PROD004,4K Monitor,Electronics,299.99,3,2024-03-30 00:00:00,TXN0766
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,3,2024-03-30 00:00:00,TXN0781
+CUST145,Christian Leblanc,davischristopher@example.com,New York,premium,PROD001,Laptop,Electronics,999.99,2,2024-03-30 00:00:00,TXN0815
+CUST134,Tricia Williams,john29@example.org,Portland,Standard,PROD008,Standing Desk,Office Supplies,399.99,1,2024-03-30 00:00:00,TXN0828
+CUST080,Jason West,davisjeffrey@example.net,Chicago,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-03-30 00:00:00,TXN0838
+CUST141,,cameronhill@outlook.com,Phoenix,Standard,PROD008,Standing Desk,Office Supplies,399.99,2,2024-03-30 00:00:00,TXN0919
+CUST043,Cynthia Martin Jr,kimberly63@example.com,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,2,2024-03-30 00:00:00,TXN0934
+CUST075,Madison Poole,ryangross@example.net,Denver,Premium+,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-30 00:00:00,TXN0960
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD003,Mechanical Keyboard,Electronics,79.99,1,2024-03-30 00:00:00,TXN0986
+CUST138,Patrick Fox,alvarezkimberly@example.net,Boston,Basic,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-03-31 00:00:00,TXN0638
+CUST034,Michael Howell,sarah10@hotmail.com,Boston,Standard,PROD004,4K Monitor,Electronics,299.99,2,2024-03-31 00:00:00,TXN0642
+CUST045,Robert Savage,andrewlee@example.com,Denver,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-03-31 00:00:00,TXN0694
+CUST135,Phillip Clark,lisahall@example.org,Phoenix,BASIC,PROD002,Wireless Mouse,Electronics,29.99,3,2024-03-31 00:00:00,TXN0699
+CUST126,Brenda Levy,zcoffey@example.net,Atlanta,Premium,PROD001,Laptop,Electronics,999.99,2,2024-03-31 00:00:00,TXN0722
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD011,Watering Can,Home & Garden,24.99,3,2024-03-31 00:00:00,TXN0736
+CUST092,Derek Thomas,martinkyle@example.net,Austin,Premium,PROD010,Plant Pot,Home & Garden,19.99,1,2024-03-31 00:00:00,TXN0767
+CUST052,Richard Lawson,steven73@example.net,New York,Standard,PROD003,Mechanical Keyboard,Electronics,79.99,3,2024-03-31 00:00:00,TXN0773
+CUST024,Jeffrey Henderson,dshields@example.net,Portland,Premium,PROD006,USB-C Hub,Electronics,59.99,4,2024-03-31 00:00:00,TXN0799
+CUST077,Samuel Rivas Jr,ramirezshannon@hotmail.com,Seattle,Premium,PROD002,Wireless Mouse,Electronics,29.99,4,2024-03-31 00:00:00,TXN0820
+CUST065,George Shelton,dramsey@example.org,Boston,Premium,PROD010,Plant Pot,Home & Garden,19.99,3,2024-03-31 00:00:00,TXN0860
+CUST147,Jennifer Russo,uparrish@example.org,Austin,Basic,PROD004,4K Monitor,Electronics,299.99,3,2024-03-31 00:00:00,TXN0873
+CUST134,Tricia Williams,john29@example.org,Portland,Standard+,PROD004,4K Monitor,Electronics,299.99,3,2024-03-31 00:00:00,TXN0917
+CUST122,Connor Williams,courtneyberger@company.com,Chicago,Premium,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-03-31 00:00:00,TXN0957
+CUST132,Teresa Garcia,amy50@example.com,Austin,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,3,2024-03-31 00:00:00,TXN0975
+CUST089,Natalie Meza,colleenbaker@example.org,Austin,Premium,PROD011,Watering Can,Home & Garden,24.99,2,2024-03-31 00:00:00,TXN0978
+CUST046,Benjamin Ayala,darlene68@example.com,Atlanta,Basic,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-03-31 00:00:00,TXN0979

@@ -1,0 +1,23 @@
+customer_id,customer_name,email,city,loyalty_tier,product_id,product_name,category,unit_price,quantity,transaction_date,transaction_id
+CUST142,Jane Harper,shawn96@example.org,New York,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-01 00:00:00,TXN0041
+CUST030,Lauren Daniels,brian97@example.net,Denver,Premium,PROD007,Office Chair,Office Supplies,249.99,5,2024-01-01 00:00:00,TXN0065
+CUST041,Sandra Aguilar,russellwilliams@example.com,Austin,Standard,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-01 00:00:00,TXN0072
+CUST088,Lisa Gibbs,kimberlyjames@example.com,Boston,Basic,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-01 00:00:00,TXN0080
+CUST094,Kathryn Snyder,georgepamela@example.net,New York,Standard,PROD002,Wireless Mouse,Electronics,29.99,4,2024-01-01 00:00:00,TXN0128
+CUST080,Jason Peters,hannahbrewer@example.com,Dallas,Premium,PROD006,USB-C Hub,Electronics,59.99,3,2024-01-01 00:00:00,TXN0186
+CUST121,William Barrett,alan09@example.net,Portland,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,5,2024-01-01 00:00:00,TXN0367
+CUST121,William Barrett,alan09@example.net,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,2,2024-01-01 00:00:00,TXN0414
+CUST066,Ms. Susan Vargas,millerroy@example.com,Boston,Standard,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-01 00:00:00,TXN0426
+CUST150,Maria Johnson,anthony44@example.com,Austin,Premium+,PROD012,Garden Tool Set,Home & Garden,79.99,5,2024-01-01 00:00:00,TXN0434
+CUST033,Kevin Mills,james53@example.com,Atlanta,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-01 00:00:00,TXN0463
+CUST009,William Bowman,gabriellecameron@example.org,Phoenix,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-01 00:00:00,TXN0512
+CUST093,Tammy Gonzales,sbarker@example.com,Portland,Premium,PROD002,Wireless Mouse,Electronics,29.99,1,2024-01-01 00:00:00,TXN0550
+CUST083,Daniel Washington,tina34@example.org,Chicago,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-02 00:00:00,TXN0054
+CUST076,Robert Medina,umarshall@example.net,Chicago,Basic,PROD012,Garden Tool Set,Home & Garden,79.99,3,2024-01-02 00:00:00,TXN0114
+CUST061,Joshua Taylor,patrickhernandez@example.org,Dallas,Basic,PROD010,Plant Pot,Home & Garden,19.99,3,2024-01-02 00:00:00,TXN0154
+CUST109,Roberta Hughes,tylerjohnson@example.net,Portland,Premium,PROD009,Desk Lamp,Office Supplies,89.99,3,2024-01-02 00:00:00,TXN0247
+CUST021,Austin Smith,briannasmith@example.net,Austin,Basic,PROD006,USB-C Hub,Electronics,59.99,2,2024-01-02 00:00:00,TXN0269
+CUST132,Teresa Ramirez,jeff73@example.com,Phoenix,BASIC,PROD012,Garden Tool Set,Home & Garden,79.99,2,2024-01-02 00:00:00,TXN0310
+CUST072,Michael Burton,terrykevin@example.net,New York,Basic+,PROD004,4K Monitor,Electronics,299.99,1,2024-01-02 00:00:00,TXN0318
+CUST087,Melissa Hernandez,christopher31@example.net,Phoenix,Standard,PROD010,Plant Pot,Home & Garden,19.99,1,2024-01-02 00:00:00,TXN0346
+CUST145,Christian Leblanc,davischristopher@example.com,New York,Premium,PROD005,Noise Cancelling Headphones,Electronics,149.99,4,2024-01-02 00:00:00,TXN0384
