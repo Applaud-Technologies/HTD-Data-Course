@@ -1,0 +1,1001 @@
+customer_id,customer_name,email,address,customer_segment,product_id,product_name,category,brand,unit_cost,order_date,order_id,line_item_number,quantity,unit_price,discount_amount
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-10-20 18:27:31,ORD000001,2,1,70.89,0.0
+CUST021,Jennifer Thomas Jr,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-09-09 18:43:37,ORD000002,3,2,40.9,3.58
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD005,Wireles Charger,Electronics,PowerTech,15.0,2024-08-20 12:13:49,ORD000003,2,1,33.91,1.69
+CUST025,Thomas Brown,thomas.brown@email.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-04-07 16:45:14,ORD000004,3,3,28.05,0.0
+CUST145,Anthony Hill,anthony.hill@email.com,"1797 Church Pl, Washington CO",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-01-11 14:01:29,ORD000005,1,3,36.05,5.88
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-03-15 09:25:01,ORD000005,1,3,94.24,19.77
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-04-21 21:06:15,ORD000005,3,1,12.46,1.71
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-03-26 20:10:04,ORD000005,3,1,25.09,0.0
+CUST066,Sarah Taylor,sarah.taylor@email.com,"3567 Seventh Ct, Oklahoma City CO",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-03-30 19:52:41,ORD000005,1,1,25.75,0.82
+CUST150,Nicole Hernandez,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-07-13 18:04:11,ORD000006,3,1,66.1,0.0
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-06-23 22:56:36,ORD000006,3,5,37.16,9.02
+CUST084,Emily Brown,emily.brown@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-01-18 15:28:40,ORD000007,2,2,65.84,0.49
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-01-15 13:53:18,ORD000008,3,3,342.62,31.61
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-05-28 16:50:47,ORD000009,1,1,28.09,0.92
+CUST092,Ryan Torres,ryan.torres@email.com,"2137 Seventh Ln, Denver MD",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-08 10:03:28,ORD000010,2,5,20.83,3.36
+CUST138,Helen Ramirez,helenramirez@gmail.com,"8132 Union Way, San Antonio TX",VIP,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-10-19 15:33:33,ORD000011,1,1,93.36,8.28
+CUST132,William Gomez,williamgomez@hotmail.com,"1224 Broad Pl, Atlanta NC",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-11-29 08:50:40,ORD000011,2,1,33.5,2.03
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-06 18:58:38,ORD000012,1,1,20.65,0.15
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-12-24 18:25:08,ORD000013,3,4,73.9,0.0
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-07-27 10:42:44,ORD000014,3,5,34.94,0.0
+CUST131,Jennifer Evans,jennifer.evans@email.com,"3575 Center St, Baltimore PA",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-04-18 16:23:01,ORD000015,2,1,132.84,0.0
+CUST042,Ronald Miller,ronaldmiller@yahoo.com,"6758 Spring Rd, Nashville WI",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-03 10:04:18,ORD000016,1,2,20.31,0.0
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-07-08 18:21:56,ORD000016,3,1,57.03,0.0
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-16 17:51:57,ORD000017,3,1,12.53,0.42
+CUST084,Emily Phillips,emily.phillips@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-12-02 12:48:47,ORD000018,2,1,35.82,1.73
+CUST037,Brenda Adams Jr,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-10-01 18:36:28,ORD000018,2,3,90.09,0.0
+CUST031,Sarah Brown,sarah.brown@email.com,"8338 Water Pl, Miami MD",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-28 11:51:38,ORD000019,2,1,39.68,1.68
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-04 16:54:07,ORD000019,1,3,63.63,8.64
+CUST083,William Green,william.green@email.com,"300 Church Ln, Albuquerque PA",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-01-24 22:14:52,ORD000020,2,4,86.93,6.89
+CUST072,Elizabeth Jones,elizabeth.jones@email.com,"307 Water Blvd, Tucson CO",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-01-21 13:14:01,ORD000021,1,3,95.39,0.0
+CUST026,Kevin Lewis,kevin.lewis@email.com,"7012 Elm Ln, Dallas TX",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-01-10 12:58:53,ORD000021,3,3,55.17,3.88
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-05 12:13:53,ORD000022,3,4,41.73,0.0
+CUST054,Laura Roberts,laura.roberts@email.com,"7561 Sixth Dr, Phoenix AZ",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-03-01 12:07:03,ORD000023,2,2,419.64,2.64
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-01 16:01:40,ORD000023,3,1,21.43,0.0
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-03-31 11:36:26,ORD000024,3,2,13.11,2.26
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-11-05 20:32:35,ORD000024,2,3,65.38,8.48
+CUST147,Sharon Roberts,sharon.roberts@email.com,"9221 Main Ln, Omaha MN",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-01-05 13:50:04,ORD000025,1,2,157.68,40.1
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-04 08:22:34,ORD000025,3,1,100.04,0.0
+CUST136,Jennifer Mitchell,jennifermitchell@gmail.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-10-29 18:11:51,ORD000026,1,2,47.09,0.17
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-09 13:59:19,ORD000027,2,5,25.42,1.61
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-03-14 13:55:49,ORD000027,3,1,127.46,0.0
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-07-09 15:57:24,ORD000028,1,1,89.9,6.78
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-07-05 14:05:27,ORD000029,1,2,74.27,3.68
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-10-21 17:45:27,ORD000030,3,1,12.72,0.81
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-04-21 12:40:50,ORD000030,1,2,144.36,29.25
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-07-06 10:54:38,ORD000030,2,1,16.53,1.1
+CUST072,Elizabeth Jones,elizabeth.jones@email.com,"307 Water Blvd, Tucson CO",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-25 08:38:09,ORD000031,2,4,18.97,0.0
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-05 16:23:25,ORD000031,3,1,106.57,0.14
+CUST102,John Scott,johnscott@outlook.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-10-06 22:35:07,ORD000032,2,2,22.14,1.35
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-02-21 09:08:54,ORD000033,2,1,325.59,16.23
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-06-19 13:45:04,ORD000033,3,1,32.19,0.0
+CUST138,Helen Ramirez,helenramirez@gmail.com,"8132 Union Way, San Antonio TX",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-12-25 18:11:50,ORD000034,3,1,179.1,23.14
+CUST097,Robert Hernandez,robert.hernandez@email.com,"8217 Second Blvd, El Paso MA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-01-07 13:35:36,ORD000035,2,3,153.09,0.0
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-01-17 12:25:45,ORD000036,2,2,132.91,35.18
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-06-13 09:28:29,ORD000037,3,1,23.01,0.0
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-05-30 10:49:08,ORD000037,3,4,12.32,1.35
+CUST032,Lisa Lopez,lisa.lopez@email.com,"9849 Pine Dr, Phoenix AZ",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-02-11 13:59:45,ORD000038,2,4,403.01,22.89
+CUST038,Amy Scott,amy.scott@email.com,"4562  Second  Dr,  San  Jose  CA",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-06-11 16:17:08,ORD000039,2,2,33.49,2.15
+CUST114,Brian Baker,brian.baker@email.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-02-09 10:42:39,ORD000040,3,1,140.34,0.29
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-01-12 18:49:36,ORD000040,3,1,25.71,0.0
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-05-07 22:40:34,ORD000041,3,4,69.51,0.0
+CUST056,Sarah Scott,sarah.scott@email.com,"2088 Seventh Rd, San Francisco CA",Basic,PROD006,USBCable,Electronics,ConnectCorp,3.0,2024-04-26 09:44:03,ORD000042,2,1,12.81,0.0
+CUST027,David Lewis,david.lewis@email.com,"928 Center Pl, Kansas City PA",Basic,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-03-21 21:45:20,ORD000043,2,5,102.27,0.0
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-01-28 13:15:29,ORD000044,2,1,21.4,0.0
+CUST072,Elizabeth Jones,elizabeth.jones@email.com,"307 Water Blvd, Tucson CO",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-09 17:26:15,ORD000045,1,3,23.46,0.0
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-14 10:31:32,ORD000045,2,3,89.9,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-05-09 15:15:13,ORD000046,2,1,41.06,1.23
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-30 12:34:00,ORD000046,1,1,23.05,1.47
+CUST068,Amanda Gonzalez,amandagonzalez@outlook.com,"2596 Park Rd, Los Angeles CA",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-07-10 14:03:36,ORD000046,1,1,32.03,0.62
+CUST108,Michael Lee,michael.lee@email.com,"6425 Mill Rd, Milwaukee MA",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-03-12 21:39:43,ORD000047,1,1,67.09,1.25
+CUST109,John Campbell,john.campbell@email.com,"6817 Water Rd, San Jose CA",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-08-28 13:48:09,ORD000047,3,2,19.99,2.18
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-24 15:33:29,ORD000048,3,3,34.23,0.0
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-02-11 14:39:47,ORD000048,2,2,30.08,0.0
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-30 17:19:30,ORD000049,1,1,32.07,1.57
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-08-11 19:40:01,ORD000050,2,1,84.97,4.13
+CUST043,Paul Johnson,paul.johnson@email.com,"6845 State Dr, Jacksonville CO",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-03 08:37:30,ORD000051,3,2,13.61,1.92
+CUST133,Angela Martinez,angela.martinez@email.com,"4642 Water Rd, Raleigh FL",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-03-03 08:36:44,ORD000052,1,1,23.13,0.0
+CUST135,Michelle Lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-02-22 14:32:49,ORD000053,2,3,87.54,6.23
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-05-23 13:42:30,ORD000054,2,1,21.72,1.62
+CUST067,Stephanie Carter,stephanie.carter@email.com,"1441 Walnut St, Las Vegas WA",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-06-22 20:55:46,ORD000055,3,3,18.11,1.32
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-05-22 12:14:19,ORD000055,2,2,64.55,0.0
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-08-27 22:50:46,ORD000056,2,1,26.76,0.0
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-28 13:49:51,ORD000057,2,1,47.27,1.17
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-09-02 19:30:13,ORD000057,3,1,20.49,0.0
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-06-06 19:37:15,ORD000058,1,2,404.96,47.2
+CUST077,timothy walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-25 19:30:06,ORD000059,1,1,20.39,1.54
+CUST092,Ryan Torres,ryan.torres@email.com,"2137 Seventh Ln, Denver MD",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-05-02 18:12:48,ORD000060,2,1,57.65,2.22
+CUST044,Robert Harris,robert.harris@email.com,"7811 Park Dr, Chicago IL",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-05-16 19:46:54,ORD000061,1,4,30.44,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-08-27 22:02:53,ORD000061,2,1,32.98,4.53
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD004,SmartphoneCase,Electronics,ProtectPlus,8.0,2024-01-03 12:36:38,ORD000062,2,1,29.88,0.81
+CUST025,Thomas Brown,thomasbrown@yahoo.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-11-05 15:17:12,ORD000063,1,1,43.69,0.0
+CUST140,Anthony Robinson,anthony.robinson@email.com,"7148 Maple Ave, Tucson MN",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-02-17 08:47:21,ORD000064,2,2,44.11,0.0
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-08-17 14:52:27,ORD000065,2,1,26.68,0.83
+CUST059,David Rivera,davidrivera@yahoo.com,"4551 Third Ct, Denver NC",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-31 08:16:24,ORD000066,2,3,472.63,0.0
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-05-26 08:16:41,ORD000067,3,1,160.06,3.72
+CUST134,Brenda Lopez,brenda.lopez@email.com,"522 Cedar St, San Diego CA",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-05-08 22:57:56,ORD000068,2,2,31.65,2.98
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-26 10:30:09,ORD000069,3,5,85.44,0.0
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-07-12 16:51:42,ORD000069,1,3,32.15,0.0
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-05-14 15:33:45,ORD000070,1,4,126.72,0.0
+CUST100,Carol Green,carol.green@email.com,"3435 First Pl, Louisville FL",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-02-21 17:34:09,ORD000070,2,3,12.69,2.32
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-24 22:32:28,ORD000070,1,1,40.2,0.0
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-06-21 20:19:46,ORD000071,2,1,64.09,0.7
+CUST080,Mark Davis,mark.davis@email.com,"3238 Washington Way, Sacramento OH",Premium,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-03-29 19:04:34,ORD000072,1,5,148.31,27.6
+CUST025,Thomas Brown,thomasbrown@yahoo.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-12-10 19:41:26,ORD000073,2,1,175.02,0.0
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-06-23 18:55:34,ORD000074,3,3,33.89,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-05-15 10:46:14,ORD000074,1,3,35.73,2.48
+CUST080,Mark Davis,mark.davis@email.com,"3238 Washington Way, Sacramento OH",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-05-16 14:52:14,ORD000074,2,1,364.09,27.76
+CUST021,Jennifer Thomas Jr,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-07-07 20:42:26,ORD000074,1,1,66.15,3.68
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-06-29 21:03:15,ORD000075,1,1,107.24,3.54
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-02-05 16:18:14,ORD000075,3,2,30.92,4.1
+CUST045,Melissa Evans,melissa.evans@email.com,"487 Mill Dr, Charlotte NC",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-03-18 22:09:42,ORD000075,1,1,22.74,0.63
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-08-21 10:40:43,ORD000076,3,1,17.82,0.0
+CUST131,Jennifer Evans,JENNIFER.EVANS@EMAIL.COM,"3575 Center St, Baltimore PA",VIP,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-04-07 20:33:20,ORD000076,2,1,27.59,1.89
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-08-05 11:19:54,ORD000077,1,3,34.97,5.64
+CUST109,John Campbell,john.campbell@email.com,"6817 Water Rd, San Jose CA",VIP,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-05-15 10:24:15,ORD000077,1,1,20.78,1.97
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-07-04 21:12:03,ORD000078,2,2,26.02,3.77
+CUST150,Nicole Hernandez,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-05-30 19:42:35,ORD000079,2,1,23.24,0.0
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-24 22:12:47,ORD000080,3,5,24.78,0.0
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-06-29 11:25:58,ORD000081,3,1,365.28,17.52
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-09-03 13:32:56,ORD000082,2,1,59.61,2.87
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-04-04 13:26:02,ORD000082,1,2,36.28,0.0
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-11-24 19:26:18,ORD000083,1,1,38.07,1.59
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-12-21 13:16:48,ORD000084,2,4,31.69,0.0
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-06 20:22:10,ORD000085,3,2,34.94,3.11
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-11-10 08:53:54,ORD000085,3,1,240.76,6.8
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-12-27 10:00:13,ORD000086,2,1,26.17,0.0
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-08-21 15:42:31,ORD000087,1,2,77.15,7.97
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-03-14 08:32:52,ORD000087,3,1,35.26,1.08
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-08-06 11:12:39,ORD000087,2,3,22.66,0.0
+CUST069,Timothy Taylor Jr,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-10-10 15:36:15,ORD000088,1,1,33.93,0.0
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-13 08:05:25,ORD000089,2,2,24.67,0.0
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-01-22 15:54:27,ORD000090,2,2,45.72,0.44
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-28 11:57:55,ORD000091,3,1,24.55,0.09
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-11-20 18:02:11,ORD000091,2,1,30.89,0.89
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-25 09:19:10,ORD000091,1,2,51.28,6.22
+CUST072,Elizabeth Jones,elizabeth.jones@email.com,"307 Water Blvd, Tucson CO",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-12 19:08:50,ORD000092,3,1,32.93,0.0
+CUST019,david carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-10-18 11:53:04,ORD000093,3,3,106.36,6.33
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-06-11 12:50:28,ORD000093,1,1,58.81,1.27
+CUST129,Emma Young,emma.young@email.com,"4683 Oak Ct, Omaha MA",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-04-07 09:49:39,ORD000094,1,2,58.29,3.41
+CUST124,Brenda Scott,brenda.scott@email.com,"6564 Main Ln, Detroit PA",Standard,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-09 19:24:20,ORD000094,1,1,176.57,3.93
+CUST020,Ashley Wright,ashley.wright@email.com,"6637 Mill Ct, Fort Worth WA",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-03 09:11:27,ORD000094,3,2,86.68,0.0
+CUST018,Emma Phillips,emma.phillips@email.com,"1049 Park Ave, Washington NC",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-06-01 17:50:20,ORD000095,2,1,19.3,2.47
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",BASIC,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-08-19 11:36:33,ORD000095,3,1,11.11,0.0
+CUST097,Robert Hernandez,robert.hernandez@email.com,"8217 Second Blvd, El Paso MA",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-07 09:10:27,ORD000096,2,1,27.82,0.0
+CUST047,Donald Campbell,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-07-03 18:31:38,ORD000097,1,1,68.33,0.0
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-26 21:39:24,ORD000098,2,1,38.88,2.7
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-04 12:20:38,ORD000099,1,1,26.12,0.0
+CUST059,David Rivera,DAVID.RIVERA@EMAIL.COM,"4551 Third Ct, Denver NC",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-03-15 19:44:40,ORD000100,3,3,46.51,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-04-03 09:59:36,ORD000101,3,5,17.43,3.34
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD026,Programming Guide,Books,TechPress,15.0,2024-04-28 19:13:28,ORD000102,2,3,33.1,13.38
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-05-07 10:40:19,ORD000102,2,2,434.43,58.51
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-10-29 17:25:34,ORD000103,3,1,20.36,0.99
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-06-01 18:58:05,ORD000103,1,2,23.54,2.77
+CUST126,Sharon Lee,sharon.lee@email.com,"1135 Center Way, Omaha NC",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-06-22 18:25:48,ORD000104,2,1,75.54,0.0
+CUST147,Sharon Roberts,sharon.roberts@email.com,"9221 Main Ln, Omaha MN",VIP,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-05-12 16:37:44,ORD000105,1,1,43.03,5.47
+CUST099,John Nelson,john.nelson@email.com,"6870 Oak Dr, Sacramento MD",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-08 13:01:30,ORD000106,2,1,29.61,0.17
+CUST027,David Lewis,david.lewis@email.com,"928 Center Pl, Kansas City PA",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-30 12:21:29,ORD000106,1,2,37.56,0.0
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-06-27 15:20:04,ORD000107,1,3,59.21,7.54
+CUST132,William Gomez,williamgomez@hotmail.com,"1224 Broad Pl, Atlanta NC",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-08-10 22:47:15,ORD000108,1,2,23.3,2.12
+CUST075,Laura Nelson,laura.nelson@email.com,"9867 Union Ln, El Paso OH",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-12-07 10:11:40,ORD000109,2,1,21.89,1.6
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-04-09 08:45:13,ORD000110,2,3,22.46,0.0
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-17 13:20:12,ORD000111,1,1,103.04,5.32
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-04-09 17:25:37,ORD000112,2,1,24.57,0.0
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-06-29 20:19:58,ORD000113,3,1,68.28,1.85
+CUST035,Melissa Robinson,melissa.robinson@email.com,"5818 Market Ave, Dallas TX",VIP,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-10-02 19:09:32,ORD000114,2,2,30.89,5.7
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-06-26 22:41:59,ORD000115,3,1,11.89,0.37
+CUST121,William Garcia,william.garcia@email.com,"6907 Elm Dr, Denver CO",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-01-14 21:22:00,ORD000115,1,1,47.67,2.56
+CUST076,Sharon Smith,sharon.smith@email.com,"1502 Park Blvd, Fresno NC",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-24 15:26:45,ORD000116,2,1,24.98,0.04
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-01-09 12:14:34,ORD000116,1,3,71.83,0.0
+CUST097,Robert Hernandez,robert.hernandez@email.com,"8217 Second Blvd, El Paso MA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-20 16:07:36,ORD000116,2,3,28.22,0.0
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-01-11 20:46:28,ORD000117,1,5,29.43,10.27
+CUST056,Sarah Scott,sarah.scott@email.com,"2088 Seventh Rd, San Francisco CA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-08-11 08:28:16,ORD000117,1,1,179.63,0.0
+CUST045,Melissa Evans,melissa.evans@email.com,"487 Mill Dr, Charlotte NC",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-23 20:47:37,ORD000117,2,3,31.31,2.01
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-07-27 11:51:03,ORD000118,2,2,46.73,0.0
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-03-15 12:36:17,ORD000119,3,5,21.42,6.37
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-08-23 08:17:55,ORD000119,1,2,34.11,1.96
+CUST047,Donald Campbell,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-07-13 21:43:25,ORD000120,1,2,45.37,0.0
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-01-20 18:50:56,ORD000121,1,1,65.98,0.0
+CUST069,Timothy Taylor,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-04-26 15:20:37,ORD000122,3,1,95.1,0.0
+CUST136,Jennifer Mitchell,jennifermitchell@gmail.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-09-28 21:04:50,ORD000123,2,1,34.01,0.36
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",VIP,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-09-23 16:36:08,ORD000124,2,3,52.08,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-07-19 21:29:01,ORD000125,1,1,20.0,0.0
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-12-22 22:08:56,ORD000125,2,1,46.91,0.64
+CUST047,Donald Campbell Jr,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-20 13:42:57,ORD000126,1,1,42.0,0.0
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-29 14:41:05,ORD000126,1,1,29.71,0.83
+CUST133,Angela Martinez,angela.martinez@email.com,"4642 Water Rd, Raleigh FL",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-04-23 08:00:44,ORD000127,1,5,87.19,0.0
+CUST013,George Jones,george.jones@email.com,"9863 Seventh Pl, Oklahoma City MA",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-02-28 14:05:46,ORD000128,1,1,37.87,1.44
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-08-11 10:41:43,ORD000129,1,2,32.13,2.09
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-02-24 18:47:09,ORD000130,2,2,34.18,0.74
+CUST026,Kevin Lewis,kevin.lewis@email.com,"7012 Elm Ln, Dallas TX",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-11 09:37:46,ORD000130,2,4,27.76,0.78
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-03-04 16:38:38,ORD000131,3,1,141.17,3.05
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-02-22 16:38:32,ORD000131,3,1,21.16,0.83
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-05-06 14:07:15,ORD000131,3,2,50.56,7.95
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-02-03 14:55:53,ORD000131,2,1,48.28,0.0
+CUST013,George Jones,george.jones@email.com,"9863 Seventh Pl, Oklahoma City MA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-01-05 17:04:00,ORD000131,1,1,20.6,1.39
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-01 16:49:26,ORD000132,3,1,15.83,0.0
+CUST030,Thomas Gomez,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-03-12 09:19:05,ORD000133,1,5,21.55,4.27
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-12-12 18:41:04,ORD000134,3,1,82.68,0.0
+CUST046,David Roberts,david.roberts@email.com,"726 Maple Blvd, Jacksonville OH",Premium,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-21 22:27:07,ORD000135,3,2,83.13,10.72
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-07-02 19:08:44,ORD000135,1,1,75.09,7.64
+CUST049,Laura Lee,laura.lee@email.com,"5020 Lake Ln, San Diego CA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-02-12 13:08:47,ORD000135,2,2,50.82,0.0
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-03-10 16:04:16,ORD000136,3,2,29.94,3.03
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-02-12 13:10:16,ORD000137,1,3,64.17,1.11
+CUST001,Edward Davis,edward.davis@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-12 21:55:00,ORD000137,1,1,381.27,11.06
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-05-21 20:58:45,ORD000137,3,1,111.44,2.32
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-18 17:23:07,ORD000137,3,4,21.78,5.95
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-01-18 22:29:55,ORD000137,2,1,71.48,1.46
+CUST111,Steven Lee,steven.lee@email.com,"8964 Oak Ave, Tampa MD",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-19 12:47:39,ORD000138,2,1,475.49,37.98
+CUST143,Jessica Baker,jessica.baker@email.com,"9215  Oak  Pl,  Dallas  TX",VIP,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-11-15 20:50:15,ORD000138,1,4,32.37,13.49
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-08-12 08:21:00,ORD000139,3,1,65.7,1.01
+CUST045,Melissa Evans,melissa.evans@email.com,"487 Mill Dr, Charlotte NC",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-04-17 15:03:09,ORD000140,2,1,35.04,1.57
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-08-17 13:29:47,ORD000141,3,1,256.01,33.79
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-16 14:42:08,ORD000142,2,1,370.39,14.83
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-03-24 13:28:17,ORD000142,1,4,341.77,0.0
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-09 09:10:28,ORD000142,2,1,91.28,7.11
+CUST057,Sharon Hill,sharon.hill@email.com,"8370  Sixth  Pl,  Boston  MD",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-10-25 12:54:07,ORD000143,1,3,276.5,51.66
+CUST041,Timothy Martinez,timothy.martinez@email.com,"5962 Washington Dr, Detroit FL",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-09-20 10:05:45,ORD000144,2,1,327.82,12.43
+CUST034,Ruth Lee,ruth.lee@email.com,"5247 Park Ln, Indianapolis NC",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-01-08 14:54:28,ORD000144,3,2,29.32,0.3
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-04 08:53:49,ORD000144,1,1,384.08,23.5
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-05-29 17:16:58,ORD000144,1,1,24.77,1.84
+CUST024,Paul Gonzalez,paul.gonzalez@email.com,"1688 Mill Blvd, San Antonio TX",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-24 22:54:53,ORD000145,2,1,47.06,0.0
+CUST082,Melissa Smith,melissa.smith@email.com,"4594 Oak St, Sacramento OH",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-07-29 19:25:31,ORD000145,2,2,69.52,1.49
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-04-24 22:09:02,ORD000146,3,2,84.7,8.46
+CUST093,Joshua Wright,joshua.wright@email.com,"1417 Spring St, Albuquerque MD",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-16 09:17:24,ORD000146,2,1,46.14,0.0
+CUST123,NICOLE PHILLIPS,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-11-15 20:01:24,ORD000147,3,1,40.7,0.99
+CUST099,John Nelson,john.nelson@email.com,"6870 Oak Dr, Sacramento MD",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-03-23 14:17:11,ORD000147,2,2,64.93,5.26
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-05-15 13:49:37,ORD000148,1,1,425.09,0.0
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-01-15 20:14:36,ORD000149,2,1,22.7,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-03-01 17:20:51,ORD000149,3,1,124.38,14.97
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD027,CookBook,Books,FoodPub,12.0,2024-05-24 10:36:12,ORD000150,2,2,26.1,0.1
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-02-26 08:33:30,ORD000151,2,4,70.44,7.84
+CUST059,David Rivera,davidrivera@yahoo.com,"4551 Third Ct, Denver NC",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-14 08:09:37,ORD000151,1,3,34.15,0.0
+CUST013,George Jones,george.jones@email.com,"9863 Seventh Pl, Oklahoma City MA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-04-05 19:42:25,ORD000151,1,1,41.8,3.28
+CUST083,William Green,william.green@email.com,"300 Church Ln, Albuquerque PA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-07-21 18:31:41,ORD000151,1,2,92.22,8.2
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-08-25 18:37:52,ORD000152,2,1,13.97,0.09
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-05-26 14:54:49,ORD000152,1,1,41.72,5.46
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-05-24 09:59:31,ORD000153,2,2,35.8,5.65
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-29 19:42:40,ORD000154,2,1,108.72,8.15
+CUST048,John King,john.king@email.com,"6067 Sixth Ave, Sacramento NC",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-07-20 09:46:00,ORD000155,2,1,145.17,0.0
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-06 22:24:22,ORD000156,2,1,34.7,2.49
+CUST134,Brenda Lopez,brenda.lopez@email.com,"522  Cedar  St,  San  Diego  CA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-02-27 10:28:04,ORD000157,1,1,37.09,0.0
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-08-15 14:10:46,ORD000158,3,4,357.35,24.15
+CUST094,George Taylor,george.taylor@email.com,"1596 Park St, Los Angeles CA",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-06-29 08:27:41,ORD000158,3,3,11.21,0.0
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-02-18 14:44:35,ORD000159,3,2,127.7,0.0
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-01-13 14:36:35,ORD000160,2,1,28.32,0.0
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-12-15 18:38:30,ORD000161,1,1,17.36,0.25
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD016,Table Lamp,Home,LightCorp,20.0,2024-03-19 20:25:30,ORD000162,3,1,52.83,4.69
+CUST071,Kimberly Hill,kimberly.hill@email.com,"9372 State St, San Diego CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-04-04 10:28:02,ORD000163,2,1,22.25,0.8
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-06-27 18:06:05,ORD000164,2,3,19.3,2.19
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-10-06 21:33:26,ORD000165,3,3,34.64,7.58
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-04-11 22:54:45,ORD000166,3,2,151.0,0.0
+CUST121,William Garcia,william.garcia@email.com,"6907 Elm Dr, Denver CO",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-02-07 09:48:28,ORD000167,1,5,14.59,2.01
+CUST133,Angela Martinez,angela.martinez@email.com,"4642 Water Rd, Raleigh FL",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-04-21 11:52:40,ORD000168,3,1,46.56,0.0
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-07-21 14:35:25,ORD000168,2,3,35.27,0.0
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-20 19:39:37,ORD000168,2,1,21.49,0.0
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-07-24 22:06:36,ORD000169,1,3,68.81,9.08
+CUST050,Timothy Jackson,timothy.jackson@email.com,"3243 Sixth Blvd, Kansas City OH",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-04-08 18:31:36,ORD000169,2,1,72.8,0.52
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-04-12 08:25:56,ORD000170,2,2,20.48,0.97
+CUST069,Timothy Taylor Jr,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-07-04 13:52:50,ORD000171,2,1,69.76,0.0
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-08-26 10:19:47,ORD000172,2,1,86.99,2.81
+CUST041,Timothy Martinez,timothy.martinez@email.com,"6149 Church Pl, Sacramento FL",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-21 21:26:47,ORD000173,3,3,56.41,0.0
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-06-30 16:25:08,ORD000174,3,3,48.69,1.41
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-03-04 08:29:03,ORD000174,2,2,31.83,4.42
+CUST124,Brenda Scott,brenda.scott@email.com,"6564 Main Ln, Detroit PA",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-24 09:43:01,ORD000175,2,1,391.37,18.8
+CUST108,Michael Lee,michael.lee@email.com,"1733 Lake Way, San Antonio NC",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-09-26 13:10:53,ORD000176,2,2,26.88,0.77
+CUST031,Sarah Brown,sarah.brown@email.com,"8338 Water Pl, Miami MD",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-06 17:49:13,ORD000177,1,2,21.41,1.55
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-08-09 20:49:43,ORD000178,2,4,84.71,19.0
+CUST047,Donald Campbell Jr,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-12-01 20:19:45,ORD000179,3,1,34.73,0.0
+CUST088,Lisa Hernandez,lisa.hernandez@email.com,"2947 Hill Ave, San Francisco CA",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-05 11:29:19,ORD000179,3,3,19.17,1.5
+CUST129,Emma Young,emma.young@email.com,"4683 Oak Ct, Omaha MA",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-08-03 21:23:35,ORD000180,3,2,36.77,1.95
+CUST052,Joshua Walker,joshua.walker@email.com,"1489 Second Pl, Austin TX",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-06-12 13:55:17,ORD000181,3,2,28.91,0.86
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-29 22:03:51,ORD000182,3,1,18.55,0.0
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-06-16 15:18:16,ORD000183,2,1,38.3,1.12
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-28 19:45:14,ORD000183,3,2,19.8,0.0
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-11-05 12:54:10,ORD000183,3,3,26.16,0.38
+CUST049,Laura Lee,laura.lee@email.com,"5020 Lake Ln, San Diego CA",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-07-04 20:35:48,ORD000184,1,4,40.58,5.31
+CUST042,Ronald Miller,ronaldmiller@yahoo.com,"6758 Spring Rd, Nashville WI",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-09-15 14:50:56,ORD000185,2,1,82.58,0.0
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-01-14 21:40:37,ORD000185,3,1,52.0,0.0
+CUST133,Angela Martinez,angela.martinez@email.com,"4642 Water Rd, Raleigh FL",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-04-07 16:19:26,ORD000186,1,1,132.01,0.0
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-16 22:29:09,ORD000187,3,1,74.9,1.25
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-12-08 08:00:28,ORD000187,1,3,21.68,0.0
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-21 10:39:27,ORD000188,2,1,47.43,0.0
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-05-16 11:46:23,ORD000189,2,3,80.98,0.22
+CUST143,Jessica Baker,jessica.baker@email.com,"9215 Oak Pl, Dallas TX",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-08-31 11:44:56,ORD000190,2,1,143.0,15.57
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-09-13 12:29:46,ORD000191,3,2,24.33,2.98
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-04-01 20:12:10,ORD000192,2,1,31.13,1.53
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-05-30 16:10:07,ORD000193,3,2,122.23,17.75
+CUST105,Stephanie Evans,stephanie.evans@email.com,"4734 School Ln, New York NY",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-06-08 08:38:03,ORD000194,1,2,16.15,0.0
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-04-23 14:07:35,ORD000195,2,2,22.05,2.7
+CUST079,Sharon Perez,sharon.perez@email.com,"4538 Second Ln, Nashville MD",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-06-18 09:42:33,ORD000196,3,2,21.36,2.98
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-06-07 09:18:07,ORD000197,1,1,41.73,1.62
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-09-28 19:26:18,ORD000197,1,2,15.12,1.04
+CUST045,Melissa Evans,melissa.evans@email.com,"487 Mill Dr, Charlotte NC",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-01-01 08:42:05,ORD000198,1,3,37.36,0.84
+CUST101,Timothy Young,timothy.young@email.com,"572 Center Dr, San Diego CA",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-01-20 19:46:06,ORD000199,2,2,24.56,2.4
+CUST009,Steven Moore,steven.moore@email.com,"3698 Mill Ct, Tampa WI",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-01-26 21:11:55,ORD000200,2,1,160.6,0.0
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-01-25 21:48:56,ORD000201,1,3,159.79,32.14
+CUST084,Emily Brown,emily.brown@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-06-08 12:56:46,ORD000202,2,3,261.94,15.75
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-10-05 19:54:30,ORD000202,2,2,44.74,2.4
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-08 09:26:58,ORD000203,2,3,48.2,4.46
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-12-02 08:55:43,ORD000204,3,5,21.3,4.9
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-04-22 08:04:16,ORD000205,2,1,45.88,0.0
+CUST142,Helen Clark,helen.clark@email.com,"5220  Sixth  Ct,  San  Antonio  TX",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-05-24 11:42:55,ORD000205,3,2,97.21,0.93
+CUST047,Donald Campbell,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-03 13:42:43,ORD000206,2,1,45.21,0.0
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-12 08:41:59,ORD000206,3,3,14.82,0.0
+CUST014,John Baker,john.baker@email.com,"8897 High Ln, San Diego CA",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-07-11 15:20:15,ORD000206,2,1,80.01,0.0
+CUST075,Laura Nelson,laura.nelson@email.com,"9867 Union Ln, El Paso OH",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-08-28 09:29:28,ORD000207,3,1,45.69,2.14
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-09 18:01:06,ORD000208,2,1,30.58,0.0
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-07 18:19:56,ORD000208,3,1,26.7,2.06
+CUST010,Daniel Evans,daniel.evans@email.com,"5268 Fifth Ln, Chicago IL",VIP,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-07-28 11:54:29,ORD000209,3,3,93.59,34.16
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-30 09:48:42,ORD000210,1,1,452.77,0.0
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-20 16:23:44,ORD000210,1,3,24.91,0.0
+CUST146,Daniel Miller,daniel.miller@email.com,"6122 Maple Ln, Nashville WI",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-07-03 14:06:16,ORD000210,1,1,93.76,1.84
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-02 13:06:48,ORD000211,1,4,17.01,0.0
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-04-27 18:37:32,ORD000212,2,1,43.77,0.0
+CUST082,Melissa Smith,melissa.smith@email.com,"4594 Oak St, Sacramento OH",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-08-02 17:30:59,ORD000213,1,2,21.73,1.77
+CUST128,Steven Robinson,steven.robinson@email.com,"6966 Church Rd, Detroit WI",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-02 17:56:20,ORD000214,2,1,26.08,0.0
+CUST047,Donald Campbell,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-03-11 14:21:18,ORD000215,1,1,93.68,0.0
+CUST102,John Scott,john.scott@email.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-03-17 21:44:35,ORD000215,2,2,23.47,1.48
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-07-01 12:43:22,ORD000216,3,1,37.93,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-05-08 16:44:40,ORD000216,3,1,84.67,8.3
+CUST130,Amanda White,amanda.white@email.com,"6118 Hill Ct, San Antonio TX",VIP,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-06-30 14:43:47,ORD000217,3,1,28.46,0.0
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-04-07 10:03:42,ORD000218,1,1,167.12,8.22
+CUST028,Jason Thomas,jason.thomas@email.com,"6758 Walnut Way, Austin TX",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-02 08:44:50,ORD000219,1,3,56.9,11.75
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-08 16:55:14,ORD000220,3,2,107.4,14.4
+CUST054,Laura Roberts,laura.roberts@email.com,"7561 Sixth Dr, Phoenix AZ",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-06-26 18:03:59,ORD000220,2,1,33.45,1.15
+CUST010,Daniel Evans,daniel.evans@email.com,"5268 Fifth Ln, Chicago IL",VIP,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-01-04 19:16:12,ORD000220,2,3,93.16,33.67
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-05-30 16:47:38,ORD000221,3,4,18.34,2.25
+CUST036,Amanda White,amanda.white@email.com,"7279 Broad Pl, Denver OH",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-02-14 19:32:07,ORD000222,1,1,30.67,0.2
+CUST048,John King,john.king@email.com,"6067 Sixth Ave, Sacramento NC",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-01-02 13:29:45,ORD000223,1,1,40.99,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-06-06 21:42:19,ORD000224,3,2,41.45,0.0
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-08-24 10:33:04,ORD000224,3,1,40.68,0.0
+CUST066,Sarah Taylor,sarah.taylor@email.com,"3567 Seventh Ct, Oklahoma City CO",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-26 22:13:42,ORD000225,2,1,79.86,5.2
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-07-29 20:41:00,ORD000226,3,1,22.39,0.0
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-03-03 08:43:56,ORD000227,2,4,106.01,0.0
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-04 12:01:58,ORD000228,2,2,25.08,1.22
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-19 13:32:05,ORD000229,1,5,27.72,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-01-17 11:42:40,ORD000230,1,3,58.17,0.0
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-07-31 19:56:47,ORD000231,2,2,70.54,9.14
+CUST088,Lisa Hernandez,lisa.hernandez@email.com,"2947 Hill Ave, San Francisco CA",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-02 13:02:05,ORD000232,1,1,270.22,6.55
+CUST049,Laura Lee,laura.lee@email.com,"5020 Lake Ln, San Diego CA",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-04-14 14:28:40,ORD000232,2,1,28.66,0.17
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-06-07 09:48:47,ORD000233,1,2,37.3,0.0
+CUST134,Brenda Lopez,brenda.lopez@email.com,"522 Cedar St, San Diego CA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-03-18 17:05:18,ORD000234,2,1,67.72,0.1
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-02-04 19:25:50,ORD000235,3,1,42.13,0.0
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-06-14 13:00:35,ORD000236,3,1,16.33,1.75
+CUST108,Michael Lee,michael.lee@email.com,"6425 Mill Rd, Milwaukee MA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-01-22 12:13:47,ORD000237,3,1,115.8,3.74
+CUST031,Sarah Brown,sarah.brown@email.com,"8338 Water Pl, Miami MD",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-17 11:39:53,ORD000238,1,1,26.7,1.44
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-08-26 16:29:41,ORD000239,1,1,28.93,0.14
+CUST095,Stephanie Torres,stephanie.torres@email.com,"2970 Walnut Pl, Chicago IL",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-03-25 13:08:42,ORD000239,1,1,41.9,1.89
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-03-25 17:42:19,ORD000240,3,1,30.79,0.0
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-02-13 08:20:15,ORD000240,1,2,42.24,3.09
+CUST132,William Gomez,williamgomez@hotmail.com,"1224 Broad Pl, Atlanta NC",Premium,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-09-21 22:30:29,ORD000241,2,3,89.52,7.12
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-08-03 12:54:52,ORD000242,3,1,43.73,0.0
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-01-20 22:01:54,ORD000243,3,1,25.81,2.34
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-21 12:34:57,ORD000244,2,2,30.07,1.18
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-06 21:18:08,ORD000244,3,2,86.27,0.0
+CUST129,Emma Young,emma.young@email.com,"4683 Oak Ct, Omaha MA",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-02 21:51:39,ORD000245,1,3,17.11,1.52
+CUST111,Steven Lee,steven.lee@email.com,"8964 Oak Ave, Tampa MD",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-06-17 21:09:47,ORD000246,2,4,97.93,25.73
+CUST050,Timothy Jackson,timothy.jackson@email.com,"3243 Sixth Blvd, Kansas City OH",Standard,PROD007,PhoneStand,Electronics,StandPro,6.0,2024-04-04 11:02:42,ORD000247,3,4,18.88,1.77
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-09 18:20:06,ORD000248,3,2,27.27,3.52
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-14 14:41:24,ORD000249,3,2,170.12,8.79
+CUST042,Ronald Miller,ronaldmiller@yahoo.com,"6758 Spring Rd, Nashville WI",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-11-08 14:22:52,ORD000250,2,1,19.85,0.0
+CUST099,John Nelson,john.nelson@email.com,"6870 Oak Dr, Sacramento MD",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-13 10:28:10,ORD000251,1,2,364.92,5.48
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-02 21:07:42,ORD000252,2,3,435.23,63.84
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-05-31 10:41:53,ORD000253,1,1,12.76,0.71
+CUST102,John Scott,john.scott@email.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-01-11 22:36:09,ORD000254,1,1,130.79,6.27
+CUST111,Steven Lee,steven.lee@email.com,"8964 Oak Ave, Tampa MD",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-06-12 08:56:46,ORD000255,3,3,141.46,14.0
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-08-10 15:10:14,ORD000256,2,2,33.52,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"5818 Market Ave, Dallas TX",VIP,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-12-05 18:32:16,ORD000256,3,2,15.18,3.33
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-04-08 10:06:01,ORD000257,3,3,20.02,2.71
+CUST019,David Carter,David.Carter@Email.Com,"2203 Mill Way, Sacramento OH",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-02-15 15:57:39,ORD000258,1,3,81.0,0.0
+CUST018,Emma Phillips,emma.phillips@email.com,"1049  Park  Ave,  Washington  NC",VIP,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-05-03 18:08:57,ORD000258,3,3,92.69,35.45
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD023,ResistanceBands,Sports,FitGear,12.0,2024-04-17 13:55:02,ORD000259,3,1,35.25,0.0
+CUST071,Kimberly Hill,kimberly.hill@email.com,"9372 State St, San Diego CA",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-03-30 17:51:47,ORD000260,3,2,33.95,2.39
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-03-13 17:56:34,ORD000260,2,1,16.24,1.09
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-11-09 08:24:41,ORD000261,3,3,19.26,3.5
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-09-01 12:54:34,ORD000262,3,1,13.64,0.46
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-05-21 20:35:30,ORD000262,2,2,12.91,2.05
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-11 19:08:54,ORD000263,3,1,17.83,2.29
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-22 16:25:50,ORD000263,3,2,96.63,0.5
+CUST124,Brenda Scott,brenda.scott@email.com,"6564 Main Ln, Detroit PA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-02 20:05:52,ORD000264,2,4,38.96,0.5
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-06-04 08:46:24,ORD000265,2,2,35.28,0.0
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-01-15 20:52:11,ORD000265,2,1,35.22,0.0
+CUST102,John Scott,johnscott@outlook.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-09-10 11:02:50,ORD000266,3,2,71.4,1.21
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-06-16 08:10:05,ORD000267,2,1,23.94,1.32
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-06-29 09:58:05,ORD000268,2,2,35.82,0.0
+CUST065,Brian Nelson,brian.nelson@email.com,"1475 Center Blvd, Los Angeles CA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-27 12:14:38,ORD000269,2,4,20.59,2.94
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-05-23 09:32:18,ORD000270,1,3,106.43,23.17
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-09-01 19:28:24,ORD000270,2,3,49.62,11.56
+CUST088,Lisa Hernandez,lisa.hernandez@email.com,"2947 Hill Ave, San Francisco CA",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-17 17:55:01,ORD000271,1,1,47.64,3.21
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-28 20:20:26,ORD000272,3,2,162.04,24.74
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-06-21 19:52:21,ORD000273,3,4,297.18,48.99
+CUST051,Laura Torres,laura.torres@email.com,"9077 Broad St, Washington MA",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-02-16 19:43:59,ORD000273,1,1,30.79,1.97
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-02-28 11:53:15,ORD000273,3,1,33.34,0.0
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533  Main  Ln,  Austin  TX",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-06-22 18:31:39,ORD000274,3,4,91.12,0.0
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-11-02 22:56:57,ORD000275,2,1,53.71,4.03
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-11 17:08:03,ORD000276,2,1,25.4,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-08-08 18:49:11,ORD000277,1,2,88.55,6.1
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-04-07 17:06:20,ORD000278,3,3,131.22,14.08
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-09-24 13:11:31,ORD000279,1,1,16.5,0.0
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-03-12 15:11:36,ORD000280,3,2,45.02,5.69
+CUST109,John Campbell,john.campbell@email.com,"6817 Water Rd, San Jose CA",VIP,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-04-20 21:24:12,ORD000280,3,1,44.88,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-11-08 16:46:20,ORD000281,2,1,40.98,1.16
+CUST135,Michelle Lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-11 08:13:52,ORD000282,2,3,20.95,4.06
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-05-23 16:59:51,ORD000283,2,1,21.2,0.92
+CUST038,Amy Scott,amy.scott@email.com,"4562 Second Dr, San Jose CA",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-27 17:41:41,ORD000283,1,5,31.98,2.6
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-04-24 22:05:24,ORD000284,2,1,94.6,0.0
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-25 22:21:26,ORD000284,3,2,45.57,2.21
+CUST043,Paul Johnson,paul.johnson@email.com,"6845 State Dr, Jacksonville CO",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-03-21 13:41:18,ORD000285,2,2,28.74,4.21
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-10 17:33:28,ORD000285,1,1,12.13,0.44
+CUST146,Daniel Miller,daniel.miller@email.com,"6122 Maple Ln, Nashville WI",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-06-28 19:05:13,ORD000286,2,1,10.72,0.47
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-16 14:33:48,ORD000287,1,1,258.62,8.47
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-28 11:47:18,ORD000287,3,1,90.95,0.78
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-09-20 21:30:29,ORD000288,3,4,20.38,0.55
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-02-15 17:38:29,ORD000288,3,2,41.01,2.15
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-20 13:30:34,ORD000289,1,1,378.52,4.92
+CUST001,Edward Davis,edward.davis@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-05-13 21:48:54,ORD000290,2,1,40.55,2.48
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-05-02 12:00:49,ORD000291,2,2,16.77,1.77
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-04-21 14:15:10,ORD000292,3,2,33.93,0.0
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-04-18 18:15:33,ORD000293,3,3,64.42,0.0
+CUST146,Daniel Miller,daniel.miller@email.com,"6122 Maple Ln, Nashville WI",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-05-16 20:17:26,ORD000294,1,1,18.31,0.58
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-12-25 17:31:12,ORD000295,1,1,106.9,0.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-09-05 10:45:28,ORD000295,1,1,103.22,10.26
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-20 20:31:23,ORD000296,3,3,83.88,10.61
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-03-09 20:25:04,ORD000296,2,1,40.53,1.42
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-02-01 20:45:15,ORD000297,2,1,35.92,0.0
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-16 09:33:42,ORD000298,2,1,23.68,0.0
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-12-07 19:02:47,ORD000298,3,2,31.54,3.68
+CUST010,Daniel Evans,daniel.evans@email.com,"5268 Fifth Ln, Chicago IL",VIP,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-09 18:13:07,ORD000299,3,1,322.4,41.73
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-07-21 11:00:02,ORD000300,3,1,46.72,1.98
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-11-03 09:43:39,ORD000301,3,1,84.79,2.48
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-02-02 15:14:20,ORD000302,3,3,39.27,5.46
+CUST135,michelle lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-04-06 13:46:08,ORD000303,1,1,24.37,0.92
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-05-25 10:34:22,ORD000304,3,1,103.22,0.0
+CUST108,Michael Lee,michael.lee@email.com,"1733 Lake Way, San Antonio NC",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-08-09 09:33:09,ORD000305,2,3,91.49,6.23
+CUST100,Carol Green,carol.green@email.com,"3435 First Pl, Louisville FL",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-04-07 19:11:56,ORD000305,3,3,88.82,9.15
+CUST128,Steven Robinson,steven.robinson@email.com,"6966 Church Rd, Detroit WI",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-05-17 21:24:12,ORD000305,3,1,25.5,0.0
+CUST059,David Rivera,davidrivera@yahoo.com,"4551 Third Ct, Denver NC",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-10-11 18:20:07,ORD000306,3,2,20.43,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-11 08:12:06,ORD000306,1,1,51.41,6.87
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-12-05 19:37:16,ORD000307,2,1,163.06,0.0
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-16 15:59:56,ORD000308,1,1,31.66,1.32
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-07-29 13:50:45,ORD000308,3,1,122.43,0.0
+CUST041,Timothy Martinez,timothy.martinez@email.com,"5962 Washington Dr, Detroit FL",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-11-08 09:06:46,ORD000309,3,1,350.89,20.85
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-05-22 19:35:26,ORD000310,1,3,123.66,43.57
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-08-14 09:10:50,ORD000310,3,1,12.15,0.36
+CUST084,Emily Phillips,emily.phillips@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-09-27 22:20:35,ORD000310,2,1,94.79,3.92
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-05-24 16:13:24,ORD000311,3,4,54.09,16.81
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-01-01 19:02:18,ORD000312,1,2,95.78,7.3
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-02-24 21:20:01,ORD000313,3,3,70.05,0.0
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-08-25 17:09:06,ORD000314,2,1,128.3,2.35
+CUST044,Robert Harris,robert.harris@email.com,"7811 Park Dr, Chicago IL",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-03-06 20:19:05,ORD000315,2,2,39.91,0.0
+CUST060,Steven Hall,steven.hall@email.com,"3605 Pine Blvd, San Jose CA",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-07-21 15:11:31,ORD000316,3,2,33.82,0.32
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-06 20:36:24,ORD000317,1,4,280.12,49.29
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-08-26 19:41:54,ORD000318,1,2,84.22,9.33
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-05-18 17:09:20,ORD000319,3,1,20.5,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-04-24 20:38:36,ORD000319,1,1,22.89,0.45
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-01 17:47:03,ORD000320,2,1,33.57,1.55
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-02 15:35:12,ORD000321,2,2,43.91,0.0
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-05-14 11:15:04,ORD000322,2,1,29.23,0.0
+CUST131,Jennifer Evans,jennifer.evans@email.com,"3575 Center St, Baltimore PA",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-04-15 14:23:22,ORD000323,2,1,21.23,2.7
+CUST066,Sarah Taylor,sarah.taylor@email.com,"3567 Seventh Ct, Oklahoma City CO",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-06-06 21:51:28,ORD000324,1,1,93.56,3.18
+CUST030,Thomas Gomez,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-07-12 19:54:05,ORD000325,3,1,29.48,0.0
+CUST054,Laura Roberts,laura.roberts@email.com,"7561 Sixth Dr, Phoenix AZ",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-01-04 13:44:51,ORD000325,2,1,20.22,0.21
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-19 16:48:16,ORD000326,2,2,41.88,0.0
+CUST131,Jennifer Evans,jennifer.evans@email.com,"3575 Center St, Baltimore PA",VIP,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-01-05 14:37:57,ORD000327,3,1,17.35,1.36
+CUST121,William Garcia,william.garcia@email.com,"6907 Elm Dr, Denver CO",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-03-10 08:29:41,ORD000327,1,1,72.67,5.17
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-01-05 12:55:56,ORD000328,2,1,38.08,2.99
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-10-31 21:38:34,ORD000329,1,1,356.0,19.1
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-03-04 22:33:19,ORD000329,2,1,77.64,1.35
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-18 11:32:17,ORD000330,1,2,46.05,0.0
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-05-22 12:14:09,ORD000330,2,2,75.15,2.87
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-12-06 18:14:26,ORD000330,3,1,475.27,0.0
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD021,YogaMat,Sports,FlexFit,15.0,2024-04-24 16:08:13,ORD000330,1,2,42.93,0.0
+CUST026,Kevin Lewis,kevin.lewis@email.com,"7012 Elm Ln, Dallas TX",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-03-20 19:45:57,ORD000331,1,1,29.08,1.12
+CUST111,Steven Lee,steven.lee@email.com,"8964 Oak Ave, Tampa MD",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-08-22 10:20:04,ORD000332,3,4,29.65,4.63
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-01-08 20:20:56,ORD000332,2,1,16.46,2.18
+CUST145,Anthony Hill,anthony.hill@email.com,"1797 Church Pl, Washington CO",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-03-11 10:49:12,ORD000333,1,1,27.61,1.57
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-06-05 11:38:14,ORD000334,3,1,332.71,12.97
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-04-30 19:41:23,ORD000335,2,1,11.11,0.35
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-02 22:17:26,ORD000336,3,2,352.44,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-25 15:55:39,ORD000337,3,1,49.14,3.67
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-06-04 19:52:24,ORD000338,2,1,141.07,0.0
+CUST125,Kimberly Mitchell Jr,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-12-26 20:02:33,ORD000339,2,1,28.77,2.09
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-04-11 19:02:35,ORD000340,3,3,35.54,3.35
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-17 21:18:29,ORD000341,2,1,15.17,0.52
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-31 18:28:05,ORD000341,3,1,133.37,6.25
+CUST025,Thomas Brown,thomasbrown@yahoo.com,"1093  Fifth  Ct,  San  Antonio  TX",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-10-07 14:20:28,ORD000342,1,1,92.68,0.0
+CUST087,Melissa Torres,melissa.torres@email.com,"1725 High Dr, Omaha FL",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-01-24 12:20:44,ORD000342,3,3,43.48,0.81
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-06-11 13:05:33,ORD000343,2,2,35.69,0.0
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-10-03 16:24:02,ORD000344,1,4,61.56,14.67
+CUST028,Jason Thomas,jason.thomas@email.com,"6758 Walnut Way, Austin TX",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-02-15 20:45:03,ORD000345,2,1,16.6,0.78
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-08-01 11:00:39,ORD000346,2,1,59.93,5.98
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"8238 Broad Ln, Houston TX",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-13 15:15:13,ORD000346,3,1,43.37,0.0
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-06-30 11:56:35,ORD000347,3,2,28.19,0.59
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-06-16 13:02:09,ORD000348,1,2,22.69,1.72
+CUST009,Steven Moore,steven.moore@email.com,"3698 Mill Ct, Tampa WI",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-01-28 14:11:10,ORD000348,2,2,21.52,0.0
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-15 15:47:37,ORD000349,1,1,137.95,0.0
+CUST071,Kimberly Hill,kimberly.hill@email.com,"9372 State St, San Diego CA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-07-28 09:48:27,ORD000350,3,1,29.64,0.81
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-05-14 14:33:13,ORD000350,1,2,25.3,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-11-11 09:30:46,ORD000350,3,4,35.82,2.06
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-03-07 16:36:39,ORD000351,1,2,149.77,0.0
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-05-06 20:11:56,ORD000351,1,2,95.32,0.0
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-04-29 18:50:07,ORD000352,1,3,143.94,8.94
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-25 18:13:00,ORD000353,1,2,36.06,0.0
+CUST056,Sarah Scott,sarah.scott@email.com,"2088 Seventh Rd, San Francisco CA",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-05-09 16:20:49,ORD000354,1,2,74.91,0.0
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-01-08 21:11:12,ORD000354,2,4,89.24,34.79
+CUST025,Thomas Brown,thomasbrown@yahoo.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-10-30 10:40:29,ORD000355,3,3,24.61,0.0
+CUST146,Daniel Miller,daniel.miller@email.com,"6122 Maple Ln, Nashville WI",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-01-15 21:33:19,ORD000355,3,2,45.98,0.09
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-07-23 22:56:50,ORD000356,1,4,136.82,0.0
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-06-09 16:53:10,ORD000357,3,1,46.7,3.36
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-08-07 13:45:02,ORD000357,2,1,28.76,2.51
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-25 16:19:11,ORD000357,2,3,27.77,3.8
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-23 15:57:32,ORD000358,1,1,39.73,1.74
+CUST060,Steven Hall,steven.hall@email.com,"3605 Pine Blvd, San Jose CA",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-02-06 20:55:06,ORD000359,3,2,25.58,1.85
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-09 16:07:00,ORD000360,1,2,72.63,0.63
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-25 16:49:42,ORD000361,2,1,132.4,7.72
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-17 12:17:34,ORD000362,2,2,81.81,1.29
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-23 16:06:13,ORD000363,2,2,31.79,0.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",VIP,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-11-22 11:10:04,ORD000363,3,3,71.13,11.75
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-01-13 09:24:03,ORD000364,2,1,324.55,23.85
+CUST135,Michelle Lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-06-28 15:39:22,ORD000365,2,3,75.95,13.73
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-14 15:36:08,ORD000366,3,1,294.66,0.0
+CUST090,Donna Jones,donna.jones@email.com,"9763 Mill Dr, Charlotte WA",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-30 11:14:09,ORD000366,3,1,18.9,0.17
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-20 21:56:20,ORD000366,2,1,89.1,0.0
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-08-04 10:18:49,ORD000367,3,2,150.47,6.1
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-24 16:41:04,ORD000367,2,2,38.4,3.44
+CUST108,Michael Lee,michael.lee@email.com,"6425 Mill Rd, Milwaukee MA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-10 15:24:04,ORD000368,1,3,93.26,10.97
+CUST064,Steven Perez,steven.perez@email.com,"7757 Cedar Pl, Portland OH",VIP,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-19 19:15:11,ORD000369,3,1,23.44,2.52
+CUST116,Anthony Baker,anthony.baker@email.com,"1310 Seventh Ct, Sacramento OH",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-06-01 15:20:35,ORD000370,2,1,29.55,0.0
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-24 21:38:49,ORD000371,2,1,31.73,0.75
+CUST026,Kevin Lewis,kevin.lewis@email.com,"7012 Elm Ln, Dallas TX",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-08-15 17:57:48,ORD000372,1,3,42.56,2.89
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-27 15:12:13,ORD000373,2,1,22.34,2.64
+CUST083,William Green,william.green@email.com,"300 Church Ln, Albuquerque PA",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-07-02 22:22:05,ORD000373,1,2,45.18,3.83
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-10-01 22:35:03,ORD000373,3,2,95.31,5.07
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-03-01 14:44:37,ORD000374,3,1,28.58,0.55
+CUST129,Emma Young,emma.young@email.com,"4683 Oak Ct, Omaha MA",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-02-14 15:08:12,ORD000375,2,3,33.03,4.46
+CUST131,Jennifer Evans,jennifer.evans@email.com,"3575 Center St, Baltimore PA",VIP,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-02-02 10:00:04,ORD000376,1,1,46.15,5.34
+CUST025,Thomas Brown,thomasbrown@yahoo.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-20 10:41:51,ORD000376,2,3,16.16,0.0
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-02-16 15:32:27,ORD000376,2,1,31.15,0.0
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-11-23 15:54:46,ORD000377,3,2,385.72,40.71
+CUST007,Lisa Anderson,lisa.anderson@email.com,"6327 First Way, San Antonio TX",Standard,PROD004,SmartphoneCase,Electronics,ProtectPlus,8.0,2024-05-25 15:45:23,ORD000378,3,1,26.89,0.19
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-18 12:29:33,ORD000378,3,3,250.61,0.0
+CUST131,Jennifer Evans,jennifer.evans@email.com,"3575 Center St, Baltimore PA",VIP,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-20 18:40:34,ORD000378,3,1,32.84,2.77
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-04-26 16:57:30,ORD000378,3,1,42.34,0.0
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-09-11 10:02:44,ORD000378,3,2,38.17,2.15
+CUST092,Ryan Torres,ryan.torres@email.com,"2137 Seventh Ln, Denver MD",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-28 10:36:03,ORD000379,2,3,20.98,0.9
+CUST100,Carol Green,carol.green@email.com,"3435 First Pl, Louisville FL",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-01-20 21:50:17,ORD000380,1,2,22.74,1.61
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-02-14 22:37:47,ORD000380,3,1,44.91,1.6
+CUST095,Stephanie Torres,stephanie.torres@email.com,"2970 Walnut Pl, Chicago IL",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-02-16 20:33:55,ORD000380,2,5,178.03,26.51
+CUST097,Robert Hernandez,robert.hernandez@email.com,"8217 Second Blvd, El Paso MA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-11 14:49:24,ORD000380,3,1,422.0,0.0
+CUST143,Jessica Baker,jessica.baker@email.com,"9215 Oak Pl, Dallas TX",VIP,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-09-25 08:41:16,ORD000381,1,1,59.13,5.77
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-08-24 16:14:24,ORD000382,3,1,18.09,0.48
+CUST054,Laura Roberts,laura.roberts@email.com,"7561 Sixth Dr, Phoenix AZ",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-08-25 20:28:24,ORD000383,2,4,21.45,0.18
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-03-31 21:27:39,ORD000383,3,3,32.68,3.53
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-11-25 14:29:49,ORD000384,3,1,21.36,0.0
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-03-27 18:44:11,ORD000384,3,1,72.3,0.0
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-01-26 16:06:43,ORD000385,2,1,82.19,2.6
+CUST018,Emma Phillips,emma.phillips@email.com,"1049 Park Ave, Washington NC",VIP,PROD027,Cook Book,Books,FoodPub,12.0,2024-01-15 17:42:57,ORD000386,1,4,31.65,15.29
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-02-03 14:42:48,ORD000387,3,2,29.66,4.38
+CUST047,Donald Campbell Jr,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-09-12 15:42:59,ORD000388,3,1,359.42,0.0
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-19 18:49:49,ORD000388,2,1,74.66,2.9
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-01-16 12:52:16,ORD000389,2,1,15.48,0.0
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-02-15 18:31:06,ORD000390,3,3,35.49,3.42
+CUST140,Anthony Robinson,anthony.robinson@email.com,"7148 Maple Ave, Tucson MN",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-03-07 09:02:04,ORD000390,3,2,333.26,0.0
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-02-08 18:40:00,ORD000391,1,2,31.72,0.0
+CUST073,Thomas King,Thomas.King@Email.Com,"8917 High Way, Seattle MN",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-05-27 08:32:45,ORD000391,2,1,57.68,2.1
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-11-14 11:00:24,ORD000391,2,1,30.41,0.0
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-06-23 12:25:03,ORD000391,3,1,40.54,0.0
+CUST015,Anthony Ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-03 15:48:49,ORD000391,3,1,71.52,0.0
+CUST129,Emma Young,emma.young@email.com,"4683 Oak Ct, Omaha MA",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-02-18 12:44:24,ORD000391,1,2,23.58,1.18
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-02-18 10:02:12,ORD000392,3,5,71.62,0.0
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-13 12:31:34,ORD000393,2,4,24.19,1.64
+CUST141,ANGELA SCOTT,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-11 14:07:13,ORD000394,3,2,39.32,2.67
+CUST029,Sarah Hernandez,sarah.hernandez@email.com,"6496 First Way, Oklahoma City FL",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-08 17:14:59,ORD000394,1,2,298.66,12.63
+CUST121,William Garcia,william.garcia@email.com,"6907 Elm Dr, Denver CO",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-12 11:44:41,ORD000394,1,1,32.79,1.26
+CUST087,Melissa Torres,melissa.torres@email.com,"1725 High Dr, Omaha FL",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-06-05 10:53:37,ORD000394,1,1,311.39,9.59
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-10-16 13:51:53,ORD000395,3,1,101.79,3.48
+CUST059,David Rivera,davidrivera@yahoo.com,"4551 Third Ct, Denver NC",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-08-22 20:02:37,ORD000396,2,1,11.82,0.0
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-06-27 13:35:10,ORD000396,1,4,73.46,1.47
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-10-03 20:10:01,ORD000396,2,1,20.06,0.0
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-06-15 17:56:18,ORD000396,3,3,16.62,5.95
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-03-10 16:28:26,ORD000397,1,2,326.01,0.0
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-06-09 21:50:19,ORD000398,2,1,134.13,8.28
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-06-07 13:55:48,ORD000399,3,1,38.77,0.0
+CUST052,Joshua Walker,joshua.walker@email.com,"1489 Second Pl, Austin TX",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-14 11:07:50,ORD000400,3,3,46.57,3.48
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-12 18:23:18,ORD000401,2,1,20.92,1.54
+CUST020,Ashley Wright,ashley.wright@email.com,"6637 Mill Ct, Fort Worth WA",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-08 08:59:34,ORD000402,1,3,12.91,0.22
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-04-23 17:37:20,ORD000402,1,2,17.38,0.4
+CUST043,Paul Johnson,paul.johnson@email.com,"6845 State Dr, Jacksonville CO",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-01-26 11:47:26,ORD000403,1,1,17.76,0.86
+CUST083,William Green,william.green@email.com,"300 Church Ln, Albuquerque PA",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-02-07 11:59:39,ORD000404,1,1,76.9,2.77
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-08-19 13:08:02,ORD000405,3,1,25.63,1.82
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-07-13 13:14:56,ORD000406,3,1,78.24,3.73
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-11-17 21:14:05,ORD000406,3,1,17.96,1.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-01-04 19:27:47,ORD000406,1,1,19.46,0.65
+CUST029,Sarah Hernandez,sarah.hernandez@email.com,"6496 First Way, Oklahoma City FL",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-08-21 17:57:00,ORD000406,1,1,14.81,0.98
+CUST104,Christopher Hill,christopher.hill@email.com,"1243  First  Blvd,  Tucson  OH",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-04-10 15:51:51,ORD000407,1,1,26.88,1.44
+CUST143,Jessica Baker,jessica.baker@email.com,"9215 Oak Pl, Dallas TX",VIP,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-10-11 11:08:22,ORD000408,1,2,58.53,11.47
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-04-27 21:36:47,ORD000409,1,5,44.34,14.16
+CUST036,Amanda White,amanda.white@email.com,"7279 Broad Pl, Denver OH",Standard,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-07-21 21:23:40,ORD000409,3,2,102.96,0.73
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-05-15 08:18:27,ORD000409,2,2,62.69,0.0
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-07-20 18:05:39,ORD000410,2,2,20.54,3.15
+CUST010,Daniel Evans,daniel.evans@email.com,"5268 Fifth Ln, Chicago IL",VIP,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-01-29 14:23:29,ORD000411,1,1,69.6,0.0
+CUST138,Helen Ramirez,helenramirez@gmail.com,"8132 Union Way, San Antonio TX",VIP,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-08-20 10:21:15,ORD000412,1,2,38.31,9.59
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD008,Tablet,Electronics,TabletMax,180.0,2024-02-23 20:47:48,ORD000412,2,1,362.77,42.82
+CUST012,Daniel Rodriguez,daniel.rodriguez@email.com,"1589 High St, Tucson MD",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-04-05 13:28:31,ORD000413,3,3,24.69,0.0
+CUST105,Stephanie Evans,stephanie.evans@email.com,"4734 School Ln, New York NY",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-08-18 12:28:39,ORD000414,3,4,168.52,0.0
+CUST012,Daniel Rodriguez,daniel.rodriguez@email.com,"1589 High St, Tucson MD",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-02-18 22:56:29,ORD000414,1,1,261.45,0.0
+CUST014,John Baker,john.baker@email.com,"8897 High Ln, San Diego CA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-01-28 10:17:07,ORD000414,1,1,34.49,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-01-06 12:26:43,ORD000415,1,1,33.87,0.0
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-03-15 11:04:01,ORD000415,1,3,20.15,2.43
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-12-11 20:20:31,ORD000416,3,2,51.14,0.0
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-05-25 10:57:50,ORD000417,1,3,62.34,3.48
+CUST009,Steven Moore,steven.moore@email.com,"3698 Mill Ct, Tampa WI",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-02-07 13:18:29,ORD000418,3,4,14.09,0.0
+CUST034,Ruth Lee,ruth.lee@email.com,"5247 Park Ln, Indianapolis NC",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-08-02 19:44:57,ORD000419,1,1,16.93,0.84
+CUST084,Emily Brown,emily.brown@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-03-07 13:11:13,ORD000420,3,1,32.43,0.56
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-02-11 16:19:07,ORD000421,1,1,34.98,0.25
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-02-09 08:47:34,ORD000422,2,2,22.95,0.0
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-05-26 18:09:51,ORD000422,3,4,43.95,10.79
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-02-05 18:35:07,ORD000422,1,1,79.53,1.77
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-04 18:12:37,ORD000423,1,3,27.66,2.63
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-06-22 18:05:32,ORD000424,1,1,31.23,0.8
+CUST130,Amanda White,amanda.white@email.com,"6118 Hill Ct, San Antonio TX",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-02 14:09:45,ORD000425,2,1,18.97,0.0
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-08-11 16:05:13,ORD000426,2,2,115.94,5.13
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-08-17 14:46:57,ORD000427,1,3,15.58,3.01
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-09-22 09:59:37,ORD000428,2,1,57.82,0.0
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-02-14 16:29:45,ORD000428,1,1,50.97,1.9
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-08-01 17:19:31,ORD000429,3,1,28.37,0.0
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-08-01 18:30:07,ORD000430,3,3,38.66,5.74
+CUST046,David Roberts,david.roberts@email.com,"726 Maple Blvd, Jacksonville OH",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-07-06 09:48:17,ORD000431,1,2,47.23,4.61
+CUST049,Laura Lee,laura.lee@email.com,"5020 Lake Ln, San Diego CA",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-09 18:30:44,ORD000432,1,1,32.78,0.03
+CUST114,Brian Baker,brian.baker@email.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-01-15 10:20:29,ORD000433,3,1,21.62,0.29
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-11 12:18:33,ORD000434,1,2,44.25,0.81
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-12 16:20:55,ORD000435,3,3,81.76,8.56
+CUST105,Stephanie Evans,stephanie.evans@email.com,"4734 School Ln, New York NY",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-05-28 13:52:09,ORD000436,1,2,75.93,0.0
+CUST064,Steven Perez,steven.perez@email.com,"7757 Cedar Pl, Portland OH",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-08-23 22:10:06,ORD000437,1,2,22.64,5.86
+CUST135,Michelle Lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-31 16:54:34,ORD000438,3,2,33.62,3.03
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD016,Table Lamp,Home,LightCorp,20.0,2024-07-28 10:59:01,ORD000438,2,1,47.24,6.22
+CUST117,Sandra Hall,sandra.hall@email.com,"5049 Washington Blvd, Indianapolis MD",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-05-13 20:21:11,ORD000438,2,1,33.76,0.0
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-02-06 19:14:19,ORD000439,1,1,33.25,1.15
+CUST014,John Baker,john.baker@email.com,"8897 High Ln, San Diego CA",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-01-05 20:30:48,ORD000439,1,1,12.19,0.0
+CUST116,Anthony Baker,anthony.baker@email.com,"1310 Seventh Ct, Sacramento OH",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-01-16 15:07:58,ORD000440,1,1,26.67,0.0
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-08-23 17:13:37,ORD000440,1,1,23.51,0.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-05-28 13:22:10,ORD000440,3,3,20.89,3.15
+CUST114,Brian Baker,brian.baker@email.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-14 08:33:13,ORD000441,1,4,26.05,3.93
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-01-26 22:13:58,ORD000442,3,1,26.97,0.25
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-02-16 21:22:24,ORD000443,1,2,14.44,1.9
+CUST090,Donna Jones,donna.jones@email.com,"9763 Mill Dr, Charlotte WA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-01-29 16:08:31,ORD000444,2,2,61.36,0.25
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-04-08 12:29:38,ORD000445,2,2,136.36,19.8
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-02-18 21:04:57,ORD000446,2,4,28.4,2.36
+CUST132,William Gomez,william.gomez@email.com,"1224 Broad Pl, Atlanta NC",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-01-27 14:28:33,ORD000447,3,1,17.14,0.75
+CUST020,Ashley Wright,ashley.wright@email.com,"6637 Mill Ct, Fort Worth WA",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-08 22:57:10,ORD000448,2,5,280.63,41.74
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-02-29 21:27:46,ORD000448,2,3,55.31,9.23
+CUST125,Kimberly Mitchell Jr,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-10-09 13:30:42,ORD000448,2,5,80.36,11.59
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-03-05 15:31:14,ORD000449,1,1,43.79,3.06
+CUST005,Donald Thompson,donald.thompson@email.com,"811 School Way, Raleigh WA",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-02-15 14:38:43,ORD000450,1,1,94.43,3.59
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-15 15:50:29,ORD000451,2,2,19.91,0.0
+CUST064,Steven Perez,steven.perez@email.com,"7757 Cedar Pl, Portland OH",VIP,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-07-26 21:34:34,ORD000452,1,5,92.15,28.53
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-04-23 15:02:02,ORD000453,3,2,14.44,2.11
+CUST082,Melissa Smith,melissa.smith@email.com,"4594 Oak St, Sacramento OH",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-02-04 12:45:24,ORD000454,1,2,49.8,2.76
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-05-01 16:54:10,ORD000455,1,1,24.94,0.0
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-06-22 13:49:18,ORD000455,1,1,73.62,9.84
+CUST145,Anthony Hill,anthony.hill@email.com,"1797 Church Pl, Washington CO",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-29 08:48:57,ORD000456,2,1,38.84,0.0
+CUST011,Brian Rivera,brian.rivera@email.com,"8279 Fifth Way, Boston NC",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-06-18 11:15:15,ORD000457,2,2,46.55,2.23
+CUST063,Paul Wright,paul.wright@email.com,"3713 Walnut Dr, Sacramento MN",Premium,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-02-13 08:34:20,ORD000458,2,2,145.34,14.79
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-06-27 15:37:01,ORD000459,2,2,83.6,4.32
+CUST135,Michelle Lee,michelle.lee@email.com,"2954 First St, Los Angeles CA",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-21 11:21:31,ORD000460,3,1,26.14,1.09
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-11 21:50:04,ORD000461,3,1,27.17,0.0
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-04-12 20:14:39,ORD000462,1,2,123.74,7.32
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-24 16:30:27,ORD000463,2,3,21.2,0.96
+CUST082,Melissa Smith,melissa.smith@email.com,"4594 Oak St, Sacramento OH",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-06-18 16:20:12,ORD000463,2,1,15.08,0.51
+CUST003,Timothy Wright,timothywright@outlook.com,"7459 Church Ln, Las Vegas NC",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-12-06 19:33:55,ORD000464,3,1,13.83,0.0
+CUST090,Donna Jones,donna.jones@email.com,"9763 Mill Dr, Charlotte WA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-09 22:40:34,ORD000464,3,3,46.5,6.52
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-11-09 11:23:29,ORD000464,1,1,42.95,1.63
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-08-08 21:58:04,ORD000465,1,3,36.26,0.0
+CUST031,Sarah Brown,sarah.brown@email.com,"8338 Water Pl, Miami MD",Premium,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-03-06 18:38:15,ORD000466,1,1,26.29,0.91
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-04 16:27:27,ORD000466,1,1,36.35,0.05
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-06-17 16:11:41,ORD000466,1,4,19.88,1.69
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-03-21 17:19:55,ORD000466,2,3,320.59,70.35
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-03 10:15:07,ORD000467,3,2,38.16,2.53
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-09-01 15:56:05,ORD000468,3,1,449.06,0.0
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-10-06 20:47:47,ORD000469,2,1,337.08,3.61
+CUST076,Sharon Smith,sharon.smith@email.com,"1502 Park Blvd, Fresno NC",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-03-06 21:37:03,ORD000470,3,1,58.96,0.0
+CUST133,Angela Martinez,angela.martinez@email.com,"4642 Water Rd, Raleigh FL",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-03-04 12:56:50,ORD000471,1,1,38.01,0.0
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-06-14 22:38:02,ORD000471,3,2,35.28,4.34
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-03-05 16:24:19,ORD000471,3,1,44.98,1.23
+CUST084,Emily Phillips,emily.phillips@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-10-06 08:58:25,ORD000471,2,1,41.1,1.55
+CUST031,Sarah Brown,sarah.brown@email.com,"8338 Water Pl, Miami MD",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-08-22 15:40:20,ORD000472,3,1,20.33,1.46
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-04-30 19:26:59,ORD000472,2,2,34.51,2.83
+CUST136,Jennifer Mitchell,jennifermitchell@gmail.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-09-03 16:04:22,ORD000472,3,2,15.28,0.5
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-12 18:41:11,ORD000473,2,3,34.17,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-03-19 13:36:05,ORD000474,1,1,27.12,0.0
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-07-14 10:54:38,ORD000474,2,3,18.55,0.0
+CUST144,Sharon Perez,sharon.perez@email.com,"6830 Fourth Blvd, San Diego CA",Basic,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-02-04 12:11:43,ORD000475,2,3,39.57,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"5818 Market Ave, Dallas TX",VIP,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-10-07 22:24:53,ORD000476,3,1,29.47,4.19
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-02-28 22:05:29,ORD000477,2,2,17.34,0.0
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-06-02 12:09:05,ORD000478,1,4,127.03,32.07
+CUST087,Melissa Torres,melissa.torres@email.com,"1725 High Dr, Omaha FL",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-30 18:31:07,ORD000479,3,1,471.36,19.17
+CUST147,Sharon Roberts,sharon.roberts@email.com,"9221 Main Ln, Omaha MN",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-05-06 14:08:27,ORD000480,1,2,23.95,3.75
+CUST079,Sharon Perez,sharon.perez@email.com,"4538 Second Ln, Nashville MD",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-02-16 14:50:09,ORD000481,2,5,71.53,16.83
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-12-21 18:29:05,ORD000482,2,1,74.33,2.58
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-04-08 19:27:47,ORD000483,2,1,81.81,0.21
+CUST091,Rachel Martinez,rachel.martinez@email.com,"1269 Oak Rd, Seattle OH",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-08-20 13:38:42,ORD000483,3,2,44.95,0.0
+CUST100,Carol Green,carol.green@email.com,"3435 First Pl, Louisville FL",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-06-07 14:19:25,ORD000484,2,1,23.13,0.52
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-05-08 15:59:21,ORD000485,2,1,23.16,0.61
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-03-21 08:08:31,ORD000486,2,2,23.4,3.66
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-09-04 16:20:27,ORD000486,1,1,29.93,0.0
+CUST029,Sarah Hernandez,sarah.hernandez@email.com,"6496 First Way, Oklahoma City FL",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-22 21:59:42,ORD000486,2,1,34.37,1.16
+CUST049,Laura Lee,laura.lee@email.com,"5020 Lake Ln, San Diego CA",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-11 19:29:27,ORD000487,2,1,23.56,0.84
+CUST097,Robert Hernandez,robert.hernandez@email.com,"8217 Second Blvd, El Paso MA",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-29 21:46:55,ORD000488,1,1,35.25,0.0
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-07-10 16:52:17,ORD000489,3,2,46.49,4.52
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-02-16 14:58:04,ORD000490,2,2,461.97,1.2
+CUST133,Angela Martinez,Angela.Martinez@Email.Com,"4642 Water Rd, Raleigh FL",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-02-01 14:23:37,ORD000491,1,3,30.14,0.0
+CUST138,Helen Ramirez,helenramirez@gmail.com,"8132 Union Way, San Antonio TX",VIP,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-12-14 15:29:40,ORD000492,3,2,23.28,2.53
+CUST086,Daniel Roberts,daniel.roberts@email.com,"7481 Seventh Ln, Fresno MA",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-03-24 19:46:58,ORD000493,3,1,45.8,0.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",VIP,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-09-19 20:03:47,ORD000493,3,4,285.76,102.74
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-01-23 08:54:13,ORD000494,2,3,11.87,2.32
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-09-13 15:51:27,ORD000495,2,4,124.96,42.94
+CUST069,Timothy Taylor,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-05-11 11:31:28,ORD000496,2,1,25.62,0.0
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-04-18 20:23:39,ORD000497,2,2,10.87,1.1
+CUST132,William Gomez,williamgomez@hotmail.com,"1224 Broad Pl, Atlanta NC",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-08-25 18:43:45,ORD000497,2,2,42.35,2.12
+CUST015,anthony ramirez,anthony.ramirez@email.com,"7533 Main Ln, Austin TX",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-08-20 20:30:19,ORD000498,1,2,36.8,0.0
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-03-16 17:03:35,ORD000499,1,2,301.27,0.0
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-05-25 21:16:22,ORD000500,3,1,25.02,0.14
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-07-20 10:53:25,ORD000501,1,1,162.25,13.21
+CUST149,Jessica Mitchell,jessica.mitchell@email.com,"1603 School Pl, Tampa FL",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-06-20 15:39:51,ORD000501,2,4,28.7,3.59
+CUST147,Sharon Roberts,sharon.roberts@email.com,"9221 Main Ln, Omaha MN",VIP,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-06-03 12:55:43,ORD000502,2,2,20.05,2.47
+CUST093,Joshua Wright,joshua.wright@email.com,"1417 Spring St, Albuquerque MD",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-04-27 19:25:55,ORD000503,3,2,19.88,0.0
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-04-02 19:43:44,ORD000504,2,3,16.69,3.18
+CUST003,Timothy Wright,timothywright@outlook.com,"7459 Church Ln, Las Vegas NC",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-12-24 11:54:01,ORD000505,2,2,21.19,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-08-07 20:34:12,ORD000506,2,3,257.77,0.0
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-12 22:09:47,ORD000507,2,4,29.65,16.13
+CUST038,Amy Scott,amy.scott@email.com,"4214 Market St, Tucson NC",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-09-12 17:53:53,ORD000508,1,1,25.22,1.07
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-08-05 15:47:37,ORD000509,3,2,73.3,7.22
+CUST116,Anthony Baker,anthony.baker@email.com,"1310 Seventh Ct, Sacramento OH",Basic,PROD029,Self-HelpBook,Books,LifeGuide,10.0,2024-07-04 17:59:43,ORD000510,2,1,20.6,0.0
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Premium,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-09-17 16:04:17,ORD000511,3,1,24.72,1.23
+CUST065,Brian Nelson,brian.nelson@email.com,"1475 Center Blvd, Los Angeles CA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-04-24 19:27:01,ORD000511,2,2,12.83,1.19
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-08-20 18:21:58,ORD000512,3,2,68.19,0.0
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-04-09 14:53:43,ORD000513,3,1,39.55,1.92
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-13 19:47:05,ORD000514,2,1,17.59,0.99
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-05-06 12:15:13,ORD000515,1,5,33.01,5.88
+CUST034,Ruth Lee,ruth.lee@email.com,"5247 Park Ln, Indianapolis NC",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-07-30 21:57:32,ORD000516,1,1,126.83,1.44
+CUST095,Stephanie Torres,stephanie.torres@email.com,"2970 Walnut Pl, Chicago IL",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-03-07 13:50:22,ORD000517,1,3,61.36,0.0
+CUST102,John Scott,john.scott@email.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-06-03 18:06:45,ORD000517,2,3,177.75,20.15
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"4206 Mill Rd, Charlotte PA",Basic,PROD027,Cook Book,Books,FoodPub,12.0,2024-12-02 20:54:06,ORD000517,3,1,25.26,0.0
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-21 13:10:46,ORD000518,3,1,70.16,0.0
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-08-07 18:23:21,ORD000518,1,1,26.41,1.28
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-30 21:51:30,ORD000518,2,2,75.06,6.36
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-06-10 18:15:09,ORD000518,3,1,53.47,2.14
+CUST076,Sharon Smith,sharon.smith@email.com,"1502 Park Blvd, Fresno NC",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-08-17 15:54:33,ORD000519,3,1,32.47,0.24
+CUST102,John Scott,johnscott@outlook.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-16 09:21:20,ORD000520,1,1,28.71,0.05
+CUST029,Sarah Hernandez,sarah.hernandez@email.com,"6496 First Way, Oklahoma City FL",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-08-19 17:03:40,ORD000520,3,3,35.66,4.83
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-05-21 21:19:46,ORD000520,2,4,96.37,30.06
+CUST028,Jason Thomas,jason.thomas@email.com,"6758 Walnut Way, Austin TX",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-06-28 14:28:41,ORD000521,3,2,20.94,1.95
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-04-13 20:12:56,ORD000522,1,1,65.36,0.0
+CUST145,Anthony Hill,anthony.hill@email.com,"1797 Church Pl, Washington CO",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-13 10:33:34,ORD000522,1,1,71.44,3.66
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-07-04 08:56:50,ORD000522,3,1,39.64,1.52
+CUST100,Carol Green,carol.green@email.com,"3435 First Pl, Louisville FL",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-01-29 19:03:53,ORD000523,2,2,141.26,6.46
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-04-24 12:36:47,ORD000524,2,1,71.55,4.63
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-08-16 18:42:34,ORD000525,3,1,18.38,0.61
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-21 10:45:24,ORD000525,3,1,23.27,0.68
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-04-26 09:09:45,ORD000525,2,1,12.36,0.55
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-01-20 13:43:33,ORD000526,3,2,33.33,0.0
+CUST124,Brenda Scott,brenda.scott@email.com,"6564 Main Ln, Detroit PA",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-04-18 15:44:59,ORD000527,3,5,56.46,2.04
+CUST139,William Moore,william.moore@email.com,"9084 Union Ct, Omaha MN",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-27 10:45:32,ORD000528,3,1,17.69,0.42
+CUST110,Matthew Perez,matthew.perez@email.com,"1415 Water Ct, Omaha MA",Basic,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-04-04 22:07:38,ORD000528,2,1,18.95,0.0
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-09 09:23:19,ORD000529,2,1,121.67,0.0
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-04-17 08:59:57,ORD000530,2,1,78.92,0.0
+CUST023,Ashley Wright,ashley.wright@email.com,"9455  Church  Way,  Dallas  TX",Premium,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-05-20 13:04:55,ORD000531,2,1,138.57,6.53
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-05-01 21:46:53,ORD000532,1,3,80.14,11.46
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-02-08 21:46:20,ORD000533,3,2,289.15,6.73
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-01-12 18:56:28,ORD000534,2,2,137.55,9.73
+CUST138,Helen Ramirez,helenramirez@gmail.com,"8132 Union Way, San Antonio TX",VIP,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-09-16 16:41:07,ORD000535,3,1,47.27,4.92
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-05-13 11:48:30,ORD000535,1,1,29.35,0.26
+CUST039,Lisa Green,lisa.green@email.com,"822 Main Ct, Memphis WA",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-03-03 21:45:53,ORD000536,3,1,28.06,0.0
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-05-30 08:31:55,ORD000537,1,1,30.52,0.65
+CUST071,Kimberly Hill,kimberly.hill@email.com,"9372 State St, San Diego CA",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-03-06 09:07:06,ORD000538,1,1,30.55,2.02
+CUST076,Sharon Smith,sharon.smith@email.com,"1502 Park Blvd, Fresno NC",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-06-22 10:03:39,ORD000539,1,1,74.1,1.44
+CUST077,Timothy Walker,timothy.walker@email.com,"382 Pine Ln, Albuquerque MD",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-08-16 13:16:24,ORD000540,1,1,26.87,1.5
+CUST101,Timothy Young,timothy.young@email.com,"572 Center Dr, San Diego CA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-07-11 16:24:07,ORD000541,1,1,25.52,0.08
+CUST124,Brenda Scott,brenda.scott@email.com,"6564 Main Ln, Detroit PA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-29 22:56:01,ORD000542,3,4,26.74,1.32
+CUST024,Paul Gonzalez,paul.gonzalez@email.com,"1688 Mill Blvd, San Antonio TX",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-03-18 17:26:28,ORD000543,3,2,333.93,4.75
+CUST033,Brian Thomas,brian.thomas@email.com,"751 Spring Ave, Miami MN",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-07-19 11:34:27,ORD000544,3,1,28.01,0.0
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-06-16 10:00:03,ORD000544,2,1,31.5,0.0
+CUST066,Sarah Taylor,sarah.taylor@email.com,"3567 Seventh Ct, Oklahoma City CO",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-08-03 18:13:37,ORD000545,3,1,25.93,1.35
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-04-11 19:07:53,ORD000546,3,2,36.46,6.8
+CUST059,David Rivera,david.rivera@email.com,"4551 Third Ct, Denver NC",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-08-14 18:21:40,ORD000547,3,1,22.45,0.0
+CUST064,Steven Perez,steven.perez@email.com,"7757 Cedar Pl, Portland OH",VIP,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-02-23 15:38:21,ORD000547,3,1,93.5,10.37
+CUST002,Jane Garcia,jane.garcia@email.com,"8379 Spring St, Columbus NC",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-06-21 10:26:35,ORD000548,3,2,27.61,1.49
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-06-15 09:34:01,ORD000548,3,1,21.23,0.0
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-30 17:22:24,ORD000548,3,5,11.04,2.33
+CUST002,Jane Garcia,jane.garcia@email.com,"8379 Spring St, Columbus NC",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-26 19:01:48,ORD000549,3,4,23.57,0.42
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-07-25 19:14:14,ORD000550,2,1,49.85,1.75
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-08-18 21:40:25,ORD000551,2,2,24.93,2.65
+CUST111,Steven Lee,steven.lee@email.com,"8964 Oak Ave, Tampa MD",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-06-21 18:38:36,ORD000552,1,2,14.27,0.79
+CUST043,Paul Johnson,paul.johnson@email.com,"6845 State Dr, Jacksonville CO",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-08-13 16:46:50,ORD000552,1,3,20.22,4.74
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD015,Coffee Maker,Home,BrewMaster,45.0,2024-03-05 18:35:56,ORD000553,1,4,95.06,54.87
+CUST059,David Rivera,DAVIDRIVERA@YAHOO.COM,"4551 Third Ct, Denver NC",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-10-17 21:26:17,ORD000554,3,2,24.95,0.0
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-12-30 11:03:17,ORD000555,2,2,32.42,2.82
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Standard,PROD023,ResistanceBands,Sports,FitGear,12.0,2024-07-25 08:47:14,ORD000556,2,4,34.99,1.38
+CUST012,Daniel Rodriguez,daniel.rodriguez@email.com,"1589 High St, Tucson MD",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-06-09 18:06:01,ORD000557,2,3,51.84,0.0
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-03 12:15:06,ORD000558,1,4,56.64,0.0
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-07-22 11:04:49,ORD000558,3,1,67.05,0.0
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-01-22 08:58:02,ORD000559,2,3,32.31,6.49
+CUST084,Emily Phillips,emily.phillips@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-13 12:39:40,ORD000560,1,1,12.33,0.03
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-25 17:48:26,ORD000560,3,3,419.83,59.45
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-08-13 17:39:06,ORD000561,3,4,100.17,18.93
+CUST037,Brenda Adams Jr,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-26 09:00:38,ORD000562,1,2,34.08,0.0
+CUST024,Paul Gonzalez,paul.gonzalez@email.com,"1688 Mill Blvd, San Antonio TX",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-06-12 16:16:22,ORD000562,2,2,14.66,0.36
+CUST011,Brian Rivera,brian.rivera@email.com,"9660 Fifth Ct, Miami NC",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-31 12:37:27,ORD000562,3,3,23.1,5.07
+CUST028,Jason Thomas,jason.thomas@email.com,"6758 Walnut Way, Austin TX",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-04-30 12:38:21,ORD000562,2,5,70.48,20.95
+CUST045,Melissa Evans,melissa.evans@email.com,"487 Mill Dr, Charlotte NC",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-05-09 21:53:35,ORD000563,1,1,17.55,0.18
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-09-24 11:42:30,ORD000563,3,5,31.19,0.0
+CUST114,Brian Baker,brian.baker@email.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-05-24 13:39:19,ORD000564,2,1,14.72,0.58
+CUST042,Ronald Miller,ronald.miller@email.com,"6758 Spring Rd, Nashville WI",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-08-23 08:40:14,ORD000565,1,1,26.55,0.0
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-25 19:24:13,ORD000566,1,3,24.07,0.0
+CUST067,Stephanie Carter,stephanie.carter@email.com,"759 High St, Charlotte FL",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-07-06 16:07:09,ORD000567,2,1,72.39,2.77
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-02-20 11:18:11,ORD000568,2,2,374.36,20.76
+CUST004,Nicole Moore,nicole.moore@email.com,"3627 High Ct, San Jose CA",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-02-15 21:16:58,ORD000569,1,3,21.36,3.8
+CUST063,Paul Wright,paul.wright@email.com,"3713 Walnut Dr, Sacramento MN",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-08-27 11:19:29,ORD000569,2,3,425.73,97.67
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-08-13 14:56:45,ORD000569,1,1,350.89,0.0
+CUST037,Brenda Adams Jr,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-11-12 14:44:23,ORD000569,3,1,94.89,0.0
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-12-03 17:12:54,ORD000569,2,3,32.58,0.0
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-11 10:54:32,ORD000570,2,1,37.46,1.81
+CUST012,Daniel Rodriguez,daniel.rodriguez@email.com,"1589 High St, Tucson MD",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-02-12 16:24:48,ORD000571,3,3,23.73,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-03-23 19:23:33,ORD000572,2,2,29.93,4.6
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-12-12 08:13:14,ORD000573,1,1,22.33,0.24
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-05-26 10:59:53,ORD000574,2,2,128.05,6.41
+CUST067,Stephanie Carter,stephanie.carter@email.com,"1441 Walnut St, Las Vegas WA",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-02-28 17:02:29,ORD000575,3,1,24.5,0.53
+CUST098,Donna Garcia,donna.garcia@email.com,"5396 Maple Blvd, Boston WA",Basic,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-03-22 12:24:01,ORD000576,2,1,13.75,0.0
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-03-16 21:32:32,ORD000577,3,1,31.86,1.07
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-01-10 16:12:21,ORD000578,3,1,18.41,0.75
+CUST052,JOSHUA WALKER,joshua.walker@email.com,"1489 Second Pl, Austin TX",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-02-18 19:38:08,ORD000579,3,2,23.29,0.02
+CUST065,Brian Nelson,brian.nelson@email.com,"1475 Center Blvd, Los Angeles CA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-07-19 14:25:52,ORD000580,3,1,47.76,3.79
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-02-28 11:46:47,ORD000580,2,1,20.69,1.1
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-03-28 20:05:20,ORD000581,1,1,23.52,0.49
+CUST109,John Campbell,john.campbell@email.com,"6817 Water Rd, San Jose CA",VIP,PROD028,Fiction Novel,Books,StoryHouse,8.0,2024-01-08 13:08:36,ORD000582,1,1,21.89,2.19
+CUST067,Stephanie Carter,stephanie.carter@email.com,"1441 Walnut St, Las Vegas WA",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-27 11:26:27,ORD000583,2,3,21.51,0.97
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-20 08:59:08,ORD000584,2,2,44.78,4.09
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-04-07 11:25:04,ORD000585,2,1,29.51,0.84
+CUST057,Sharon Hill,sharon.hill@email.com,"8370  Sixth  Pl,  Boston  MD",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-01-24 10:06:43,ORD000586,1,1,37.64,0.92
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-10-05 12:13:14,ORD000587,3,2,68.72,0.0
+CUST002,Jane Garcia,jane.garcia@email.com,"8379 Spring St, Columbus NC",Standard,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-02-13 13:55:58,ORD000588,2,1,12.66,0.0
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-10-06 22:55:13,ORD000589,1,1,45.08,0.0
+CUST030,Thomas Gomez Jr,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-11-30 17:19:37,ORD000590,3,2,19.66,1.26
+CUST085,Brian Martin,brian.martin@email.com,"2040 Hill Blvd, Philadelphia NC",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-17 21:25:38,ORD000590,1,2,46.55,4.09
+CUST113,Jane Williams,jane.williams@email.com,"4906 Fourth Ct, Boston FL",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-07-09 19:05:18,ORD000591,2,1,45.47,3.07
+CUST034,Ruth Lee,ruth.lee@email.com,"5247 Park Ln, Indianapolis NC",Standard,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-04-16 11:11:57,ORD000592,3,1,76.3,2.51
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-04-10 19:02:15,ORD000593,1,1,26.27,0.0
+CUST012,daniel rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-12-24 19:46:57,ORD000594,2,1,22.08,0.0
+CUST069,Timothy Taylor,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-01-20 20:06:32,ORD000595,2,1,51.95,0.0
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-10-25 08:04:40,ORD000596,3,2,28.56,3.7
+CUST074,Michelle Moore,michelle.moore@email.com,"1519 First Way, Boston NC",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-01-10 08:16:07,ORD000596,1,1,32.97,1.62
+CUST108,Michael Lee,michael.lee@email.com,"6425 Mill Rd, Milwaukee MA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-06-17 11:45:28,ORD000597,2,3,45.45,1.16
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-08-13 12:07:34,ORD000598,2,1,128.22,0.07
+CUST084,Emily Brown,emily.brown@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-04-01 10:13:45,ORD000599,3,2,146.51,0.7
+CUST103,Deborah Jackson,deborah.jackson@email.com,"6907 Broad Way, Tucson WA",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-06-13 18:45:42,ORD000600,1,1,23.07,0.0
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD007,PhoneStand,Electronics,StandPro,6.0,2024-07-11 20:24:49,ORD000601,1,1,17.9,0.46
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-27 21:12:43,ORD000602,1,1,23.05,0.0
+CUST130,Amanda White,amanda.white@email.com,"6118 Hill Ct, San Antonio TX",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-02-12 19:10:02,ORD000602,3,1,13.95,1.48
+CUST040,Matthew Hernandez,matthew.hernandez@email.com,"7107 Hill St, Louisville WI",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-08-27 16:25:27,ORD000603,1,1,23.56,0.72
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-07-02 14:13:29,ORD000604,1,2,364.54,41.87
+CUST041,Timothy Martinez,timothy.martinez@email.com,"5962 Washington Dr, Detroit FL",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-10-12 12:49:38,ORD000605,1,2,55.81,0.0
+CUST047,Donald Campbell Jr,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-07-23 17:20:40,ORD000606,2,2,35.66,0.0
+CUST062,Steven Walker,steven.walker@email.com,"5863 Second Blvd, New York NY",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-14 18:48:56,ORD000607,2,5,31.99,0.0
+CUST003,Timothy Wright,timothywright@outlook.com,"7459 Church Ln, Las Vegas NC",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-12-01 22:37:28,ORD000608,3,2,26.78,0.0
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-02-29 08:39:48,ORD000609,1,1,27.37,0.0
+CUST121,William Garcia,william.garcia@email.com,"6907 Elm Dr, Denver CO",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-01-21 08:08:23,ORD000609,2,1,47.51,2.78
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-06-02 15:47:56,ORD000610,1,1,95.16,3.62
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-06-14 21:18:48,ORD000611,1,3,74.59,7.73
+CUST130,Amanda White,amanda.white@email.com,"6118 Hill Ct, San Antonio TX",VIP,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-03-04 20:43:44,ORD000612,1,2,114.3,18.78
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-15 21:31:04,ORD000613,1,2,17.12,1.1
+CUST116,Anthony Baker,anthony.baker@email.com,"1310 Seventh Ct, Sacramento OH",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-05-20 21:50:59,ORD000614,1,2,19.4,0.0
+CUST032,Lisa Lopez,Lisa.Lopez@Email.Com,"9849 Pine Dr, Phoenix AZ",Standard,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-07-03 11:15:27,ORD000615,3,1,11.87,0.27
+CUST051,Laura Torres,laura.torres@email.com,"7344 Mill Dr, Baltimore NC",Premium,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-10-30 09:23:25,ORD000616,1,1,29.06,1.64
+CUST030,Thomas Gomez,thomas.gomez@email.com,"2636  Washington  Ln,  Kansas  City  MD",Premium,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-07-28 20:30:01,ORD000617,2,1,49.99,3.72
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-02-09 16:46:11,ORD000618,2,1,24.53,1.04
+CUST013,George Jones,george.jones@email.com,"9863 Seventh Pl, Oklahoma City MA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-03-26 10:45:30,ORD000619,1,4,16.03,4.6
+CUST069,Timothy Taylor Jr,timothy.taylor@email.com,"1976 High Rd, Detroit OH",Basic,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-11-01 14:59:26,ORD000619,3,1,29.86,0.0
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD030,Travel Guide,Books,WanderPress,14.0,2024-01-19 14:56:02,ORD000620,1,1,35.91,0.0
+CUST083,William Green,william.green@email.com,"300 Church Ln, Albuquerque PA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-03-06 20:58:48,ORD000621,2,2,119.44,8.22
+CUST127,Paul Davis,paul.davis@email.com,"842 Oak Ln, Dallas TX",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-04-08 22:27:47,ORD000622,1,1,467.42,0.0
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-06-22 08:44:42,ORD000623,1,1,39.28,0.0
+CUST118,Brian Thompson,brian.thompson@email.com,"4937 Main Blvd, Atlanta WA",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-05-28 18:53:10,ORD000624,1,3,84.61,19.04
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-08-18 09:33:58,ORD000625,2,1,19.41,0.0
+CUST099,John Nelson,john.nelson@email.com,"6870 Oak Dr, Sacramento MD",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-05-16 18:56:24,ORD000626,2,2,49.53,4.58
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-06-11 17:49:51,ORD000626,1,1,132.56,8.6
+CUST001,Edward Williams,edward.williams@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-08-11 21:31:00,ORD000627,1,3,24.17,3.26
+CUST082,Melissa Smith,melissa.smith@email.com,"4594 Oak St, Sacramento OH",Standard,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-13 10:23:11,ORD000628,1,1,26.18,1.24
+CUST041,Timothy Martinez,timothy.martinez@email.com,"6149  Church  Pl,  Sacramento  FL",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-02-17 11:03:47,ORD000629,1,1,15.08,0.67
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-01-28 21:40:10,ORD000630,2,1,254.95,0.0
+CUST006,Steven Garcia,steven.garcia@email.com,"6025 Church Dr, Kansas City WA",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-29 11:30:31,ORD000631,1,1,18.12,0.87
+CUST008,Elizabeth Thompson,elizabeth.thompson@email.com,"1269 Spring Rd, Columbus WA",Standard,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-01-25 11:33:50,ORD000632,2,2,95.57,7.28
+CUST092,Ryan Torres,ryan.torres@email.com,"2137 Seventh Ln, Denver MD",Standard,PROD011,Running Shoes,Clothing,SportStep,40.0,2024-07-12 13:38:27,ORD000632,2,2,84.34,2.66
+CUST068,Amanda Gonzalez,amanda.gonzalez@email.com,"2596 Park Rd, Los Angeles CA",Standard,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-06-19 14:24:39,ORD000633,2,3,168.36,0.08
+CUST075,Laura Nelson,laura.nelson@email.com,"570 Walnut Ct, Oklahoma City CO",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-04 21:56:59,ORD000633,1,2,45.89,3.37
+CUST047,Donald Campbell,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-04-04 15:39:43,ORD000634,2,2,21.27,0.0
+CUST125,Kimberly Mitchell,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-07-27 13:01:40,ORD000635,1,4,164.14,39.84
+CUST095,Stephanie Torres,stephanie.torres@email.com,"2970 Walnut Pl, Chicago IL",Standard,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-04-12 19:39:50,ORD000636,2,1,351.77,16.37
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-19 09:46:24,ORD000636,3,1,60.0,6.12
+CUST140,Anthony Robinson,anthony.robinson@email.com,"7148 Maple Ave, Tucson MN",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-05-09 08:08:31,ORD000637,1,1,42.76,0.0
+CUST090,Donna Jones,donna.jones@email.com,"9763 Mill Dr, Charlotte WA",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-02-13 22:28:07,ORD000638,3,2,44.86,0.76
+CUST137,Thomas Gomez,thomas.gomez@email.com,"7604 Center St, Fresno WA",VIP,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-01-23 09:27:45,ORD000638,1,4,74.44,0.0
+CUST141,Angela Scott,angela.scott@email.com,"7498 Market Dr, Columbus MA",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-03-06 18:30:57,ORD000639,1,2,23.37,1.48
+CUST136,Jennifer Mitchell,jennifer.mitchell@email.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-03-26 21:14:59,ORD000640,3,1,42.17,1.92
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-04-07 18:41:50,ORD000640,2,3,31.12,0.54
+CUST017,Kevin Roberts,kevin.roberts@email.com,"9913 Third Way, Fresno FL",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-03-28 19:37:59,ORD000641,3,4,20.57,5.16
+CUST071,Kimberly Hill,kimberly.hill@email.com,"9372 State St, San Diego CA",Premium,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-05-27 19:00:19,ORD000642,3,2,170.82,26.92
+CUST068,Amanda Gonzalez,amandagonzalez@outlook.com,"2596 Park Rd, Los Angeles CA",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-12-19 22:50:08,ORD000643,3,2,22.21,0.88
+CUST088,Lisa Hernandez,lisa.hernandez@email.com,"2947 Hill Ave, San Francisco CA",Premium,PROD027,Cook Book,Books,FoodPub,12.0,2024-03-21 10:52:18,ORD000644,1,1,29.46,1.65
+CUST130,Amanda White,amanda.white@email.com,"6118 Hill Ct, San Antonio TX",VIP,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-08-05 20:52:44,ORD000645,3,1,150.13,17.84
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-05-26 15:40:53,ORD000646,2,1,23.72,1.33
+CUST030,Thomas Gomez,thomas.gomez@email.com,"2636 Washington Ln, Kansas City MD",Premium,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-30 19:13:54,ORD000646,1,2,98.51,14.17
+CUST095,Stephanie Torres,stephanie.torres@email.com,"2970 Walnut Pl, Chicago IL",Standard,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-07-05 14:19:52,ORD000647,1,5,20.37,1.72
+CUST066,Sarah Taylor,sarah.taylor@email.com,"3567 Seventh Ct, Oklahoma City CO",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-12 14:25:04,ORD000648,3,1,26.95,0.85
+CUST073,Thomas King,thomas.king@email.com,"8917 High Way, Seattle MN",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-25 10:20:48,ORD000648,3,3,32.86,4.61
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-08-09 17:08:28,ORD000649,2,1,25.73,0.0
+CUST147,Sharon Roberts,sharon.roberts@email.com,"9221 Main Ln, Omaha MN",VIP,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-02-20 19:41:00,ORD000650,3,3,126.11,48.63
+CUST070,Brian Baker,brian.baker@email.com,"3349 Pine Dr, Oklahoma City MA",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-04-19 18:53:10,ORD000650,1,1,41.63,1.28
+CUST102,John Scott,john.scott@email.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-06-15 13:37:27,ORD000651,3,2,35.91,0.43
+CUST057,Sharon Hill,sharon.hill@email.com,"8370 Sixth Pl, Boston MD",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-06-25 17:11:41,ORD000652,2,3,143.56,14.44
+CUST089,Timothy Hill,timothy.hill@email.com,"634 Park Ln, Milwaukee WA",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-08-09 21:41:24,ORD000653,3,2,23.66,0.28
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD008,Tablet,Electronics,TabletMax,180.0,2024-06-13 18:58:32,ORD000654,1,2,477.96,0.0
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-07-22 17:11:24,ORD000655,3,2,45.96,0.0
+CUST060,Steven Hall,steven.hall@email.com,"3605 Pine Blvd, San Jose CA",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-01-17 19:58:55,ORD000656,3,1,44.99,0.04
+CUST106,Ronald Young,ronald.young@email.com,"7416 Hill Way, San Jose CA",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-07-19 20:33:31,ORD000657,3,3,304.67,63.19
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-07-11 11:42:57,ORD000658,1,3,26.94,0.02
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD007,Phone Stand,Electronics,StandPro,6.0,2024-07-30 08:08:36,ORD000659,3,1,20.49,1.46
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-05-09 12:23:34,ORD000660,2,5,13.81,2.41
+CUST102,John Scott,johnscott@outlook.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-09-12 18:34:28,ORD000661,3,1,37.0,1.68
+CUST119,Kimberly Roberts,kimberly.roberts@email.com,"8238 Broad Ln, Houston TX",Basic,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-17 16:13:44,ORD000661,3,3,22.36,0.0
+CUST056,Sarah Scott,sarah.scott@email.com,"2088 Seventh Rd, San Francisco CA",Basic,PROD020,Kitchen Knife Set,Home,ChefPro,35.0,2024-08-07 21:13:08,ORD000662,3,1,75.48,0.0
+CUST122,Elizabeth King,elizabeth.king@email.com,"2795 First Way, Tucson WA",Basic,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-04-18 09:35:16,ORD000663,2,2,21.62,0.0
+CUST048,John King,john.king@email.com,"6067 Sixth Ave, Sacramento NC",Basic,PROD018,Plant Pot,Home,GreenSpace,12.0,2024-06-22 14:44:09,ORD000664,1,1,38.25,0.0
+CUST136,Jennifer Mitchell,jennifermitchell@gmail.com,"7902 Seventh Ct, Phoenix AZ",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-12-11 11:45:23,ORD000664,3,2,45.2,0.74
+CUST058,Andrew Taylor,andrew.taylor@email.com,"4643 High Pl, San Francisco CA",Premium,PROD008,Tablet,Electronics,TabletMax,180.0,2024-10-18 14:01:38,ORD000664,1,1,405.03,24.72
+CUST061,Paul Brown,paul.brown@email.com,"6481 Market St, Columbus MA",Basic,PROD011,RunningShoes,Clothing,SportStep,40.0,2024-06-12 09:23:58,ORD000665,2,1,100.72,0.0
+CUST019,David Carter,david.carter@email.com,"2203 Mill Way, Sacramento OH",Standard,PROD026,Programming Guide,Books,TechPress,15.0,2024-10-03 11:24:06,ORD000666,1,1,43.64,0.67
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-01-25 16:22:44,ORD000666,2,2,46.92,4.21
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-04-09 10:22:51,ORD000667,3,4,121.51,14.45
+CUST093,Joshua Wright,joshua.wright@email.com,"1417 Spring St, Albuquerque MD",Basic,PROD022,Water Bottle,Sports,HydroMax,8.0,2024-05-31 10:16:00,ORD000667,3,2,21.25,0.0
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD024,Tennis Racket,Sports,CourtAce,50.0,2024-07-07 12:03:58,ORD000668,3,5,129.95,8.09
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD026,Programming Guide,Books,TechPress,15.0,2024-04-27 10:28:22,ORD000669,2,2,36.4,0.0
+CUST043,Paul Johnson,paul.johnson@email.com,"6845 State Dr, Jacksonville CO",Premium,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-03-19 18:54:05,ORD000669,2,3,79.66,13.88
+CUST046,David Roberts,david.roberts@email.com,"8446 Fifth Pl, Seattle CO",Premium,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-01-24 10:36:03,ORD000670,3,1,351.54,24.08
+CUST080,Mark Davis,mark.davis@email.com,"3238  Washington  Way,  Sacramento  OH",Premium,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-06-22 16:59:46,ORD000671,2,1,42.95,2.6
+CUST023,Ashley Wright,ashley.wright@email.com,"9455 Church Way, Dallas TX",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-04-13 08:39:12,ORD000672,3,1,33.94,1.77
+CUST145,Anthony Hill,anthony.hill@email.com,"1797 Church Pl, Washington CO",Premium,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-06-18 22:52:56,ORD000673,3,2,26.06,4.06
+CUST150,Nicole Hernandez Jr,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-11-10 22:14:11,ORD000674,2,3,301.63,0.0
+CUST080,Mark Davis,mark.davis@email.com,"3238 Washington Way, Sacramento OH",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-06 14:10:23,ORD000674,2,4,22.49,4.71
+CUST022,Sarah Anderson,sarah.anderson@email.com,"614 Water Ct, Phoenix AZ",VIP,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-09-11 12:30:18,ORD000674,1,1,26.3,2.35
+CUST125,Kimberly Mitchell Jr,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD030,Travel Guide,Books,WanderPress,14.0,2024-11-07 21:57:02,ORD000674,2,3,39.87,2.8
+CUST088,Lisa Hernandez,lisa.hernandez@email.com,"2947 Hill Ave, San Francisco CA",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-03-25 12:22:06,ORD000675,2,3,69.95,8.66
+CUST096,Emily Nguyen,emily.nguyen@email.com,"1594 Walnut Ct, Memphis MD",Standard,PROD029,Self-Help Book,Books,LifeGuide,10.0,2024-02-20 09:33:32,ORD000676,1,1,29.12,0.01
+CUST047,Donald Campbell Jr,donald.campbell@email.com,"8479 Maple Blvd, Boston MA",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-08-25 15:25:23,ORD000676,2,1,61.09,0.0
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD006,USBCable,Electronics,ConnectCorp,3.0,2024-04-22 18:53:28,ORD000676,1,1,12.65,0.53
+CUST038,Amy Scott,amy.scott@email.com,"4562 Second Dr, San Jose CA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-01-29 11:18:02,ORD000676,2,1,37.29,0.06
+CUST093,Joshua Wright,joshua.wright@email.com,"1417 Spring St, Albuquerque MD",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-06-19 12:07:26,ORD000677,3,1,53.62,0.0
+CUST148,Jason Martin,jason.martin@email.com,"200 Elm Rd, El Paso CO",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-07-14 20:56:25,ORD000678,3,4,28.42,2.21
+CUST021,Jennifer Thomas,jennifer.thomas@email.com,"5639 Main Pl, Charlotte PA",Premium,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-07-21 08:08:09,ORD000679,3,1,161.06,3.72
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD016,Table Lamp,Home,LightCorp,20.0,2024-06-01 19:00:27,ORD000679,2,1,41.64,1.9
+CUST143,Jessica Baker,jessica.baker@email.com,"1594 Broad Ave, Milwaukee PA",VIP,PROD025,Camping Chair,Sports,OutdoorPlus,25.0,2024-05-10 10:15:17,ORD000680,1,3,71.85,16.11
+CUST038,Amy Scott,amy.scott@email.com,"4562 Second Dr, San Jose CA",Standard,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-05-01 19:50:51,ORD000680,3,2,26.1,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Standard,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-12-08 10:14:07,ORD000680,2,1,47.83,2.22
+CUST120,Edward Miller,edward.miller@email.com,"5161 State Way, Tampa FL",VIP,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-02-21 09:55:03,ORD000681,2,2,32.39,9.59
+CUST081,Jason King,jason.king@email.com,"1747 Broad Dr, Raleigh WA",Premium,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-02 08:32:27,ORD000682,1,1,36.3,1.34
+CUST079,Sharon Perez,sharon.perez@email.com,"4538 Second Ln, Nashville MD",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-03-04 13:57:03,ORD000683,1,1,13.82,0.54
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",Premium,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-08-20 17:06:27,ORD000684,2,4,12.28,1.88
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-06-23 16:49:55,ORD000685,2,1,44.95,0.0
+CUST115,Donna Green,donna.green@email.com,"4283 Mill St, Indianapolis MD",Basic,PROD021,Yoga Mat,Sports,FlexFit,15.0,2024-05-15 17:23:15,ORD000685,2,1,38.14,0.0
+CUST025,Thomas Brown,thomas.brown@email.com,"1093 Fifth Ct, San Antonio TX",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-06-10 19:38:07,ORD000685,3,4,173.03,0.0
+CUST037,Brenda Adams Jr,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD003,Smart Watch,Electronics,WearTech,120.0,2024-12-26 15:59:06,ORD000685,3,2,276.17,0.0
+CUST150,Nicole Hernandez,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-02-21 16:46:09,ORD000686,1,1,153.02,0.0
+CUST150,Nicole Hernandez,nicole.hernandez@email.com,"5414 High Ave, Detroit WA",Basic,PROD012,Winter Jacket,Clothing,WarmGear,60.0,2024-08-06 21:58:35,ORD000687,2,1,163.03,0.0
+CUST012,Daniel Rodriguez,danielrodriguez@outlook.com,"1589 High St, Tucson MD",Basic,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-10-30 14:33:59,ORD000687,1,1,22.73,0.0
+CUST055,Helen Thomas,helen.thomas@email.com,"190 Market Ave, San Jose CA",Basic,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-01-12 17:03:50,ORD000687,1,2,28.76,0.0
+CUST102,John Scott,john.scott@email.com,"3781 Broad Ave, Las Vegas PA",Standard,PROD017,Throw Pillow,Home,CozyHome,8.0,2024-01-20 10:28:48,ORD000688,2,2,23.89,1.45
+CUST001,Edward Davis,edward.davis@email.com,"4606 Park Dr, Los Angeles CA",Premium,PROD023,Resistance Bands,Sports,FitGear,12.0,2024-02-10 17:13:37,ORD000689,1,3,33.48,4.75
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-09-03 12:54:14,ORD000689,3,1,59.33,0.0
+CUST105,Stephanie Evans,stephanie.evans@email.com,"4734 School Ln, New York NY",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-03-01 12:02:40,ORD000690,2,4,36.32,0.0
+CUST125,Kimberly Mitchell Jr,kimberly.mitchell@email.com,"6342 Broad Ct, Indianapolis MN",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-08-31 21:13:34,ORD000690,1,2,26.32,4.12
+CUST138,Helen Ramirez,helen.ramirez@email.com,"8132 Union Way, San Antonio TX",VIP,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-08-14 16:16:46,ORD000691,2,3,36.71,16.36
+CUST002,jane garcia,jane.garcia@email.com,"8379 Spring St, Columbus NC",Standard,PROD009,Cotton T-Shirt,Clothing,ComfortWear,8.0,2024-07-29 13:14:46,ORD000692,1,1,20.15,0.0
+CUST114,Brian Baker,brianbaker@yahoo.com,"2968 Pine Blvd, Jacksonville OH",Standard,PROD013,Baseball Cap,Clothing,CapStyle,12.0,2024-07-26 19:47:44,ORD000692,3,1,31.5,0.95
+CUST084,Emily Phillips,emily.phillips@email.com,"1969 Broad Ave, Indianapolis MD",Standard,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-08-24 13:17:13,ORD000693,3,3,49.54,1.16
+CUST142,Helen Clark,helen.clark@email.com,"5220 Sixth Ct, San Antonio TX",Standard,PROD016,Table Lamp,Home,LightCorp,20.0,2024-04-21 13:09:57,ORD000694,1,1,49.18,2.01
+CUST112,Anthony Anderson,anthony.anderson@email.com,"1712 High Ave, Philadelphia MA",Standard,PROD010,Denim Jeans,Clothing,DenimCo,25.0,2024-05-05 19:11:41,ORD000695,1,1,80.78,3.3
+CUST037,Brenda Adams,brenda.adams@email.com,"9186 Second Ave, Fresno FL",Basic,PROD008,Tablet,Electronics,TabletMax,180.0,2024-01-18 10:04:27,ORD000696,2,4,475.25,0.0
+CUST103,Deborah Jackson,deborahjackson@outlook.com,"6907 Broad Way, Tucson WA",Basic,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-08-03 19:48:51,ORD000697,3,1,76.28,0.0
+CUST003,Timothy Wright,timothy.wright@email.com,"7459 Church Ln, Las Vegas NC",Basic,PROD002,Bluetooth Speaker,Electronics,AudioCorp,60.0,2024-07-14 21:41:59,ORD000698,1,1,125.01,0.0
+CUST123,Nicole Phillips,nicole.phillips@email.com,"7773 Pine Rd, San Diego CA",Basic,PROD026,Programming Guide,Books,TechPress,15.0,2024-06-02 08:50:00,ORD000699,1,2,45.08,0.0
+CUST016,Joshua Miller,joshua.miller@email.com,"8417 Spring Dr, Tampa WA",Premium,PROD019,Wall Clock,Home,TimeKeeper,18.0,2024-02-21 10:30:48,ORD000699,2,3,41.52,6.07
+CUST107,Kevin Harris,kevin.harris@email.com,"3190 Union Dr, Baltimore CO",Premium,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-12-23 12:40:34,ORD000700,1,3,21.02,2.38
+CUST078,Melissa Nelson,melissa.nelson@email.com,"7853 Hill Pl, Miami CO",Premium,PROD001,Wireless Headphones,Electronics,TechBrand,45.0,2024-02-06 08:58:14,ORD000701,1,1,68.71,4.08
+CUST134,Brenda Lopez,brenda.lopez@email.com,"522 Cedar St, San Diego CA",Standard,PROD027,Cook Book,Books,FoodPub,12.0,2024-04-08 18:56:45,ORD000702,1,1,35.88,0.4
+CUST053,Lisa Evans,lisa.evans@email.com,"5185 Park Dr, San Francisco CA",VIP,PROD004,Smartphone Case,Electronics,ProtectPlus,8.0,2024-09-28 09:39:21,ORD000702,2,4,29.19,16.29
+CUST035,Melissa Robinson,melissa.robinson@email.com,"252 Seventh Ave, Boston PA",VIP,PROD006,USB Cable,Electronics,ConnectCorp,3.0,2024-04-19 16:21:38,ORD000703,3,1,15.03,1.78
+CUST054,laura roberts,laura.roberts@email.com,"7561 Sixth Dr, Phoenix AZ",Standard,PROD030,Travel Guide,Books,WanderPress,14.0,2024-03-30 22:06:17,ORD000704,2,2,41.05,3.33
+CUST014,John Baker,john.baker@email.com,"8897 High Ln, San Diego CA",Basic,PROD005,Wireless Charger,Electronics,PowerTech,15.0,2024-07-20 08:55:59,ORD000704,3,1,34.36,0.0
+CUST093,Joshua Wright,joshua.wright@email.com,"1417 Spring St, Albuquerque MD",Basic,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-07-27 09:07:36,ORD000705,3,1,12.53,0.0
+CUST035,Melissa Robinson,melissa.robinson@email.com,"5818 Market Ave, Dallas TX",VIP,PROD014,Athletic Socks,Clothing,ComfortFeet,4.0,2024-10-05 13:20:31,ORD000705,2,2,14.47,3.74
+CUST127,Paul Davis,pauldavis@yahoo.com,"842 Oak Ln, Dallas TX",Basic,PROD016,Table Lamp,Home,LightCorp,20.0,2024-08-30 14:26:35,ORD000706,3,2,50.64,0.0
