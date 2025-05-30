@@ -1,0 +1,1001 @@
+account_holder_id,account_holder_name,address,relationship_tier,banking_product_id,product_name,product_category,transaction_date,transaction_amount,transaction_type,transaction_id,account_number
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD007,Credit Card,Credit Cards,2024-02-21 09:54:00,-28.55,Fee,TXN000001,CC339592
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD014,Wire Transfer,Services,2024-03-07 15:25:00,-565.92,Transfer,TXN000002,SVC547494
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD005,Basic Checking,Checking,2024-02-12 12:23:00,-484.78,Withdrawal,TXN000003,CHK195656
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD012,Certificate of Deposit,Savings,2024-01-06 14:06:00,-2804.04,Transfer,TXN000004,SAV714953
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD004,Money Market,Savings,2024-02-05 13:42:00,8748.71,Deposit,TXN000005,SAV886730
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD010,Mortgage,Loans,2024-02-18 12:38:00,-1184.61,Payment,TXN000006,MTG705991
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD016,Safe Deposit Box,Services,2024-02-28 10:42:00,21258.23,Deposit,TXN000007,SVC467121
+AH120,Jessica Jones,"4442 High Blvd, Milwaukee WI",Standard,PROD009,Investment Account,Investments,2024-01-24 09:48:00,-1208.18,Transfer,TXN000008,INV549956
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD001,Premium Checking,Checking,2024-02-19 17:39:00,-664.67,Withdrawal,TXN000009,CHK827157
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD010,Mortgage,Loans,2024-01-02 10:17:00,-2780.31,Payment,TXN000010,MTG468074
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD013,Overdraft Protection,Services,2024-02-26 10:36:00,3975.93,Deposit,TXN000011,SVC763928
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD013,Overdraft Protection,Services,2024-01-06 16:13:00,-50.83,Fee,TXN000012,SVC265055
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD003,Personal Loan,Loans,2024-03-05 13:49:00,-2673.36,Payment,TXN000013,LON263137
+AH035,Helen Davis,"4133 Fifth St, Kansas City MO",Standard,PROD003,Personal Loan,Loans,2024-02-18 17:03:00,-961.89,Payment,TXN000014,LON794093
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD014,Wire Transfer,Services,2024-03-17 17:28:00,-29.4,Fee,TXN000015,SVC637234
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD010,Mortgage,Loans,2024-01-23 14:07:00,-2099.01,Payment,TXN000016,MTG721946
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD002,High-Yield Savings,Savings,2024-02-03 18:19:00,9846.01,Deposit,TXN000017,SAV157443
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD005,Basic Checking,Checking,2024-02-28 12:13:00,-649.95,Transfer,TXN000018,CHK225812
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD005,Basic Checking,Checking,2024-03-17 14:11:00,3533.17,Deposit,TXN000019,CHK624563
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD012,Certificate of Deposit,Savings,2024-02-23 18:51:00,8631.47,Deposit,TXN000020,SAV144357
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD003,Personal Loan,Loans,2024-01-02 15:58:00,-2613.91,Payment,TXN000021,LON703727
+AH092,William Moore,"993 Third Ln, Chicago IL",Standard,PROD014,Wire Transfer,Services,2024-02-06 14:45:00,-20.37,Fee,TXN000022,SVC121869
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD012,Certificate of Deposit,Savings,2024-01-11 17:29:00,8460.4,Deposit,TXN000023,SAV355135
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD003,Personal Loan,Loans,2024-02-07 14:33:00,-1308.15,Payment,TXN000024,LON425346
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD006,Student Checking,Checking,2024-01-15 13:49:00,3184.46,Deposit,TXN000025,CHK656379
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD005,Basic Checking,Checking,2024-01-13 13:22:00,774.9,Deposit,TXN000026,CHK306854
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD003,Personal Loan,Loans,2024-02-08 10:48:00,-696.01,Payment,TXN000027,LON910389
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD015,Cashier Check,Services,2024-03-17 15:48:00,-4628.36,Transfer,TXN000028,SVC691912
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD011,Business Checking,Checking,2024-02-10 17:20:00,388.02,Deposit,TXN000029,CHK563688
+AH134,Kimberly Sanchez,"6092 Elm Blvd, Mesa AZ",Premium,PROD002,High-Yield Savings,Savings,2024-01-20 12:37:00,834.49,Deposit,TXN000030,SAV584172
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD010,Mortgage,Loans,2024-01-03 08:23:00,-414.85,Payment,TXN000031,MTG996840
+AH021,David Wright,"2203 Adams Pl, Dallas TX",Preferred,PROD013,Overdraft Protection,Services,2024-02-09 17:32:00,-62.23,Fee,TXN000032,SVC930281
+AH010,Donna Harris,"9225  East  Ct,  Seattle  WA",Basic,PROD007,Credit Card,Credit Cards,2024-01-29 17:41:00,-33.15,Fee,TXN000033,CC625721
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD011,Business Checking,Checking,2024-01-04 15:06:00,-8.79,Fee,TXN000034,CHK777513
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD015,Cashier Check,Services,2024-01-03 11:45:00,-57.17,Fee,TXN000035,SVC739427
+AH035,Helen Davis,"4133 Fifth St, Kansas City MO",Standard,PROD010,Mortgage,Loans,2024-01-24 13:58:00,-1284.77,Payment,TXN000036,MTG912085
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD011,Business Checking,Checking,2024-02-13 17:03:00,517.8,Deposit,TXN000037,CHK811332
+AH084,Lisa Moore,"4095 Jefferson Blvd, Louisville KY",Preferred,PROD005,Basic Checking,Checking,2024-01-19 12:46:00,2934.56,Deposit,TXN000038,CHK248298
+AH077,William Walker,"1974 Fourth Dr, Virginia Beach VA",Standard,PROD013,Overdraft Protection,Services,2024-01-20 18:44:00,15078.51,Deposit,TXN000039,SVC188834
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD011,Business Checking,Checking,2024-02-05 14:41:00,-1373.22,Transfer,TXN000040,CHK969226
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD014,Wire Transfer,Services,2024-02-28 16:05:00,-1872.96,Transfer,TXN000041,SVC480211
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD016,Safe Deposit Box,Services,2024-01-12 11:21:00,6050.3,Deposit,TXN000042,SVC244247
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD004,Money Market,Savings,2024-02-19 12:54:00,5443.73,Deposit,TXN000043,SAV874524
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD005,Basic Checking,Checking,2024-01-03 18:21:00,-171.17,Withdrawal,TXN000044,CHK289630
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD006,Student Checking,Checking,2024-02-19 17:51:00,-183.02,Transfer,TXN000045,CHK481995
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD010,Mortgage,Loans,2024-03-01 15:39:00,-2306.7,Payment,TXN000046,MTG921874
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD010,Mortgage,Loans,2024-01-15 16:15:00,-2903.67,Payment,TXN000047,MTG922471
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD015,Cashier Check,Services,2024-02-27 11:23:00,-79.25,Fee,TXN000048,SVC915922
+AH083,Kevin Walker,"7236 Fifth Ln, Baltimore MD",PREF,PROD006,Student Checking,Checking,2024-02-02 16:26:00,-1622.39,Transfer,TXN000049,CHK245121
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-04 18:30:00,1115.64,Deposit,TXN000050,SAV986982
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD003,Personal Loan,Loans,2024-02-24 09:18:00,-2336.73,Payment,TXN000051,LON386042
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD014,Wire Transfer,Services,2024-02-27 16:09:00,23687.12,Deposit,TXN000052,SVC332823
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD001,Premium Checking,Checking,2024-02-26 13:59:00,-408.52,Withdrawal,TXN000053,CHK492127
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD008,Auto Loan,Loans,2024-01-25 09:23:00,-278.93,Payment,TXN000054,AUTO203896
+AH138,Jennifer Miller,"8907 Walnut Blvd, San Francisco CA",Standard,PROD002,High-Yield Savings,Savings,2024-01-22 10:08:00,8314.64,Deposit,TXN000055,SAV829884
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD001,Premium Checking,Checking,2024-03-31 15:28:00,-5.86,Fee,TXN000056,CHK326130
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD014,Wire Transfer,Services,2024-02-05 17:33:00,19516.23,Deposit,TXN000057,SVC349183
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD014,Wire Transfer,Services,2024-01-08 08:15:00,-3990.11,Transfer,TXN000058,SVC579318
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD001,Premium Checking,Checking,2024-02-22 15:38:00,-583.55,Withdrawal,TXN000059,CHK853448
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-19 14:00:00,4224.02,Deposit,TXN000060,SAV796643
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD003,Personal Loan,Loans,2024-01-06 16:23:00,-2869.53,Payment,TXN000061,LON670511
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD013,Overdraft Protection,Services,2024-03-18 16:01:00,-13.92,Fee,TXN000062,SVC505674
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD003,Personal Loan,Loans,2024-01-17 08:22:00,-1165.45,Payment,TXN000063,LON868544
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD011,Business Checking,Checking,2024-02-10 09:49:00,1793.88,Deposit,TXN000064,CHK454992
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD016,Safe Deposit Box,Services,2024-01-12 18:29:00,-993.16,Transfer,TXN000065,SVC241403
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",PREM,PROD010,Mortgage,Loans,2024-03-31 15:02:00,-764.45,Payment,TXN000066,MTG929538
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD010,Mortgage,Loans,2024-02-26 08:20:00,-1643.07,Payment,TXN000067,MTG955015
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Preferred,PROD007,Credit Card,Credit Cards,2024-03-16 12:02:00,-25.71,Fee,TXN000068,CC918771
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD009,Investment Account,Investments,2024-02-25 18:21:00,20083.89,Deposit,TXN000069,INV558176
+AH087,Carol Thomas,"7900 Jackson Way, San Francisco CA",Basic,PROD006,Student Checking,Checking,2024-03-14 14:21:00,-507.57,Withdrawal,TXN000070,CHK936020
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD014,Wire Transfer,Services,2024-01-18 09:46:00,11049.88,Deposit,TXN000071,SVC962287
+AH041,William Taylor,"1853 Third Rd, San Diego CA",Preferred,PROD004,Money Market,Savings,2024-02-04 12:20:00,6643.1,Deposit,TXN000072,SAV421384
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD015,Cashier Check,Services,2024-02-08 14:10:00,-50.24,Fee,TXN000073,SVC862120
+AH078,Elizabeth Hernandez,"1976 Hill Ln, Long Beach CA",Premium,PROD002,High-Yield Savings,Savings,2024-02-09 14:17:00,6411.37,Deposit,TXN000074,SAV480959
+AH112,Daniel Davis,"2024 Lake Way, Baltimore MD",Basic,PROD001,Premium Checking,Checking,2024-02-21 18:10:00,3057.49,Deposit,TXN000075,CHK919264
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD008,Auto Loan,Loans,2024-01-03 10:04:00,-2379.84,Payment,TXN000076,AUTO484123
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD005,Basic Checking,Checking,2024-01-25 17:02:00,-949.85,Withdrawal,TXN000077,CHK490084
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD005,Basic Checking,Checking,2024-02-18 09:36:00,-410.07,Withdrawal,TXN000078,CHK781113
+AH061,Kenneth Flores,"7561 King Dr, Phoenix AZ",Standard,PROD006,Student Checking,Checking,2024-01-16 09:01:00,-399.25,Withdrawal,TXN000079,CHK688956
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD015,Cashier Check,Services,2024-01-17 12:45:00,24910.95,Deposit,TXN000080,SVC399449
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD004,Money Market,Savings,2024-02-28 15:12:00,833.12,Deposit,TXN000081,SAV281043
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD011,Business Checking,Checking,2024-01-06 18:54:00,-715.35,Withdrawal,TXN000082,CHK676713
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD006,Student Checking,Checking,2024-01-19 12:54:00,-1861.92,Transfer,TXN000083,CHK768676
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD008,Auto Loan,Loans,2024-02-20 13:32:00,-539.81,Payment,TXN000084,AUTO310743
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD012,Certificate of Deposit,Savings,2024-03-01 15:01:00,3752.22,Deposit,TXN000085,SAV942700
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD003,Personal Loan,Loans,2024-02-23 17:56:00,-384.09,Payment,TXN000086,LON517500
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD014,Wire Transfer,Services,2024-02-03 14:49:00,-461.38,Transfer,TXN000087,SVC432427
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD012,Certificate of Deposit,Savings,2024-01-05 15:29:00,8307.63,Deposit,TXN000088,SAV678083
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD005,Basic Checking,Checking,2024-02-07 10:49:00,-912.5,Withdrawal,TXN000089,CHK158104
+AH029,Robert Thomas,"3216 Second Way, Fort Worth TX",Premium,PROD006,Student Checking,Checking,2024-02-03 10:19:00,4676.95,Deposit,TXN000090,CHK336422
+AH076,Donald Thomas,"1224 Pine St, Miami FL",Basic,PROD003,Personal Loan,Loans,2024-03-19 12:54:00,-901.69,Payment,TXN000091,LON765905
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD010,Mortgage,Loans,2024-03-03 10:40:00,-1920.4,Payment,TXN000092,MTG197966
+AH110,Laura Young,"7342 Maple Dr, Raleigh NC",Preferred,PROD005,Basic Checking,Checking,2024-02-11 10:37:00,3141.17,Deposit,TXN000093,CHK734534
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD001,Premium Checking,Checking,2024-02-23 17:02:00,4745.31,Deposit,TXN000094,CHK908475
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD014,Wire Transfer,Services,2024-03-02 18:13:00,-3231.06,Transfer,TXN000095,SVC622230
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD010,Mortgage,Loans,2024-03-20 12:41:00,-1552.25,Payment,TXN000096,MTG943776
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD003,Personal Loan,Loans,2024-01-26 12:29:00,-2128.12,Payment,TXN000097,LON265759
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD007,Credit Card,Credit Cards,2024-01-27 15:29:00,-33.2,Fee,TXN000098,CC427766
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD005,Basic Checking,Checking,2024-02-16 13:25:00,-1078.46,Transfer,TXN000099,CHK211341
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD009,Investment Account,Investments,2024-01-16 15:07:00,-32.31,Fee,TXN000100,INV201514
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD014,Wire Transfer,Services,2024-01-19 14:55:00,24085.8,Deposit,TXN000101,SVC267457
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD011,Business Checking,Checking,2024-02-29 17:46:00,838.74,Deposit,TXN000102,CHK639728
+AH101,Sarah Martinez,"2430 Cedar St, Seattle WA",Preferred,PROD001,Premium Checking,Checking,2024-02-01 12:31:00,1996.55,Deposit,TXN000103,CHK579441
+AH053,jennifer harris,"3214 Spring St, Kansas City MO",Standard,PROD002,High-Yield Savings,Savings,2024-01-14 17:22:00,4999.45,Deposit,TXN000104,SAV983791
+AH139,Timothy Wright,"9722 Lake Blvd, Las Vegas NV",Standard,PROD001,Premium Checking,Checking,2024-02-13 15:18:00,-918.76,Transfer,TXN000105,CHK377319
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Standard,PROD002,High-Yield Savings,Savings,2024-02-18 14:23:00,5745.79,Deposit,TXN000106,SAV304110
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD013,Overdraft Protection,Services,2024-02-05 12:04:00,-2306.74,Transfer,TXN000107,SVC676566
+AH061,Kenneth Flores,"7561 King Dr, Phoenix AZ",Standard,PROD004,Money Market,Savings,2024-02-22 17:43:00,1057.15,Deposit,TXN000108,SAV491326
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD005,Basic Checking,Checking,2024-02-05 13:48:00,2570.16,Deposit,TXN000109,CHK624369
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD011,Business Checking,Checking,2024-01-03 08:08:00,-1086.73,Transfer,TXN000110,CHK256175
+AH129,Sarah Hill,"8238 Mill Dr, Tampa FL",Standard,PROD011,Business Checking,Checking,2024-02-27 16:08:00,-19.33,Fee,TXN000111,CHK512042
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD011,Business Checking,Checking,2024-02-17 12:37:00,-519.52,Withdrawal,TXN000112,CHK613641
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD001,Premium Checking,Checking,2024-03-05 15:52:00,3385.34,Deposit,TXN000113,CHK536774
+AH125,Laura Baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD016,Safe Deposit Box,Services,2024-01-20 18:01:00,-97.04,Fee,TXN000114,SVC920934
+AH124,Ruth Clark,"3050 Hill Rd, Kansas City MO",Premium,PROD002,High-Yield Savings,Savings,2024-02-06 11:46:00,1788.07,Deposit,TXN000115,SAV759580
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD008,Auto Loan,Loans,2024-02-19 14:09:00,-288.4,Payment,TXN000116,AUTO834549
+AH026,ashley wright,"9455 Fourth Way, Dallas TX",Preferred,PROD011,Business Checking,Checking,2024-01-13 08:28:00,-424.7,Withdrawal,TXN000117,CHK313795
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD016,Safe Deposit Box,Services,2024-03-18 17:58:00,-3664.27,Transfer,TXN000118,SVC840058
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD011,Business Checking,Checking,2024-03-19 11:35:00,-26.53,Fee,TXN000119,CHK495129
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD011,Business Checking,Checking,2024-01-12 15:58:00,-682.35,Withdrawal,TXN000120,CHK855944
+AH145,Jennifer Nelson,"2259 Main Ct, Los Angeles CA",Basic,PROD016,Safe Deposit Box,Services,2024-02-11 12:39:00,23954.77,Deposit,TXN000121,SVC392559
+AH120,Jessica Jones,"4442 High Blvd, Milwaukee WI",Standard,PROD010,Mortgage,Loans,2024-01-20 11:19:00,-2173.72,Payment,TXN000122,MTG823769
+AH150,Edward Nguyen,"5427 Water Pl, Mesa AZ",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-01 13:30:00,9351.41,Deposit,TXN000123,SAV856719
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD013,Overdraft Protection,Services,2024-01-19 09:36:00,-83.65,Fee,TXN000124,SVC910616
+AH033,Sarah Nguyen,"8983 Maple Ct, Tampa FL",Premium,PROD003,Personal Loan,Loans,2024-01-19 08:18:00,-1169.82,Payment,TXN000125,LON563864
+AH139,Timothy Wright,"9722 Lake Blvd, Las Vegas NV",Standard,PROD007,Credit Card,Credit Cards,2024-01-17 15:13:00,-42.99,Fee,TXN000126,CC829988
+AH059,James Nelson,"4749 Franklin Ct, Philadelphia PA",Premium,PROD008,Auto Loan,Loans,2024-01-09 09:39:00,-878.88,Payment,TXN000127,AUTO802371
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD002,High-Yield Savings,Savings,2024-01-15 18:14:00,3369.91,Deposit,TXN000128,SAV595351
+AH023,Elizabeth Lewis,"7497 Park Dr, Fresno CA",Preferred,PROD006,Student Checking,Checking,2024-02-13 10:00:00,-936.33,Withdrawal,TXN000129,CHK598807
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD010,Mortgage,Loans,2024-02-11 11:48:00,-1099.27,Payment,TXN000130,MTG777273
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD008,Auto Loan,Loans,2024-02-28 09:41:00,-1698.43,Payment,TXN000131,AUTO858243
+AH009,Elizabeth Thompson,"4474 Cedar Rd, Columbus OH",Standard,PROD006,Student Checking,Checking,2024-02-28 10:26:00,-6.64,Fee,TXN000132,CHK976822
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD010,Mortgage,Loans,2024-02-20 15:11:00,-2654.88,Payment,TXN000133,MTG109717
+AH065,Joshua Ramirez,"7405 Hill Way, Mesa AZ",Standard,PROD011,Business Checking,Checking,2024-02-06 17:06:00,4946.04,Deposit,TXN000134,CHK669691
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD015,Cashier Check,Services,2024-02-01 10:54:00,-27.35,Fee,TXN000135,SVC218118
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD009,Investment Account,Investments,2024-01-11 15:41:00,-1012.38,Transfer,TXN000136,INV872399
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD007,Credit Card,Credit Cards,2024-02-20 12:36:00,-1241.36,Payment,TXN000137,CC769752
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD011,Business Checking,Checking,2024-02-22 14:32:00,3362.82,Deposit,TXN000138,CHK293757
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD008,Auto Loan,Loans,2024-03-16 13:59:00,-219.12,Payment,TXN000139,AUTO502206
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD010,Mortgage,Loans,2024-01-29 12:21:00,-1830.89,Payment,TXN000140,MTG700705
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD008,Auto Loan,Loans,2024-01-17 18:23:00,-373.95,Payment,TXN000141,AUTO223967
+AH101,Sarah Martinez,"2430 Cedar St, Seattle WA",Preferred,PROD010,Mortgage,Loans,2024-01-20 10:25:00,-2132.81,Payment,TXN000142,MTG769737
+AH064,Ronald King,"9855 School Way, Mesa AZ",Standard,PROD008,Auto Loan,Loans,2024-01-24 17:14:00,-2880.61,Payment,TXN000143,AUTO601410
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD014,Wire Transfer,Services,2024-03-15 17:23:00,-2791.25,Transfer,TXN000144,SVC593699
+AH117,Christopher Hall,"9468 Water Dr, San Francisco CA",Basic,PROD007,Credit Card,Credit Cards,2024-02-21 18:52:00,-1376.67,Payment,TXN000145,CC724756
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-03 15:33:00,5685.27,Deposit,TXN000146,SAV164758
+AH119,Michelle Perez,"7313 Washington Pl, San Antonio TX",Basic,PROD005,Basic Checking,Checking,2024-02-27 16:12:00,4279.71,Deposit,TXN000147,CHK563303
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD016,Safe Deposit Box,Services,2024-02-13 11:45:00,22522.79,Deposit,TXN000148,SVC567122
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD014,Wire Transfer,Services,2024-01-30 10:32:00,-60.75,Fee,TXN000149,SVC685941
+AH100,Donna Jones,"3924 Spring Dr, Omaha NE",Standard,PROD001,Premium Checking,Checking,2024-02-13 12:46:00,4091.44,Deposit,TXN000150,CHK882032
+AH048,Nicole Clark,"4165 Center Rd, Virginia Beach VA",Basic,PROD014,Wire Transfer,Services,2024-02-07 09:02:00,-73.03,Fee,TXN000151,SVC667451
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD016,Safe Deposit Box,Services,2024-02-29 09:59:00,7533.72,Deposit,TXN000152,SVC288724
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD014,Wire Transfer,Services,2024-02-19 18:46:00,-99.36,Fee,TXN000153,SVC501058
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD003,Personal Loan,Loans,2024-02-25 14:24:00,-2111.64,Payment,TXN000154,LON793939
+AH118,Mark Walker,"6346  Water  Rd,  Minneapolis  MN",Standard,PROD012,Certificate of Deposit,Savings,2024-01-09 18:55:00,9929.18,Deposit,TXN000155,SAV512151
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD001,Premium Checking,Checking,2024-01-09 11:53:00,-1959.13,Transfer,TXN000156,CHK585494
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD013,Overdraft Protection,Services,2024-02-16 16:27:00,6564.04,Deposit,TXN000157,SVC462974
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD004,Money Market,Savings,2024-03-03 11:59:00,6635.96,Deposit,TXN000158,SAV744793
+AH004,John Hernandez,"7024 High Ln, Oakland CA",Preferred,PROD004,Money Market,Savings,2024-01-16 11:04:00,4519.77,Deposit,TXN000159,SAV804667
+AH150,Edward Nguyen,"5427 Water Pl, Mesa AZ",Preferred,PROD002,High-Yield Savings,Savings,2024-02-25 08:15:00,2419.96,Deposit,TXN000160,SAV327823
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD008,Auto Loan,Loans,2024-01-09 16:18:00,-2484.2,Payment,TXN000161,AUTO867051
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD011,Business Checking,Checking,2024-03-06 17:38:00,4387.48,Deposit,TXN000162,CHK792282
+AH113,Deborah Moore Jr,"8005  Adams  Dr,  Las  Vegas  NV",Standard,PROD009,Investment Account,Investments,2024-02-29 14:19:00,14139.59,Deposit,TXN000163,INV720407
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD016,Safe Deposit Box,Services,2024-02-10 18:27:00,24321.11,Deposit,TXN000164,SVC774565
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD014,Wire Transfer,Services,2024-01-25 16:20:00,-23.43,Fee,TXN000165,SVC494747
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD008,Auto Loan,Loans,2024-02-18 16:30:00,-2578.15,Payment,TXN000166,AUTO415344
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD002,High-Yield Savings,Savings,2024-02-21 15:58:00,9681.08,Deposit,TXN000167,SAV684357
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD009,Investment Account,Investments,2024-01-09 14:15:00,8591.44,Deposit,TXN000168,INV182911
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD007,Credit Card,Credit Cards,2024-02-24 13:05:00,-573.5,Payment,TXN000169,CC806396
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD003,Personal Loan,Loans,2024-02-08 08:55:00,-726.86,Payment,TXN000170,LON898696
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD007,Credit Card,Credit Cards,2024-02-16 18:35:00,-21.27,Fee,TXN000171,CC449138
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD007,Credit Card,Credit Cards,2024-02-28 08:13:00,-1506.41,Payment,TXN000172,CC890973
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD007,Credit Card,Credit Cards,2024-02-28 11:44:00,-42.45,Fee,TXN000173,CC678897
+AH071,Paul Wright,"9047 East Way, Tampa FL",Preferred,PROD015,Cashier Check,Services,2024-02-19 12:24:00,-3278.73,Transfer,TXN000174,SVC423404
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD016,Safe Deposit Box,Services,2024-01-24 16:56:00,-18.87,Fee,TXN000175,SVC857505
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD007,Credit Card,Credit Cards,2024-02-18 13:58:00,-24.39,Fee,TXN000176,CC147936
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD009,Investment Account,Investments,2024-02-29 10:01:00,-4680.32,Transfer,TXN000177,INV707275
+AH090,timothy lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD011,Business Checking,Checking,2024-01-19 10:12:00,2870.46,Deposit,TXN000178,CHK357666
+AH109,helen allen,"8989 Jefferson Blvd, New York NY",Premium,PROD011,Business Checking,Checking,2024-02-05 18:43:00,4116.88,Deposit,TXN000179,CHK858705
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD006,Student Checking,Checking,2024-02-17 15:29:00,-769.13,Transfer,TXN000180,CHK246757
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Preferred,PROD002,High-Yield Savings,Savings,2024-03-17 10:58:00,8406.78,Deposit,TXN000181,SAV177941
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD005,Basic Checking,Checking,2024-01-04 08:26:00,-539.72,Transfer,TXN000182,CHK841521
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD015,Cashier Check,Services,2024-01-01 11:32:00,-15.44,Fee,TXN000183,SVC768706
+AH142,Jennifer Robinson,"3575 Oak St, Philadelphia PA",Basic,PROD016,Safe Deposit Box,Services,2024-02-29 17:58:00,-2490.49,Transfer,TXN000184,SVC106933
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD001,Premium Checking,Checking,2024-02-05 14:00:00,-289.25,Withdrawal,TXN000185,CHK400614
+AH004,John Hernandez,"7024 High Ln, Oakland CA",Preferred,PROD006,Student Checking,Checking,2024-02-02 18:27:00,526.75,Deposit,TXN000186,CHK256130
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD009,Investment Account,Investments,2024-01-13 17:33:00,-34.06,Fee,TXN000187,INV516176
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD008,Auto Loan,Loans,2024-01-24 14:29:00,-2972.65,Payment,TXN000188,AUTO336828
+AH065,Joshua Ramirez,"7405 Hill Way, Mesa AZ",Standard,PROD002,High-Yield Savings,Savings,2024-02-13 09:41:00,3854.71,Deposit,TXN000189,SAV679549
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD006,Student Checking,Checking,2024-01-04 18:00:00,4234.38,Deposit,TXN000190,CHK776234
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD002,High-Yield Savings,Savings,2024-02-06 09:57:00,9022.6,Deposit,TXN000191,SAV825916
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD003,Personal Loan,Loans,2024-01-31 12:02:00,-2116.4,Payment,TXN000192,LON393992
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Preferred,PROD006,Student Checking,Checking,2024-03-22 18:02:00,-19.15,Fee,TXN000193,CHK317221
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD003,Personal Loan,Loans,2024-01-10 14:59:00,-1037.98,Payment,TXN000194,LON691353
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD011,Business Checking,Checking,2024-02-06 14:43:00,3711.74,Deposit,TXN000195,CHK928897
+AH147,David Walker,"6031 Franklin Ave, Louisville KY",Standard,PROD012,Certificate of Deposit,Savings,2024-02-16 09:32:00,4427.17,Deposit,TXN000196,SAV979414
+AH017,Anthony Ramirez,"7533 Main Ln, Austin TX",Basic,PROD013,Overdraft Protection,Services,2024-01-22 17:49:00,-12.67,Fee,TXN000197,SVC386604
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD013,Overdraft Protection,Services,2024-02-01 11:22:00,-26.72,Fee,TXN000198,SVC714334
+AH141,Elizabeth Miller,"6118 Second Ct, Omaha NE",Premium,PROD010,Mortgage,Loans,2024-01-25 09:49:00,-2434.55,Payment,TXN000199,MTG847748
+AH016,John Baker,"1976 Second Ln, Tulsa OK",Basic,PROD013,Overdraft Protection,Services,2024-01-06 12:09:00,-3941.06,Transfer,TXN000200,SVC261771
+AH085,Mark Lopez,"3575 State Ln, Albuquerque NM",Preferred,PROD003,Personal Loan,Loans,2024-01-21 13:06:00,-214.55,Payment,TXN000201,LON423241
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD005,Basic Checking,Checking,2024-01-24 12:06:00,2183.35,Deposit,TXN000202,CHK684041
+AH120,Jessica Jones,"4442 High Blvd, Milwaukee WI",Standard,PROD001,Premium Checking,Checking,2024-02-02 14:06:00,2793.39,Deposit,TXN000203,CHK725920
+AH127,Timothy Taylor,"5981 Fourth Ln, Kansas City MO",Basic,PROD010,Mortgage,Loans,2024-03-06 14:00:00,-1358.67,Payment,TXN000204,MTG917018
+AH019,kevin king,"9913 School Way, New York NY",Premium,PROD008,Auto Loan,Loans,2024-02-16 16:57:00,-1801.49,Payment,TXN000205,AUTO277820
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD009,Investment Account,Investments,2024-01-25 10:08:00,-34.16,Fee,TXN000206,INV253023
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD014,Wire Transfer,Services,2024-02-25 14:17:00,-53.58,Fee,TXN000207,SVC180657
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD016,Safe Deposit Box,Services,2024-01-17 11:46:00,-3121.68,Transfer,TXN000208,SVC580102
+AH025,Daniel Jones,"5513 Cedar Pl, Chicago IL",Preferred,PROD013,Overdraft Protection,Services,2024-01-09 12:00:00,-85.75,Fee,TXN000209,SVC498343
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD005,Basic Checking,Checking,2024-01-29 13:27:00,3035.9,Deposit,TXN000210,CHK829066
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD013,Overdraft Protection,Services,2024-01-31 13:11:00,-36.23,Fee,TXN000211,SVC828716
+AH135,Donna White,"4395 Fifth Blvd, Omaha NE",Basic,PROD008,Auto Loan,Loans,2024-02-01 17:50:00,-1112.48,Payment,TXN000212,AUTO393916
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD007,Credit Card,Credit Cards,2024-01-24 09:59:00,-1379.34,Payment,TXN000213,CC676820
+AH006,Michael Robinson,"2145 Water Ave, Sacramento CA",Standard,PROD007,Credit Card,Credit Cards,2024-03-01 15:45:00,-38.93,Fee,TXN000214,CC971662
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",STD,PROD016,Safe Deposit Box,Services,2024-01-05 14:43:00,16016.73,Deposit,TXN000215,SVC353777
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD014,Wire Transfer,Services,2024-02-12 10:45:00,-16.66,Fee,TXN000216,SVC726979
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD014,Wire Transfer,Services,2024-02-07 14:34:00,-280.15,Transfer,TXN000217,SVC476993
+AH149,Deborah Lewis,"1423 School Rd, Phoenix AZ",Premium,PROD003,Personal Loan,Loans,2024-02-27 16:38:00,-506.23,Payment,TXN000218,LON360289
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD002,High-Yield Savings,Savings,2024-02-12 13:10:00,6485.81,Deposit,TXN000219,SAV778159
+AH087,Carol Thomas,"7900 Jackson Way, San Francisco CA",Basic,PROD001,Premium Checking,Checking,2024-03-07 14:06:00,1148.91,Deposit,TXN000220,CHK883132
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD008,Auto Loan,Loans,2024-02-05 17:44:00,-1448.18,Payment,TXN000221,AUTO510133
+AH100,Donna Jones,"3924 Spring Dr, Omaha NE",Standard,PROD005,Basic Checking,Checking,2024-02-19 18:37:00,171.59,Deposit,TXN000222,CHK209627
+AH064,Ronald King,"9855 School Way, Mesa AZ",Standard,PROD005,Basic Checking,Checking,2024-01-27 09:07:00,1748.18,Deposit,TXN000223,CHK922366
+AH045,Jessica Wright,"753 State Dr, Detroit MI",Premium,PROD016,Safe Deposit Box,Services,2024-03-19 15:22:00,11235.07,Deposit,TXN000224,SVC830609
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD002,High-Yield Savings,Savings,2024-01-21 09:19:00,-619.67,Transfer,TXN000225,SAV990429
+AH076,Donald Anderson,"1224 Pine St, Miami FL",Basic,PROD006,Student Checking,Checking,2024-02-11 09:43:00,-38.32,Fee,TXN000226,CHK641058
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD014,Wire Transfer,Services,2024-02-05 10:21:00,-30.87,Fee,TXN000227,SVC524723
+AH134,Kimberly Sanchez,"6092 Elm Blvd, Mesa AZ",Premium,PROD014,Wire Transfer,Services,2024-01-12 10:40:00,-12.63,Fee,TXN000228,SVC743937
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD013,Overdraft Protection,Services,2024-03-14 17:27:00,17766.02,Deposit,TXN000229,SVC315780
+AH061,Kenneth Flores,"7561  King  Dr,  Phoenix  AZ",Standard,PROD004,Money Market,Savings,2024-02-18 09:36:00,-2707.6,Transfer,TXN000230,SAV483561
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD009,Investment Account,Investments,2024-01-13 15:07:00,-4326.92,Transfer,TXN000231,INV653349
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD013,Overdraft Protection,Services,2024-01-21 17:24:00,-659.74,Transfer,TXN000232,SVC469082
+AH099,Timothy Hill,"4871 Pine Dr, Milwaukee WI",PREF,PROD010,Mortgage,Loans,2024-02-09 10:52:00,-2772.31,Payment,TXN000233,MTG718836
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD004,Money Market,Savings,2024-02-13 10:20:00,1257.79,Deposit,TXN000234,SAV491439
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD014,Wire Transfer,Services,2024-01-10 16:24:00,-775.55,Transfer,TXN000235,SVC502349
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD006,Student Checking,Checking,2024-02-26 15:40:00,-499.85,Withdrawal,TXN000236,CHK247111
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD002,High-Yield Savings,Savings,2024-01-21 15:39:00,-4761.62,Transfer,TXN000237,SAV608149
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD016,Safe Deposit Box,Services,2024-01-13 14:35:00,-71.62,Fee,TXN000238,SVC535820
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD001,Premium Checking,Checking,2024-02-01 10:05:00,-519.01,Transfer,TXN000239,CHK134283
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD006,Student Checking,Checking,2024-01-15 16:18:00,-1174.74,Transfer,TXN000240,CHK910074
+AH108,Sharon Williams,"1542  School  Ln,  Baltimore  MD",Preferred,PROD004,Money Market,Savings,2024-02-05 16:07:00,5476.75,Deposit,TXN000241,SAV484682
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD015,Cashier Check,Services,2024-02-22 08:48:00,-1170.86,Transfer,TXN000242,SVC545807
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD008,Auto Loan,Loans,2024-02-17 18:48:00,-1033.59,Payment,TXN000243,AUTO133796
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD003,Personal Loan,Loans,2024-01-17 13:55:00,-1429.4,Payment,TXN000244,LON223088
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD012,Certificate of Deposit,Savings,2024-01-14 17:44:00,-3070.8,Transfer,TXN000245,SAV548965
+AH037,Matthew Sanchez,"5015 Jefferson Ct, Dallas TX",Basic,PROD007,Credit Card,Credit Cards,2024-02-09 10:50:00,-1620.61,Payment,TXN000246,CC697766
+AH077,William Walker,"1974 Fourth Dr, Virginia Beach VA",Standard,PROD006,Student Checking,Checking,2024-02-04 12:38:00,3535.07,Deposit,TXN000247,CHK403387
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD004,Money Market,Savings,2024-01-18 16:57:00,7525.93,Deposit,TXN000248,SAV531589
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD005,Basic Checking,Checking,2024-01-18 18:08:00,3571.4,Deposit,TXN000249,CHK968726
+AH054,Kimberly Nelson,"6067 Madison Ave, Fort Worth TX",Basic,PROD016,Safe Deposit Box,Services,2024-02-18 18:25:00,14646.93,Deposit,TXN000250,SVC381770
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD003,Personal Loan,Loans,2024-03-12 14:28:00,-1974.16,Payment,TXN000251,LON906233
+AH021,David Wright,"2203 Adams Pl, Dallas TX",Preferred,PROD009,Investment Account,Investments,2024-01-26 16:47:00,-4688.05,Transfer,TXN000252,INV486999
+AH098,Lisa Hernandez,"2947 Third Ave, San Francisco CA",Preferred,PROD001,Premium Checking,Checking,2024-03-01 15:20:00,-1709.62,Transfer,TXN000253,CHK197666
+AH099,Timothy Hill,"4871 Pine Dr, Milwaukee WI",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-10 18:44:00,-3988.61,Transfer,TXN000254,SAV517035
+AH048,Nicole Clark,"4165 Center Rd, Virginia Beach VA",Basic,PROD009,Investment Account,Investments,2024-01-28 11:31:00,-84.55,Fee,TXN000255,INV454161
+AH119,Michelle Perez,"7313 Washington Pl, San Antonio TX",Basic,PROD016,Safe Deposit Box,Services,2024-02-06 10:36:00,-90.47,Fee,TXN000256,SVC899281
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD015,Cashier Check,Services,2024-01-03 09:40:00,3543.81,Deposit,TXN000257,SVC999312
+AH035,Helen Davis,"4133 Fifth St, Kansas City MO",Standard,PROD014,Wire Transfer,Services,2024-01-29 15:00:00,24894.5,Deposit,TXN000258,SVC238320
+AH138,Jennifer Miller,"8907 Walnut Blvd, San Francisco CA",Standard,PROD009,Investment Account,Investments,2024-01-20 10:55:00,16537.41,Deposit,TXN000259,INV362552
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD006,Student Checking,Checking,2024-01-24 18:57:00,3146.74,Deposit,TXN000260,CHK861253
+AH149,Deborah Lewis,"1423 School Rd, Phoenix AZ",Premium,PROD003,Personal Loan,Loans,2024-02-18 11:27:00,-2170.35,Payment,TXN000261,LON101139
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD008,Auto Loan,Loans,2024-01-31 09:08:00,-1654.44,Payment,TXN000262,AUTO566686
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD004,Money Market,Savings,2024-01-01 13:52:00,-2140.45,Withdrawal,TXN000263,SAV238595
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD003,Personal Loan,Loans,2024-01-05 11:24:00,-2246.14,Payment,TXN000264,LON207402
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD010,Mortgage,Loans,2024-01-21 13:56:00,-583.96,Payment,TXN000265,MTG911032
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD003,Personal Loan,Loans,2024-02-11 18:09:00,-1685.42,Payment,TXN000266,LON108886
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD012,Certificate of Deposit,Savings,2024-02-11 10:28:00,-3159.0,Transfer,TXN000267,SAV258727
+AH089,Sharon Wright,"7534  Center  Ln,  Nashville  TN",Preferred,PROD007,Credit Card,Credit Cards,2024-03-25 18:28:00,-1798.36,Payment,TXN000268,CC246814
+AH029,Robert Thomas,"3216 Second Way, Fort Worth TX",Premium,PROD014,Wire Transfer,Services,2024-02-07 14:22:00,-81.2,Fee,TXN000269,SVC359822
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD010,Mortgage,Loans,2024-02-11 09:15:00,-2381.12,Payment,TXN000270,MTG824016
+AH006,Michael Robinson,"2145 Water Ave, Sacramento CA",Standard,PROD010,Mortgage,Loans,2024-02-24 18:56:00,-775.25,Payment,TXN000271,MTG736408
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD002,High-Yield Savings,Savings,2024-01-13 14:18:00,-3979.2,Transfer,TXN000272,SAV350967
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD016,Safe Deposit Box,Services,2024-01-25 09:15:00,-3010.26,Transfer,TXN000273,SVC653948
+AH003,george johnson,"3357 Second Blvd, Mesa AZ",Preferred,PROD013,Overdraft Protection,Services,2024-01-24 13:08:00,-2162.23,Transfer,TXN000274,SVC672896
+AH145,Jennifer Nelson,"2259 Main Ct, Los Angeles CA",Basic,PROD003,Personal Loan,Loans,2024-01-12 15:49:00,-246.73,Payment,TXN000275,LON170813
+AH003,George Johnson,"3357 Second Blvd, Mesa AZ",Preferred,PROD002,High-Yield Savings,Savings,2024-01-17 11:02:00,-2019.98,Withdrawal,TXN000276,SAV400404
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD014,Wire Transfer,Services,2024-03-31 16:49:00,-73.16,Fee,TXN000277,SVC186431
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD005,Basic Checking,Checking,2024-02-04 16:39:00,1584.04,Deposit,TXN000278,CHK636141
+AH045,Jessica Wright,"753 State Dr, Detroit MI",Premium,PROD013,Overdraft Protection,Services,2024-02-24 16:20:00,-3208.04,Transfer,TXN000279,SVC975064
+AH138,Jennifer Miller,"8907 Walnut Blvd, San Francisco CA",Standard,PROD010,Mortgage,Loans,2024-02-13 18:04:00,-2156.29,Payment,TXN000280,MTG865416
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD014,Wire Transfer,Services,2024-01-04 11:05:00,11607.61,Deposit,TXN000281,SVC738407
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD006,Student Checking,Checking,2024-01-20 18:47:00,3554.11,Deposit,TXN000282,CHK835575
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD009,Investment Account,Investments,2024-01-11 15:22:00,9610.8,Deposit,TXN000283,INV886197
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD001,Premium Checking,Checking,2024-02-16 09:49:00,2175.16,Deposit,TXN000284,CHK649300
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD003,Personal Loan,Loans,2024-03-02 17:40:00,-1589.21,Payment,TXN000285,LON635593
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD006,Student Checking,Checking,2024-01-04 15:54:00,1312.82,Deposit,TXN000286,CHK207903
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD001,Premium Checking,Checking,2024-02-13 09:14:00,4321.5,Deposit,TXN000287,CHK356430
+AH011,Daniel Williams,"6672 Center Ave, Boston MA",Preferred,PROD005,Basic Checking,Checking,2024-01-31 13:24:00,4803.69,Deposit,TXN000288,CHK137081
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD008,Auto Loan,Loans,2024-03-31 18:26:00,-1101.05,Payment,TXN000289,AUTO536476
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD012,Certificate of Deposit,Savings,2024-01-18 09:36:00,6765.92,Deposit,TXN000290,SAV155230
+AH040,Deborah Martin,"8766 Main Pl, Colorado Springs CO",Preferred,PROD013,Overdraft Protection,Services,2024-01-15 16:02:00,21986.29,Deposit,TXN000291,SVC396020
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD015,Cashier Check,Services,2024-01-21 09:35:00,9538.52,Deposit,TXN000292,SVC405759
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD015,Cashier Check,Services,2024-03-05 17:15:00,-63.25,Fee,TXN000293,SVC617326
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD001,Premium Checking,Checking,2024-03-20 11:09:00,-6.08,Fee,TXN000294,CHK667851
+AH076,Donald Thomas,"1224 Pine St, Miami FL",Basic,PROD001,Premium Checking,Checking,2024-03-26 08:21:00,-814.92,Transfer,TXN000295,CHK873935
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD008,Auto Loan,Loans,2024-01-07 11:33:00,-1375.48,Payment,TXN000296,AUTO162804
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD002,High-Yield Savings,Savings,2024-02-15 12:05:00,-4491.57,Withdrawal,TXN000297,SAV645007
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD003,Personal Loan,Loans,2024-03-30 13:29:00,-1826.16,Payment,TXN000298,LON629979
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD002,High-Yield Savings,Savings,2024-02-10 14:04:00,9645.76,Deposit,TXN000299,SAV348273
+AH063,Timothy King Jr,"922 Third Dr, Baltimore MD",Basic,PROD013,Overdraft Protection,Services,2024-03-02 13:59:00,-4176.31,Transfer,TXN000300,SVC442099
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD003,Personal Loan,Loans,2024-01-29 12:14:00,-2841.95,Payment,TXN000301,LON242723
+AH125,Laura Baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD006,Student Checking,Checking,2024-01-07 10:06:00,-327.75,Withdrawal,TXN000302,CHK226601
+AH117,Christopher Hall,"9468 Water Dr, San Francisco CA",Basic,PROD010,Mortgage,Loans,2024-01-23 11:28:00,-1497.37,Payment,TXN000303,MTG993892
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD010,Mortgage,Loans,2024-01-06 10:51:00,-2513.88,Payment,TXN000304,MTG830729
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD011,Business Checking,Checking,2024-01-03 11:53:00,3570.23,Deposit,TXN000305,CHK473023
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD010,Mortgage,Loans,2024-02-02 08:43:00,-928.47,Payment,TXN000306,MTG282313
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD015,Cashier Check,Services,2024-03-01 14:54:00,-3765.58,Transfer,TXN000307,SVC361989
+AH022,George Ramirez,"8935 North Ln, Columbus OH",Preferred,PROD005,Basic Checking,Checking,2024-01-30 09:51:00,355.26,Deposit,TXN000308,CHK918895
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD013,Overdraft Protection,Services,2024-02-23 11:52:00,-71.77,Fee,TXN000309,SVC776001
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD003,Personal Loan,Loans,2024-02-07 17:16:00,-261.04,Payment,TXN000310,LON167603
+AH044,edward taylor,"7339 Third Blvd, Austin TX",Preferred,PROD005,Basic Checking,Checking,2024-03-27 15:51:00,4244.01,Deposit,TXN000311,CHK948179
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD002,High-Yield Savings,Savings,2024-01-08 08:29:00,5781.45,Deposit,TXN000312,SAV961599
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD014,Wire Transfer,Services,2024-02-01 08:24:00,9171.61,Deposit,TXN000313,SVC296242
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD005,Basic Checking,Checking,2024-01-18 15:56:00,3114.92,Deposit,TXN000314,CHK357724
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD016,Safe Deposit Box,Services,2024-03-04 15:26:00,2649.18,Deposit,TXN000315,SVC501620
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD008,Auto Loan,Loans,2024-03-12 11:41:00,-1966.11,Payment,TXN000316,AUTO941134
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-16 14:50:00,7836.21,Deposit,TXN000317,SAV460745
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD009,Investment Account,Investments,2024-03-18 13:24:00,1138.54,Deposit,TXN000318,INV726121
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD016,Safe Deposit Box,Services,2024-02-16 12:03:00,-1851.42,Transfer,TXN000319,SVC712356
+AH051,Kevin Perez,"1989 Spring Rd, Los Angeles CA",Standard,PROD008,Auto Loan,Loans,2024-01-11 09:15:00,-946.28,Payment,TXN000320,AUTO955937
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD013,Overdraft Protection,Services,2024-02-18 11:36:00,-94.17,Fee,TXN000321,SVC986278
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD011,Business Checking,Checking,2024-01-12 11:37:00,-1425.49,Transfer,TXN000322,CHK720298
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD005,Basic Checking,Checking,2024-02-15 13:36:00,-204.47,Withdrawal,TXN000323,CHK949767
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD016,Safe Deposit Box,Services,2024-02-04 12:11:00,2711.31,Deposit,TXN000324,SVC343923
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD016,Safe Deposit Box,Services,2024-01-15 08:33:00,8627.48,Deposit,TXN000325,SVC743966
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD006,Student Checking,Checking,2024-02-21 10:21:00,-42.99,Fee,TXN000326,CHK439307
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD005,Basic Checking,Checking,2024-01-02 10:37:00,-1708.31,Transfer,TXN000327,CHK482614
+AH016,John Baker,"1976 Second Ln, Tulsa OK",Basic,PROD004,Money Market,Savings,2024-01-24 18:25:00,3293.77,Deposit,TXN000328,SAV265154
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD011,Business Checking,Checking,2024-02-20 18:31:00,4845.28,Deposit,TXN000329,CHK827250
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD006,Student Checking,Checking,2024-02-20 13:14:00,3683.28,Deposit,TXN000330,CHK408823
+AH029,Robert Thomas,"1335 Lincoln Pl, San Francisco CA",Premium,PROD013,Overdraft Protection,Services,2024-02-26 08:44:00,-258.68,Transfer,TXN000331,SVC731650
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD004,Money Market,Savings,2024-02-28 17:14:00,-746.18,Withdrawal,TXN000332,SAV881549
+AH017,Anthony Ramirez,"7533 Main Ln, Austin TX",Basic,PROD006,Student Checking,Checking,2024-01-16 13:20:00,-963.82,Withdrawal,TXN000333,CHK961574
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD001,Premium Checking,Checking,2024-02-10 13:28:00,1285.23,Deposit,TXN000334,CHK171087
+AH077,William Walker,"1974 Fourth Dr, Virginia Beach VA",Standard,PROD001,Premium Checking,Checking,2024-01-17 09:46:00,2219.19,Deposit,TXN000335,CHK540038
+AH037,Matthew Sanchez,"5015 Jefferson Ct, Dallas TX",Basic,PROD013,Overdraft Protection,Services,2024-02-26 14:31:00,-59.14,Fee,TXN000336,SVC206355
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD008,Auto Loan,Loans,2024-02-20 17:41:00,-655.44,Payment,TXN000337,AUTO177289
+AH008,Lisa Anderson,"6327 Center Way, San Antonio TX",Standard,PROD009,Investment Account,Investments,2024-01-19 08:20:00,2317.91,Deposit,TXN000338,INV278368
+AH082,Donna Rivera,"7235 Church Pl, San Jose CA",Basic,PROD003,Personal Loan,Loans,2024-01-11 09:35:00,-1146.26,Payment,TXN000339,LON743453
+AH105,Stephanie Torres,"2970 Adams Pl, Chicago IL",Standard,PROD006,Student Checking,Checking,2024-02-15 08:27:00,-445.52,Withdrawal,TXN000340,CHK156157
+AH023,Elizabeth Lewis,"7497 Park Dr, Fresno CA",Preferred,PROD014,Wire Transfer,Services,2024-01-22 11:12:00,-2815.15,Transfer,TXN000341,SVC865433
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD010,Mortgage,Loans,2024-01-17 18:18:00,-865.14,Payment,TXN000342,MTG152046
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD016,Safe Deposit Box,Services,2024-02-06 16:53:00,1835.37,Deposit,TXN000343,SVC104000
+AH092,William Moore,"993 Third Ln, Chicago IL",Standard,PROD016,Safe Deposit Box,Services,2024-01-06 12:52:00,2876.18,Deposit,TXN000344,SVC317005
+AH038,John Robinson,"9324 Washington Ave, Colorado Springs CO",Standard,PROD016,Safe Deposit Box,Services,2024-02-10 12:05:00,8054.66,Deposit,TXN000345,SVC516774
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",STD,PROD003,Personal Loan,Loans,2024-02-01 18:16:00,-1997.23,Payment,TXN000346,LON506351
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD006,Student Checking,Checking,2024-01-24 14:23:00,-278.03,Withdrawal,TXN000347,CHK587648
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD002,High-Yield Savings,Savings,2024-02-29 12:36:00,6995.06,Deposit,TXN000348,SAV201400
+AH019,Kevin King,"9913  School  Way,  New  York  NY",Premium,PROD014,Wire Transfer,Services,2024-02-12 13:51:00,-1214.81,Transfer,TXN000349,SVC163946
+AH085,Mark Lopez,"3575 State Ln, Albuquerque NM",Preferred,PROD016,Safe Deposit Box,Services,2024-02-22 16:26:00,-4420.1,Transfer,TXN000350,SVC599397
+AH065,Joshua Ramirez,"7405 Hill Way, Mesa AZ",Standard,PROD002,High-Yield Savings,Savings,2024-01-06 14:57:00,9014.51,Deposit,TXN000351,SAV939333
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD004,Money Market,Savings,2024-02-13 17:09:00,-2272.75,Withdrawal,TXN000352,SAV275284
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD002,High-Yield Savings,Savings,2024-02-21 11:08:00,9883.97,Deposit,TXN000353,SAV556542
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD009,Investment Account,Investments,2024-02-22 18:09:00,-91.97,Fee,TXN000354,INV946561
+AH015,Sandra Hill,"6404 Water Way, Phoenix AZ",Standard,PROD013,Overdraft Protection,Services,2024-01-06 14:35:00,-1698.02,Transfer,TXN000355,SVC389617
+AH113,Deborah Moore Jr,"8005 Adams Dr, Las Vegas NV",Standard,PROD014,Wire Transfer,Services,2024-03-15 08:50:00,10653.84,Deposit,TXN000356,SVC255398
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD004,Money Market,Savings,2024-02-07 17:48:00,-2835.28,Withdrawal,TXN000357,SAV205896
+AH063,Timothy King,"922 Third Dr, Baltimore MD",Basic,PROD012,Certificate of Deposit,Savings,2024-02-25 16:56:00,-1357.48,Transfer,TXN000358,SAV786594
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD002,High-Yield Savings,Savings,2024-02-06 17:30:00,4089.44,Deposit,TXN000359,SAV748276
+AH129,Sarah Hill,"8238 Mill Dr, Tampa FL",Standard,PROD013,Overdraft Protection,Services,2024-02-13 14:02:00,-72.15,Fee,TXN000360,SVC151685
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD012,Certificate of Deposit,Savings,2024-02-28 12:57:00,8192.12,Deposit,TXN000361,SAV417776
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD004,Money Market,Savings,2024-01-18 15:54:00,-1178.39,Withdrawal,TXN000362,SAV415076
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD014,Wire Transfer,Services,2024-02-19 13:17:00,-3263.22,Transfer,TXN000363,SVC297064
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD016,Safe Deposit Box,Services,2024-01-14 14:47:00,-4349.23,Transfer,TXN000364,SVC960899
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD010,Mortgage,Loans,2024-02-02 10:04:00,-2186.79,Payment,TXN000365,MTG522979
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",BASIC,PROD001,Premium Checking,Checking,2024-02-19 16:56:00,4382.14,Deposit,TXN000366,CHK310477
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD002,High-Yield Savings,Savings,2024-01-16 08:29:00,-3537.94,Withdrawal,TXN000367,SAV387286
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD004,Money Market,Savings,2024-03-15 16:25:00,-1247.59,Transfer,TXN000368,SAV612530
+AH127,Timothy Taylor,"5049 North Blvd, Baltimore MD",Basic,PROD016,Safe Deposit Box,Services,2024-01-29 10:55:00,-2801.54,Transfer,TXN000369,SVC460971
+AH036,Michelle Torres,"5283 Spring Dr, Fresno CA",Standard,PROD003,Personal Loan,Loans,2024-02-23 12:47:00,-998.19,Payment,TXN000370,LON505343
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD007,Credit Card,Credit Cards,2024-01-11 17:49:00,-1312.39,Payment,TXN000371,CC810614
+AH045,Jessica Wright,"753 State Dr, Detroit MI",Premium,PROD001,Premium Checking,Checking,2024-03-03 18:26:00,-1937.56,Transfer,TXN000372,CHK815338
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD006,Student Checking,Checking,2024-01-31 10:41:00,-28.29,Withdrawal,TXN000373,CHK364650
+AH129,Sarah Hill,"8238 Mill Dr, Tampa FL",Standard,PROD009,Investment Account,Investments,2024-02-21 12:45:00,-90.59,Fee,TXN000374,INV992952
+AH077,William Walker,"1974 Fourth Dr, Virginia Beach VA",Standard,PROD015,Cashier Check,Services,2024-01-30 12:13:00,-70.95,Fee,TXN000375,SVC964352
+AH133,James Taylor,"4935 High Ave, Milwaukee WI",Standard,PROD001,Premium Checking,Checking,2024-01-26 17:06:00,-669.11,Withdrawal,TXN000376,CHK984247
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD010,Mortgage,Loans,2024-02-05 18:38:00,-1035.73,Payment,TXN000377,MTG213355
+AH105,Stephanie Torres,"2970 Adams Pl, Chicago IL",Standard,PROD011,Business Checking,Checking,2024-01-05 13:17:00,-596.18,Transfer,TXN000378,CHK845635
+AH138,Jennifer Miller,"8907 Walnut Blvd, San Francisco CA",Standard,PROD008,Auto Loan,Loans,2024-01-20 11:09:00,-2719.12,Payment,TXN000379,AUTO944554
+AH127,Timothy Taylor,"5981 Fourth Ln, Kansas City MO",Basic,PROD005,Basic Checking,Checking,2024-03-11 18:20:00,-1345.26,Transfer,TXN000380,CHK409963
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD013,Overdraft Protection,Services,2024-02-28 14:25:00,-273.06,Transfer,TXN000381,SVC842464
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD008,Auto Loan,Loans,2024-02-22 11:21:00,-2121.69,Payment,TXN000382,AUTO769320
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD010,Mortgage,Loans,2024-02-28 18:22:00,-2567.17,Payment,TXN000383,MTG981473
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD010,Mortgage,Loans,2024-02-26 16:11:00,-473.29,Payment,TXN000384,MTG234159
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD006,Student Checking,Checking,2024-02-16 16:48:00,-45.48,Fee,TXN000385,CHK786224
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD010,Mortgage,Loans,2024-01-15 13:14:00,-1377.32,Payment,TXN000386,MTG447411
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD015,Cashier Check,Services,2024-01-17 17:18:00,12028.15,Deposit,TXN000387,SVC765213
+AH125,Laura Baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD016,Safe Deposit Box,Services,2024-02-07 17:04:00,12761.7,Deposit,TXN000388,SVC813763
+AH083,Kevin Walker,"7236 Fifth Ln, Baltimore MD",Preferred,PROD002,High-Yield Savings,Savings,2024-02-03 12:26:00,-796.35,Transfer,TXN000389,SAV310026
+AH076,Donald Anderson,"1224 Pine St, Miami FL",Basic,PROD015,Cashier Check,Services,2024-01-27 17:57:00,8251.39,Deposit,TXN000390,SVC850432
+AH041,William Taylor,"1853 Third Rd, San Diego CA",Preferred,PROD011,Business Checking,Checking,2024-02-19 09:31:00,-193.29,Withdrawal,TXN000391,CHK765320
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD007,Credit Card,Credit Cards,2024-01-01 15:17:00,-1173.74,Payment,TXN000392,CC266131
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD014,Wire Transfer,Services,2024-02-20 09:08:00,-2204.11,Transfer,TXN000393,SVC549865
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD007,Credit Card,Credit Cards,2024-01-25 08:02:00,-43.5,Fee,TXN000394,CC437864
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD001,Premium Checking,Checking,2024-01-13 08:43:00,-263.85,Withdrawal,TXN000395,CHK827213
+AH076,Donald Thomas,"1224 Pine St, Miami FL",Basic,PROD013,Overdraft Protection,Services,2024-03-05 10:06:00,-2984.49,Transfer,TXN000396,SVC275133
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD015,Cashier Check,Services,2024-02-17 12:18:00,-2649.41,Transfer,TXN000397,SVC649577
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD011,Business Checking,Checking,2024-01-28 18:08:00,-27.06,Fee,TXN000398,CHK886553
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD008,Auto Loan,Loans,2024-01-11 14:01:00,-828.1,Payment,TXN000399,AUTO237579
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD006,Student Checking,Checking,2024-02-16 08:37:00,3569.99,Deposit,TXN000400,CHK930605
+AH009,Elizabeth Thompson,"4474 Cedar Rd, Columbus OH",Standard,PROD002,High-Yield Savings,Savings,2024-01-25 18:16:00,574.81,Deposit,TXN000401,SAV213365
+AH139,Timothy Wright,"9722 Lake Blvd, Las Vegas NV",Standard,PROD004,Money Market,Savings,2024-02-23 08:03:00,3864.51,Deposit,TXN000402,SAV673867
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD001,Premium Checking,Checking,2024-01-31 10:13:00,3325.24,Deposit,TXN000403,CHK794663
+AH113,Deborah Moore Jr,"8005 Adams Dr, Las Vegas NV",Standard,PROD005,Basic Checking,Checking,2024-03-03 17:38:00,-900.65,Withdrawal,TXN000404,CHK636435
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD004,Money Market,Savings,2024-01-08 12:07:00,6129.12,Deposit,TXN000405,SAV915749
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD014,Wire Transfer,Services,2024-03-19 11:22:00,-24.43,Fee,TXN000406,SVC674765
+AH109,Helen Allen,"8989 Jefferson Blvd, New York NY",Premium,PROD016,Safe Deposit Box,Services,2024-02-28 11:44:00,-31.11,Fee,TXN000407,SVC113368
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD016,Safe Deposit Box,Services,2024-01-06 09:53:00,23761.43,Deposit,TXN000408,SVC917392
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD009,Investment Account,Investments,2024-01-05 09:57:00,-1232.69,Transfer,TXN000409,INV410401
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD006,Student Checking,Checking,2024-03-15 08:06:00,-1719.27,Transfer,TXN000410,CHK477712
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD004,Money Market,Savings,2024-03-06 14:47:00,7606.22,Deposit,TXN000411,SAV148118
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD006,Student Checking,Checking,2024-02-24 10:42:00,4477.91,Deposit,TXN000412,CHK752011
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD011,Business Checking,Checking,2024-02-26 09:23:00,2033.85,Deposit,TXN000413,CHK578715
+AH059,James Nelson,"4749 Franklin Ct, Philadelphia PA",Premium,PROD016,Safe Deposit Box,Services,2024-02-23 14:44:00,-68.4,Fee,TXN000414,SVC935620
+AH037,Matthew Sanchez,"5015 Jefferson Ct, Dallas TX",Basic,PROD002,High-Yield Savings,Savings,2024-01-08 10:44:00,-4229.53,Withdrawal,TXN000415,SAV208751
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD015,Cashier Check,Services,2024-02-28 17:30:00,15477.42,Deposit,TXN000416,SVC917012
+AH078,Elizabeth Hernandez,"6249 Market Dr, Kansas City MO",Premium,PROD005,Basic Checking,Checking,2024-03-25 08:55:00,-498.36,Withdrawal,TXN000417,CHK531262
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD011,Business Checking,Checking,2024-01-03 09:16:00,4348.24,Deposit,TXN000418,CHK650311
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD011,Business Checking,Checking,2024-03-22 11:42:00,-694.48,Withdrawal,TXN000419,CHK748270
+AH022,George Ramirez,"8935 North Ln, Columbus OH",Preferred,PROD008,Auto Loan,Loans,2024-01-28 18:46:00,-1549.4,Payment,TXN000420,AUTO795951
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD002,High-Yield Savings,Savings,2024-03-27 14:09:00,9350.28,Deposit,TXN000421,SAV630126
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD006,Student Checking,Checking,2024-02-24 15:55:00,2483.66,Deposit,TXN000422,CHK352593
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD008,Auto Loan,Loans,2024-01-18 08:32:00,-1741.39,Payment,TXN000423,AUTO497030
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD015,Cashier Check,Services,2024-02-22 11:05:00,-82.11,Fee,TXN000424,SVC569865
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD011,Business Checking,Checking,2024-02-24 15:28:00,2512.0,Deposit,TXN000425,CHK785111
+AH004,john hernandez,"7024 High Ln, Oakland CA",Preferred,PROD002,High-Yield Savings,Savings,2024-01-07 14:26:00,101.68,Deposit,TXN000426,SAV195310
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD007,Credit Card,Credit Cards,2024-02-09 18:19:00,-43.51,Fee,TXN000427,CC480992
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD016,Safe Deposit Box,Services,2024-02-29 15:21:00,-3320.12,Transfer,TXN000428,SVC850689
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD008,Auto Loan,Loans,2024-01-08 09:48:00,-206.15,Payment,TXN000429,AUTO472390
+AH135,Donna White,"4395 Fifth Blvd, Omaha NE",Basic,PROD012,Certificate of Deposit,Savings,2024-02-21 12:35:00,-276.6,Transfer,TXN000430,SAV272129
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD009,Investment Account,Investments,2024-01-09 14:06:00,-1060.02,Transfer,TXN000431,INV226611
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD007,Credit Card,Credit Cards,2024-01-14 15:52:00,-18.23,Fee,TXN000432,CC534603
+AH011,Daniel Williams,"6672 Center Ave, Boston MA",Preferred,PROD004,Money Market,Savings,2024-02-29 18:53:00,-2280.0,Transfer,TXN000433,SAV790441
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD001,Premium Checking,Checking,2024-02-02 10:31:00,-67.6,Withdrawal,TXN000434,CHK553834
+AH125,Laura Baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD006,Student Checking,Checking,2024-01-31 16:49:00,-190.18,Withdrawal,TXN000435,CHK954845
+AH029,Robert Thomas,"1335 Lincoln Pl, San Francisco CA",Premium,PROD011,Business Checking,Checking,2024-02-21 14:42:00,-396.97,Withdrawal,TXN000436,CHK738576
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD013,Overdraft Protection,Services,2024-02-18 11:17:00,-97.34,Fee,TXN000437,SVC574843
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD010,Mortgage,Loans,2024-01-09 14:38:00,-2560.61,Payment,TXN000438,MTG674416
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD007,Credit Card,Credit Cards,2024-02-15 16:40:00,-458.94,Payment,TXN000439,CC849086
+AH063,Timothy King Jr,"922 Third Dr, Baltimore MD",Basic,PROD005,Basic Checking,Checking,2024-03-29 13:58:00,-34.25,Fee,TXN000440,CHK286450
+AH110,Laura Young,"7342  Maple  Dr,  Raleigh  NC",Preferred,PROD004,Money Market,Savings,2024-02-04 18:20:00,-2833.29,Transfer,TXN000441,SAV711116
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD014,Wire Transfer,Services,2024-03-01 18:45:00,-3764.56,Transfer,TXN000442,SVC982260
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD001,Premium Checking,Checking,2024-01-19 14:51:00,-44.77,Withdrawal,TXN000443,CHK252386
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD009,Investment Account,Investments,2024-03-28 08:12:00,24596.54,Deposit,TXN000444,INV816586
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD010,Mortgage,Loans,2024-01-10 08:44:00,-771.2,Payment,TXN000445,MTG667460
+AH008,Lisa Anderson,"6327 Center Way, San Antonio TX",Standard,PROD008,Auto Loan,Loans,2024-01-23 15:06:00,-2278.76,Payment,TXN000446,AUTO688534
+AH085,Mark Lopez,"3575 State Ln, Albuquerque NM",Preferred,PROD010,Mortgage,Loans,2024-01-16 16:50:00,-2140.22,Payment,TXN000447,MTG149261
+AH083,Kevin Walker,"7236 Fifth Ln, Baltimore MD",Preferred,PROD011,Business Checking,Checking,2024-01-25 14:50:00,-7.42,Fee,TXN000448,CHK879794
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD015,Cashier Check,Services,2024-01-13 17:55:00,22831.42,Deposit,TXN000449,SVC838857
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD007,Credit Card,Credit Cards,2024-03-09 17:34:00,-623.65,Payment,TXN000450,CC286044
+AH145,Jennifer Nelson,"2259 Main Ct, Los Angeles CA",Basic,PROD004,Money Market,Savings,2024-01-05 10:11:00,4342.23,Deposit,TXN000451,SAV683635
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD009,Investment Account,Investments,2024-02-23 10:37:00,8598.79,Deposit,TXN000452,INV844163
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD011,Business Checking,Checking,2024-02-17 10:59:00,-778.19,Withdrawal,TXN000453,CHK755744
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD016,Safe Deposit Box,Services,2024-02-23 18:19:00,-2795.78,Transfer,TXN000454,SVC176421
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD003,Personal Loan,Loans,2024-02-03 11:11:00,-2401.52,Payment,TXN000455,LON267112
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD003,Personal Loan,Loans,2024-02-04 16:25:00,-1178.33,Payment,TXN000456,LON323717
+AH141,Elizabeth Miller,"6118 Second Ct, Omaha NE",Premium,PROD010,Mortgage,Loans,2024-01-22 13:23:00,-811.65,Payment,TXN000457,MTG889216
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD001,Premium Checking,Checking,2024-02-03 15:35:00,1762.74,Deposit,TXN000458,CHK352023
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD002,High-Yield Savings,Savings,2024-02-09 17:15:00,-1638.64,Transfer,TXN000459,SAV934883
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD010,Mortgage,Loans,2024-01-25 12:34:00,-269.18,Payment,TXN000460,MTG641975
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD016,Safe Deposit Box,Services,2024-02-02 16:28:00,7762.63,Deposit,TXN000461,SVC783176
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Standard,PROD004,Money Market,Savings,2024-01-21 16:05:00,9567.13,Deposit,TXN000462,SAV664107
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD007,Credit Card,Credit Cards,2024-01-01 18:04:00,-1736.65,Payment,TXN000463,CC544815
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD014,Wire Transfer,Services,2024-01-14 16:53:00,-4102.1,Transfer,TXN000464,SVC175623
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD011,Business Checking,Checking,2024-01-10 08:29:00,412.58,Deposit,TXN000465,CHK286638
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD008,Auto Loan,Loans,2024-02-05 09:36:00,-2750.76,Payment,TXN000466,AUTO527433
+AH085,Mark Lopez,"3575 State Ln, Albuquerque NM",Preferred,PROD014,Wire Transfer,Services,2024-01-29 18:25:00,-11.52,Fee,TXN000467,SVC806004
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD003,Personal Loan,Loans,2024-02-04 08:41:00,-2316.69,Payment,TXN000468,LON714054
+AH011,Daniel Williams,"6672 Center Ave, Boston MA",Preferred,PROD004,Money Market,Savings,2024-02-14 09:22:00,6890.2,Deposit,TXN000469,SAV736030
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD013,Overdraft Protection,Services,2024-01-19 15:24:00,-251.01,Transfer,TXN000470,SVC263917
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD013,Overdraft Protection,Services,2024-01-15 10:47:00,-1545.39,Transfer,TXN000471,SVC764845
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-20 18:56:00,-105.19,Withdrawal,TXN000472,SAV682032
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD013,Overdraft Protection,Services,2024-01-08 08:00:00,-2782.87,Transfer,TXN000473,SVC189261
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD014,Wire Transfer,Services,2024-01-14 13:13:00,-4272.15,Transfer,TXN000474,SVC249375
+AH036,Michelle Torres,"5283 Spring Dr, Fresno CA",Standard,PROD009,Investment Account,Investments,2024-01-12 11:39:00,3308.25,Deposit,TXN000475,INV803571
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD015,Cashier Check,Services,2024-02-24 08:54:00,-2793.36,Transfer,TXN000476,SVC404771
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD007,Credit Card,Credit Cards,2024-01-05 12:06:00,-43.55,Fee,TXN000477,CC474486
+AH029,Robert Thomas,"1335 Lincoln Pl, San Francisco CA",Premium,PROD004,Money Market,Savings,2024-03-28 18:15:00,791.11,Deposit,TXN000478,SAV302897
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD010,Mortgage,Loans,2024-02-01 15:21:00,-2141.68,Payment,TXN000479,MTG259797
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD011,Business Checking,Checking,2024-03-22 13:51:00,-12.59,Fee,TXN000480,CHK428429
+AH054,Kimberly Nelson,"6067 Madison Ave, Fort Worth TX",Basic,PROD014,Wire Transfer,Services,2024-02-20 11:45:00,-85.61,Fee,TXN000481,SVC240829
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD015,Cashier Check,Services,2024-03-07 15:29:00,-79.73,Fee,TXN000482,SVC610626
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD003,Personal Loan,Loans,2024-02-21 10:41:00,-2557.02,Payment,TXN000483,LON966589
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD003,Personal Loan,Loans,2024-03-20 11:16:00,-2236.79,Payment,TXN000484,LON119535
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD013,Overdraft Protection,Services,2024-03-26 08:52:00,-1142.53,Transfer,TXN000485,SVC138436
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD016,Safe Deposit Box,Services,2024-03-02 16:57:00,-3898.47,Transfer,TXN000486,SVC483588
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD010,Mortgage,Loans,2024-01-15 17:46:00,-574.87,Payment,TXN000487,MTG625465
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD001,Premium Checking,Checking,2024-01-06 14:23:00,-851.02,Withdrawal,TXN000488,CHK945718
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD005,Basic Checking,Checking,2024-02-13 10:48:00,-195.56,Withdrawal,TXN000489,CHK693297
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD016,Safe Deposit Box,Services,2024-02-25 10:47:00,-13.64,Fee,TXN000490,SVC898461
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-15 09:16:00,6719.0,Deposit,TXN000491,SAV643042
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD015,Cashier Check,Services,2024-01-25 15:58:00,1477.67,Deposit,TXN000492,SVC780027
+AH071,Paul Wright,"9047 East Way, Tampa FL",Preferred,PROD009,Investment Account,Investments,2024-01-07 16:40:00,-1390.25,Transfer,TXN000493,INV670792
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD013,Overdraft Protection,Services,2024-01-12 14:41:00,-62.89,Fee,TXN000494,SVC976052
+AH017,Anthony Ramirez,"7533 Main Ln, Austin TX",Basic,PROD008,Auto Loan,Loans,2024-02-03 12:24:00,-1645.84,Payment,TXN000495,AUTO470040
+AH076,Donald Thomas,"1224 Pine St, Miami FL",Basic,PROD001,Premium Checking,Checking,2024-03-17 15:56:00,-156.19,Withdrawal,TXN000496,CHK273650
+AH050,Helen Perez,"1237 Center Ct, Seattle WA",Standard,PROD009,Investment Account,Investments,2024-01-05 16:41:00,4180.89,Deposit,TXN000497,INV265001
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD008,Auto Loan,Loans,2024-02-08 09:42:00,-1360.92,Payment,TXN000498,AUTO446265
+AH027,Paul Gonzalez,"1688  Madison  Ct,  San  Antonio  TX",Standard,PROD016,Safe Deposit Box,Services,2024-01-31 18:30:00,14974.38,Deposit,TXN000499,SVC778700
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD005,Basic Checking,Checking,2024-02-16 11:02:00,-177.91,Withdrawal,TXN000500,CHK760120
+AH112,Daniel Davis,"2024 Lake Way, Baltimore MD",Basic,PROD002,High-Yield Savings,Savings,2024-01-03 17:09:00,9232.22,Deposit,TXN000501,SAV641737
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD001,Premium Checking,Checking,2024-02-08 17:40:00,-1483.15,Transfer,TXN000502,CHK961198
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD015,Cashier Check,Services,2024-03-01 09:13:00,-4964.6,Transfer,TXN000503,SVC605065
+AH038,john robinson,"9324 Washington Ave, Colorado Springs CO",Standard,PROD005,Basic Checking,Checking,2024-01-15 14:38:00,-1658.86,Transfer,TXN000504,CHK290719
+AH133,James Taylor,"4935 High Ave, Milwaukee WI",Standard,PROD006,Student Checking,Checking,2024-02-12 16:16:00,-751.08,Transfer,TXN000505,CHK575497
+AH127,Timothy Taylor,"5049  North  Blvd,  Baltimore  MD",Basic,PROD013,Overdraft Protection,Services,2024-02-07 09:14:00,-21.9,Fee,TXN000506,SVC117367
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD014,Wire Transfer,Services,2024-02-03 16:43:00,15335.02,Deposit,TXN000507,SVC286040
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD002,High-Yield Savings,Savings,2024-02-27 17:38:00,-2680.58,Transfer,TXN000508,SAV888930
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD005,Basic Checking,Checking,2024-01-06 15:42:00,-29.27,Fee,TXN000509,CHK101258
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD014,Wire Transfer,Services,2024-03-27 14:33:00,-88.73,Fee,TXN000510,SVC831531
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD016,Safe Deposit Box,Services,2024-01-28 11:51:00,-41.55,Fee,TXN000511,SVC943706
+AH148,Laura Williams,"7084 Washington Way, Portland OR",Standard,PROD005,Basic Checking,Checking,2024-03-22 09:27:00,3841.0,Deposit,TXN000512,CHK187889
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD009,Investment Account,Investments,2024-02-08 16:26:00,634.0,Deposit,TXN000513,INV879769
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD001,Premium Checking,Checking,2024-03-22 16:07:00,1066.82,Deposit,TXN000514,CHK943356
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD005,Basic Checking,Checking,2024-01-27 13:06:00,-593.66,Withdrawal,TXN000515,CHK373995
+AH117,christopher hall,"9468 Water Dr, San Francisco CA",Basic,PROD009,Investment Account,Investments,2024-01-28 17:23:00,-2047.53,Transfer,TXN000516,INV313588
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD006,Student Checking,Checking,2024-03-21 16:30:00,2796.81,Deposit,TXN000517,CHK366105
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD013,Overdraft Protection,Services,2024-02-06 13:49:00,-776.54,Transfer,TXN000518,SVC791308
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD006,Student Checking,Checking,2024-02-17 11:28:00,2566.3,Deposit,TXN000519,CHK924265
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD002,High-Yield Savings,Savings,2024-02-21 16:39:00,9649.25,Deposit,TXN000520,SAV105547
+AH021,David Wright,"2203 Adams Pl, Dallas TX",Preferred,PROD014,Wire Transfer,Services,2024-02-22 10:30:00,2069.97,Deposit,TXN000521,SVC332542
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD013,Overdraft Protection,Services,2024-02-20 17:02:00,-65.26,Fee,TXN000522,SVC646313
+AH063,Timothy King,"922 Third Dr, Baltimore MD",Basic,PROD006,Student Checking,Checking,2024-02-15 17:03:00,-450.19,Withdrawal,TXN000523,CHK311505
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD007,Credit Card,Credit Cards,2024-02-29 16:18:00,-1578.72,Payment,TXN000524,CC635348
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD006,Student Checking,Checking,2024-02-14 11:39:00,-372.55,Withdrawal,TXN000525,CHK786837
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD013,Overdraft Protection,Services,2024-01-11 09:17:00,-70.27,Fee,TXN000526,SVC525146
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD003,Personal Loan,Loans,2024-01-13 16:00:00,-2773.7,Payment,TXN000527,LON676289
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-16 16:58:00,8173.6,Deposit,TXN000528,SAV337288
+AH129,Sarah Hill,"8238 Mill Dr, Tampa FL",Standard,PROD013,Overdraft Protection,Services,2024-01-13 15:59:00,-122.79,Transfer,TXN000529,SVC283537
+AH089,Sharon Perez,"7534 Center Ln, Nashville TN",Preferred,PROD003,Personal Loan,Loans,2024-02-02 09:35:00,-1608.87,Payment,TXN000530,LON456480
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD009,Investment Account,Investments,2024-02-21 16:16:00,-2269.57,Transfer,TXN000531,INV495397
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD011,Business Checking,Checking,2024-03-16 11:48:00,-25.65,Fee,TXN000532,CHK583100
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD004,Money Market,Savings,2024-02-25 08:30:00,3888.47,Deposit,TXN000533,SAV926965
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD011,Business Checking,Checking,2024-03-29 11:51:00,-366.03,Withdrawal,TXN000534,CHK661671
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD010,Mortgage,Loans,2024-02-14 12:15:00,-460.43,Payment,TXN000535,MTG806423
+AH076,Donald Anderson,"1224 Pine St, Miami FL",Basic,PROD006,Student Checking,Checking,2024-01-05 16:59:00,-366.47,Withdrawal,TXN000536,CHK701581
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD007,Credit Card,Credit Cards,2024-01-12 18:59:00,-37.11,Fee,TXN000537,CC346269
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD008,Auto Loan,Loans,2024-02-25 12:13:00,-767.75,Payment,TXN000538,AUTO361824
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD004,Money Market,Savings,2024-01-23 10:49:00,877.03,Deposit,TXN000539,SAV795650
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD002,High-Yield Savings,Savings,2024-02-09 08:48:00,-1887.42,Transfer,TXN000540,SAV430738
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD009,Investment Account,Investments,2024-02-27 17:55:00,-26.46,Fee,TXN000541,INV901387
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD005,Basic Checking,Checking,2024-01-18 14:14:00,4006.39,Deposit,TXN000542,CHK601554
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD013,Overdraft Protection,Services,2024-01-03 16:22:00,-3901.93,Transfer,TXN000543,SVC579404
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD011,Business Checking,Checking,2024-02-14 16:29:00,-31.58,Withdrawal,TXN000544,CHK320989
+AH083,Kevin Walker,"7236 Fifth Ln, Baltimore MD",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-07 09:20:00,-1335.52,Transfer,TXN000545,SAV675210
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD011,Business Checking,Checking,2024-03-01 12:30:00,2518.91,Deposit,TXN000546,CHK320759
+AH091,Ruth Hill,"1747 North Ln, Denver CO",Preferred,PROD013,Overdraft Protection,Services,2024-02-14 13:23:00,-50.57,Fee,TXN000547,SVC699166
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD004,Money Market,Savings,2024-02-06 18:14:00,-4030.23,Transfer,TXN000548,SAV682316
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD005,Basic Checking,Checking,2024-03-10 11:09:00,-29.55,Withdrawal,TXN000549,CHK541996
+AH109,Helen Allen,"8989 Jefferson Blvd, New York NY",Premium,PROD011,Business Checking,Checking,2024-01-09 18:33:00,-670.06,Transfer,TXN000550,CHK689444
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD006,Student Checking,Checking,2024-01-04 14:06:00,4078.4,Deposit,TXN000551,CHK599687
+AH134,Kimberly Sanchez,"6092 Elm Blvd, Mesa AZ",Premium,PROD011,Business Checking,Checking,2024-01-07 15:47:00,1833.52,Deposit,TXN000552,CHK684572
+AH056,Helen Hall,"9183 Walnut Dr, Denver CO",Standard,PROD004,Money Market,Savings,2024-01-23 08:26:00,6827.9,Deposit,TXN000553,SAV734992
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD006,Student Checking,Checking,2024-03-22 17:41:00,-17.81,Fee,TXN000554,CHK440881
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD015,Cashier Check,Services,2024-02-02 15:49:00,9836.24,Deposit,TXN000555,SVC400441
+AH100,Donna Jones,"3924 Spring Dr, Omaha NE",Standard,PROD006,Student Checking,Checking,2024-02-10 10:55:00,-930.0,Withdrawal,TXN000556,CHK542306
+AH134,Kimberly Sanchez,"6092 Elm Blvd, Mesa AZ",Premium,PROD003,Personal Loan,Loans,2024-02-09 17:25:00,-421.51,Payment,TXN000557,LON460317
+AH050,Helen Perez,"1237 Center Ct, Seattle WA",Standard,PROD010,Mortgage,Loans,2024-01-21 13:41:00,-2189.21,Payment,TXN000558,MTG734792
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD015,Cashier Check,Services,2024-03-11 12:56:00,-77.31,Fee,TXN000559,SVC646240
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD001,Premium Checking,Checking,2024-01-27 10:11:00,1211.4,Deposit,TXN000560,CHK363871
+AH149,Deborah Lewis,"1423 School Rd, Phoenix AZ",Premium,PROD006,Student Checking,Checking,2024-02-17 09:13:00,522.99,Deposit,TXN000561,CHK596171
+AH119,Michelle Perez,"7313 Washington Pl, San Antonio TX",Basic,PROD013,Overdraft Protection,Services,2024-01-04 08:49:00,-3848.48,Transfer,TXN000562,SVC187295
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD003,Personal Loan,Loans,2024-01-17 17:09:00,-2033.53,Payment,TXN000563,LON508783
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD010,Mortgage,Loans,2024-01-15 11:47:00,-1440.85,Payment,TXN000564,MTG232552
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD002,High-Yield Savings,Savings,2024-02-03 10:01:00,-4308.83,Transfer,TXN000565,SAV440998
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD009,Investment Account,Investments,2024-01-30 16:59:00,-2279.74,Transfer,TXN000566,INV831510
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD015,Cashier Check,Services,2024-01-12 17:38:00,-3769.67,Transfer,TXN000567,SVC691380
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD010,Mortgage,Loans,2024-02-03 18:40:00,-2744.98,Payment,TXN000568,MTG605048
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD010,Mortgage,Loans,2024-01-15 09:28:00,-1224.19,Payment,TXN000569,MTG372427
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD005,Basic Checking,Checking,2024-03-05 08:00:00,2372.53,Deposit,TXN000570,CHK108721
+AH147,David Walker,"6031  Franklin  Ave,  Louisville  KY",Standard,PROD016,Safe Deposit Box,Services,2024-02-29 15:48:00,-10.82,Fee,TXN000571,SVC551344
+AH063,Timothy King Jr,"922 Third Dr, Baltimore MD",Basic,PROD001,Premium Checking,Checking,2024-03-24 11:50:00,-204.8,Withdrawal,TXN000572,CHK687783
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD013,Overdraft Protection,Services,2024-01-26 11:10:00,-29.85,Fee,TXN000573,SVC183057
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD009,Investment Account,Investments,2024-03-26 11:33:00,-68.36,Fee,TXN000574,INV657783
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD003,Personal Loan,Loans,2024-01-27 11:54:00,-710.74,Payment,TXN000575,LON403662
+AH026,Ashley Wright,"9455 Fourth Way, Dallas TX",PREF,PROD015,Cashier Check,Services,2024-02-10 15:39:00,-73.04,Fee,TXN000576,SVC615895
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD002,High-Yield Savings,Savings,2024-01-21 08:09:00,-159.55,Withdrawal,TXN000577,SAV207241
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD015,Cashier Check,Services,2024-01-18 10:45:00,-140.2,Transfer,TXN000578,SVC194578
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD011,Business Checking,Checking,2024-01-01 15:13:00,-790.01,Withdrawal,TXN000579,CHK622605
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD003,Personal Loan,Loans,2024-01-30 08:21:00,-2561.93,Payment,TXN000580,LON253184
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD016,Safe Deposit Box,Services,2024-01-18 14:04:00,5208.71,Deposit,TXN000581,SVC982417
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD001,Premium Checking,Checking,2024-02-22 14:53:00,3852.32,Deposit,TXN000582,CHK361055
+AH084,Lisa Moore,"4095 Jefferson Blvd, Louisville KY",Preferred,PROD002,High-Yield Savings,Savings,2024-02-19 15:15:00,7379.7,Deposit,TXN000583,SAV198524
+AH113,Deborah Moore Jr,"8005 Adams Dr, Las Vegas NV",Standard,PROD013,Overdraft Protection,Services,2024-03-28 11:30:00,-4809.95,Transfer,TXN000584,SVC438756
+AH035,Helen Davis,"4133 Fifth St, Kansas City MO",Standard,PROD004,Money Market,Savings,2024-02-10 08:47:00,6421.35,Deposit,TXN000585,SAV308376
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD007,Credit Card,Credit Cards,2024-02-26 08:55:00,-510.13,Payment,TXN000586,CC555251
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD009,Investment Account,Investments,2024-01-01 10:50:00,-686.28,Transfer,TXN000587,INV927477
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Preferred,PROD016,Safe Deposit Box,Services,2024-02-15 08:37:00,-3021.44,Transfer,TXN000588,SVC489439
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD003,Personal Loan,Loans,2024-01-16 10:31:00,-2120.65,Payment,TXN000589,LON454861
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD005,Basic Checking,Checking,2024-02-18 08:22:00,-1603.79,Transfer,TXN000590,CHK231939
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-15 13:35:00,-2221.66,Transfer,TXN000591,SAV302338
+AH005,Nicole Miller,"6324 Washington Ct, Philadelphia PA",Basic,PROD005,Basic Checking,Checking,2024-02-14 14:22:00,245.47,Deposit,TXN000592,CHK840951
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD016,Safe Deposit Box,Services,2024-02-05 12:34:00,14384.19,Deposit,TXN000593,SVC670027
+AH077,William Walker,"1974 Fourth Dr, Virginia Beach VA",Standard,PROD006,Student Checking,Checking,2024-01-21 15:17:00,817.38,Deposit,TXN000594,CHK410035
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD001,Premium Checking,Checking,2024-03-20 13:29:00,-1061.32,Transfer,TXN000595,CHK869295
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-26 08:39:00,-1231.99,Transfer,TXN000596,SAV856027
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD013,Overdraft Protection,Services,2024-03-28 16:52:00,13339.71,Deposit,TXN000597,SVC621718
+AH119,Michelle Adams,"7313 Washington Pl, San Antonio TX",Basic,PROD011,Business Checking,Checking,2024-02-24 17:18:00,-335.58,Withdrawal,TXN000598,CHK200932
+AH113,Deborah Moore Jr,"8005 Adams Dr, Las Vegas NV",Standard,PROD005,Basic Checking,Checking,2024-03-28 09:02:00,204.81,Deposit,TXN000599,CHK212255
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD013,Overdraft Protection,Services,2024-01-13 09:02:00,-2500.56,Transfer,TXN000600,SVC754280
+AH149,Deborah Lewis,"1423 School Rd, Phoenix AZ",Premium,PROD012,Certificate of Deposit,Savings,2024-02-07 12:03:00,7206.67,Deposit,TXN000601,SAV113721
+AH046,Kimberly Thomas,"1784 State Pl, Virginia Beach VA",Basic,PROD003,Personal Loan,Loans,2024-02-11 15:59:00,-1510.57,Payment,TXN000602,LON769952
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD014,Wire Transfer,Services,2024-01-24 16:47:00,-81.48,Fee,TXN000603,SVC161132
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD003,Personal Loan,Loans,2024-01-18 16:02:00,-2536.48,Payment,TXN000604,LON181721
+AH048,Nicole Clark,"4165 Center Rd, Virginia Beach VA",Basic,PROD008,Auto Loan,Loans,2024-02-03 09:06:00,-1688.65,Payment,TXN000605,AUTO298663
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Standard,PROD006,Student Checking,Checking,2024-02-03 18:15:00,-566.98,Withdrawal,TXN000606,CHK882351
+AH025,Daniel Jones,"5513 Cedar Pl, Chicago IL",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-19 18:36:00,-3527.62,Transfer,TXN000607,SAV547820
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD013,Overdraft Protection,Services,2024-01-11 10:35:00,-1753.81,Transfer,TXN000608,SVC265860
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD012,Certificate of Deposit,Savings,2024-02-08 15:59:00,-2772.9,Withdrawal,TXN000609,SAV440424
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD011,Business Checking,Checking,2024-01-27 18:27:00,-571.88,Withdrawal,TXN000610,CHK324319
+AH082,Donna Rivera,"7235 Church Pl, San Jose CA",Basic,PROD009,Investment Account,Investments,2024-02-19 16:59:00,-96.55,Fee,TXN000611,INV569237
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD001,Premium Checking,Checking,2024-01-01 08:18:00,-993.54,Withdrawal,TXN000612,CHK416503
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD011,Business Checking,Checking,2024-03-05 11:13:00,4118.6,Deposit,TXN000613,CHK823222
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD005,Basic Checking,Checking,2024-02-28 16:32:00,2328.83,Deposit,TXN000614,CHK263690
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD008,Auto Loan,Loans,2024-03-02 13:56:00,-852.38,Payment,TXN000615,AUTO950472
+AH065,Joshua Ramirez,"7405 Hill Way, Mesa AZ",Standard,PROD007,Credit Card,Credit Cards,2024-01-06 17:25:00,-1460.98,Payment,TXN000616,CC931420
+AH105,Stephanie Torres,"2970 Adams Pl, Chicago IL",Standard,PROD004,Money Market,Savings,2024-01-12 15:52:00,3073.89,Deposit,TXN000617,SAV866288
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD002,High-Yield Savings,Savings,2024-03-10 09:49:00,-1705.23,Withdrawal,TXN000618,SAV956835
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD008,Auto Loan,Loans,2024-01-27 09:55:00,-2293.5,Payment,TXN000619,AUTO990742
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD013,Overdraft Protection,Services,2024-02-29 08:40:00,7967.19,Deposit,TXN000620,SVC143182
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD011,Business Checking,Checking,2024-02-04 17:09:00,-236.38,Withdrawal,TXN000621,CHK152973
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD003,Personal Loan,Loans,2024-02-16 14:28:00,-821.84,Payment,TXN000622,LON403859
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD003,Personal Loan,Loans,2024-01-10 10:21:00,-1532.39,Payment,TXN000623,LON881519
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD003,Personal Loan,Loans,2024-02-05 14:16:00,-1315.88,Payment,TXN000624,LON555596
+AH148,Laura Williams,"7084 Washington Way, Portland OR",Standard,PROD007,Credit Card,Credit Cards,2024-02-23 10:30:00,-26.86,Fee,TXN000625,CC699083
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD008,Auto Loan,Loans,2024-03-21 17:47:00,-878.48,Payment,TXN000626,AUTO379190
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD003,Personal Loan,Loans,2024-03-06 18:59:00,-515.08,Payment,TXN000627,LON533672
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD011,Business Checking,Checking,2024-03-09 13:12:00,3294.28,Deposit,TXN000628,CHK907069
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD015,Cashier Check,Services,2024-01-11 13:39:00,-814.51,Transfer,TXN000629,SVC147057
+AH051,Kevin Perez,"1989 Spring Rd, Los Angeles CA",Standard,PROD005,Basic Checking,Checking,2024-01-13 18:23:00,-1720.25,Transfer,TXN000630,CHK217830
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD005,Basic Checking,Checking,2024-03-01 17:59:00,-1658.25,Transfer,TXN000631,CHK114400
+AH076,Donald Anderson,"1224 Pine St, Miami FL",Basic,PROD015,Cashier Check,Services,2024-02-14 09:19:00,-12.05,Fee,TXN000632,SVC319162
+AH117,Christopher Hall,"9468 Water Dr, San Francisco CA",BASIC,PROD009,Investment Account,Investments,2024-01-14 11:34:00,-2466.83,Transfer,TXN000633,INV865380
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD013,Overdraft Protection,Services,2024-02-14 18:01:00,-4539.6,Transfer,TXN000634,SVC652388
+AH011,Daniel Williams,"6672 Center Ave, Boston MA",Preferred,PROD010,Mortgage,Loans,2024-01-17 10:03:00,-761.95,Payment,TXN000635,MTG830361
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD001,Premium Checking,Checking,2024-01-18 08:29:00,3318.85,Deposit,TXN000636,CHK795186
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD010,Mortgage,Loans,2024-01-24 09:01:00,-2628.75,Payment,TXN000637,MTG780956
+AH084,Lisa Moore,"4095 Jefferson Blvd, Louisville KY",Preferred,PROD004,Money Market,Savings,2024-01-15 14:32:00,-2449.08,Withdrawal,TXN000638,SAV726111
+AH116,Kenneth Thompson,"9142 Second Blvd, El Paso TX",Standard,PROD015,Cashier Check,Services,2024-01-06 10:12:00,-4639.11,Transfer,TXN000639,SVC122532
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD011,Business Checking,Checking,2024-01-16 16:19:00,-749.5,Withdrawal,TXN000640,CHK119264
+AH076,Donald Thomas,"1224 Pine St, Miami FL",Basic,PROD010,Mortgage,Loans,2024-03-29 13:22:00,-861.37,Payment,TXN000641,MTG625600
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD009,Investment Account,Investments,2024-02-21 08:40:00,-90.14,Fee,TXN000642,INV954441
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD008,Auto Loan,Loans,2024-03-01 16:17:00,-624.78,Payment,TXN000643,AUTO511929
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD013,Overdraft Protection,Services,2024-01-09 09:46:00,-4806.97,Transfer,TXN000644,SVC742198
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD008,Auto Loan,Loans,2024-03-29 11:26:00,-1804.12,Payment,TXN000645,AUTO547180
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD015,Cashier Check,Services,2024-02-28 17:21:00,-745.68,Transfer,TXN000646,SVC784167
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD007,Credit Card,Credit Cards,2024-03-23 16:43:00,-652.55,Payment,TXN000647,CC839389
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD005,Basic Checking,Checking,2024-02-28 10:27:00,-573.55,Withdrawal,TXN000648,CHK265725
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD004,Money Market,Savings,2024-01-05 16:34:00,8411.27,Deposit,TXN000649,SAV252591
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD014,Wire Transfer,Services,2024-02-18 13:56:00,-37.3,Fee,TXN000650,SVC881828
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD007,Credit Card,Credit Cards,2024-02-29 12:09:00,-306.51,Payment,TXN000651,CC127470
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD008,Auto Loan,Loans,2024-02-09 12:38:00,-1869.81,Payment,TXN000652,AUTO342129
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD016,Safe Deposit Box,Services,2024-01-02 13:05:00,12806.95,Deposit,TXN000653,SVC734086
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD006,Student Checking,Checking,2024-02-15 18:23:00,-1033.75,Transfer,TXN000654,CHK244192
+AH036,Michelle Torres,"5283 Spring Dr, Fresno CA",Standard,PROD014,Wire Transfer,Services,2024-01-13 11:02:00,23173.16,Deposit,TXN000655,SVC533108
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD007,Credit Card,Credit Cards,2024-03-28 11:48:00,-395.3,Payment,TXN000656,CC560623
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD015,Cashier Check,Services,2024-02-01 13:55:00,10975.11,Deposit,TXN000657,SVC913920
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD011,Business Checking,Checking,2024-02-08 14:46:00,4698.74,Deposit,TXN000658,CHK699716
+AH127,Timothy Taylor,"5049 North Blvd, Baltimore MD",Basic,PROD002,High-Yield Savings,Savings,2024-02-04 16:41:00,4570.93,Deposit,TXN000659,SAV967182
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD013,Overdraft Protection,Services,2024-02-26 11:33:00,-292.33,Transfer,TXN000660,SVC506216
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD007,Credit Card,Credit Cards,2024-02-18 18:03:00,-28.19,Fee,TXN000661,CC419348
+AH063,Timothy King,"922 Third Dr, Baltimore MD",Basic,PROD010,Mortgage,Loans,2024-01-30 10:27:00,-1916.78,Payment,TXN000662,MTG157196
+AH147,David Walker,"6031 Franklin Ave, Louisville KY",Standard,PROD015,Cashier Check,Services,2024-02-03 10:29:00,18204.85,Deposit,TXN000663,SVC218669
+AH041,William Taylor,"1853 Third Rd, San Diego CA",Preferred,PROD005,Basic Checking,Checking,2024-02-19 17:57:00,1651.13,Deposit,TXN000664,CHK126122
+AH040,Deborah Martin,"8766 Main Pl, Colorado Springs CO",Preferred,PROD007,Credit Card,Credit Cards,2024-01-30 17:57:00,-17.71,Fee,TXN000665,CC439817
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD004,Money Market,Savings,2024-02-11 10:45:00,7091.64,Deposit,TXN000666,SAV764873
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD013,Overdraft Protection,Services,2024-01-06 16:45:00,-3976.23,Transfer,TXN000667,SVC636521
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD013,Overdraft Protection,Services,2024-03-01 10:24:00,19322.38,Deposit,TXN000668,SVC451475
+AH121,Kimberly Wright,"5288 Jackson Pl, Oklahoma City OK",Premium,PROD005,Basic Checking,Checking,2024-03-28 10:10:00,3574.64,Deposit,TXN000669,CHK539963
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD006,Student Checking,Checking,2024-01-20 15:18:00,701.28,Deposit,TXN000670,CHK312705
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD015,Cashier Check,Services,2024-02-09 12:00:00,-86.99,Fee,TXN000671,SVC669902
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD007,Credit Card,Credit Cards,2024-03-24 15:15:00,-28.61,Fee,TXN000672,CC563339
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD008,Auto Loan,Loans,2024-02-08 17:00:00,-2670.07,Payment,TXN000673,AUTO391622
+AH132,Paul Lopez,"2265 Second Ct, Fort Worth TX",Standard,PROD007,Credit Card,Credit Cards,2024-02-10 16:52:00,-410.44,Payment,TXN000674,CC157738
+AH139,Timothy Wright,"9722 Lake Blvd, Las Vegas NV",Standard,PROD002,High-Yield Savings,Savings,2024-01-23 08:09:00,-4198.17,Transfer,TXN000675,SAV412938
+AH073,Kevin Johnson,"9797 Fourth St, Portland OR",Premium,PROD004,Money Market,Savings,2024-02-28 09:03:00,1864.66,Deposit,TXN000676,SAV804737
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD006,Student Checking,Checking,2024-02-09 18:44:00,-38.72,Fee,TXN000677,CHK477685
+AH009,Elizabeth Thompson,"4474 Cedar Rd, Columbus OH",Standard,PROD012,Certificate of Deposit,Savings,2024-01-06 12:20:00,-4110.31,Transfer,TXN000678,SAV895284
+AH092,William Moore,"993 Third Ln, Chicago IL",Standard,PROD010,Mortgage,Loans,2024-02-23 16:04:00,-1518.29,Payment,TXN000679,MTG227950
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD014,Wire Transfer,Services,2024-02-25 12:21:00,-1128.24,Transfer,TXN000680,SVC319205
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD003,Personal Loan,Loans,2024-01-04 09:36:00,-1554.26,Payment,TXN000681,LON822106
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD011,Business Checking,Checking,2024-02-29 12:27:00,2896.96,Deposit,TXN000682,CHK753518
+AH078,Elizabeth Hernandez,"1976 Hill Ln, Long Beach CA",Premium,PROD016,Safe Deposit Box,Services,2024-02-29 10:39:00,-3673.01,Transfer,TXN000683,SVC621919
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD008,Auto Loan,Loans,2024-02-21 10:56:00,-2184.04,Payment,TXN000684,AUTO302957
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD004,Money Market,Savings,2024-01-08 08:29:00,-1076.29,Transfer,TXN000685,SAV745197
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD012,Certificate of Deposit,Savings,2024-01-27 08:21:00,6411.29,Deposit,TXN000686,SAV111846
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD003,Personal Loan,Loans,2024-01-13 12:16:00,-1061.76,Payment,TXN000687,LON631302
+AH119,Michelle Perez,"7313 Washington Pl, San Antonio TX",Basic,PROD011,Business Checking,Checking,2024-01-21 08:07:00,3635.76,Deposit,TXN000688,CHK745915
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD011,Business Checking,Checking,2024-02-23 10:12:00,-1852.33,Transfer,TXN000689,CHK602381
+AH103,Joshua Wright,"7272 Elm St, Albuquerque NM",Basic,PROD005,Basic Checking,Checking,2024-02-21 08:41:00,-634.66,Withdrawal,TXN000690,CHK663051
+AH074,Donna Lopez,"4362 Water Ct, Houston TX",Preferred,PROD002,High-Yield Savings,Savings,2024-01-30 14:59:00,-1531.75,Transfer,TXN000691,SAV860180
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD001,Premium Checking,Checking,2024-03-06 16:34:00,3443.19,Deposit,TXN000692,CHK938373
+AH078,Elizabeth Hernandez,"1976 Hill Ln, Long Beach CA",Premium,PROD001,Premium Checking,Checking,2024-01-05 10:17:00,1907.44,Deposit,TXN000693,CHK660226
+AH037,Matthew Sanchez,"5015 Jefferson Ct, Dallas TX",BASIC,PROD006,Student Checking,Checking,2024-02-06 17:24:00,-867.3,Withdrawal,TXN000694,CHK888047
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD002,High-Yield Savings,Savings,2024-02-15 13:45:00,959.3,Deposit,TXN000695,SAV349185
+AH081,Nicole Smith,"8131 Washington Blvd, Las Vegas NV",Basic,PROD010,Mortgage,Loans,2024-01-29 12:13:00,-690.04,Payment,TXN000696,MTG492393
+AH009,Elizabeth Thompson,"4474 Cedar Rd, Columbus OH",Standard,PROD003,Personal Loan,Loans,2024-02-19 11:58:00,-1442.57,Payment,TXN000697,LON126146
+AH105,Stephanie Torres,"2970 Adams Pl, Chicago IL",Standard,PROD007,Credit Card,Credit Cards,2024-02-27 16:09:00,-42.71,Fee,TXN000698,CC868020
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD004,Money Market,Savings,2024-01-20 13:09:00,-4693.22,Transfer,TXN000699,SAV809589
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD013,Overdraft Protection,Services,2024-01-14 08:29:00,-4337.57,Transfer,TXN000700,SVC221462
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD003,Personal Loan,Loans,2024-03-05 08:43:00,-1133.21,Payment,TXN000701,LON148381
+AH024,Michelle Scott,"9741 East St, Charlotte NC",Premium,PROD010,Mortgage,Loans,2024-02-03 18:47:00,-262.94,Payment,TXN000702,MTG895338
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD007,Credit Card,Credit Cards,2024-02-10 11:20:00,-608.81,Payment,TXN000703,CC658131
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD004,Money Market,Savings,2024-02-19 15:42:00,1659.21,Deposit,TXN000704,SAV220020
+AH003,George Johnson,"3357 Second Blvd, Mesa AZ",Preferred,PROD004,Money Market,Savings,2024-02-09 16:32:00,3568.15,Deposit,TXN000705,SAV433955
+AH059,James Nelson,"4749 Franklin Ct, Philadelphia PA",Premium,PROD008,Auto Loan,Loans,2024-01-10 12:36:00,-679.57,Payment,TXN000706,AUTO426503
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD015,Cashier Check,Services,2024-02-27 13:34:00,3686.81,Deposit,TXN000707,SVC593602
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD002,High-Yield Savings,Savings,2024-01-04 09:24:00,3979.98,Deposit,TXN000708,SAV838908
+AH127,Timothy Taylor,"5049 North Blvd, Baltimore MD",Basic,PROD015,Cashier Check,Services,2024-02-27 17:40:00,-1842.56,Transfer,TXN000709,SVC448475
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD003,Personal Loan,Loans,2024-03-31 18:51:00,-2926.31,Payment,TXN000710,LON892453
+AH101,Sarah Martinez,"2430 Cedar St, Seattle WA",Preferred,PROD015,Cashier Check,Services,2024-02-06 10:05:00,11661.81,Deposit,TXN000711,SVC817727
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD008,Auto Loan,Loans,2024-02-15 15:30:00,-2852.86,Payment,TXN000712,AUTO250703
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD006,Student Checking,Checking,2024-01-17 13:25:00,-671.88,Withdrawal,TXN000713,CHK927094
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD003,Personal Loan,Loans,2024-01-30 15:01:00,-1530.94,Payment,TXN000714,LON468512
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD012,Certificate of Deposit,Savings,2024-01-30 10:18:00,-680.6,Transfer,TXN000715,SAV207932
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD003,Personal Loan,Loans,2024-02-22 09:20:00,-2418.81,Payment,TXN000716,LON658624
+AH100,Donna Jones,"3924 Spring Dr, Omaha NE",Standard,PROD008,Auto Loan,Loans,2024-01-26 17:26:00,-1938.45,Payment,TXN000717,AUTO674566
+AH035,Helen Davis,"4133 Fifth St, Kansas City MO",Standard,PROD011,Business Checking,Checking,2024-01-31 14:04:00,3485.6,Deposit,TXN000718,CHK552091
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD008,Auto Loan,Loans,2024-02-06 13:34:00,-684.64,Payment,TXN000719,AUTO802131
+AH017,Anthony Ramirez,"7533 Main Ln, Austin TX",Basic,PROD016,Safe Deposit Box,Services,2024-02-17 17:53:00,15008.0,Deposit,TXN000720,SVC585394
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD015,Cashier Check,Services,2024-02-05 09:52:00,8046.88,Deposit,TXN000721,SVC525505
+AH015,Sandra Hill,"6404 Water Way, Phoenix AZ",Standard,PROD013,Overdraft Protection,Services,2024-02-08 09:43:00,-54.49,Fee,TXN000722,SVC792232
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD005,Basic Checking,Checking,2024-01-06 11:52:00,-1816.19,Transfer,TXN000723,CHK767033
+AH001,Edward Davis,"4606 West Dr, Los Angeles CA",Premium,PROD005,Basic Checking,Checking,2024-02-18 10:42:00,-305.67,Withdrawal,TXN000724,CHK745474
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD011,Business Checking,Checking,2024-03-14 11:13:00,3982.02,Deposit,TXN000725,CHK812569
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD012,Certificate of Deposit,Savings,2024-02-28 14:45:00,-2934.5,Withdrawal,TXN000726,SAV741194
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD010,Mortgage,Loans,2024-01-26 10:54:00,-374.75,Payment,TXN000727,MTG675547
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD012,Certificate of Deposit,Savings,2024-02-15 16:52:00,2893.87,Deposit,TXN000728,SAV132699
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD011,Business Checking,Checking,2024-01-28 17:25:00,-871.46,Transfer,TXN000729,CHK556329
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Preferred,PROD016,Safe Deposit Box,Services,2024-02-28 18:11:00,5111.56,Deposit,TXN000730,SVC503277
+AH079,David Nguyen,"4078 Washington Ln, Oakland CA",Basic,PROD010,Mortgage,Loans,2024-02-23 14:09:00,-2992.88,Payment,TXN000731,MTG802615
+AH029,Robert Thomas,"1335 Lincoln Pl, San Francisco CA",Premium,PROD001,Premium Checking,Checking,2024-02-23 08:04:00,4430.2,Deposit,TXN000732,CHK789886
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD014,Wire Transfer,Services,2024-01-09 09:08:00,-90.42,Fee,TXN000733,SVC829169
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD006,Student Checking,Checking,2024-02-29 14:39:00,-435.64,Withdrawal,TXN000734,CHK959907
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD006,Student Checking,Checking,2024-01-25 13:14:00,-27.28,Withdrawal,TXN000735,CHK622355
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD014,Wire Transfer,Services,2024-02-15 16:17:00,-2924.13,Transfer,TXN000736,SVC135087
+AH009,Elizabeth Thompson,"4474 Cedar Rd, Columbus OH",Standard,PROD012,Certificate of Deposit,Savings,2024-02-06 15:45:00,4867.18,Deposit,TXN000737,SAV824038
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD009,Investment Account,Investments,2024-01-10 16:54:00,-56.53,Fee,TXN000738,INV648779
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD003,Personal Loan,Loans,2024-01-06 11:30:00,-2115.41,Payment,TXN000739,LON665389
+AH124,Ruth Clark,"3050 Hill Rd, Kansas City MO",Premium,PROD011,Business Checking,Checking,2024-01-20 17:03:00,-30.57,Withdrawal,TXN000740,CHK576089
+AH112,Daniel Davis,"2024 Lake Way, Baltimore MD",Basic,PROD011,Business Checking,Checking,2024-02-27 15:36:00,-961.37,Withdrawal,TXN000741,CHK936997
+AH064,Ronald King,"9855 School Way, Mesa AZ",Standard,PROD010,Mortgage,Loans,2024-01-19 10:02:00,-2235.52,Payment,TXN000742,MTG691088
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD006,Student Checking,Checking,2024-01-04 18:30:00,-663.19,Withdrawal,TXN000743,CHK405925
+AH133,James Taylor,"4935 High Ave, Milwaukee WI",Standard,PROD003,Personal Loan,Loans,2024-01-02 12:31:00,-555.1,Payment,TXN000744,LON180595
+AH061,Kenneth Flores,"7561 King Dr, Phoenix AZ",Standard,PROD009,Investment Account,Investments,2024-01-17 10:39:00,-87.21,Fee,TXN000745,INV114892
+AH026,Ashley Wright,"9455 Fourth Way, Dallas TX",Preferred,PROD005,Basic Checking,Checking,2024-02-08 10:58:00,-382.37,Withdrawal,TXN000746,CHK283919
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD006,Student Checking,Checking,2024-02-20 11:31:00,-1737.83,Transfer,TXN000747,CHK459502
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD005,Basic Checking,Checking,2024-01-10 17:59:00,-1530.25,Transfer,TXN000748,CHK533007
+AH084,Lisa Moore,"4095 Jefferson Blvd, Louisville KY",Preferred,PROD006,Student Checking,Checking,2024-01-16 18:28:00,3685.09,Deposit,TXN000749,CHK461838
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD004,Money Market,Savings,2024-03-27 12:48:00,4693.75,Deposit,TXN000750,SAV599365
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD013,Overdraft Protection,Services,2024-01-31 16:14:00,-3557.48,Transfer,TXN000751,SVC597643
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD014,Wire Transfer,Services,2024-02-24 16:55:00,7575.41,Deposit,TXN000752,SVC936039
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD002,High-Yield Savings,Savings,2024-01-25 18:20:00,5359.8,Deposit,TXN000753,SAV471015
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD009,Investment Account,Investments,2024-03-25 18:54:00,-34.33,Fee,TXN000754,INV941289
+AH023,Elizabeth Lewis,"7497 Park Dr, Fresno CA",Preferred,PROD013,Overdraft Protection,Services,2024-01-17 18:37:00,-79.58,Fee,TXN000755,SVC885478
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD007,Credit Card,Credit Cards,2024-02-16 18:37:00,-35.33,Fee,TXN000756,CC288656
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD001,Premium Checking,Checking,2024-02-05 08:43:00,-122.73,Transfer,TXN000757,CHK202444
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD012,Certificate of Deposit,Savings,2024-01-07 18:28:00,2904.64,Deposit,TXN000758,SAV302458
+AH008,Lisa Anderson,"6327 Center Way, San Antonio TX",Standard,PROD002,High-Yield Savings,Savings,2024-01-02 17:05:00,-3300.2,Withdrawal,TXN000759,SAV976042
+AH048,Nicole Clark,"4165 Center Rd, Virginia Beach VA",Basic,PROD004,Money Market,Savings,2024-03-01 17:40:00,-643.89,Transfer,TXN000760,SAV998043
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD006,Student Checking,Checking,2024-01-09 14:42:00,-1421.74,Transfer,TXN000761,CHK365641
+AH064,Ronald King,"9855 School Way, Mesa AZ",Standard,PROD003,Personal Loan,Loans,2024-01-30 18:59:00,-1988.59,Payment,TXN000762,LON389809
+AH092,William Moore,"993 Third Ln, Chicago IL",Standard,PROD011,Business Checking,Checking,2024-02-14 18:49:00,3914.62,Deposit,TXN000763,CHK390756
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Preferred,PROD002,High-Yield Savings,Savings,2024-01-25 14:21:00,8146.73,Deposit,TXN000764,SAV286572
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD007,Credit Card,Credit Cards,2024-01-05 15:59:00,-20.35,Fee,TXN000765,CC615959
+AH025,Daniel Jones,"5513 Cedar Pl, Chicago IL",Preferred,PROD014,Wire Transfer,Services,2024-01-10 16:49:00,15542.17,Deposit,TXN000766,SVC211410
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD002,High-Yield Savings,Savings,2024-02-15 12:06:00,5756.31,Deposit,TXN000767,SAV362769
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD001,Premium Checking,Checking,2024-01-02 15:09:00,-34.91,Fee,TXN000768,CHK379378
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD013,Overdraft Protection,Services,2024-02-14 13:57:00,-118.15,Transfer,TXN000769,SVC841978
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD003,Personal Loan,Loans,2024-01-31 14:25:00,-1712.36,Payment,TXN000770,LON103468
+AH084,Lisa Moore,"4095 Jefferson Blvd, Louisville KY",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-14 15:07:00,3098.0,Deposit,TXN000771,SAV157875
+AH134,Kimberly Sanchez,"6092 Elm Blvd, Mesa AZ",Premium,PROD011,Business Checking,Checking,2024-02-11 09:23:00,2325.21,Deposit,TXN000772,CHK903741
+AH063,Timothy King Jr,"922 Third Dr, Baltimore MD",Basic,PROD002,High-Yield Savings,Savings,2024-03-27 11:11:00,-3320.63,Withdrawal,TXN000773,SAV413388
+AH148,Laura Williams,"7084 Washington Way, Portland OR",Standard,PROD012,Certificate of Deposit,Savings,2024-03-10 09:40:00,8863.62,Deposit,TXN000774,SAV559259
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD001,Premium Checking,Checking,2024-01-09 08:12:00,-1226.6,Transfer,TXN000775,CHK612997
+AH085,Mark Lopez,"3575 State Ln, Albuquerque NM",Preferred,PROD010,Mortgage,Loans,2024-01-05 16:41:00,-1599.12,Payment,TXN000776,MTG974774
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD002,High-Yield Savings,Savings,2024-01-02 08:21:00,7238.02,Deposit,TXN000777,SAV525205
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD015,Cashier Check,Services,2024-01-14 18:42:00,-4363.98,Transfer,TXN000778,SVC662625
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD003,Personal Loan,Loans,2024-02-17 17:14:00,-303.26,Payment,TXN000779,LON248468
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD002,High-Yield Savings,Savings,2024-02-11 08:30:00,6522.99,Deposit,TXN000780,SAV115063
+AH039,William Thompson,"4102 Broad Ln, Phoenix AZ",Preferred,PROD010,Mortgage,Loans,2024-02-10 08:57:00,-2498.07,Payment,TXN000781,MTG202018
+AH098,Lisa Hernandez,"2947 Third Ave, San Francisco CA",Preferred,PROD003,Personal Loan,Loans,2024-02-09 10:53:00,-2489.84,Payment,TXN000782,LON211496
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD008,Auto Loan,Loans,2024-02-01 17:51:00,-376.71,Payment,TXN000783,AUTO312484
+AH092,William Moore,"993 Third Ln, Chicago IL",Standard,PROD011,Business Checking,Checking,2024-01-22 18:25:00,3436.24,Deposit,TXN000784,CHK672401
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD002,High-Yield Savings,Savings,2024-03-06 11:48:00,3421.49,Deposit,TXN000785,SAV226610
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD012,Certificate of Deposit,Savings,2024-01-10 14:10:00,4442.75,Deposit,TXN000786,SAV710256
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD013,Overdraft Protection,Services,2024-01-09 09:50:00,882.94,Deposit,TXN000787,SVC610622
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD003,Personal Loan,Loans,2024-01-01 08:11:00,-2178.88,Payment,TXN000788,LON722571
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD005,Basic Checking,Checking,2024-01-27 15:44:00,3217.14,Deposit,TXN000789,CHK648496
+AH097,Melissa Torres,"1086 Washington Dr, Colorado Springs CO",Standard,PROD002,High-Yield Savings,Savings,2024-01-27 11:11:00,7200.27,Deposit,TXN000790,SAV741780
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD014,Wire Transfer,Services,2024-02-10 12:22:00,14163.9,Deposit,TXN000791,SVC301224
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD012,Certificate of Deposit,Savings,2024-02-03 09:39:00,-4934.57,Transfer,TXN000792,SAV632195
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD007,Credit Card,Credit Cards,2024-03-15 18:42:00,-16.59,Fee,TXN000793,CC218152
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD006,Student Checking,Checking,2024-02-13 15:31:00,4617.23,Deposit,TXN000794,CHK156652
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD014,Wire Transfer,Services,2024-03-09 12:13:00,-40.09,Fee,TXN000795,SVC944264
+AH098,Lisa Hernandez,"2947 Third Ave, San Francisco CA",Preferred,PROD002,High-Yield Savings,Savings,2024-01-03 09:47:00,-920.64,Withdrawal,TXN000796,SAV923648
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD003,Personal Loan,Loans,2024-02-01 16:07:00,-2706.22,Payment,TXN000797,LON856445
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD014,Wire Transfer,Services,2024-02-07 17:20:00,18803.63,Deposit,TXN000798,SVC441505
+AH050,Helen Perez,"1237 Center Ct, Seattle WA",Standard,PROD008,Auto Loan,Loans,2024-02-19 09:20:00,-474.58,Payment,TXN000799,AUTO873584
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD008,Auto Loan,Loans,2024-02-27 14:57:00,-405.88,Payment,TXN000800,AUTO713513
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD007,Credit Card,Credit Cards,2024-01-04 14:09:00,-20.34,Fee,TXN000801,CC491627
+AH031,James Clark,"7986 South Blvd, Albuquerque NM",Basic,PROD012,Certificate of Deposit,Savings,2024-01-30 11:40:00,-1050.94,Withdrawal,TXN000802,SAV233391
+AH008,Lisa Anderson,"6327 Center Way, San Antonio TX",Standard,PROD009,Investment Account,Investments,2024-02-14 17:03:00,3222.18,Deposit,TXN000803,INV588148
+AH099,Timothy Hill,"4871  Pine  Dr,  Milwaukee  WI",Preferred,PROD011,Business Checking,Checking,2024-01-27 10:48:00,1511.05,Deposit,TXN000804,CHK264404
+AH136,Robert Baker,"7824 Oak Pl, Charlotte NC",Preferred,PROD006,Student Checking,Checking,2024-03-01 17:57:00,-561.7,Withdrawal,TXN000805,CHK340860
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD007,Credit Card,Credit Cards,2024-01-27 16:31:00,-40.11,Fee,TXN000806,CC392731
+AH003,George Johnson,"3357 Second Blvd, Mesa AZ",Preferred,PROD008,Auto Loan,Loans,2024-02-16 14:47:00,-893.93,Payment,TXN000807,AUTO555342
+AH124,Ruth Clark,"3050 Hill Rd, Kansas City MO",Premium,PROD001,Premium Checking,Checking,2024-01-15 17:09:00,-63.34,Withdrawal,TXN000808,CHK593515
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD013,Overdraft Protection,Services,2024-02-17 14:33:00,-82.87,Fee,TXN000809,SVC830494
+AH023,Elizabeth Lewis,"7497 Park Dr, Fresno CA",Preferred,PROD003,Personal Loan,Loans,2024-01-29 15:15:00,-1763.76,Payment,TXN000810,LON113026
+AH148,Laura Williams,"8643 Union Way, Tulsa OK",Standard,PROD005,Basic Checking,Checking,2024-02-16 14:13:00,1233.36,Deposit,TXN000811,CHK195136
+AH004,John Hernandez,"7024 High Ln, Oakland CA",Preferred,PROD006,Student Checking,Checking,2024-01-31 18:19:00,-1730.05,Transfer,TXN000812,CHK883586
+AH125,laura baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD005,Basic Checking,Checking,2024-01-02 15:29:00,-870.18,Transfer,TXN000813,CHK928226
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD001,Premium Checking,Checking,2024-03-26 15:45:00,-234.33,Transfer,TXN000814,CHK824304
+AH074,Donna Lopez,"4362 Water Ct, Houston TX",Preferred,PROD014,Wire Transfer,Services,2024-02-03 08:18:00,-72.82,Fee,TXN000815,SVC742254
+AH118,Mark Walker,"6346 Water Rd, Minneapolis MN",Standard,PROD003,Personal Loan,Loans,2024-02-06 11:50:00,-1937.27,Payment,TXN000816,LON452001
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD002,High-Yield Savings,Savings,2024-02-02 18:23:00,3719.35,Deposit,TXN000817,SAV749208
+AH010,Donna Harris,"9225 East Ct, Seattle WA",Basic,PROD003,Personal Loan,Loans,2024-01-24 13:11:00,-1770.12,Payment,TXN000818,LON911152
+AH045,Jessica Wright,"753 State Dr, Detroit MI",Premium,PROD004,Money Market,Savings,2024-02-23 13:15:00,-3700.03,Transfer,TXN000819,SAV888819
+AH124,Ruth Clark,"3050 Hill Rd, Kansas City MO",Premium,PROD008,Auto Loan,Loans,2024-02-25 11:48:00,-1097.3,Payment,TXN000820,AUTO380345
+AH110,Laura Young,"7342 Maple Dr, Raleigh NC",Preferred,PROD002,High-Yield Savings,Savings,2024-02-13 14:17:00,3517.74,Deposit,TXN000821,SAV609845
+AH110,Laura Young,"7342 Maple Dr, Raleigh NC",Preferred,PROD010,Mortgage,Loans,2024-02-03 09:30:00,-1465.54,Payment,TXN000822,MTG486028
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD015,Cashier Check,Services,2024-03-01 09:12:00,2464.17,Deposit,TXN000823,SVC287497
+AH063,Timothy King,"922 Third Dr, Baltimore MD",Basic,PROD009,Investment Account,Investments,2024-01-05 09:10:00,17578.51,Deposit,TXN000824,INV620438
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD001,Premium Checking,Checking,2024-02-25 11:33:00,4849.39,Deposit,TXN000825,CHK667735
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD015,Cashier Check,Services,2024-01-31 13:26:00,-3258.95,Transfer,TXN000826,SVC405677
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD008,Auto Loan,Loans,2024-01-05 08:55:00,-2537.85,Payment,TXN000827,AUTO644861
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD011,Business Checking,Checking,2024-03-07 14:37:00,-791.09,Withdrawal,TXN000828,CHK609763
+AH126,Donna Taylor,"9726 Union Blvd, Nashville TN",Standard,PROD015,Cashier Check,Services,2024-03-28 16:53:00,-37.37,Fee,TXN000829,SVC238364
+AH067,Amanda Moore,"5338 Second Ave, El Paso TX",Premium,PROD016,Safe Deposit Box,Services,2024-01-11 12:14:00,-97.37,Fee,TXN000830,SVC907141
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD015,Cashier Check,Services,2024-01-10 13:18:00,15656.44,Deposit,TXN000831,SVC268600
+AH117,Christopher Hall,"9468 Water Dr, San Francisco CA",Basic,PROD005,Basic Checking,Checking,2024-01-19 10:11:00,628.74,Deposit,TXN000832,CHK432006
+AH123,Robert Lewis,"7156 Lake Dr, Detroit MI",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-23 15:16:00,5668.62,Deposit,TXN000833,SAV136374
+AH142,Jennifer Robinson,"3575 Oak St, Philadelphia PA",Basic,PROD012,Certificate of Deposit,Savings,2024-01-21 13:09:00,9757.11,Deposit,TXN000834,SAV659565
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD016,Safe Deposit Box,Services,2024-01-08 08:25:00,23720.83,Deposit,TXN000835,SVC435772
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD011,Business Checking,Checking,2024-02-15 16:32:00,-309.65,Withdrawal,TXN000836,CHK403905
+AH123,Robert Lewis,"5006 Oak St, Austin TX",Preferred,PROD015,Cashier Check,Services,2024-02-12 10:51:00,-72.02,Fee,TXN000837,SVC867180
+AH104,George Taylor,"1596 East St, Los Angeles CA",Basic,PROD004,Money Market,Savings,2024-02-27 08:08:00,4076.14,Deposit,TXN000838,SAV981723
+AH048,Nicole Clark Jr,"4165 Center Rd, Virginia Beach VA",Basic,PROD011,Business Checking,Checking,2024-03-14 13:05:00,3224.5,Deposit,TXN000839,CHK711772
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD001,Premium Checking,Checking,2024-01-15 12:12:00,4254.78,Deposit,TXN000840,CHK809952
+AH143,William Torres,"1224 Third Dr, Columbus OH",Standard,PROD007,Credit Card,Credit Cards,2024-01-06 16:25:00,-24.53,Fee,TXN000841,CC734470
+AH111,Edward Hill,"2694 Union Pl, San Francisco CA",Premium,PROD012,Certificate of Deposit,Savings,2024-03-01 08:58:00,7188.04,Deposit,TXN000842,SAV548413
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD010,Mortgage,Loans,2024-03-10 13:00:00,-1165.78,Payment,TXN000843,MTG423050
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD007,Credit Card,Credit Cards,2024-02-25 16:05:00,-37.25,Fee,TXN000844,CC535798
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD014,Wire Transfer,Services,2024-01-19 10:51:00,-4492.5,Transfer,TXN000845,SVC246347
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD007,Credit Card,Credit Cards,2024-02-08 09:09:00,-29.24,Fee,TXN000846,CC650818
+AH074,Donna Lopez,"4362 Water Ct, Houston TX",Preferred,PROD013,Overdraft Protection,Services,2024-01-05 17:48:00,662.16,Deposit,TXN000847,SVC769836
+AH059,James Nelson,"4749  Franklin  Ct,  Philadelphia  PA",Premium,PROD015,Cashier Check,Services,2024-01-27 10:35:00,-2882.79,Transfer,TXN000848,SVC243578
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD016,Safe Deposit Box,Services,2024-01-12 14:18:00,20658.58,Deposit,TXN000849,SVC416662
+AH125,Laura Baker,"8253 Fifth Rd, San Francisco CA",Preferred,PROD015,Cashier Check,Services,2024-01-20 15:35:00,1157.58,Deposit,TXN000850,SVC102565
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD016,Safe Deposit Box,Services,2024-03-02 12:40:00,16518.42,Deposit,TXN000851,SVC401663
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD008,Auto Loan,Loans,2024-01-12 15:58:00,-279.64,Payment,TXN000852,AUTO901865
+AH060,Amanda Baker,"3780 North Rd, Washington DC",Premium,PROD012,Certificate of Deposit,Savings,2024-02-01 09:38:00,5699.19,Deposit,TXN000853,SAV370439
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD004,Money Market,Savings,2024-03-29 15:44:00,7356.28,Deposit,TXN000854,SAV118397
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD005,Basic Checking,Checking,2024-01-11 17:03:00,4397.67,Deposit,TXN000855,CHK242079
+AH078,Elizabeth Hernandez,"6249 Market Dr, Kansas City MO",Premium,PROD012,Certificate of Deposit,Savings,2024-02-25 08:17:00,9129.84,Deposit,TXN000856,SAV473276
+AH012,Deborah Lee,"8279 Market Way, Columbus OH",Premium,PROD003,Personal Loan,Loans,2024-01-19 12:33:00,-1638.83,Payment,TXN000857,LON903673
+AH133,James Taylor Jr,"4935 High Ave, Milwaukee WI",Standard,PROD006,Student Checking,Checking,2024-02-26 09:38:00,-874.99,Withdrawal,TXN000858,CHK966985
+AH146,Mark Johnson,"4447 Maple Rd, Jacksonville FL",Standard,PROD012,Certificate of Deposit,Savings,2024-02-21 12:17:00,5842.46,Deposit,TXN000859,SAV963308
+AH032,Matthew Robinson,"7030 Third Way, Denver CO",Preferred,PROD010,Mortgage,Loans,2024-01-01 10:33:00,-1244.44,Payment,TXN000860,MTG608453
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD007,Credit Card,Credit Cards,2024-03-07 10:06:00,-1031.6,Payment,TXN000861,CC971968
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD004,Money Market,Savings,2024-02-20 16:39:00,9168.71,Deposit,TXN000862,SAV222227
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD012,Certificate of Deposit,Savings,2024-02-29 08:30:00,3689.43,Deposit,TXN000863,SAV956727
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD011,Business Checking,Checking,2024-02-26 17:33:00,1558.19,Deposit,TXN000864,CHK880623
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD005,Basic Checking,Checking,2024-01-15 10:54:00,-321.28,Withdrawal,TXN000865,CHK320034
+AH030,Robert Brown,"8956 Main Ave, Miami FL",Basic,PROD004,Money Market,Savings,2024-01-06 14:44:00,7769.45,Deposit,TXN000866,SAV894122
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD002,High-Yield Savings,Savings,2024-02-17 11:06:00,-2591.72,Transfer,TXN000867,SAV162144
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD003,Personal Loan,Loans,2024-01-08 12:02:00,-1044.61,Payment,TXN000868,LON110771
+AH022,George Ramirez,"8935 North Ln, Columbus OH",Preferred,PROD007,Credit Card,Credit Cards,2024-02-20 09:58:00,-410.32,Payment,TXN000869,CC468609
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD009,Investment Account,Investments,2024-01-06 10:54:00,-1804.4,Transfer,TXN000870,INV268356
+AH110,Laura Young,"7342 Maple Dr, Raleigh NC",Preferred,PROD003,Personal Loan,Loans,2024-02-19 17:15:00,-477.5,Payment,TXN000871,LON706217
+AH003,George Johnson,"3357 Second Blvd, Mesa AZ",Preferred,PROD007,Credit Card,Credit Cards,2024-02-03 11:45:00,-20.15,Fee,TXN000872,CC890645
+AH117,Christopher Hall,"9468 Water Dr, San Francisco CA",Basic,PROD007,Credit Card,Credit Cards,2024-01-01 09:59:00,-25.99,Fee,TXN000873,CC718010
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD006,Student Checking,Checking,2024-01-29 18:06:00,-1964.47,Transfer,TXN000874,CHK544692
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD004,Money Market,Savings,2024-02-02 11:26:00,-1605.69,Transfer,TXN000875,SAV588533
+AH026,Ashley Wright,"9455 Fourth Way, Dallas TX",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-03 10:31:00,-2807.8,Transfer,TXN000876,SAV142581
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD013,Overdraft Protection,Services,2024-01-21 15:07:00,-51.13,Fee,TXN000877,SVC871934
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD014,Wire Transfer,Services,2024-02-13 15:14:00,-98.65,Fee,TXN000878,SVC548750
+AH043,Sarah Garcia,"7039 Center St, Raleigh NC",Premium,PROD016,Safe Deposit Box,Services,2024-02-24 09:57:00,-1900.46,Transfer,TXN000879,SVC113406
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD013,Overdraft Protection,Services,2024-02-01 18:06:00,-57.04,Fee,TXN000880,SVC809381
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD013,Overdraft Protection,Services,2024-01-08 10:25:00,-2993.73,Transfer,TXN000881,SVC206663
+AH038,John Robinson,"9324 Washington Ave, Colorado Springs CO",Standard,PROD011,Business Checking,Checking,2024-01-05 13:12:00,4227.95,Deposit,TXN000882,CHK523927
+AH029,Robert Thomas,"3216 Second Way, Fort Worth TX",Premium,PROD016,Safe Deposit Box,Services,2024-01-15 14:46:00,-78.83,Fee,TXN000883,SVC903180
+AH124,Ruth Clark,"3050 Hill Rd, Kansas City MO",Premium,PROD013,Overdraft Protection,Services,2024-02-07 12:48:00,-52.82,Fee,TXN000884,SVC732464
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD005,Basic Checking,Checking,2024-02-01 16:17:00,-305.27,Transfer,TXN000885,CHK362867
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD005,Basic Checking,Checking,2024-02-01 11:40:00,3702.1,Deposit,TXN000886,CHK970645
+AH015,Sandra Hill,"6404 Water Way, Phoenix AZ",Standard,PROD006,Student Checking,Checking,2024-02-01 18:01:00,3412.06,Deposit,TXN000887,CHK260155
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD003,Personal Loan,Loans,2024-02-09 17:06:00,-2051.03,Payment,TXN000888,LON645205
+AH108,Sharon Williams,"1542 School Ln, Baltimore MD",Preferred,PROD010,Mortgage,Loans,2024-02-20 15:12:00,-2053.86,Payment,TXN000889,MTG614064
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD001,Premium Checking,Checking,2024-03-02 16:21:00,-6.42,Fee,TXN000890,CHK551313
+AH028,Sarah Baker,"1712 Maple Blvd, Miami FL",Standard,PROD013,Overdraft Protection,Services,2024-01-25 15:20:00,-51.37,Fee,TXN000891,SVC134455
+AH040,Deborah Martin,"8766 Main Pl, Colorado Springs CO",Preferred,PROD010,Mortgage,Loans,2024-02-05 18:55:00,-2677.16,Payment,TXN000892,MTG272117
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD013,Overdraft Protection,Services,2024-01-28 10:19:00,-78.76,Fee,TXN000893,SVC696487
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD016,Safe Deposit Box,Services,2024-02-01 18:35:00,-60.6,Fee,TXN000894,SVC263903
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD016,Safe Deposit Box,Services,2024-02-18 14:16:00,-4857.27,Transfer,TXN000895,SVC746908
+AH144,Daniel Lopez,"9864 Main Ln, San Jose CA",Basic,PROD002,High-Yield Savings,Savings,2024-03-08 12:20:00,546.67,Deposit,TXN000896,SAV977589
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Standard,PROD011,Business Checking,Checking,2024-01-23 17:01:00,2169.33,Deposit,TXN000897,CHK474725
+AH089,Sharon Wright,"7534 Center Ln, Nashville TN",Preferred,PROD008,Auto Loan,Loans,2024-03-08 08:42:00,-893.32,Payment,TXN000898,AUTO779564
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",STD,PROD003,Personal Loan,Loans,2024-02-07 09:58:00,-2633.03,Payment,TXN000899,LON220031
+AH075,Steven Moore,"4233 Elm Way, Las Vegas NV",Premium,PROD011,Business Checking,Checking,2024-01-11 08:34:00,3305.95,Deposit,TXN000900,CHK542995
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD001,Premium Checking,Checking,2024-02-02 14:17:00,-596.23,Withdrawal,TXN000901,CHK431889
+AH082,Donna Rivera,"7235 Church Pl, San Jose CA",Basic,PROD004,Money Market,Savings,2024-02-06 14:20:00,-545.28,Transfer,TXN000902,SAV807905
+AH045,jessica wright,"753 State Dr, Detroit MI",Premium,PROD011,Business Checking,Checking,2024-03-07 15:32:00,1532.63,Deposit,TXN000903,CHK557169
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD003,Personal Loan,Loans,2024-02-01 18:54:00,-2553.07,Payment,TXN000904,LON661862
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD010,Mortgage,Loans,2024-01-19 12:03:00,-2989.44,Payment,TXN000905,MTG521556
+AH049,Daniel Gonzalez,"5828 Union Dr, Baltimore MD",Preferred,PROD004,Money Market,Savings,2024-02-09 09:45:00,2806.31,Deposit,TXN000906,SAV693943
+AH115,John Jackson,"4991 Fifth Way, Tulsa OK",Basic,PROD012,Certificate of Deposit,Savings,2024-01-31 14:13:00,-3275.11,Transfer,TXN000907,SAV416509
+AH110,Laura Young,"8041 Park St, Louisville KY",Preferred,PROD011,Business Checking,Checking,2024-03-05 14:42:00,2041.39,Deposit,TXN000908,CHK755322
+AH112,Daniel Davis,"2024 Lake Way, Baltimore MD",Basic,PROD006,Student Checking,Checking,2024-01-30 18:48:00,-1292.9,Transfer,TXN000909,CHK641300
+AH042,Deborah Perez,"4425 Franklin Way, Columbus OH",Preferred,PROD015,Cashier Check,Services,2024-02-06 15:13:00,-94.34,Fee,TXN000910,SVC658596
+AH131,Melissa Lewis,"9595 Broad Rd, Chicago IL",Premium,PROD002,High-Yield Savings,Savings,2024-02-24 14:59:00,3706.32,Deposit,TXN000911,SAV254920
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD010,Mortgage,Loans,2024-01-10 18:48:00,-2563.54,Payment,TXN000912,MTG530189
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD007,Credit Card,Credit Cards,2024-02-25 09:40:00,-23.01,Fee,TXN000913,CC400988
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD008,Auto Loan,Loans,2024-02-25 12:43:00,-1336.42,Payment,TXN000914,AUTO219074
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD010,Mortgage,Loans,2024-01-13 08:15:00,-1499.65,Payment,TXN000915,MTG687019
+AH093,Kenneth Walker,"5682 Church St, Louisville KY",Preferred,PROD002,High-Yield Savings,Savings,2024-01-28 18:57:00,2799.85,Deposit,TXN000916,SAV130557
+AH057,Kimberly Lopez,"9424 Union Blvd, Colorado Springs CO",Standard,PROD006,Student Checking,Checking,2024-02-20 12:42:00,-61.39,Withdrawal,TXN000917,CHK857568
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD003,Personal Loan,Loans,2024-02-20 08:03:00,-1078.93,Payment,TXN000918,LON412453
+AH014,William Allen,"1589 Maple Ave, Albuquerque NM",Premium,PROD003,Personal Loan,Loans,2024-03-12 13:42:00,-1311.31,Payment,TXN000919,LON980605
+AH031,James Clark Jr,"7986 South Blvd, Albuquerque NM",Basic,PROD004,Money Market,Savings,2024-03-01 09:36:00,8306.92,Deposit,TXN000920,SAV912767
+AH114,Joshua Rodriguez,"4626 King Ct, Phoenix AZ",Basic,PROD003,Personal Loan,Loans,2024-01-17 15:56:00,-866.62,Payment,TXN000921,LON228216
+AH069,Paul Brown,"6983 Water St, Columbus OH",Basic,PROD013,Overdraft Protection,Services,2024-01-22 17:47:00,-3745.4,Transfer,TXN000922,SVC543410
+AH048,Nicole Clark,"4165 Center Rd, Virginia Beach VA",Basic,PROD007,Credit Card,Credit Cards,2024-01-10 09:11:00,-28.18,Fee,TXN000923,CC366659
+AH126,Donna Taylor,"253 Jefferson Ln, Virginia Beach VA",Standard,PROD012,Certificate of Deposit,Savings,2024-01-04 15:34:00,-609.16,Transfer,TXN000924,SAV672255
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD009,Investment Account,Investments,2024-03-16 18:15:00,9393.45,Deposit,TXN000925,INV850435
+AH080,Jennifer Torres,"5788 Second Blvd, Chicago IL",Preferred,PROD002,High-Yield Savings,Savings,2024-03-05 08:41:00,-3328.01,Transfer,TXN000926,SAV157328
+AH147,David Walker,"6031 Franklin Ave, Louisville KY",Standard,PROD009,Investment Account,Investments,2024-02-28 18:15:00,-1984.98,Transfer,TXN000927,INV769986
+AH149,Deborah Lewis,"1423 School Rd, Phoenix AZ",Premium,PROD008,Auto Loan,Loans,2024-01-24 18:07:00,-2601.41,Payment,TXN000928,AUTO507341
+AH002,Kevin Garcia,"7012 Pine St, Atlanta GA",Premium,PROD009,Investment Account,Investments,2024-02-28 14:59:00,-18.12,Fee,TXN000929,INV962671
+AH052,Michael Miller,"7219 State Ct, Long Beach CA",Standard,PROD006,Student Checking,Checking,2024-01-20 11:55:00,-33.41,Fee,TXN000930,CHK951703
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD003,Personal Loan,Loans,2024-01-27 08:17:00,-2504.95,Payment,TXN000931,LON615576
+AH102,Brian Jackson,"2137 Jefferson Ln, Louisville KY",Standard,PROD011,Business Checking,Checking,2024-02-17 14:59:00,-1765.85,Transfer,TXN000932,CHK960085
+AH023,Elizabeth Lewis,"7497 Park Dr, Fresno CA",Preferred,PROD009,Investment Account,Investments,2024-02-22 10:44:00,-425.2,Transfer,TXN000933,INV541314
+AH128,Timothy Jackson,"6584 Center St, Los Angeles CA",Standard,PROD011,Business Checking,Checking,2024-02-16 16:47:00,-46.8,Withdrawal,TXN000934,CHK154629
+AH137,Sarah Jones,"7706 Union Blvd, Raleigh NC",Premium,PROD015,Cashier Check,Services,2024-02-11 10:40:00,-766.85,Transfer,TXN000935,SVC520124
+AH045,Jessica Wright,"6149 Fifth Pl, Chicago IL",Premium,PROD003,Personal Loan,Loans,2024-02-10 12:20:00,-510.32,Payment,TXN000936,LON361728
+AH113,Deborah Moore,"8005 Adams Dr, Las Vegas NV",Standard,PROD005,Basic Checking,Checking,2024-02-15 18:48:00,-1402.93,Transfer,TXN000937,CHK931145
+AH070,Steven Walker,"5863 Union Blvd, New York NY",Basic,PROD005,Basic Checking,Checking,2024-01-29 15:55:00,3452.96,Deposit,TXN000938,CHK966929
+AH072,Jane Harris,"6724 Hill Way, El Paso TX",Basic,PROD003,Personal Loan,Loans,2024-02-21 12:12:00,-1360.59,Payment,TXN000939,LON290724
+AH086,Timothy Moore,"266 Central Dr, Mesa AZ",Premium,PROD008,Auto Loan,Loans,2024-02-26 14:53:00,-258.06,Payment,TXN000940,AUTO124085
+AH120,Jessica Jones,"4442 High Blvd, Milwaukee WI",Standard,PROD008,Auto Loan,Loans,2024-02-11 17:40:00,-2739.17,Payment,TXN000941,AUTO584887
+AH044,Edward Taylor,"7339 Third Blvd, Austin TX",Preferred,PROD013,Overdraft Protection,Services,2024-03-02 10:03:00,-2201.63,Transfer,TXN000942,SVC372795
+AH034,Joshua King,"1031 Franklin Ave, Austin TX",Basic,PROD004,Money Market,Savings,2024-01-06 13:10:00,5305.79,Deposit,TXN000943,SAV910926
+AH098,Lisa Hernandez,"2947 Third Ave, San Francisco CA",Preferred,PROD004,Money Market,Savings,2024-02-22 18:31:00,2111.14,Deposit,TXN000944,SAV952924
+AH058,Donna Lewis,"3601 Franklin Way, Louisville KY",Basic,PROD005,Basic Checking,Checking,2024-01-19 15:24:00,-222.47,Withdrawal,TXN000945,CHK326037
+AH062,Helen Thomas,"190 Washington Blvd, San Jose CA",Preferred,PROD014,Wire Transfer,Services,2024-02-16 18:12:00,10508.84,Deposit,TXN000946,SVC253032
+AH007,Laura White,"3250 Cedar St, Kansas City MO",Standard,PROD015,Cashier Check,Services,2024-01-19 12:15:00,9556.12,Deposit,TXN000947,SVC817506
+AH137,Sarah Young,"7706 Union Blvd, Raleigh NC",Premium,PROD016,Safe Deposit Box,Services,2024-03-15 09:00:00,21850.37,Deposit,TXN000948,SVC826687
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD013,Overdraft Protection,Services,2024-02-13 11:45:00,-2174.13,Transfer,TXN000949,SVC726205
+AH056,Helen Hall,"9183 Walnut Dr, Denver CO",Standard,PROD002,High-Yield Savings,Savings,2024-01-05 09:35:00,9317.54,Deposit,TXN000950,SAV593808
+AH078,Elizabeth Hernandez,"1976 Hill Ln, Long Beach CA",Premium,PROD002,High-Yield Savings,Savings,2024-02-08 18:51:00,5094.97,Deposit,TXN000951,SAV499442
+AH066,Edward Moore,"8039 West Ln, Fresno CA",Standard,PROD005,Basic Checking,Checking,2024-01-26 18:23:00,-30.18,Fee,TXN000952,CHK708684
+AH040,Deborah Martin,"8766 Main Pl, Colorado Springs CO",Preferred,PROD016,Safe Deposit Box,Services,2024-01-17 10:32:00,-89.01,Fee,TXN000953,SVC238327
+AH020,Melissa Thomas,"4046 Fourth Ave, Houston TX",Premium,PROD005,Basic Checking,Checking,2024-01-21 16:27:00,1600.68,Deposit,TXN000954,CHK234082
+AH109,Helen Allen,"8989 Jefferson Blvd, New York NY",Premium,PROD012,Certificate of Deposit,Savings,2024-02-25 12:47:00,-1450.48,Withdrawal,TXN000955,SAV376002
+AH130,Edward Gonzalez,"4206 Walnut Ave, Colorado Springs CO",Basic,PROD011,Business Checking,Checking,2024-02-23 12:33:00,-181.68,Withdrawal,TXN000956,CHK872663
+AH107,Ronald Miller,"5503 King Way, Austin TX",Preferred,PROD015,Cashier Check,Services,2024-02-18 10:35:00,5128.54,Deposit,TXN000957,SVC157217
+AH050,Helen Perez,"1237 Center Ct, Seattle WA",Standard,PROD009,Investment Account,Investments,2024-01-12 08:30:00,17796.09,Deposit,TXN000958,INV557629
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD015,Cashier Check,Services,2024-02-27 15:02:00,-98.99,Fee,TXN000959,SVC688098
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD005,Basic Checking,Checking,2024-01-30 15:07:00,513.21,Deposit,TXN000960,CHK397917
+AH041,William Taylor,"1853 Third Rd, San Diego CA",Preferred,PROD009,Investment Account,Investments,2024-02-23 10:47:00,-4465.38,Transfer,TXN000961,INV714127
+AH047,Laura Martinez,"2762 Church Blvd, San Francisco CA",Premium,PROD006,Student Checking,Checking,2024-02-07 08:33:00,-95.3,Withdrawal,TXN000962,CHK905572
+AH109,Helen Allen,"8989 Jefferson Blvd, New York NY",Premium,PROD011,Business Checking,Checking,2024-02-13 09:56:00,3422.5,Deposit,TXN000963,CHK813702
+AH029,Robert Thomas,"3216 Second Way, Fort Worth TX",Premium,PROD004,Money Market,Savings,2024-01-26 13:37:00,-811.19,Transfer,TXN000964,SAV185000
+AH099,Timothy Hill,"4871 Pine Dr, Milwaukee WI",Preferred,PROD015,Cashier Check,Services,2024-02-23 18:30:00,-4780.49,Transfer,TXN000965,SVC723068
+AH140,laura clark,"636 Broad Dr, Seattle WA",Standard,PROD015,Cashier Check,Services,2024-01-01 13:02:00,-95.27,Fee,TXN000966,SVC869989
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD002,High-Yield Savings,Savings,2024-01-09 11:55:00,-1450.62,Transfer,TXN000967,SAV936917
+AH013,Sharon Wright,"9677 Madison Blvd, Indianapolis IN",Preferred,PROD013,Overdraft Protection,Services,2024-02-17 09:35:00,10272.03,Deposit,TXN000968,SVC286657
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD001,Premium Checking,Checking,2024-02-19 14:05:00,-409.59,Transfer,TXN000969,CHK917357
+AH088,Melissa Nelson,"6146 Adams Pl, Atlanta GA",Standard,PROD005,Basic Checking,Checking,2024-01-19 18:48:00,2479.68,Deposit,TXN000970,CHK553360
+AH068,Timothy Martinez,"3605 Cedar Blvd, Minneapolis MN",Standard,PROD005,Basic Checking,Checking,2024-02-27 18:38:00,525.75,Deposit,TXN000971,CHK485306
+AH112,Daniel Davis,"2024 Lake Way, Baltimore MD",Basic,PROD013,Overdraft Protection,Services,2024-01-13 15:28:00,-34.16,Fee,TXN000972,SVC729502
+AH091,Ruth Hill Jr,"1747 North Ln, Denver CO",Preferred,PROD012,Certificate of Deposit,Savings,2024-02-20 14:51:00,-2198.82,Transfer,TXN000973,SAV546711
+AH021,David Wright,"2203 Adams Pl, Dallas TX",Preferred,PROD015,Cashier Check,Services,2024-01-03 16:21:00,-1198.73,Transfer,TXN000974,SVC819571
+AH034,Joshua Thomas,"1031 Franklin Ave, Austin TX",Basic,PROD003,Personal Loan,Loans,2024-03-17 16:40:00,-1013.97,Payment,TXN000975,LON558600
+AH018,Joshua Miller,"4989 Franklin Dr, Raleigh NC",Preferred,PROD005,Basic Checking,Checking,2024-02-28 15:19:00,-35.79,Fee,TXN000976,CHK415001
+AH054,Kimberly Nelson,"6067 Madison Ave, Fort Worth TX",Basic,PROD002,High-Yield Savings,Savings,2024-02-03 14:18:00,9181.29,Deposit,TXN000977,SAV638354
+AH025,Daniel Jones,"5513 Cedar Pl, Chicago IL",Preferred,PROD004,Money Market,Savings,2024-02-02 14:26:00,7231.07,Deposit,TXN000978,SAV952308
+AH055,Laura Lee,"2141 Union Pl, Virginia Beach VA",Preferred,PROD003,Personal Loan,Loans,2024-01-23 12:37:00,-2352.21,Payment,TXN000979,LON117058
+AH027,Paul Gonzalez,"1688 Madison Ct, San Antonio TX",Standard,PROD006,Student Checking,Checking,2024-02-17 18:29:00,-1701.53,Transfer,TXN000980,CHK147457
+AH019,Kevin King,"9913 School Way, New York NY",Premium,PROD015,Cashier Check,Services,2024-01-27 12:20:00,-2304.74,Transfer,TXN000981,SVC947075
+AH057,Kimberly Lopez,"7143 Fifth Ct, Columbus OH",Standard,PROD006,Student Checking,Checking,2024-03-07 10:13:00,4911.82,Deposit,TXN000982,CHK371914
+AH144,Daniel Perez,"9864 Main Ln, San Jose CA",Basic,PROD001,Premium Checking,Checking,2024-01-07 14:34:00,627.56,Deposit,TXN000983,CHK280077
+AH139,Timothy Wright,"9722 Lake Blvd, Las Vegas NV",Standard,PROD013,Overdraft Protection,Services,2024-01-31 15:44:00,-4832.44,Transfer,TXN000984,SVC731124
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD012,Certificate of Deposit,Savings,2024-01-20 17:52:00,-4817.55,Transfer,TXN000985,SAV807896
+AH087,Carol Scott,"7900 Jackson Way, San Francisco CA",Basic,PROD005,Basic Checking,Checking,2024-02-21 12:05:00,994.47,Deposit,TXN000986,CHK955604
+AH004,John Hernandez,"7024 High Ln, Oakland CA",Preferred,PROD001,Premium Checking,Checking,2024-02-14 11:54:00,3260.68,Deposit,TXN000987,CHK781301
+AH053,Jennifer Harris,"3214 Spring St, Kansas City MO",Standard,PROD007,Credit Card,Credit Cards,2024-01-28 18:54:00,-636.79,Payment,TXN000988,CC585936
+AH033,Sarah Nguyen,"8983 Maple Ct, Tampa FL",Premium,PROD004,Money Market,Savings,2024-01-31 14:01:00,1608.98,Deposit,TXN000989,SAV836727
+AH095,Melissa Garcia,"2040 Third Blvd, San Francisco CA",Standard,PROD015,Cashier Check,Services,2024-02-01 15:01:00,-1288.89,Transfer,TXN000990,SVC409153
+AH122,Kimberly Jackson,"1580 Madison Ave, Charlotte NC",Basic,PROD011,Business Checking,Checking,2024-02-23 14:03:00,3170.53,Deposit,TXN000991,CHK847732
+AH092,William Moore,"300 Fourth Ln, San Antonio TX",Standard,PROD010,Mortgage,Loans,2024-03-12 15:47:00,-303.65,Payment,TXN000992,MTG519095
+AH106,Emily Nguyen,"8156 Elm Way, Memphis TN",Preferred,PROD016,Safe Deposit Box,Services,2024-02-02 17:46:00,18000.11,Deposit,TXN000993,SVC653971
+AH004,John Hernandez,"7024 High Ln, Oakland CA",Preferred,PROD003,Personal Loan,Loans,2024-01-28 17:20:00,-949.98,Payment,TXN000994,LON779792
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD016,Safe Deposit Box,Services,2024-02-26 15:07:00,-4700.93,Transfer,TXN000995,SVC463608
+AH096,Daniel King,"7481 Lincoln Ln, Oklahoma City OK",Basic,PROD006,Student Checking,Checking,2024-02-14 14:01:00,1001.4,Deposit,TXN000996,CHK460550
+AH094,Jennifer Jones,"8156 Cedar St, Portland OR",Preferred,PROD011,Business Checking,Checking,2024-01-15 16:14:00,-43.41,Fee,TXN000997,CHK849940
+AH140,Laura Clark,"636 Broad Dr, Seattle WA",Standard,PROD010,Mortgage,Loans,2024-01-30 10:56:00,-2224.39,Payment,TXN000998,MTG509333
+AH090,Timothy Lopez,"3645 Adams Ln, Fort Worth TX",Standard,PROD012,Certificate of Deposit,Savings,2024-02-23 18:41:00,-4008.79,Transfer,TXN000999,SAV985555
+AH036,Michelle Torres,"5283 Spring Dr, Fresno CA",Standard,PROD003,Personal Loan,Loans,2024-02-09 11:18:00,-2067.76,Payment,TXN001000,LON235367
