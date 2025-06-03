@@ -1,165 +1,167 @@
-# ETL Lab - Student Package
+# Lab 9: Python ETL Pipeline Development
 
-## Quick Start Guide
+## Overview
 
-Welcome to the ETL Lab! This repository contains everything you need to set up your local database and begin ETL development.
+This project is a hands-on laboratory exercise where you will build a complete Python ETL (Extract, Transform, Load) pipeline from scratch. You'll process customer and sales data from multiple sources, apply business transformations, and load results into SQL Server with comprehensive error handling, logging, and alerting systems.
 
-### Prerequisites
+## Learning Objectives
 
-Before starting, ensure you have:
-- **Python 3.8+** installed
-- **SQL Server** (Express, Developer, or Standard)
-- **ODBC Driver 17 for SQL Server**
-- **Azure Data Studio** or **SSMS** (recommended)
+By completing this lab, you will:
+- Build production-grade ETL pipelines using Python
+- Implement robust error handling and logging systems
+- Work with multiple data sources (CSV, JSON, SQL Server)
+- Apply data transformation and business logic
+- Create monitoring and alerting systems
+- Follow enterprise development patterns
 
-### Setup Instructions
+## Prerequisites
 
-#### 1. Clone and Setup Environment
+- Python 3.8 or higher
+- SQL Server (LocalDB or full instance)
+- Git for version control
+- Text editor or IDE (VS Code recommended)
 
+## Getting Started
+
+### 1. Environment Setup
+
+**IMPORTANT:** Complete these setup steps before beginning development:
+
+1. **Database Setup**: Run the provided setup script to create your database and load baseline data:
+   ```bash
+   python setup_database_student.py
+   ```
+
+2. **Environment Configuration**: Follow the detailed instructions in `STUDENT_SETUP_GUIDE.md`
+
+3. **Install Dependencies**:
+   ```bash
+   # Using pip
+   pip install -r requirements.txt
+   
+   # OR using conda
+   conda env create -f environment.yml
+   conda activate etl-lab-env
+   ```
+
+4. **Configure Environment Variables**: Copy `.env.example` to `.env` and configure your settings
+
+### 2. Verify Setup
+
+Confirm the following before beginning ETL development:
+- ✅ Database `python_etl_lab` exists with all required tables
+- ✅ Environment variables configured in `.env` file
+- ✅ Python environment activated with required packages
+- ✅ Baseline data loaded (500 customers, 300 products, 10,000 transactions)
+
+**Setup Verification Commands:**
 ```bash
-# Clone this repository
-git clone <repository-url>
-cd data-prep-9-lab-9-python-etl
+# Test database connection
+python -c "import pyodbc; from dotenv import load_dotenv; import os; load_dotenv(); print('Database connection test successful')"
+
+# Verify data files are present
+ls data/input/  # Should show: customers.csv, products.json
+ls data/baseline/  # Should show: baseline_customers.csv, baseline_products.csv, sales_transactions.csv
 ```
 
-**Create Environment (Choose One):**
+## Assignment Overview
 
-**Option A: Using Conda (Recommended)**
-```bash
-# All platforms
-conda env create -f environment.yml
-conda activate etl-lab
-```
+You need to implement **6 core files** to complete this ETL pipeline:
 
-**Option B: Using pip**
+### Required Deliverables
 
-*Windows Command Prompt:*
-```cmd
-python -m venv etl-lab-env
-etl-lab-env\Scripts\activate
-pip install -r requirements.txt
-```
+1. **`config.py`** - Configuration management and environment handling
+2. **`data_extraction.py`** - Data extraction from multiple sources with error handling
+3. **`data_transformation.py`** - Business logic and data standardization functions
+4. **`data_loading.py`** - Database loading with batch processing and validation
+5. **`etl_pipeline.py`** - Main orchestration script with logging and alerting
+6. **`README.md`** - Complete project documentation (update this file when finished)
 
-*Windows PowerShell:*
-```powershell
-python -m venv etl-lab-env
-etl-lab-env\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
+### Detailed Requirements
 
-*Mac/Linux:*
-```bash
-python -m venv etl-lab-env
-source etl-lab-env/bin/activate
-pip install -r requirements.txt
-```
+For comprehensive requirements, implementation guidelines, and success criteria, see:
+📋 **[lab-09-python-etl-pipeline-development.md](lab-09-python-etl-pipeline-development.md)**
 
-#### 2. Configure Database Connection
-
-*Windows Command Prompt:*
-```cmd
-copy .env.example .env
-notepad .env
-```
-
-*Windows PowerShell:*
-```powershell
-Copy-Item .env.example .env
-notepad .env
-```
-
-*Mac/Linux:*
-```bash
-cp .env.example .env
-nano .env
-# OR: code .env (if using VS Code)
-```
-
-Edit the `.env` file with your SQL Server connection details.
-
-#### 3. Setup Database
-
-*All platforms:*
-```bash
-python setup_database_student.py
-```
-
-### What You'll Get
-
-After successful setup:
-- **500 baseline customers** across 4 segments
-- **300 baseline products** across 4 categories  
-- **10,000 sales transactions** with intentional data quality issues (~4.2%)
-- **Complete database schema** with indexes and logging tables
-- **New data files** for ETL processing (`data/input/`)
-
-### Data Overview
-
-#### Baseline Data (Loaded into Database)
-- `data/baseline/baseline_customers.csv` - 500 customers
-- `data/baseline/baseline_products.csv` - 300 products
-- `data/baseline/sales_transactions.csv` - 10,000 transactions
-
-#### Input Data (For ETL Processing)
-- `data/input/customers.csv` - 50 new customers
-- `data/input/products.json` - 25 new products
-
-### Learning Objectives
-
-This lab teaches:
-- **ETL Pipeline Development** - Extract, Transform, Load operations
-- **Data Quality Management** - Handle missing data, validation rules
-- **Database Operations** - CRUD operations, upsert logic
-- **Error Handling** - Graceful failure management
-- **Performance Optimization** - Batch processing, indexing
-
-### Data Quality Issues (Intentional)
-
-The dataset includes realistic data quality issues for learning:
-- Missing customer/product IDs
-- Negative quantities and prices
-- Future transaction dates
-- Duplicate email addresses
-- Inconsistent data formats
-
-### Need Help?
-
-1. **Complete Setup Guide**: Read `STUDENT_SETUP_GUIDE.md`
-2. **Troubleshooting**: Check the troubleshooting section in the setup guide
-3. **Database Connection Issues**: Verify SQL Server is running and credentials are correct
-4. **Azure Data Studio**: Set "Trust Server Certificate" to True in advanced settings
-
-### Project Structure
+## Project Structure
 
 ```
 data-prep-9-lab-9-python-etl/
-├── setup_database_student.py      # Database setup script
-├── STUDENT_SETUP_GUIDE.md         # Detailed instructions
-├── .env.example                   # Database config template
-├── requirements.txt               # Python dependencies
-├── environment.yml                # Conda environment
-└── data/                          # Pre-generated data
-    ├── baseline/                  # Database baseline data
-    └── input/                     # ETL input data
+├── config.py                    # 🔨 TO IMPLEMENT
+├── data_extraction.py           # 🔨 TO IMPLEMENT
+├── data_transformation.py       # 🔨 TO IMPLEMENT
+├── data_loading.py              # 🔨 TO IMPLEMENT
+├── etl_pipeline.py              # 🔨 TO IMPLEMENT
+├── README.md                    # 📝 TO UPDATE (this file)
+├── setup_database_student.py    # 📁 PROVIDED
+├── STUDENT_SETUP_GUIDE.md       # 📁 PROVIDED
+├── lab-09-python-etl-pipeline-development.md  # 📁 PROVIDED (assignment details)
+├── .env.example                 # 📁 PROVIDED
+├── requirements.txt             # 📁 PROVIDED
+├── environment.yml              # 📁 PROVIDED
+├── .gitignore                   # 📁 PROVIDED
+├── data/                        # 📁 PROVIDED
+│   ├── baseline/                # Database setup data
+│   └── input/                   # ETL input data
+├── logs/                        # 🔨 CREATED BY YOUR PIPELINE
+└── solution/                    # 📁 INSTRUCTOR REFERENCE (do not modify)
 ```
 
-### Success Criteria
+**Legend:**
+- 🔨 **TO IMPLEMENT**: Files you must create from scratch
+- 📝 **TO UPDATE**: Files you must modify/enhance
+- 📁 **PROVIDED**: Files already implemented - do not modify
+- 🔨 **CREATED BY PIPELINE**: Directories/files created when your pipeline runs
 
-You've successfully completed setup when:
-- ✅ Database `python_etl_lab` exists
-- ✅ All tables are created with proper schema
-- ✅ Data counts match expected values
-- ✅ You can connect via Azure Data Studio/SSMS
-- ✅ Ready to begin ETL pipeline development
+## Development Approach
 
-### Important Notes
+1. **Start with Configuration** (`config.py`)
+   - Set up environment variable handling
+   - Create configuration classes for database, files, logging, and alerts
 
-- **Standardized Data**: All students work with identical datasets
-- **Consistent Results**: Ensures fair grading and comparable outcomes
-- **Focus on Learning**: Spend time on ETL concepts, not data generation
+2. **Build Data Extraction** (`data_extraction.py`)
+   - Implement CSV, JSON, and database extraction functions
+   - Add comprehensive error handling and logging
+
+3. **Implement Transformations** (`data_transformation.py`)
+   - Apply business rules and data standardization
+   - Handle data quality issues and validation
+
+4. **Create Data Loading** (`data_loading.py`)
+   - Build database connection management
+   - Implement batch processing and validation
+
+5. **Orchestrate the Pipeline** (`etl_pipeline.py`)
+   - Combine all components into a complete workflow
+   - Add monitoring, alerting, and metrics collection
+
+6. **Document Your Work** (update this `README.md`)
+   - Document your implementation approach
+   - Include setup and execution instructions
+   - Explain your design decisions
+
+## Testing Your Implementation
+
+Run your completed pipeline:
+```bash
+python etl_pipeline.py
+```
+
+Monitor the logs in the `logs/` directory to verify successful execution.
+
+## Getting Help
+
+- **Setup Issues**: See `STUDENT_SETUP_GUIDE.md`
+- **Assignment Details**: See `lab-09-python-etl-pipeline-development.md`
+- **Technical Questions**: Consult course materials and documentation
+
+## Submission
+
+Ensure your submission includes:
+- All 6 required implemented files
+- Updated documentation in this README.md
+- Log files demonstrating successful pipeline execution
+- Any additional test files you created
 
 ---
 
-**Lab Version**: 1.0  
-**Last Updated**: 2025-06-03  
-**Estimated Setup Time**: 15-30 minutes
+**Good luck with your ETL pipeline development!**
