@@ -1,0 +1,301 @@
+product_id,product_name,category,brand,price,cost,inventory_quantity,warehouse_code
+P000001,FashioMax Speaker,Electronics,FashioMax,769.55,393.21,357,WH-001
+P000002,TechCorp Mirror,Home,TechCorp,166.37,95.33,319,WH-004
+P000003,TechCorp Lamp,Home,TechCorp,258.99,167.32,192,WH-002
+P000004,HomePlus Tablet,Electronics,HomePlus,146.53,75.62,500,WH-003
+P000005,TechCorp Hat,Apparel,TechCorp,28.81,12.05,482,WH-001
+P000006,BookCorp Publishing Dress,Apparel,BookCorp Publishing,179.98,100.19,52,WH-001
+P000007,BookCorp Publishing Mouse,Electronics,BookCorp Publishing,297.64,178.36,224,WH-002
+P000008,BookCorp Publishing Jeans,Apparel,BookCorp Publishing,29.02,16.76,188,WH-002
+P000009,BookCorp Publishing Smartphone,Electronics,BookCorp Publishing,421.2,266.93,489,WH-003
+P000010,HomePlus Chair,Home,HomePlus,290.8,168.83,42,WH-003
+P000011,FashioMax Jeans,Apparel,FashioMax,123.34,60.71,353,WH-004
+P000012,FashioMax Chair,Home,FashioMax,25.69,17.24,500,WH-001
+P000013,BookCorp Publishing T-Shirt,Apparel,BookCorp Publishing,41.34,23.14,132,WH-004
+P000014,HomePlus Science Book,Books,HomePlus,14.36,5.89,367,WH-002
+P000015,HomePlus Rug,Home,HomePlus,96.59,55.63,467,WH-003
+P000016,TechCorp Vase,Home,TechCorp,76.1,34.5,423,WH-002
+P000017,BookCorp Publishing Headphones,Electronics,BookCorp Publishing,216.45,98.77,110,WH-004
+P000018,TechCorp Rug,Home,TechCorp,151.04,63.19,13,WH-001
+P000019,BookCorp Publishing Monitor,Electronics,BookCorp Publishing,214.71,114.8,200,WH-002
+P000020,TechCorp T-Shirt,Apparel,TechCorp,145.86,63.79,318,WH-004
+P000021,HomePlus Hat,Apparel,HomePlus,38.99,17.78,59,WH-003
+P000022,FashioMax Textbook,Books,FashioMax,37.05,16.5,124,WH-002
+P000023,TechCorp T-Shirt,Apparel,TechCorp,68.28,41.64,139,WH-001
+P000024,FashioMax Vase,Home,FashioMax,113.0,45.54,106,WH-004
+P000025,HomePlus Dress,Apparel,HomePlus,73.82,40.18,227,WH-003
+P000026,HomePlus Clock,Home,HomePlus,167.46,95.88,109,WH-002
+P000027,TechCorp Smartphone,Electronics,TechCorp,728.3,486.54,118,WH-002
+P000028,BookCorp Publishing T-Shirt,Apparel,BookCorp Publishing,50.58,35.38,214,WH-003
+P000029,HomePlus Monitor,Electronics,HomePlus,382.12,183.42,71,WH-001
+P000030,BookCorp Publishing Textbook,Books,BookCorp Publishing,28.24,17.93,357,WH-004
+P000031,FashioMax Textbook,Books,FashioMax,21.83,11.76,191,WH-003
+P000032,BookCorp Publishing Rug,Home,BookCorp Publishing,169.97,70.47,92,WH-003
+P000033,FashioMax Shoes,Apparel,FashioMax,45.22,27.42,328,WH-002
+P000034,HomePlus Cookbook,Books,HomePlus,55.69,25.39,130,WH-001
+P000035,TechCorp Biography,Books,TechCorp,51.66,25.44,387,WH-003
+P000036,HomePlus Tablet,Electronics,HomePlus,88.46,50.66,323,WH-004
+P000037,TechCorp Table,Home,TechCorp,210.72,115.05,418,WH-001
+P000038,FashioMax Novel,Books,FashioMax,32.4,13.81,345,WH-004
+P000039,FashioMax Lamp,Home,FashioMax,123.64,52.51,169,WH-001
+P000040,FashioMax Monitor,Electronics,FashioMax,66.86,33.89,166,WH-001
+P000041,TechCorp Mirror,Home,TechCorp,28.15,17.15,112,WH-001
+P000042,FashioMax Jacket,Apparel,FashioMax,27.67,14.36,457,WH-001
+P000043,TechCorp Speaker,Electronics,TechCorp,104.17,68.97,342,WH-002
+P000044,HomePlus Textbook,Books,HomePlus,40.4,25.75,320,WH-003
+P000045,HomePlus Clock,Home,HomePlus,207.51,111.61,302,WH-002
+P000046,HomePlus Clock,Home,HomePlus,251.82,140.2,419,WH-002
+P000047,FashioMax Chair,Home,FashioMax,236.22,102.45,227,WH-001
+P000048,TechCorp Table,Home,TechCorp,30.45,19.69,495,WH-004
+P000049,TechCorp Belt,Apparel,TechCorp,63.52,32.38,200,WH-001
+P000050,TechCorp T-Shirt,Apparel,TechCorp,138.02,91.2,19,WH-001
+P000051,HomePlus Jeans,Apparel,HomePlus,165.85,115.67,182,WH-003
+P000052,HomePlus Textbook,Books,HomePlus,37.15,19.75,374,WH-001
+P000053,TechCorp Laptop,Electronics,TechCorp,64.94,31.25,432,WH-003
+P000054,HomePlus Monitor,Electronics,HomePlus,280.24,122.6,329,WH-004
+P000055,BookCorp Publishing Science Book,Books,BookCorp Publishing,47.73,20.25,22,WH-002
+P000056,BookCorp Publishing Keyboard,Electronics,BookCorp Publishing,320.07,171.1,472,WH-001
+P000057,FashioMax Vase,Home,FashioMax,271.37,144.74,221,WH-004
+P000058,BookCorp Publishing Jacket,Apparel,BookCorp Publishing,66.53,39.1,52,WH-003
+P000059,TechCorp Textbook,Books,TechCorp,49.84,29.18,261,WH-004
+P000060,HomePlus Pillow,Home,HomePlus,239.76,157.66,18,WH-001
+P000061,BookCorp Publishing Tablet,Electronics,BookCorp Publishing,192.66,97.28,319,WH-003
+P000062,HomePlus Belt,Apparel,HomePlus,124.28,59.79,324,WH-002
+P000063,TechCorp Textbook,Books,TechCorp,38.24,21.05,88,WH-001
+P000064,FashioMax History Book,Books,FashioMax,54.55,23.78,491,WH-003
+P000065,FashioMax Biography,Books,FashioMax,11.44,7.32,136,WH-003
+P000066,TechCorp Belt,Apparel,TechCorp,188.08,80.44,153,WH-002
+P000067,TechCorp Science Book,Books,TechCorp,28.56,15.26,184,WH-001
+P000068,TechCorp Table,Home,TechCorp,67.36,36.76,145,WH-003
+P000069,HomePlus Novel,Books,HomePlus,17.52,12.23,304,WH-003
+P000070,TechCorp Science Book,Books,TechCorp,17.5,8.28,93,WH-003
+P000071,TechCorp Mouse,Electronics,TechCorp,336.04,227.26,268,WH-002
+P000072,HomePlus Jacket,Apparel,HomePlus,119.15,66.24,448,WH-003
+P000073,BookCorp Publishing Jacket,Apparel,BookCorp Publishing,61.42,40.93,147,WH-003
+P000074,BookCorp Publishing Mouse,Electronics,BookCorp Publishing,143.06,58.97,148,WH-003
+P000075,TechCorp Dress,Apparel,TechCorp,90.25,59.18,379,WH-003
+P000076,HomePlus Laptop,Electronics,HomePlus,349.37,152.79,345,WH-002
+P000077,BookCorp Publishing Keyboard,Electronics,BookCorp Publishing,111.51,62.18,61,WH-003
+P000078,TechCorp Mouse,Electronics,TechCorp,638.39,317.93,462,WH-004
+P000079,BookCorp Publishing Vase,Home,BookCorp Publishing,287.52,122.98,495,WH-003
+P000080,HomePlus Sweater,Apparel,HomePlus,104.45,69.37,387,WH-001
+P000081,HomePlus Jeans,Apparel,HomePlus,72.89,38.55,410,WH-002
+P000082,FashioMax Monitor,Electronics,FashioMax,69.44,32.81,8,WH-003
+P000083,FashioMax Vase,Home,FashioMax,156.74,71.0,279,WH-001
+P000084,TechCorp Mouse,Electronics,TechCorp,359.98,239.65,340,WH-003
+P000085,FashioMax Pillow,Home,FashioMax,245.82,122.69,130,WH-004
+P000086,HomePlus History Book,Books,HomePlus,15.06,10.54,146,WH-003
+P000087,HomePlus Sweater,Apparel,HomePlus,191.33,105.61,427,WH-001
+P000088,HomePlus T-Shirt,Apparel,HomePlus,20.31,11.59,469,WH-001
+P000089,HomePlus T-Shirt,Apparel,HomePlus,179.62,93.24,256,WH-002
+P000090,FashioMax Belt,Apparel,FashioMax,36.38,17.21,132,WH-001
+P000091,BookCorp Publishing Tablet,Electronics,BookCorp Publishing,248.32,168.99,158,WH-001
+P000092,TechCorp Vase,Home,TechCorp,121.44,78.63,0,WH-003
+P000093,BookCorp Publishing Headphones,Electronics,BookCorp Publishing,486.81,291.64,142,WH-004
+P000094,TechCorp T-Shirt,Apparel,TechCorp,180.89,90.78,310,WH-004
+P000095,BookCorp Publishing Dress,Apparel,BookCorp Publishing,27.67,11.73,359,WH-001
+P000096,FashioMax Sweater,Apparel,FashioMax,69.66,44.95,371,WH-004
+P000097,HomePlus Speaker,Electronics,HomePlus,247.51,107.73,310,WH-001
+P000098,HomePlus Mouse,Electronics,HomePlus,287.17,195.12,100,WH-004
+P000099,FashioMax Table,Home,FashioMax,230.04,137.98,402,WH-003
+P000100,FashioMax Rug,Home,FashioMax,31.72,13.42,460,WH-001
+P000101,TechCorp Chair,Home,TechCorp,150.73,94.38,489,WH-003
+P000102,BookCorp Publishing Jacket,Apparel,BookCorp Publishing,42.02,17.57,156,WH-004
+P000103,FashioMax Biography,Books,FashioMax,57.68,27.82,497,WH-002
+P000104,TechCorp Chair,Home,TechCorp,100.17,43.54,169,WH-002
+P000105,BookCorp Publishing Belt,Apparel,BookCorp Publishing,118.84,53.24,432,WH-001
+P000106,TechCorp History Book,Books,TechCorp,35.42,21.79,154,WH-001
+P000107,FashioMax Science Book,Books,FashioMax,59.42,39.61,185,WH-004
+P000108,TechCorp Table,Home,TechCorp,223.03,89.91,66,WH-004
+P000109,BookCorp Publishing Pillow,Home,BookCorp Publishing,231.73,119.34,327,WH-004
+P000110,HomePlus Novel,Books,HomePlus,51.95,32.19,10,WH-004
+P000111,TechCorp Smartphone,Electronics,TechCorp,179.39,98.53,457,WH-003
+P000112,TechCorp Jacket,Apparel,TechCorp,111.45,70.09,162,WH-001
+P000113,FashioMax Laptop,Electronics,FashioMax,414.32,214.7,400,WH-002
+P000114,TechCorp Science Book,Books,TechCorp,12.34,5.29,360,WH-003
+P000115,BookCorp Publishing Smartphone,Electronics,BookCorp Publishing,501.32,308.06,490,WH-002
+P000116,HomePlus Laptop,Electronics,HomePlus,477.02,328.86,148,WH-001
+P000117,BookCorp Publishing History Book,Books,BookCorp Publishing,35.65,20.64,194,WH-002
+P000118,TechCorp Laptop,Electronics,TechCorp,379.39,165.74,42,WH-001
+P000119,FashioMax Table,Home,FashioMax,244.69,158.46,13,WH-001
+P000120,TechCorp Lamp,Home,TechCorp,104.22,47.36,265,WH-003
+P000121,HomePlus Jeans,Apparel,HomePlus,164.78,107.67,280,WH-003
+P000122,HomePlus Jacket,Apparel,HomePlus,87.84,61.39,176,WH-003
+P000123,HomePlus Rug,Home,HomePlus,100.92,59.47,358,WH-004
+P000124,TechCorp Textbook,Books,TechCorp,15.41,9.96,180,WH-001
+P000125,BookCorp Publishing Mouse,Electronics,BookCorp Publishing,782.17,517.76,232,WH-001
+P000126,TechCorp Vase,Home,TechCorp,116.02,76.09,96,WH-004
+P000127,TechCorp Dress,Apparel,TechCorp,78.89,47.81,495,WH-001
+P000128,TechCorp Shoes,Apparel,TechCorp,123.45,80.47,171,WH-004
+P000129,TechCorp Keyboard,Electronics,TechCorp,714.07,286.1,59,WH-001
+P000130,HomePlus Tablet,Electronics,HomePlus,50.39,26.5,479,WH-002
+P000131,TechCorp Speaker,Electronics,TechCorp,240.64,151.22,40,WH-002
+P000132,BookCorp Publishing Mouse,Electronics,BookCorp Publishing,439.55,213.65,41,WH-003
+P000133,BookCorp Publishing Keyboard,Electronics,BookCorp Publishing,291.27,153.47,75,WH-004
+P000134,BookCorp Publishing Pillow,Home,BookCorp Publishing,151.07,98.68,311,WH-003
+P000135,BookCorp Publishing Sweater,Apparel,BookCorp Publishing,182.4,89.92,219,WH-002
+P000136,FashioMax Shoes,Apparel,FashioMax,179.21,116.92,474,WH-003
+P000137,TechCorp Keyboard,Electronics,TechCorp,133.71,65.6,485,WH-004
+P000138,TechCorp Dress,Apparel,TechCorp,152.91,81.7,9,WH-003
+P000139,TechCorp History Book,Books,TechCorp,28.52,14.98,68,WH-003
+P000140,HomePlus Jacket,Apparel,HomePlus,161.85,83.22,317,WH-004
+P000141,HomePlus Pillow,Home,HomePlus,114.57,54.81,349,WH-004
+P000142,TechCorp Laptop,Electronics,TechCorp,782.09,390.25,57,WH-002
+P000143,TechCorp Mouse,Electronics,TechCorp,708.2,458.67,253,WH-003
+P000144,FashioMax Headphones,Electronics,FashioMax,718.02,365.6,253,WH-003
+P000145,TechCorp Mirror,Home,TechCorp,47.16,28.45,394,WH-004
+P000146,FashioMax Textbook,Books,FashioMax,24.34,15.34,477,WH-001
+P000147,TechCorp Tablet,Electronics,TechCorp,746.47,402.58,342,WH-004
+P000148,HomePlus Smartphone,Electronics,HomePlus,111.35,53.39,452,WH-002
+P000149,BookCorp Publishing Biography,Books,BookCorp Publishing,24.25,12.34,115,WH-003
+P000150,HomePlus History Book,Books,HomePlus,41.98,25.84,271,WH-002
+P000151,FashioMax Jacket,Apparel,FashioMax,139.92,87.21,168,WH-001
+P000152,TechCorp Laptop,Electronics,TechCorp,730.48,506.99,410,WH-002
+P000153,FashioMax Smartphone,Electronics,FashioMax,729.97,445.23,247,WH-003
+P000154,HomePlus Biography,Books,HomePlus,56.53,30.43,317,WH-002
+P000155,HomePlus Textbook,Books,HomePlus,39.28,26.21,368,WH-001
+P000156,HomePlus Mouse,Electronics,HomePlus,733.87,447.71,263,WH-004
+P000157,BookCorp Publishing Clock,Home,BookCorp Publishing,268.27,135.49,220,WH-001
+P000158,HomePlus Mouse,Electronics,HomePlus,82.14,51.0,387,WH-001
+P000159,BookCorp Publishing Textbook,Books,BookCorp Publishing,50.76,26.57,370,WH-003
+P000160,FashioMax Shoes,Apparel,FashioMax,70.95,40.41,130,WH-004
+P000161,BookCorp Publishing Lamp,Home,BookCorp Publishing,257.76,148.91,397,WH-004
+P000162,TechCorp Headphones,Electronics,TechCorp,180.7,100.91,104,WH-001
+P000163,TechCorp Jeans,Apparel,TechCorp,169.63,110.78,168,WH-003
+P000164,FashioMax Lamp,Home,FashioMax,182.62,114.79,71,WH-004
+P000165,BookCorp Publishing Cookbook,Books,BookCorp Publishing,47.7,27.76,237,WH-001
+P000166,BookCorp Publishing History Book,Books,BookCorp Publishing,14.07,6.22,32,WH-001
+P000167,FashioMax History Book,Books,FashioMax,56.99,31.76,188,WH-003
+P000168,BookCorp Publishing Keyboard,Electronics,BookCorp Publishing,496.52,294.12,23,WH-002
+P000169,BookCorp Publishing History Book,Books,BookCorp Publishing,38.86,16.42,340,WH-003
+P000170,HomePlus Dress,Apparel,HomePlus,142.85,69.38,385,WH-001
+P000171,BookCorp Publishing Hat,Apparel,BookCorp Publishing,173.7,71.4,327,WH-004
+P000172,TechCorp Jacket,Apparel,TechCorp,110.53,63.37,234,WH-002
+P000173,TechCorp Shoes,Apparel,TechCorp,169.83,70.81,226,WH-001
+P000174,HomePlus Science Book,Books,HomePlus,58.58,23.77,438,WH-002
+P000175,HomePlus Travel Guide,Books,HomePlus,27.73,17.67,456,WH-002
+P000176,HomePlus T-Shirt,Apparel,HomePlus,56.11,24.11,71,WH-004
+P000177,BookCorp Publishing Travel Guide,Books,BookCorp Publishing,43.38,28.94,272,WH-002
+P000178,TechCorp Smartphone,Electronics,TechCorp,86.74,58.72,460,WH-002
+P000179,TechCorp Jacket,Apparel,TechCorp,50.5,20.48,50,WH-002
+P000180,TechCorp Shoes,Apparel,TechCorp,60.32,37.44,225,WH-004
+P000181,BookCorp Publishing Cookbook,Books,BookCorp Publishing,51.79,34.94,283,WH-002
+P000182,FashioMax Pillow,Home,FashioMax,29.25,13.59,230,WH-002
+P000183,HomePlus Lamp,Home,HomePlus,116.77,76.59,171,WH-004
+P000184,FashioMax Laptop,Electronics,FashioMax,524.07,274.85,346,WH-002
+P000185,HomePlus Mirror,Home,HomePlus,112.77,53.06,355,WH-004
+P000186,HomePlus Novel,Books,HomePlus,59.7,33.75,335,WH-001
+P000187,HomePlus Science Book,Books,HomePlus,58.36,40.75,481,WH-004
+P000188,BookCorp Publishing Science Book,Books,BookCorp Publishing,33.39,16.34,485,WH-003
+P000189,BookCorp Publishing Mirror,Home,BookCorp Publishing,283.91,165.31,159,WH-003
+P000190,FashioMax Smartphone,Electronics,FashioMax,535.19,247.21,240,WH-002
+P000191,BookCorp Publishing Lamp,Home,BookCorp Publishing,246.69,171.75,417,WH-002
+P000192,TechCorp Vase,Home,TechCorp,104.59,63.7,192,WH-003
+P000193,HomePlus Travel Guide,Books,HomePlus,48.92,21.53,140,WH-004
+P000194,FashioMax Table,Home,FashioMax,298.19,154.95,239,WH-003
+P000195,BookCorp Publishing Jacket,Apparel,BookCorp Publishing,119.47,72.86,75,WH-004
+P000196,TechCorp Vase,Home,TechCorp,212.14,109.97,246,WH-001
+P000197,BookCorp Publishing Hat,Apparel,BookCorp Publishing,94.52,59.58,267,WH-004
+P000198,BookCorp Publishing Rug,Home,BookCorp Publishing,176.01,113.03,446,WH-001
+P000199,HomePlus History Book,Books,HomePlus,18.01,7.99,164,WH-004
+P000200,BookCorp Publishing Cookbook,Books,BookCorp Publishing,48.06,24.09,180,WH-002
+P000201,FashioMax Mouse,Electronics,FashioMax,134.44,54.82,179,WH-003
+P000202,HomePlus Hat,Apparel,HomePlus,61.42,25.41,439,WH-004
+P000203,FashioMax Mirror,Home,FashioMax,170.69,107.9,45,WH-004
+P000204,BookCorp Publishing Dress,Apparel,BookCorp Publishing,30.87,14.01,44,WH-001
+P000205,HomePlus Monitor,Electronics,HomePlus,795.74,518.95,129,WH-003
+P000206,TechCorp Rug,Home,TechCorp,29.99,12.26,182,WH-003
+P000207,HomePlus Speaker,Electronics,HomePlus,619.01,362.69,222,WH-002
+P000208,HomePlus Travel Guide,Books,HomePlus,55.94,25.96,486,WH-003
+P000209,HomePlus Science Book,Books,HomePlus,10.11,6.72,187,WH-004
+P000210,FashioMax Chair,Home,FashioMax,119.68,66.84,27,WH-003
+P000211,HomePlus Chair,Home,HomePlus,81.64,53.37,473,WH-003
+P000212,TechCorp History Book,Books,TechCorp,57.6,28.03,168,WH-002
+P000213,HomePlus History Book,Books,HomePlus,32.39,22.4,118,WH-003
+P000214,TechCorp Laptop,Electronics,TechCorp,534.51,243.35,310,WH-004
+P000215,TechCorp Travel Guide,Books,TechCorp,49.91,34.46,125,WH-002
+P000216,HomePlus Table,Home,HomePlus,29.99,19.34,341,WH-002
+P000217,HomePlus Sweater,Apparel,HomePlus,144.95,69.64,393,WH-002
+P000218,BookCorp Publishing Sweater,Apparel,BookCorp Publishing,45.61,20.44,102,WH-003
+P000219,TechCorp Chair,Home,TechCorp,243.8,106.18,119,WH-001
+P000220,FashioMax Belt,Apparel,FashioMax,157.68,98.18,160,WH-001
+P000221,HomePlus Sweater,Apparel,HomePlus,147.08,65.47,85,WH-002
+P000222,HomePlus Rug,Home,HomePlus,170.47,113.75,84,WH-003
+P000223,FashioMax Mirror,Home,FashioMax,278.32,162.74,203,WH-004
+P000224,HomePlus Cookbook,Books,HomePlus,33.13,21.51,113,WH-001
+P000225,FashioMax Clock,Home,FashioMax,198.98,98.61,198,WH-001
+P000226,HomePlus Biography,Books,HomePlus,16.88,11.3,127,WH-002
+P000227,HomePlus Jacket,Apparel,HomePlus,52.65,24.98,120,WH-004
+P000228,FashioMax Mirror,Home,FashioMax,275.23,172.37,396,WH-003
+P000229,TechCorp Mouse,Electronics,TechCorp,483.93,270.53,83,WH-003
+P000230,FashioMax Dress,Apparel,FashioMax,143.61,64.81,342,WH-003
+P000231,HomePlus Vase,Home,HomePlus,74.1,51.44,487,WH-002
+P000232,TechCorp Chair,Home,TechCorp,256.92,170.39,224,WH-001
+P000233,BookCorp Publishing Novel,Books,BookCorp Publishing,35.36,22.92,390,WH-002
+P000234,BookCorp Publishing Table,Home,BookCorp Publishing,68.01,35.09,87,WH-002
+P000235,BookCorp Publishing Clock,Home,BookCorp Publishing,69.81,40.27,47,WH-003
+P000236,FashioMax Travel Guide,Books,FashioMax,28.7,13.01,286,WH-004
+P000237,FashioMax Science Book,Books,FashioMax,13.94,8.83,292,WH-002
+P000238,FashioMax History Book,Books,FashioMax,38.67,22.29,152,WH-001
+P000239,TechCorp Sweater,Apparel,TechCorp,150.7,90.84,160,WH-003
+P000240,FashioMax Laptop,Electronics,FashioMax,352.36,175.56,338,WH-003
+P000241,FashioMax Mouse,Electronics,FashioMax,120.14,51.68,373,WH-004
+P000242,BookCorp Publishing Table,Home,BookCorp Publishing,285.08,141.27,460,WH-001
+P000243,FashioMax Mouse,Electronics,FashioMax,101.01,53.17,389,WH-002
+P000244,TechCorp Lamp,Home,TechCorp,110.25,55.7,463,WH-004
+P000245,BookCorp Publishing Chair,Home,BookCorp Publishing,167.5,99.15,334,WH-004
+P000246,TechCorp Mouse,Electronics,TechCorp,201.28,89.96,274,WH-003
+P000247,FashioMax Mouse,Electronics,FashioMax,182.66,79.66,153,WH-002
+P000248,FashioMax Novel,Books,FashioMax,48.87,23.74,339,WH-004
+P000249,HomePlus Tablet,Electronics,HomePlus,71.79,43.53,80,WH-004
+P000250,FashioMax Table,Home,FashioMax,178.58,108.57,268,WH-004
+P000251,BookCorp Publishing Table,Home,BookCorp Publishing,77.41,32.89,289,WH-002
+P000252,BookCorp Publishing Vase,Home,BookCorp Publishing,112.57,64.3,483,WH-003
+P000253,BookCorp Publishing Tablet,Electronics,BookCorp Publishing,146.87,90.34,190,WH-003
+P000254,TechCorp History Book,Books,TechCorp,54.7,26.87,377,WH-003
+P000255,TechCorp Clock,Home,TechCorp,31.1,18.17,365,WH-001
+P000256,TechCorp Jeans,Apparel,TechCorp,129.78,84.89,79,WH-004
+P000257,FashioMax Novel,Books,FashioMax,20.32,13.32,243,WH-001
+P000258,BookCorp Publishing Science Book,Books,BookCorp Publishing,56.7,32.41,307,WH-003
+P000259,HomePlus Monitor,Electronics,HomePlus,497.07,252.46,172,WH-002
+P000260,BookCorp Publishing Shoes,Apparel,BookCorp Publishing,113.26,54.37,394,WH-002
+P000261,FashioMax Rug,Home,FashioMax,276.69,191.81,27,WH-003
+P000262,FashioMax Belt,Apparel,FashioMax,133.24,70.61,17,WH-004
+P000263,HomePlus Pillow,Home,HomePlus,125.67,67.95,392,WH-003
+P000264,HomePlus Cookbook,Books,HomePlus,42.27,18.81,459,WH-004
+P000265,HomePlus Speaker,Electronics,HomePlus,651.1,364.34,327,WH-003
+P000266,BookCorp Publishing Vase,Home,BookCorp Publishing,186.49,98.55,62,WH-003
+P000267,HomePlus Pillow,Home,HomePlus,237.62,97.27,365,WH-003
+P000268,BookCorp Publishing Jacket,Apparel,BookCorp Publishing,147.37,78.92,153,WH-003
+P000269,HomePlus Textbook,Books,HomePlus,35.75,17.46,224,WH-003
+P000270,TechCorp Clock,Home,TechCorp,237.44,136.79,460,WH-001
+P000271,BookCorp Publishing Science Book,Books,BookCorp Publishing,56.55,29.51,374,WH-004
+P000272,TechCorp Novel,Books,TechCorp,19.2,11.82,413,WH-003
+P000273,BookCorp Publishing Headphones,Electronics,BookCorp Publishing,127.22,81.22,55,WH-004
+P000274,HomePlus Biography,Books,HomePlus,47.01,31.82,469,WH-001
+P000275,FashioMax Pillow,Home,FashioMax,258.97,142.56,161,WH-004
+P000276,TechCorp Dress,Apparel,TechCorp,198.48,87.3,67,WH-002
+P000277,FashioMax Tablet,Electronics,FashioMax,585.67,346.56,179,WH-001
+P000278,FashioMax Jeans,Apparel,FashioMax,66.32,39.54,456,WH-004
+P000279,BookCorp Publishing Table,Home,BookCorp Publishing,278.73,133.68,269,WH-003
+P000280,TechCorp Clock,Home,TechCorp,252.3,115.55,142,WH-004
+P000281,HomePlus Novel,Books,HomePlus,15.67,10.8,425,WH-001
+P000282,HomePlus Biography,Books,HomePlus,14.75,8.16,274,WH-004
+P000283,TechCorp Table,Home,TechCorp,222.8,122.33,23,WH-004
+P000284,TechCorp Jeans,Apparel,TechCorp,49.66,31.95,106,WH-003
+P000285,HomePlus Keyboard,Electronics,HomePlus,466.26,312.6,264,WH-003
+P000286,FashioMax Cookbook,Books,FashioMax,56.7,37.4,235,WH-002
+P000287,BookCorp Publishing Mirror,Home,BookCorp Publishing,117.87,57.84,320,WH-002
+P000288,TechCorp Laptop,Electronics,TechCorp,362.69,155.89,175,WH-004
+P000289,HomePlus Biography,Books,HomePlus,45.81,20.08,48,WH-001
+P000290,BookCorp Publishing Shoes,Apparel,BookCorp Publishing,153.72,101.91,89,WH-002
+P000291,FashioMax Cookbook,Books,FashioMax,42.61,26.43,289,WH-001
+P000292,HomePlus History Book,Books,HomePlus,27.8,17.68,464,WH-001
+P000293,FashioMax Shoes,Apparel,FashioMax,145.24,89.53,105,WH-004
+P000294,BookCorp Publishing Mirror,Home,BookCorp Publishing,248.5,130.81,122,WH-003
+P000295,HomePlus Cookbook,Books,HomePlus,12.15,5.55,467,WH-004
+P000296,TechCorp Mirror,Home,TechCorp,151.2,83.42,292,WH-001
+P000297,HomePlus Table,Home,HomePlus,39.23,26.3,123,WH-003
+P000298,FashioMax Belt,Apparel,FashioMax,160.8,85.72,429,WH-001
+P000299,FashioMax Travel Guide,Books,FashioMax,34.1,18.87,329,WH-002
+P000300,TechCorp Cookbook,Books,TechCorp,38.56,19.13,443,WH-003
