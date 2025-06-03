@@ -4,6 +4,66 @@
 
 You will build a complete Python ETL pipeline that processes customer and sales data from multiple sources, applies business transformations, and loads results into SQL Server with comprehensive error handling, logging, and alerting systems following **production-grade development patterns**.
 
+---
+
+## Prerequisites and Setup Verification
+
+**IMPORTANT:** Before starting the ETL development, ensure your environment is properly set up using the provided setup tools.
+
+### Required Setup Steps
+
+1. **Database Setup**: Run the provided setup script to create your database and load baseline data:
+   ```bash
+   python setup_database_student.py
+   ```
+
+2. **Environment Configuration**: Follow the detailed instructions in `STUDENT_SETUP_GUIDE.md`
+
+3. **Verify Setup**: Confirm the following before beginning ETL development:
+   - ✅ Database `python_etl_lab` exists with all required tables
+   - ✅ Environment variables configured in `.env` file
+   - ✅ Python environment activated with required packages
+   - ✅ Baseline data loaded (500 customers, 300 products, 10,000 transactions)
+
+### Setup Verification Commands
+
+```bash
+# Test database connection
+python -c "import pyodbc; from dotenv import load_dotenv; import os; load_dotenv(); print('Database connection test successful')"
+
+# Verify data files are present
+ls data/input/  # Should show: customers.csv, products.json
+ls data/baseline/  # Should show: baseline_customers.csv, baseline_products.csv, sales_transactions.csv
+```
+
+**For detailed setup instructions, see: `STUDENT_SETUP_GUIDE.md`**
+
+---
+
+## Project File Overview
+
+### 📁 **PROVIDED FILES** (Already Implemented)
+- `setup_database_student.py` - Database setup and baseline data loading
+- `STUDENT_SETUP_GUIDE.md` - Detailed environment setup instructions
+- `.env.example` - Environment configuration template
+- `.gitignore` - Git ignore file (prevents virtual environments and temp files from being committed)
+- `requirements.txt` - Python package dependencies
+- `environment.yml` - Conda environment specification
+- `data/baseline/` - Standardized baseline data (500 customers, 300 products, 10K transactions)
+- `data/input/` - Input data for ETL processing (50 customers, 25 products)
+
+### ⚠️ **IMPORTANT: Virtual Environment Warning**
+**DO NOT commit virtual environment folders to Git!** Virtual environments like `etl-lab-env/`, `etl-lab-envls/`, `venv/`, etc. are automatically excluded by the provided `.gitignore` file. These folders contain platform-specific files and should be created locally by each developer.
+
+### 🔨 **TO IMPLEMENT** (Student Deliverables)
+- `config.py` - Configuration management and environment handling
+- `data_extraction.py` - Data extraction from multiple sources with error handling
+- `data_transformation.py` - Business logic and data standardization functions
+- `data_loading.py` - Database loading with batch processing and validation
+- `etl_pipeline.py` - Main orchestration script with logging and alerting
+
+### 📝 **TO UPDATE** (Student Responsibilities)
+- `README.md` - Complete project documentation with setup and execution instructions
 
 ---
 
@@ -69,26 +129,42 @@ class AlertConfig:
 
 **Required Project Structure:**
 ```
-python_etl_lab/
-├── config.py
-├── data_extraction.py
-├── data_transformation.py
-├── data_loading.py
-├── etl_pipeline.py
-├── README.md
-├── .env (local development only)
+data-prep-9-lab-9-python-etl/
+├── config.py                    # 🔨 TO IMPLEMENT
+├── data_extraction.py           # 🔨 TO IMPLEMENT  
+├── data_transformation.py       # 🔨 TO IMPLEMENT
+├── data_loading.py              # 🔨 TO IMPLEMENT
+├── etl_pipeline.py              # 🔨 TO IMPLEMENT
+├── README.md                    # 📝 TO UPDATE (project documentation)
+├── .env                         # 📁 PROVIDED (copy from .env.example)
+├── setup_database_student.py    # 📁 PROVIDED (database setup)
+├── STUDENT_SETUP_GUIDE.md       # 📁 PROVIDED (setup instructions)
+├── requirements.txt             # 📁 PROVIDED (dependencies)
+├── environment.yml              # 📁 PROVIDED (conda environment)
 ├── data/
-│   ├── input/
-│   │   ├── customers.csv
-│   │   ├── products.json
+│   ├── baseline/                # 📁 PROVIDED (baseline data for database)
+│   │   ├── baseline_customers.csv
+│   │   ├── baseline_products.csv
 │   │   └── sales_transactions.csv
-│   └── output/
-│       └── (processed files)
-├── logs/
-│   └── (log files generated here)
-└── tests/
-    └── (optional test files)
+│   ├── input/                   # 📁 PROVIDED (input data for ETL)
+│   │   ├── customers.csv        # (50 new customers to process)
+│   │   └── products.json        # (25 new products to process)
+│   └── output/                  # 🔨 CREATED BY PIPELINE (processed files)
+├── logs/                        # 🔨 CREATED BY PIPELINE (log files)
+│   ├── etl_run_*.log
+│   └── alerts/
+│       ├── email_alerts.log
+│       ├── slack_notifications.log
+│       └── throttling_decisions.log
+└── tests/                       # 🔨 OPTIONAL (test files)
+    └── (unit and integration tests)
 ```
+
+**Legend:**
+- 📁 **PROVIDED**: Files/directories already implemented in the student package
+- 🔨 **TO IMPLEMENT**: Files that students must create from scratch
+- 📝 **TO UPDATE**: Files that students must modify/enhance
+- 🔨 **CREATED BY PIPELINE**: Directories/files created during pipeline execution
 
 ---
 

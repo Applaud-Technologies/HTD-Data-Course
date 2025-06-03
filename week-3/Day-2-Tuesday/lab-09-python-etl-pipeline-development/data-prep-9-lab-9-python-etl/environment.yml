@@ -1,0 +1,10 @@
+name: etl-lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pip
+  - pip:
+    - pyodbc>=4.0.39
+    - python-dotenv>=1.0.0
