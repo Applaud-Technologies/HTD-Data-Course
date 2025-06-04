@@ -149,48 +149,48 @@ class DataLoader:
         error_count = 0
 
         # Prepare data for batch operation (Lesson 02: List comprehensions)
+        # Map to actual database columns
         customer_data = [
             (
                 customer["customer_id"],
+                customer.get("first_name", ""),
+                customer.get("last_name", ""),
                 customer.get("full_name", ""),
                 customer.get("email", ""),
-                customer.get("phone_standardized", ""),
+                customer.get("phone_standardized", customer.get("phone", "")),
                 customer.get("address", ""),
-                customer.get("segment_enhanced", ""),
-                customer.get("profile_completeness_score", 0.0),
-                customer.get("email_valid", False),
-                customer.get("phone_provided", False),
-                customer.get("registration_date_parsed"),
+                customer.get("segment_enhanced", customer.get("segment", "")),
+                customer.get(
+                    "registration_date_parsed", customer.get("registration_date")
+                ),
             )
             for customer in customers
         ]
 
         # MERGE query for upsert operation (Lesson 03: Advanced SQL)
+        # Updated to match actual database schema
         merge_query = """
         MERGE customer_dim AS target
-        USING (SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ? AS source_data) AS source
-        (customer_id, full_name, email, phone, address, segment, 
-         profile_completeness_score, email_valid, phone_provided, registration_date)
+        USING (SELECT ?, ?, ?, ?, ?, ?, ?, ?, ? AS source_data) AS source
+        (customer_id, first_name, last_name, full_name, email, phone, address, segment, registration_date)
         ON target.customer_id = source.customer_id
         WHEN MATCHED THEN 
             UPDATE SET 
+                first_name = source.first_name,
+                last_name = source.last_name,
                 full_name = source.full_name,
                 email = source.email,
                 phone = source.phone,
                 address = source.address,
                 segment = source.segment,
-                profile_completeness_score = source.profile_completeness_score,
-                email_valid = source.email_valid,
-                phone_provided = source.phone_provided,
                 registration_date = source.registration_date,
                 updated_date = GETDATE()
         WHEN NOT MATCHED THEN
-            INSERT (customer_id, full_name, email, phone, address, segment,
-                   profile_completeness_score, email_valid, phone_provided, 
+            INSERT (customer_id, first_name, last_name, full_name, email, phone, address, segment,
                    registration_date, created_date)
-            VALUES (source.customer_id, source.full_name, source.email, source.phone,
-                   source.address, source.segment, source.profile_completeness_score,
-                   source.email_valid, source.phone_provided, source.registration_date, GETDATE())
+            VALUES (source.customer_id, source.first_name, source.last_name, source.full_name, 
+                   source.email, source.phone, source.address, source.segment, 
+                   source.registration_date, GETDATE())
         OUTPUT $action AS action_taken;
         """
 
@@ -262,58 +262,37 @@ class DataLoader:
         error_count = 0
 
         # Prepare data for batch operation
+        # Map to actual database columns (product_name, not name; inventory_quantity, not quantity)
         product_data = [
             (
                 product["product_id"],
-                product.get("name_cleaned", ""),
-                product.get("category_standardized", ""),
-                product.get("brand_standardized", ""),
-                product.get("model_standardized", ""),
+                product.get("name_cleaned", product.get("name", "")),
+                product.get("category_standardized", product.get("category", "")),
+                product.get("brand_standardized", product.get("brand", "")),
                 float(product.get("price", 0.0)),
-                int(product.get("quantity", 0)),
-                product.get("price_category", ""),
-                product.get("inventory_status", ""),
-                float(product.get("inventory_value", 0.0)),
-                float(product.get("unit_profit_margin", 0.0)),
-                bool(product.get("is_high_value", False)),
-                bool(product.get("is_premium_brand", False)),
-                bool(product.get("low_stock_alert", False)),
+                int(product.get("quantity", 0)),  # Maps to inventory_quantity
             )
             for product in products
         ]
 
-        # MERGE query for product upsert
+        # MERGE query for product upsert - updated to match actual database schema
         merge_query = """
         MERGE product_dim AS target
-        USING (SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? AS source_data) AS source
-        (product_id, name, category, brand, model, price, quantity, 
-         price_category, inventory_status, inventory_value, unit_profit_margin,
-         is_high_value, is_premium_brand, low_stock_alert)
+        USING (SELECT ?, ?, ?, ?, ?, ? AS source_data) AS source
+        (product_id, product_name, category, brand, price, inventory_quantity)
         ON target.product_id = source.product_id
         WHEN MATCHED THEN 
             UPDATE SET 
-                name = source.name,
+                product_name = source.product_name,
                 category = source.category,
                 brand = source.brand,
-                model = source.model,
                 price = source.price,
-                quantity = source.quantity,
-                price_category = source.price_category,
-                inventory_status = source.inventory_status,
-                inventory_value = source.inventory_value,
-                unit_profit_margin = source.unit_profit_margin,
-                is_high_value = source.is_high_value,
-                is_premium_brand = source.is_premium_brand,
-                low_stock_alert = source.low_stock_alert,
+                inventory_quantity = source.inventory_quantity,
                 updated_date = GETDATE()
         WHEN NOT MATCHED THEN
-            INSERT (product_id, name, category, brand, model, price, quantity,
-                   price_category, inventory_status, inventory_value, unit_profit_margin,
-                   is_high_value, is_premium_brand, low_stock_alert, created_date)
-            VALUES (source.product_id, source.name, source.category, source.brand, source.model,
-                   source.price, source.quantity, source.price_category, source.inventory_status,
-                   source.inventory_value, source.unit_profit_margin, source.is_high_value,
-                   source.is_premium_brand, source.low_stock_alert, GETDATE())
+            INSERT (product_id, product_name, category, brand, price, inventory_quantity, created_date)
+            VALUES (source.product_id, source.product_name, source.category, source.brand,
+                   source.price, source.inventory_quantity, GETDATE())
         OUTPUT $action AS action_taken;
         """
 
@@ -385,48 +364,31 @@ class DataLoader:
         inserted_count = 0
         error_count = 0
 
-        # Prepare data for batch insert
+        # Prepare data for batch insert - map to actual database columns only
         transaction_data = [
             (
                 transaction["transaction_id"],
                 transaction["customer_id"],
                 transaction["product_id"],
+                transaction.get("sales_rep_id", ""),
+                transaction.get("transaction_date"),
                 int(transaction.get("quantity", 0)),
                 float(transaction.get("unit_price", 0.0)),
                 float(transaction.get("discount_amount", 0.0)),
-                float(transaction.get("subtotal", 0.0)),
                 float(transaction.get("total_amount", 0.0)),
-                float(transaction.get("discount_percentage", 0.0)),
-                float(transaction.get("estimated_profit", 0.0)),
-                float(transaction.get("sales_commission", 0.0)),
-                transaction.get("value_tier", ""),
-                transaction.get("customer_status", ""),
+                transaction.get("status", "completed"),
                 transaction.get("payment_method", ""),
-                transaction.get("transaction_date"),
-                transaction.get("sales_rep_id", ""),
-                transaction.get("status", ""),
-                # Additional enriched fields
-                transaction.get("customer_name", ""),
-                transaction.get("customer_segment", ""),
-                transaction.get("product_name", ""),
-                transaction.get("product_category", ""),
-                transaction.get("product_brand", ""),
-                bool(transaction.get("is_weekend", False)),
             )
             for transaction in transactions
         ]
 
-        # Insert query for fact table
+        # Insert query for sales_transactions table (actual table name)
         insert_query = """
-        INSERT INTO sales_fact (
-            transaction_id, customer_id, product_id, quantity, unit_price,
-            discount_amount, subtotal, total_amount, discount_percentage,
-            estimated_profit, sales_commission, value_tier, customer_status,
-            payment_method, transaction_date, sales_rep_id, status,
-            customer_name, customer_segment, product_name, product_category,
-            product_brand, is_weekend, created_date
+        INSERT INTO sales_transactions (
+            transaction_id, customer_id, product_id, sales_rep_id, transaction_date,
+            quantity, unit_price, discount_amount, total_amount, status, payment_method
         ) VALUES (
-            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, GETDATE()
+            ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
         )
         """
 
@@ -502,11 +464,11 @@ class DataLoader:
         try:
             with DatabaseManager(self.config.database.get_connection_string()) as db:
 
-                # 1. Row count validation
+                # 1. Row count validation - use correct table names
                 count_queries = {
                     "customers": "SELECT COUNT(*) FROM customer_dim",
                     "products": "SELECT COUNT(*) FROM product_dim",
-                    "transactions": "SELECT COUNT(*) FROM sales_fact",
+                    "transactions": "SELECT COUNT(*) FROM sales_transactions",
                 }
 
                 for table, query in count_queries.items():
@@ -514,12 +476,12 @@ class DataLoader:
                     count = db.cursor.fetchone()[0]
                     validation_results[table]["row_count"] = count
 
-                # 2. NULL value checks
+                # 2. NULL value checks - use correct table names
                 null_checks = {
                     "customers_missing_id": "SELECT COUNT(*) FROM customer_dim WHERE customer_id IS NULL",
                     "products_missing_id": "SELECT COUNT(*) FROM product_dim WHERE product_id IS NULL",
-                    "transactions_missing_customer": "SELECT COUNT(*) FROM sales_fact WHERE customer_id IS NULL",
-                    "transactions_missing_product": "SELECT COUNT(*) FROM sales_fact WHERE product_id IS NULL",
+                    "transactions_missing_customer": "SELECT COUNT(*) FROM sales_transactions WHERE customer_id IS NULL",
+                    "transactions_missing_product": "SELECT COUNT(*) FROM sales_transactions WHERE product_id IS NULL",
                 }
 
                 for check_name, query in null_checks.items():
@@ -527,16 +489,16 @@ class DataLoader:
                     null_count = db.cursor.fetchone()[0]
                     validation_results["data_quality"][check_name] = null_count
 
-                # 3. Referential integrity checks
+                # 3. Referential integrity checks - use correct table names
                 integrity_checks = {
                     "orphaned_transactions_customer": """
-                        SELECT COUNT(*) FROM sales_fact sf 
-                        LEFT JOIN customer_dim cd ON sf.customer_id = cd.customer_id 
+                        SELECT COUNT(*) FROM sales_transactions st 
+                        LEFT JOIN customer_dim cd ON st.customer_id = cd.customer_id 
                         WHERE cd.customer_id IS NULL
                     """,
                     "orphaned_transactions_product": """
-                        SELECT COUNT(*) FROM sales_fact sf 
-                        LEFT JOIN product_dim pd ON sf.product_id = pd.product_id 
+                        SELECT COUNT(*) FROM sales_transactions st 
+                        LEFT JOIN product_dim pd ON st.product_id = pd.product_id 
                         WHERE pd.product_id IS NULL
                     """,
                 }
@@ -548,10 +510,10 @@ class DataLoader:
                         check_name
                     ] = orphan_count
 
-                # 4. Business rule validations
+                # 4. Business rule validations - use correct table names
                 business_checks = {
-                    "negative_amounts": "SELECT COUNT(*) FROM sales_fact WHERE total_amount < 0",
-                    "zero_quantities": "SELECT COUNT(*) FROM sales_fact WHERE quantity <= 0",
+                    "negative_amounts": "SELECT COUNT(*) FROM sales_transactions WHERE total_amount < 0",
+                    "zero_quantities": "SELECT COUNT(*) FROM sales_transactions WHERE quantity <= 0",
                     "invalid_prices": "SELECT COUNT(*) FROM product_dim WHERE price < 0",
                 }
 
@@ -614,13 +576,13 @@ class DataLoader:
             with DatabaseManager(self.config.database.get_connection_string()) as db:
                 summary = {}
 
-                # Summary queries
+                # Summary queries - use correct table names
                 summary_queries = {
                     "total_customers": "SELECT COUNT(*) FROM customer_dim",
                     "total_products": "SELECT COUNT(*) FROM product_dim",
-                    "total_transactions": "SELECT COUNT(*) FROM sales_fact",
-                    "total_revenue": "SELECT COALESCE(SUM(total_amount), 0) FROM sales_fact",
-                    "avg_transaction_value": "SELECT COALESCE(AVG(total_amount), 0) FROM sales_fact",
+                    "total_transactions": "SELECT COUNT(*) FROM sales_transactions",
+                    "total_revenue": "SELECT COALESCE(SUM(total_amount), 0) FROM sales_transactions",
+                    "avg_transaction_value": "SELECT COALESCE(AVG(total_amount), 0) FROM sales_transactions",
                 }
 
                 for metric, query in summary_queries.items():
