@@ -1,0 +1,6 @@
+customer_id,first_name,last_name,email,phone,address,segment,registration_date
+C001,john,SMITH,John.Smith@Example.COM,555-123-4567,123 Main St,premium,2023-01-15
+C002,jane,doe,jane.doe@test.com,5551234567,456 Oak Ave,standard,2023-02-20
+C003,bob,JOHNSON,bob@company.org,(555) 987-6543,789 Pine Rd,basic,2023-03-10
+C004,alice,brown,alice.brown@email.net,555.555.5555,321 Elm St,premium,2023-04-05
+C005,charlie,WILSON,charlie@test.co,5559876543,654 Maple Dr,standard,2023-05-12

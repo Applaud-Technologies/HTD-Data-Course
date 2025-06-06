@@ -1,0 +1,58 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Headphones",
+    "category": "electronics",
+    "specifications": {
+      "brand": "apple",
+      "model": "AirPods Pro",
+      "price": 199.99
+    },
+    "inventory": {
+      "quantity": 50,
+      "warehouse": "Main"
+    }
+  },
+  {
+    "product_id": "P002",
+    "name": "Smart Phone",
+    "category": "tech",
+    "specifications": {
+      "brand": "samsung",
+      "model": "Galaxy S23",
+      "price": 799.99
+    },
+    "inventory": {
+      "quantity": 25,
+      "warehouse": "East"
+    }
+  },
+  {
+    "product_id": "P003",
+    "name": "Running Shoes",
+    "category": "sports",
+    "specifications": {
+      "brand": "nike",
+      "model": "Air Max",
+      "price": 129.99
+    },
+    "inventory": {
+      "quantity": 75,
+      "warehouse": "West"
+    }
+  },
+  {
+    "product_id": "P004",
+    "name": "Coffee Maker",
+    "category": "home",
+    "specifications": {
+      "brand": "generic",
+      "model": "CM-100",
+      "price": 49.99
+    },
+    "inventory": {
+      "quantity": 5,
+      "warehouse": "Main"
+    }
+  }
+]
