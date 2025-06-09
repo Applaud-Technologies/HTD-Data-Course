@@ -569,141 +569,137 @@ class InsuranceTransformer:
     # HELPER METHODS - ALREADY IMPLEMENTED
     # =====================================================================
 
+    def _clean_customer_name(
+        self, first_name: str, last_name: str
+    ) -> Tuple[str, str, str]:
+        """
+        Clean and standardize customer names
 
-def _clean_customer_name(self, first_name: str, last_name: str) -> Tuple[str, str, str]:
-    """
-    Clean and standardize customer names
+        Args:
+            first_name: Raw first name
+            last_name: Raw last name
 
-    Args:
-        first_name: Raw first name
-        last_name: Raw last name
+        Returns:
+            Tuple of (cleaned_first_name, cleaned_last_name, full_name)
+        """
+        # Clean and apply basic title case
+        first_clean = first_name.strip().title() if first_name else ""
+        last_clean = last_name.strip().title() if last_name else ""
 
-    Returns:
-        Tuple of (cleaned_first_name, cleaned_last_name, full_name)
-    """
-    # Clean and apply basic title case
-    first_clean = first_name.strip().title() if first_name else ""
-    last_clean = last_name.strip().title() if last_name else ""
+        # Handle special name cases (apostrophes, hyphens, etc.)
+        first_clean = self._fix_name_casing(first_clean)
+        last_clean = self._fix_name_casing(last_clean)
 
-    # Handle special name cases (apostrophes, hyphens, etc.)
-    first_clean = self._fix_name_casing(first_clean)
-    last_clean = self._fix_name_casing(last_clean)
+        # Create full name
+        full_name = f"{first_clean} {last_clean}".strip()
 
-    # Create full name
-    full_name = f"{first_clean} {last_clean}".strip()
+        return first_clean, last_clean, full_name
 
-    return first_clean, last_clean, full_name
+    def _fix_name_casing(self, name: str) -> str:
+        """Fix common name casing issues"""
+        if not name:
+            return name
 
+        # Handle names with apostrophes (O'Brien, D'Angelo)
+        if "'" in name:
+            parts = name.split("'")
+            name = "'".join([part.capitalize() for part in parts])
 
-def _fix_name_casing(self, name: str) -> str:
-    """Fix common name casing issues"""
-    if not name:
+        # Handle names with hyphens (Mary-Jane, Jean-Luc)
+        if "-" in name:
+            parts = name.split("-")
+            name = "-".join([part.capitalize() for part in parts])
+
         return name
 
-    # Handle names with apostrophes (O'Brien, D'Angelo)
-    if "'" in name:
-        parts = name.split("'")
-        name = "'".join([part.capitalize() for part in parts])
+    def _assign_agent_region(self, agent_id: str) -> str:
+        """
+        Assign agent region based on agent ID
 
-    # Handle names with hyphens (Mary-Jane, Jean-Luc)
-    if "-" in name:
-        parts = name.split("-")
-        name = "-".join([part.capitalize() for part in parts])
+        Args:
+            agent_id: Agent identifier
 
-    return name
+        Returns:
+            str: Assigned region name
+        """
+        # Simple region assignment based on agent ID
+        agent_num = int(agent_id.replace("AGT", "")) if "AGT" in agent_id else 0
 
-
-def _assign_agent_region(self, agent_id: str) -> str:
-    """
-    Assign agent region based on agent ID
-
-    Args:
-        agent_id: Agent identifier
-
-    Returns:
-        str: Assigned region name
-    """
-    # Simple region assignment based on agent ID
-    agent_num = int(agent_id.replace("AGT", "")) if "AGT" in agent_id else 0
-
-    if agent_num <= 5:
-        return "North"
-    elif agent_num <= 10:
-        return "South"
-    else:
-        return "Central"
-
-
-def _estimate_experience_years(self) -> int:
-    """Estimate agent experience years (random for demo)"""
-    import random
-
-    return random.randint(1, 15)
-
-
-def _generate_date_key(self, date_value: Any) -> int:
-    """
-    Generate date key in YYYYMMDD format
-
-    Args:
-        date_value: Date value (string or datetime)
-
-    Returns:
-        int: Date key in YYYYMMDD format
-    """
-    if not date_value:
-        return 0
-
-    try:
-        if isinstance(date_value, str):
-            dt = datetime.strptime(date_value, "%Y-%m-%d")
-            return int(dt.strftime("%Y%m%d"))
-        elif isinstance(date_value, (datetime, date)):
-            return int(date_value.strftime("%Y%m%d"))
+        if agent_num <= 5:
+            return "North"
+        elif agent_num <= 10:
+            return "South"
         else:
+            return "Central"
+
+    def _estimate_experience_years(self) -> int:
+        """Estimate agent experience years (random for demo)"""
+        import random
+
+        return random.randint(1, 15)
+
+    def _generate_date_key(self, date_value: Any) -> int:
+        """
+        Generate date key in YYYYMMDD format
+
+        Args:
+            date_value: Date value (string or datetime)
+
+        Returns:
+            int: Date key in YYYYMMDD format
+        """
+        if not date_value:
             return 0
-    except (ValueError, AttributeError):
-        return 0
 
+        try:
+            if isinstance(date_value, str):
+                dt = datetime.strptime(date_value, "%Y-%m-%d")
+                return int(dt.strftime("%Y%m%d"))
+            elif isinstance(date_value, (datetime, date)):
+                return int(date_value.strftime("%Y%m%d"))
+            else:
+                return 0
+        except (ValueError, AttributeError):
+            return 0
 
-def transform_all_for_insurance_schema(
-    self, raw_data: Dict[str, List[Dict[str, Any]]]
-) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Transform all data sources for insurance star schema loading
+    def transform_all_for_insurance_schema(
+        self, raw_data: Dict[str, List[Dict[str, Any]]]
+    ) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        Transform all data sources for insurance star schema loading
 
-    Args:
-        raw_data: Dictionary containing raw data from all sources
+        Args:
+            raw_data: Dictionary containing raw data from all sources
 
-    Returns:
-        Dictionary containing transformed data ready for dimension and fact loading
-    """
-    self.logger.info("Starting coordinated transformation for insurance schema")
-    transformed_data = {}
+        Returns:
+            Dictionary containing transformed data ready for dimension and fact loading
+        """
+        self.logger.info("Starting coordinated transformation for insurance schema")
+        transformed_data = {}
 
-    # Transform customer dimension data
-    customers = raw_data.get("customers", [])
-    transformed_data["dim_customer"] = self.prepare_customer_dimension(customers)
+        # Transform customer dimension data
+        customers = raw_data.get("customers", [])
+        transformed_data["dim_customer"] = self.prepare_customer_dimension(customers)
 
-    # Transform policy dimension data
-    policies = raw_data.get("policies", [])
-    transformed_data["dim_policy"] = self.prepare_policy_dimension(policies)
+        # Transform policy dimension data
+        policies = raw_data.get("policies", [])
+        transformed_data["dim_policy"] = self.prepare_policy_dimension(policies)
 
-    # Transform claims data for facts and agent dimension
-    claims = raw_data.get("claims", [])
-    transformed_data["dim_agent"] = self.prepare_agent_dimension(claims)
-    transformed_data["fact_claims"] = self.prepare_claims_facts(claims)
-    transformed_data["date_keys"] = self.prepare_date_dimension_keys(claims)
+        # Transform claims data for facts and agent dimension
+        claims = raw_data.get("claims", [])
+        transformed_data["dim_agent"] = self.prepare_agent_dimension(claims)
+        transformed_data["fact_claims"] = self.prepare_claims_facts(claims)
+        transformed_data["date_keys"] = self.prepare_date_dimension_keys(claims)
 
-    # Log transformation summary
-    self.logger.info("Transformation Summary:")
-    for component, data in transformed_data.items():
-        if component != "date_keys":
-            self.logger.info(f"  - {component}: {len(data)} records")
-        else:
-            self.logger.info(f"  - {component}: {len(data)} unique dates")
+        # Log transformation summary
+        self.logger.info("Transformation Summary:")
+        for component, data in transformed_data.items():
+            if component != "date_keys":
+                self.logger.info(f"  - {component}: {len(data)} records")
+            else:
+                self.logger.info(f"  - {component}: {len(data)} unique dates")
 
-    return transformed_data
+        return transformed_data
 
 
 def transform_for_insurance_schema(

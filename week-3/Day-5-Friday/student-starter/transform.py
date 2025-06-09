@@ -50,6 +50,203 @@ class InsuranceTransformer:
             r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
         )
 
+    def prepare_customer_dimension(
+        self, customers: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Transform and standardize customer data for dimension loading
+
+        Args:
+            customers: List of raw customer records
+
+        Returns:
+            List of transformed customer dimension records
+
+        Business Rules:
+        - Calculate age from birth_date
+        - Classify risk tier based on risk_score and age
+        - Standardize phone numbers (handle missing phones)
+        - Clean and standardize names
+        """
+        self.logger.info(
+            f"Transforming customer dimension with {len(customers)} records"
+        )
+
+        transformed_customers = []
+
+        for customer in customers:
+            try:
+                # Calculate age from birth_date
+                age = self._calculate_customer_age(customer.get("birth_date", ""))
+
+                # Clean and standardize names
+                first_name, last_name, full_name = self._clean_customer_name(
+                    customer.get("first_name", ""), customer.get("last_name", "")
+                )
+
+                # Standardize phone number (handles missing phones)
+                phone = self._standardize_phone(customer.get("phone", ""))
+
+                # Classify risk tier based on score and age
+                risk_score = float(customer.get("risk_score", 0))
+                risk_tier = self._classify_customer_risk(risk_score, age)
+
+                # Create transformed customer record
+                transformed_customer = {
+                    "customer_id": customer["customer_id"],
+                    "first_name": first_name,
+                    "last_name": last_name,
+                    "full_name": full_name,
+                    "email": customer.get("email", "").lower(),
+                    "phone": phone,
+                    "birth_date": customer.get("birth_date", ""),
+                    "age": age,
+                    "address": customer.get("address", ""),
+                    "city": customer.get("city", ""),
+                    "state": customer.get("state", ""),
+                    "risk_score": risk_score,
+                    "risk_tier": risk_tier,
+                    "customer_since": customer.get("customer_since", ""),
+                }
+
+                transformed_customers.append(transformed_customer)
+
+            except Exception as e:
+                self.logger.warning(
+                    f"Error transforming customer {customer.get('customer_id')}: {e}"
+                )
+                continue
+
+        self.logger.info(f"Transformed {len(transformed_customers)} customer records")
+        return transformed_customers
+
+    def prepare_policy_dimension(
+        self, policies: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Transform and enrich policy data for dimension loading
+
+        Args:
+            policies: List of raw policy records
+
+        Returns:
+            List of transformed policy dimension records
+
+        Business Rules:
+        - Calculate premium tier based on annual_premium amount
+        - Validate coverage amounts and deductibles
+        - Standardize policy types and status
+        """
+        self.logger.info(f"Transforming policy dimension with {len(policies)} records")
+
+        transformed_policies = []
+
+        for policy in policies:
+            try:
+                # Determine premium tier based on annual premium
+                annual_premium = float(policy.get("annual_premium", 0))
+                premium_tier = self._determine_premium_tier(annual_premium)
+
+                # Validate and clean policy data
+                coverage_amount = float(policy.get("coverage_amount", 0))
+                deductible = float(policy.get("deductible", 0))
+
+                # Create transformed policy record
+                transformed_policy = {
+                    "policy_id": policy["policy_id"],
+                    "customer_id": policy["customer_id"],
+                    "policy_type": policy.get("policy_type", "").title(),
+                    "coverage_amount": coverage_amount,
+                    "annual_premium": annual_premium,
+                    "premium_tier": premium_tier,
+                    "deductible": deductible,
+                    "effective_date": policy.get("effective_date", ""),
+                    "expiration_date": policy.get("expiration_date", ""),
+                    "status": policy.get("status", "Active"),
+                }
+
+                transformed_policies.append(transformed_policy)
+
+            except Exception as e:
+                self.logger.warning(
+                    f"Error transforming policy {policy.get('policy_id')}: {e}"
+                )
+                continue
+
+        self.logger.info(f"Transformed {len(transformed_policies)} policy records")
+        return transformed_policies
+
+    def prepare_agent_dimension(
+        self, claims: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
+        """
+        Extract and prepare agent dimension data from claims
+
+        Args:
+            claims: List of claims records containing agent info
+
+        Returns:
+            List of unique agent dimension records
+        """
+        self.logger.info("Extracting agent dimension from claims data")
+
+        # Extract unique agents from claims
+        agents_dict = {}
+
+        for claim in claims:
+            agent_id = claim.get("agent_id")
+            if agent_id and agent_id not in agents_dict:
+                # Create basic agent record
+                # Parse agent name from ID if format allows
+                agent_parts = agent_id.replace("AGT", "Agent ").split()
+
+                agent = {
+                    "agent_id": agent_id,
+                    "first_name": agent_parts[0] if agent_parts else "Agent",
+                    "last_name": agent_parts[1] if len(agent_parts) > 1 else agent_id,
+                    "full_name": f"Agent {agent_id}",
+                    "region": self._assign_agent_region(agent_id),
+                    "experience_years": self._estimate_experience_years(),
+                    "hire_date": None,  # Could be populated from HR system
+                }
+
+                agents_dict[agent_id] = agent
+
+        agents = list(agents_dict.values())
+        self.logger.info(f"Extracted {len(agents)} unique agents from claims")
+        return agents
+
+    def prepare_date_dimension_keys(self, claims: List[Dict[str, Any]]) -> List[int]:
+        """
+        Extract and format date keys from claims data
+
+        Args:
+            claims: List of claims records
+
+        Returns:
+            List of unique date keys in YYYYMMDD format
+        """
+        date_keys = set()
+
+        for claim in claims:
+            # Process filed_date
+            filed_date = claim.get("filed_date")
+            if filed_date:
+                date_key = self._generate_date_key(filed_date)
+                if date_key > 0:
+                    date_keys.add(date_key)
+
+            # Process closed_date if available
+            closed_date = claim.get("closed_date")
+            if closed_date:
+                date_key = self._generate_date_key(closed_date)
+                if date_key > 0:
+                    date_keys.add(date_key)
+
+        sorted_keys = sorted(list(date_keys))
+        self.logger.info(f"Generated {len(sorted_keys)} unique date keys")
+        return sorted_keys
+
     # =====================================================================
     # STUDENT TODO METHODS - COMPLETE THESE 5 METHODS
     # =====================================================================
@@ -372,240 +569,137 @@ class InsuranceTransformer:
     # HELPER METHODS - ALREADY IMPLEMENTED
     # =====================================================================
 
+    def _clean_customer_name(
+        self, first_name: str, last_name: str
+    ) -> Tuple[str, str, str]:
+        """
+        Clean and standardize customer names
 
-#     def _clean_customer_name(
-#         self, first_name: str, last_name: str
-#     ) -> Tuple[str, str, str]:
-#         """Clean and standardize customer names"""
-#         # Clean and apply basic title case
-#         first_clean = first_name.strip().title() if first_name else ""
-#         last_clean = last_name.strip().title() if last_name else ""
+        Args:
+            first_name: Raw first name
+            last_name: Raw last name
 
-#         # Handle special name cases (apostrophes, hyphens, etc.)
-#         first_clean = self._fix_name_casing(first_clean)
-#         last_clean = self._fix_name_casing(last_clean)
+        Returns:
+            Tuple of (cleaned_first_name, cleaned_last_name, full_name)
+        """
+        # Clean and apply basic title case
+        first_clean = first_name.strip().title() if first_name else ""
+        last_clean = last_name.strip().title() if last_name else ""
 
-#         # Create full name
-#         full_name = f"{first_clean} {last_clean}".strip()
+        # Handle special name cases (apostrophes, hyphens, etc.)
+        first_clean = self._fix_name_casing(first_clean)
+        last_clean = self._fix_name_casing(last_clean)
 
-#         return first_clean, last_clean, full_name
+        # Create full name
+        full_name = f"{first_clean} {last_clean}".strip()
 
-#     def _fix_name_casing(self, name: str) -> str:
-#         """Fix common name casing issues"""
-#         if not name:
-#             return name
+        return first_clean, last_clean, full_name
 
-#         # Handle names with apostrophes (O'Brien, D'Angelo)
-#         if "'" in name:
-#             parts = name.split("'")
-#             name = "'".join([part.capitalize() for part in parts])
+    def _fix_name_casing(self, name: str) -> str:
+        """Fix common name casing issues"""
+        if not name:
+            return name
 
-#         # Handle names with hyphens (Mary-Jane, Jean-Luc)
-#         if "-" in name:
-#             parts = name.split("-")
-#             name = "-".join([part.capitalize() for part in parts])
+        # Handle names with apostrophes (O'Brien, D'Angelo)
+        if "'" in name:
+            parts = name.split("'")
+            name = "'".join([part.capitalize() for part in parts])
 
-#         return name
+        # Handle names with hyphens (Mary-Jane, Jean-Luc)
+        if "-" in name:
+            parts = name.split("-")
+            name = "-".join([part.capitalize() for part in parts])
 
-#     def _generate_date_key(self, date_value: Any) -> int:
-#         """Generate date key in YYYYMMDD format"""
-#         if not date_value:
-#             return 0
-
-#         try:
-#             if isinstance(date_value, str):
-#                 dt = datetime.strptime(date_value, "%Y-%m-%d")
-#                 return int(dt.strftime("%Y%m%d"))
-#             elif isinstance(date_value, (datetime, date)):
-#                 return int(date_value.strftime("%Y%m%d"))
-#             else:
-#                 return 0
-#         except (ValueError, AttributeError):
-#             return 0
-
-
-# if __name__ == "__main__":
-#     # Test your TODO implementations
-#     from config import load_config
-
-#     try:
-#         print("Testing Insurance Transform TODO Methods")
-#         print("=" * 50)
-
-#         config = load_config()
-#         transformer = InsuranceTransformer(config)
-
-#         # Test TODO #1: Age calculation
-#         print("Testing TODO #1: _calculate_customer_age")
-#         test_ages = [
-#             ("1985-03-15", "Should be around 39"),
-#             ("1990-12-25", "Should be around 33"),
-#             ("", "Should be 0"),
-#             ("invalid", "Should be 0"),
-#         ]
-
-#         for birth_date, expected in test_ages:
-#             age = transformer._calculate_customer_age(birth_date)
-#             print(f"  {birth_date} → {age} ({expected})")
-
-#         # Test TODO #2: Risk classification
-#         print("\nTesting TODO #2: _classify_customer_risk")
-#         test_risks = [
-#             (1.5, 30, "Should be Low"),
-#             (3.2, 22, "Should be High"),
-#             (2.5, 35, "Should be Medium"),
-#             (1.8, 24, "Should be High"),
-#         ]
-
-#         for risk_score, age, expected in test_risks:
-#             risk_tier = transformer._classify_customer_risk(risk_score, age)
-#             print(f"  risk={risk_score}, age={age} → {risk_tier} ({expected})")
-
-#         print("\n✅ TODO method testing completed!")
-#         print("Complete all 5 TODO methods to make the ETL pipeline work!")
-
-#     except Exception as e:
-#         print(f"❌ Test failed: {e}")
-#         print("Complete the TODO methods to fix this error!")
-
-
-# =====================================================================
-
-
-def _clean_customer_name(self, first_name: str, last_name: str) -> Tuple[str, str, str]:
-    """
-    Clean and standardize customer names
-
-    Args:
-        first_name: Raw first name
-        last_name: Raw last name
-
-    Returns:
-        Tuple of (cleaned_first_name, cleaned_last_name, full_name)
-    """
-    # Clean and apply basic title case
-    first_clean = first_name.strip().title() if first_name else ""
-    last_clean = last_name.strip().title() if last_name else ""
-
-    # Handle special name cases (apostrophes, hyphens, etc.)
-    first_clean = self._fix_name_casing(first_clean)
-    last_clean = self._fix_name_casing(last_clean)
-
-    # Create full name
-    full_name = f"{first_clean} {last_clean}".strip()
-
-    return first_clean, last_clean, full_name
-
-
-def _fix_name_casing(self, name: str) -> str:
-    """Fix common name casing issues"""
-    if not name:
         return name
 
-    # Handle names with apostrophes (O'Brien, D'Angelo)
-    if "'" in name:
-        parts = name.split("'")
-        name = "'".join([part.capitalize() for part in parts])
+    def _assign_agent_region(self, agent_id: str) -> str:
+        """
+        Assign agent region based on agent ID
 
-    # Handle names with hyphens (Mary-Jane, Jean-Luc)
-    if "-" in name:
-        parts = name.split("-")
-        name = "-".join([part.capitalize() for part in parts])
+        Args:
+            agent_id: Agent identifier
 
-    return name
+        Returns:
+            str: Assigned region name
+        """
+        # Simple region assignment based on agent ID
+        agent_num = int(agent_id.replace("AGT", "")) if "AGT" in agent_id else 0
 
-
-def _assign_agent_region(self, agent_id: str) -> str:
-    """
-    Assign agent region based on agent ID
-
-    Args:
-        agent_id: Agent identifier
-
-    Returns:
-        str: Assigned region name
-    """
-    # Simple region assignment based on agent ID
-    agent_num = int(agent_id.replace("AGT", "")) if "AGT" in agent_id else 0
-
-    if agent_num <= 5:
-        return "North"
-    elif agent_num <= 10:
-        return "South"
-    else:
-        return "Central"
-
-
-def _estimate_experience_years(self) -> int:
-    """Estimate agent experience years (random for demo)"""
-    import random
-
-    return random.randint(1, 15)
-
-
-def _generate_date_key(self, date_value: Any) -> int:
-    """
-    Generate date key in YYYYMMDD format
-
-    Args:
-        date_value: Date value (string or datetime)
-
-    Returns:
-        int: Date key in YYYYMMDD format
-    """
-    if not date_value:
-        return 0
-
-    try:
-        if isinstance(date_value, str):
-            dt = datetime.strptime(date_value, "%Y-%m-%d")
-            return int(dt.strftime("%Y%m%d"))
-        elif isinstance(date_value, (datetime, date)):
-            return int(date_value.strftime("%Y%m%d"))
+        if agent_num <= 5:
+            return "North"
+        elif agent_num <= 10:
+            return "South"
         else:
-            return 0
-    except (ValueError, AttributeError):
-        return 0
+            return "Central"
 
+    def _estimate_experience_years(self) -> int:
+        """Estimate agent experience years (random for demo)"""
+        import random
 
-def transform_all_for_insurance_schema(
-    self, raw_data: Dict[str, List[Dict[str, Any]]]
-) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Transform all data sources for insurance star schema loading
+        return random.randint(1, 15)
 
-    Args:
-        raw_data: Dictionary containing raw data from all sources
+        def _generate_date_key(self, date_value: Any) -> int:
+            """
+            Generate date key in YYYYMMDD format
 
-    Returns:
-        Dictionary containing transformed data ready for dimension and fact loading
-    """
-    self.logger.info("Starting coordinated transformation for insurance schema")
-    transformed_data = {}
+            Args:
+                date_value: Date value (string or datetime)
 
-    # Transform customer dimension data
-    customers = raw_data.get("customers", [])
-    transformed_data["dim_customer"] = self.prepare_customer_dimension(customers)
+            Returns:
+                int: Date key in YYYYMMDD format
+            """
+            if not date_value:
+                return 0
 
-    # Transform policy dimension data
-    policies = raw_data.get("policies", [])
-    transformed_data["dim_policy"] = self.prepare_policy_dimension(policies)
+            try:
+                if isinstance(date_value, str):
+                    dt = datetime.strptime(date_value, "%Y-%m-%d")
+                    return int(dt.strftime("%Y%m%d"))
+                elif isinstance(date_value, (datetime, date)):
+                    return int(date_value.strftime("%Y%m%d"))
+                else:
+                    return 0
+            except (ValueError, AttributeError):
+                return 0
 
-    # Transform claims data for facts and agent dimension
-    claims = raw_data.get("claims", [])
-    transformed_data["dim_agent"] = self.prepare_agent_dimension(claims)
-    transformed_data["fact_claims"] = self.prepare_claims_facts(claims)
-    transformed_data["date_keys"] = self.prepare_date_dimension_keys(claims)
+    def transform_all_for_insurance_schema(
+        self, raw_data: Dict[str, List[Dict[str, Any]]]
+    ) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        Transform all data sources for insurance star schema loading
 
-    # Log transformation summary
-    self.logger.info("Transformation Summary:")
-    for component, data in transformed_data.items():
-        if component != "date_keys":
-            self.logger.info(f"  - {component}: {len(data)} records")
-        else:
-            self.logger.info(f"  - {component}: {len(data)} unique dates")
+        Args:
+            raw_data: Dictionary containing raw data from all sources
 
-    return transformed_data
+        Returns:
+            Dictionary containing transformed data ready for dimension and fact loading
+        """
+        self.logger.info("Starting coordinated transformation for insurance schema")
+        transformed_data = {}
+
+        # Transform customer dimension data
+        customers = raw_data.get("customers", [])
+        transformed_data["dim_customer"] = self.prepare_customer_dimension(customers)
+
+        # Transform policy dimension data
+        policies = raw_data.get("policies", [])
+        transformed_data["dim_policy"] = self.prepare_policy_dimension(policies)
+
+        # Transform claims data for facts and agent dimension
+        claims = raw_data.get("claims", [])
+        transformed_data["dim_agent"] = self.prepare_agent_dimension(claims)
+        transformed_data["fact_claims"] = self.prepare_claims_facts(claims)
+        transformed_data["date_keys"] = self.prepare_date_dimension_keys(claims)
+
+        # Log transformation summary
+        self.logger.info("Transformation Summary:")
+        for component, data in transformed_data.items():
+            if component != "date_keys":
+                self.logger.info(f"  - {component}: {len(data)} records")
+            else:
+                self.logger.info(f"  - {component}: {len(data)} unique dates")
+
+        return transformed_data
 
 
 def transform_for_insurance_schema(
