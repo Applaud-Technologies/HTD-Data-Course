@@ -1,0 +1,28 @@
+# Insurance ETL Assessment - Python Dependencies
+
+```markdown
+# Install with: pip install -r requirements.txt
+
+# Database connectivity
+pyodbc>=4.0.35
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Standard library modules (included with Python)
+# - datetime
+# - logging  
+# - csv
+# - json
+# - os
+# - typing
+
+# Optional: For enhanced development experience
+# pandas>=1.5.0        # For advanced data manipulation (not required for core assessment)
+# sqlalchemy>=1.4.0    # For ORM-based database operations (alternative to pyodbc)
+
+# Development tools (optional)
+# pytest>=7.0.0        # For unit testing framework
+# black>=22.0.0        # For code formatting
+# flake8>=5.0.0        # For code linting
+```

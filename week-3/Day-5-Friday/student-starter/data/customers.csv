@@ -1,0 +1,76 @@
+customer_id,first_name,last_name,email,phone,birth_date,address,city,state,risk_score,customer_since
+CUST001,susan,adams,susan.adams@gmail.com,487.249.6971,1981-08-09,1828 Park Ave,Indianapolis,IN,1.2,2015-04-13
+CUST002,nancy,anderson,nancy.anderson@hotmail.com,,2003-10-14,8054 Washington St,San Antonio,TX,1.3,2016-05-12
+CUST003,sandra,SANCHEZ,sandra.sanchez@comcast.net,1-931-988-6588,1966-08-12,8324 Oak Ave,Jacksonville,FL,1.4,2017-08-15
+CUST004,richard,garcia,richard.garcia@verizon.net,8757768255,1982-05-15,254 Third St,San Antonio,TX,3.4,2022-01-11
+CUST005,Mary,white,mary.white@cox.net,883-573-6581,1970-06-14,6897 Cedar Ave,Philadelphia,PA,3.5,2017-12-13
+CUST006,karen,mitchell,karen.mitchell@verizon.net,971-359-8260,1960-05-28,564 Second St,Los Angeles,CA,3.9,2022-11-12
+CUST007,sandra,THOMAS,sandra.thomas@yahoo.com,8077642353,2002-11-19,4113 Maple Dr,Mesa,AZ,1.4,2024-05-10
+CUST008,carol,KING,carol.king@outlook.com,774-652-1896,2003-04-03,7417 Elm St,Philadelphia,PA,3.0,2024-01-11
+CUST009,susan,MARTIN,susan.martin@charter.net,1-848-815-6775,1999-05-08,1429 Davis St,Denver,CO,3.3,2023-09-13
+CUST010,edward,carter,edward.carter@firm.com,836-251-6099,1968-01-25,2062 Smith St,Houston,TX,2.1,2019-08-15
+CUST011,Mary,turner,mary.turner@comcast.net,(392) 488-7239,1987-12-13,4150 Washington St,Jacksonville,FL,3.3,2018-12-13
+CUST012,william,lopez,william.lopez@company.com,(627) 801-8612,1975-06-23,1424 Adams Ave,Fort Worth,TX,1.3,2017-10-14
+CUST013,Linda,GARCIA,linda.garcia@firm.com,1-497-585-4510,1997-02-16,2485 Miller Rd,Las Vegas,NV,1.9,2019-10-14
+CUST014,james,sanchez,james.sanchez@charter.net,,2003-05-20,1890 Oak Ave,San Francisco,CA,1.3,2023-02-10
+CUST015,lisa,king,lisa.king@comcast.net,6153438514,1985-02-27,8562 Adams Ave,Tucson,AZ,3.8,2022-10-13
+CUST016,Daniel,wilson,daniel.wilson@yahoo.com,,1991-03-10,8700 Smith St,Miami,FL,3.3,2019-11-13
+CUST017,Helen,WALKER,helen.walker@cox.net,(986) 434-9746,1981-08-24,2921 Wilson Dr,Oklahoma City,OK,3.2,2021-08-14
+CUST018,nancy,martinez,nancy.martinez@corp.org,1-315-687-9564,1960-01-05,3843 Broadway,Houston,TX,1.0,2018-09-14
+CUST019,nancy,HARRIS,nancy.harris@enterprise.net,1-276-264-4026,1978-02-12,6863 Miller Rd,New York,NY,3.9,2020-10-13
+CUST020,robert,walker,robert.walker@firm.com,,1991-09-15,2908 Broadway,Chicago,IL,2.9,2017-08-15
+CUST021,dorothy,ramirez,dorothy.ramirez@icloud.com,5074362845,1980-11-09,5978 Main St,San Francisco,CA,2.8,2020-01-12
+CUST022,joseph,EVANS,joseph.evans@aol.com,3175059955,1998-08-01,5180 Cedar Ave,Philadelphia,PA,1.5,2020-01-12
+CUST023,richard,mitchell,richard.mitchell@corp.org,,1989-09-09,5561 Madison St,Indianapolis,IN,3.0,2021-08-14
+CUST024,barbara,baker,barbara.baker@charter.net,975-571-2837,1968-06-02,1351 Main St,Austin,TX,3.3,2019-11-13
+CUST025,thomas,GONZALEZ,thomas.gonzalez@enterprise.net,755-252-1140,1986-03-06,4278 Oak Ave,Portland,OR,3.9,2022-04-11
+CUST026,joshua,clark,joshua.clark@verizon.net,1-753-998-6496,1986-12-23,8807 Jefferson Rd,Milwaukee,WI,2.0,2021-11-12
+CUST027,karen,green,karen.green@outlook.com,252-266-6243,1966-06-10,5665 Adams Ave,New York,NY,2.2,2017-03-13
+CUST028,anthony,TURNER,anthony.turner@enterprise.net,9723377145,1964-03-22,3398 Cedar Ave,Houston,TX,3.2,2021-12-12
+CUST029,sarah,white,sarah.white@company.com,806-570-2542,1983-02-12,9764 Franklin Dr,Denver,CO,3.4,2016-09-14
+CUST030,steven,TAYLOR,steven.taylor@yahoo.com,4624631832,1973-04-20,604 Wilson Dr,Austin,TX,3.3,2015-08-16
+CUST031,ruth,lewis,ruth.lewis@cox.net,3717285207,1985-03-01,5656 Franklin Dr,Atlanta,GA,2.5,2018-10-14
+CUST032,nancy,hill,nancy.hill@verizon.net,1-921-709-6997,2002-10-28,6001 Oak Ave,San Francisco,CA,1.8,2014-07-17
+CUST033,michelle,parker,michelle.parker@icloud.com,438-745-9780,1972-09-07,4091 First St,Charlotte,NC,3.2,2018-02-11
+CUST034,barbara,JOHNSON,barbara.johnson@hotmail.com,341-300-9856,1971-12-09,4909 Wilson Ave,Columbus,OH,3.2,2019-06-11
+CUST035,mary,DAVIS,mary.davis@icloud.com,(758) 451-9811,1978-09-06,7084 Broadway,Columbus,OH,3.3,2016-08-15
+CUST036,brian,jones,brian.jones@cox.net,(889) 543-8648,1960-02-01,7842 Pine Rd,Nashville,TN,1.0,2016-11-13
+CUST037,dorothy,young,dorothy.young@comcast.net,898-250-1843,1984-08-16,5045 Franklin Dr,San Diego,CA,2.4,2014-07-17
+CUST038,sharon,white,sharon.white@cox.net,(567) 912-7801,2002-10-16,6997 Main St,Sacramento,CA,1.1,2020-04-11
+CUST039,sarah,taylor,sarah.taylor@hotmail.com,4035697234,1978-09-23,7918 Jefferson Rd,San Antonio,TX,1.7,2017-10-14
+CUST040,donna,CAMPBELL,donna.campbell@aol.com,906-600-4423,1962-01-21,2225 Park Ave,Charlotte,NC,2.8,2015-05-13
+CUST041,Laura,hall,laura.hall@verizon.net,785.459.7253,2003-10-08,2939 Lincoln Ave,Jacksonville,FL,3.1,2018-03-13
+CUST042,elizabeth,perez,elizabeth.perez@yahoo.com,940-814-4349,1986-06-17,2746 Broadway,Indianapolis,IN,3.8,2021-09-13
+CUST043,paul,LEE,paul.lee@verizon.net,708-620-5045,1969-02-10,3941 Wilson Dr,Chicago,IL,3.3,2014-10-15
+CUST044,daniel,thompson,daniel.thompson@yahoo.com,607-789-2456,1978-01-08,1096 Johnson Rd,Dallas,TX,3.5,2014-08-16
+CUST045,sarah,ramirez,sarah.ramirez@aol.com,1-395-383-2824,1960-11-17,3092 Wilson Ave,Houston,TX,3.0,2019-06-11
+CUST046,deborah,flores,deborah.flores@verizon.net,9942388053,1961-09-14,7539 Wilson Dr,Memphis,TN,1.6,2016-02-12
+CUST047,donna,williams,donna.williams@business.org,4819998304,1995-06-07,4318 Miller Rd,Oklahoma City,OK,2.5,2022-02-10
+CUST048,sarah,mitchell,sarah.mitchell@gmail.com,(812) 775-3880,1962-06-28,473 Oak Ave,Milwaukee,WI,2.9,2023-03-12
+CUST049,deborah,BROWN,deborah.brown@gmail.com,,1990-11-28,9094 Brown Ave,Portland,OR,2.5,2018-03-13
+CUST050,joseph,johnson,joseph.johnson@firm.com,799-422-7777,1962-02-23,8877 Jackson St,Oklahoma City,OK,3.0,2017-08-15
+CUST051,nancy,gonzalez,nancy.gonzalez@cox.net,639.991.2108,1993-11-12,8357 Johnson Rd,El Paso,TX,1.7,2016-12-13
+CUST052,barbara,rivera,barbara.rivera@gmail.com,463.654.8552,1997-03-27,1062 First St,New York,NY,2.8,2023-05-11
+CUST053,george,carter,george.carter@charter.net,278-385-9010,1984-02-25,7240 Elm St,Boston,MA,1.7,2018-04-12
+CUST054,helen,clark,helen.clark@charter.net,874-492-9675,1968-02-15,8601 Oak Ave,Fresno,CA,2.2,2023-06-10
+CUST055,ronald,WALKER,ronald.walker@aol.com,849-986-4932,2000-07-02,6006 Madison St,Nashville,TN,3.8,2016-12-13
+CUST056,robert,hernandez,robert.hernandez@business.org,1-257-291-3790,1993-10-07,6772 Main St,Dallas,TX,1.0,2020-01-12
+CUST057,ruth,campbell,ruth.campbell@hotmail.com,1-439-281-6950,1976-07-26,7685 Maple Dr,San Jose,CA,3.1,2018-08-15
+CUST058,george,evans,george.evans@comcast.net,1-516-886-4621,1966-08-21,1560 Smith St,Chicago,IL,2.5,2021-02-10
+CUST059,helen,MARTIN,helen.martin@yahoo.com,1-569-886-1205,1978-10-08,3383 Madison St,New York,NY,3.8,2020-06-10
+CUST060,Edward,BROWN,edward.brown@enterprise.net,(347) 776-6827,2001-11-04,5130 Johnson Rd,El Paso,TX,2.5,2019-09-14
+CUST061,sandra,thomas,sandra.thomas@cox.net,(240) 563-5702,1979-02-25,8762 Maple Dr,Albuquerque,NM,3.5,2023-08-14
+CUST062,lisa,phillips,lisa.phillips@hotmail.com,9283537564,1988-03-07,1236 Jefferson Rd,New York,NY,1.2,2023-02-10
+CUST063,jennifer,SMITH,jennifer.smith@corp.org,1-216-335-4320,1998-04-09,7507 Wilson Ave,Miami,FL,2.3,2016-11-13
+CUST064,robert,young,robert.young@firm.com,2342085790,1980-10-23,6686 Wilson Ave,Denver,CO,2.2,2024-05-10
+CUST065,sarah,FLORES,sarah.flores@hotmail.com,516.640.9089,1974-11-24,1007 Jefferson Rd,Houston,TX,1.4,2024-06-09
+CUST066,karen,miller,karen.miller@comcast.net,1-540-909-9347,1973-12-17,7526 Pine Rd,Indianapolis,IN,3.2,2018-06-11
+CUST067,edward,turner,edward.turner@enterprise.net,,1981-08-04,5475 Cedar Ave,Indianapolis,IN,1.4,2020-06-10
+CUST068,joshua,brown,joshua.brown@corp.org,1-531-534-6896,1991-02-20,4100 Wilson Dr,Portland,OR,2.4,2019-07-16
+CUST069,Dorothy,EVANS,dorothy.evans@gmail.com,,1984-04-07,2130 Wilson Ave,New York,NY,3.0,2020-05-11
+CUST070,Deborah,smith,deborah.smith@comcast.net,,1984-06-04,803 First St,El Paso,TX,2.9,2021-01-11
+CUST071,Jessica,MOORE,jessica.moore@company.com,(491) 263-5977,2001-02-10,6820 Wilson Ave,Columbus,OH,3.0,2015-09-15
+CUST072,timothy,walker,timothy.walker@gmail.com,732-582-1054,1966-08-13,3478 Smith St,Columbus,OH,1.2,2018-07-16
+CUST073,James,williams,james.williams@yahoo.com,,1962-10-06,522 Franklin Dr,Atlanta,GA,1.3,2015-03-14
+CUST074,karen,PHILLIPS,karen.phillips@enterprise.net,(626) 368-6782,1963-10-22,5434 Oak Ave,Kansas City,MO,3.9,2021-02-10
+CUST075,laura,anderson,laura.anderson@charter.net,212-306-5549,1992-05-10,5986 Madison St,Baltimore,MD,1.7,2019-01-12
