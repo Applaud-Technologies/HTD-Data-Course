@@ -999,3 +999,4 @@ customer_id,customer_uuid,first_name,last_name,email,phone,registration_date,cus
 2009,336ec2e0-9440-4d95-a944-70ed478de72b,Tanya,Thompson,ghall@example.com,521-431-5030,2024-11-08,Inactive
 2010,734f3660-79d0-4d1f-ba1f-f13a90934f69,Paula,Chase,averyashlee@example.org,574-540-2797,2023-02-17,Active
 2011,b38bc50d-7232-473a-957b-ed9d98da0974,Michelle,Lopez,xdunn@example.org,374-780-4135,2025-01-02,Active
+99999,b38bc50d-2232-473a-957b-ed9d98da0974,Michelle,Lopez,xdunn@example.org,374-780-4135,2025-01-02,Active
