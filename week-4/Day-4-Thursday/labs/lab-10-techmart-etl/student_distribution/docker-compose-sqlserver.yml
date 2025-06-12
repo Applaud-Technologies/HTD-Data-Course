@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: techmart-sqlserver
+    restart: unless-stopped
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: TechMart123!
+      MSSQL_PID: Express
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - techmart-network
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P TechMart123! -Q 'SELECT 1' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  sqlserver_data:
+    driver: local
+
+networks:
+  techmart-network:
+    driver: bridge

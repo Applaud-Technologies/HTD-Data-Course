@@ -1,0 +1,107 @@
+# TechMart ETL Pipeline - Git Ignore Rules
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/*.log
+*.log
+
+# Generated Data (keep structure, ignore content)
+generated_data/*.csv
+generated_data/*.json
+generated_data/etl_metadata/*
+!generated_data/.gitkeep
+!generated_data/etl_metadata/.gitkeep
+
+# Test Data (keep small samples, ignore large datasets)
+test_data/*.db
+test_data/large_*
+
+# Temporary Files
+temp/*
+!temp/.gitkeep
+!temp/batch_processing/.gitkeep
+
+# Master Datasets (instructor only)
+master_datasets/csv_data/*.csv
+master_datasets/json_data/*.json
+master_datasets/mongodb_export/*
+master_datasets/sqlserver_backup/*
+!master_datasets/**/.gitkeep
+
+# Monitoring Output
+monitoring/power_bi_metrics/*
+monitoring/operational_metrics/*
+monitoring/dashboard_configs/*
+!monitoring/**/.gitkeep
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup

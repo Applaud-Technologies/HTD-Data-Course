@@ -1,0 +1,16 @@
+category_id,category_name,category_description,priority_level
+16,Order Issues,"Problems with order processing, shipping, or delivery",High
+17,Product Defects,Defective or damaged products,High
+18,Account Access,"Login issues, password resets, account lockouts",Medium
+19,Billing Questions,"Questions about charges, refunds, or payment methods",Medium
+20,Technical Support,"Website issues, app problems, technical difficulties",Medium
+21,Returns & Exchanges,"Product returns, exchanges, and refund requests",Medium
+22,Product Information,Questions about product specifications or availability,Low
+23,Shipping Inquiries,"Tracking information, delivery status updates",Low
+24,General Inquiries,General questions about services or policies,Low
+25,Complaint,Customer complaints about service or products,High
+26,Compliment,Positive feedback and compliments,Low
+27,Feature Request,Requests for new features or improvements,Low
+28,Security Concern,Security-related issues or concerns,High
+29,Partnership Inquiry,Business partnership or vendor inquiries,Medium
+30,Data Privacy,Questions about data usage and privacy policies,Medium
