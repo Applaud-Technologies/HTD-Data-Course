@@ -68,9 +68,9 @@ docker-compose -f docker-compose-sqlserver.yml up -d
 
 3. **Create the BookHavenDW Database**
 ```bash
-docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -Q "CREATE DATABASE BookHavenDW;"
+python data_generators/create_sqlserver_database.py
 ```
-> **Note:** You must create the database before loading data. If the database already exists, this command will error but is safe to re-run.
+> **Note:** This script will create the database if it does not exist, or do nothing if it already exists. It works on all platforms and does not require sqlcmd or Docker exec.
 
 4. **Generate Sample Data**
 ```bash
@@ -321,4 +321,8 @@ After each ETL/test run, output a JSON or CSV file with the following structure:
 
 > **Troubleshooting: Import Errors in Subdirectories**
 >
-> If you see `ModuleNotFoundError: No module named 'config'` or similar errors when running scripts in subdirectories, use the `-m` flag from the project root (e.g., `python -m data_generators.load_csvs_to_sqlserver`). This ensures Python resolves imports correctly. 
+> If you see `ModuleNotFoundError: No module named 'config'` or similar errors when running scripts in subdirectories, use the `-m` flag from the project root (e.g., `python -m data_generators.load_csvs_to_sqlserver`). This ensures Python resolves imports correctly.
+
+> **Troubleshooting: Database Creation**
+>
+> If you see login errors or 'Cannot open database' errors, make sure you have run `python data_generators/create_sqlserver_database.py` after the SQL Server container is up. Wait 30–60 seconds after starting the container before running the script to allow SQL Server to finish initializing. 

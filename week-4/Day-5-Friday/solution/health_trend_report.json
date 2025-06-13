@@ -1,44 +1,44 @@
 {
-  "run_timestamp": "2025-06-13T15:49:14.840717Z",
+  "run_timestamp": "2025-06-13T16:16:24.331366Z",
   "steps": [
     {
       "step": "extract_all_sources",
-      "duration_seconds": 0.22171,
+      "duration_seconds": 1.041711,
       "records_processed": 3045,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "cleaning",
-      "duration_seconds": 0.012005,
+      "duration_seconds": 0.008998,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "validation",
-      "duration_seconds": 0.127596,
+      "duration_seconds": 0.071655,
       "records_processed": 1050,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "transformation",
-      "duration_seconds": 0.006499,
+      "duration_seconds": 0.0035,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "load_sqlserver",
-      "duration_seconds": 0.653193,
+      "duration_seconds": 0.935664,
       "records_processed": 2730,
       "quality_score": 1.0,
       "sla_met": true
     }
   ],
   "overall": {
-    "total_duration_seconds": 1.0210029999999999,
+    "total_duration_seconds": 2.061528,
     "all_sla_met": true,
     "average_quality_score": 1.0
   },
@@ -49,9 +49,9 @@
       "gap": 1.0
     },
     "email": {
-      "actual": 0.9485714285714286,
+      "actual": 0.9657142857142857,
       "required": 0.95,
-      "gap": 0.0014285714285713347
+      "gap": 0.0
     },
     "first_name": {
       "actual": 0.0,
