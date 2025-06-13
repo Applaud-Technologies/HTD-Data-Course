@@ -7,7 +7,34 @@ import os
 import logging
 from etl import extractors, cleaning, data_quality, transformers, loaders
 from config import DATABASE_CONFIG
-import pymongo
+from datetime import datetime
+
+def check_sla(duration, sla_seconds):
+    return duration <= sla_seconds
+
+def field_quality_gap_report(df, field_thresholds):
+    report = {}
+    for field, required in field_thresholds.items():
+        actual = df[field].notna().mean() if field in df.columns else 0.0
+        gap = max(0.0, required - actual)
+        report[field] = {"actual": actual, "required": required, "gap": gap}
+    return report
+
+def write_health_trend_report(steps, field_quality_gaps, errors, output_path="health_trend_report.json"):
+    report = {
+        "run_timestamp": datetime.utcnow().isoformat() + "Z",
+        "steps": steps,
+        "overall": {
+            "total_duration_seconds": sum(s["duration_seconds"] for s in steps),
+            "all_sla_met": all(s.get("sla_met", True) for s in steps),
+            "average_quality_score": sum(s.get("quality_score", 1.0) for s in steps) / len(steps)
+        },
+        "field_quality_gaps": field_quality_gaps,
+        "errors": errors
+    }
+    with open(output_path, "w") as f:
+        json.dump(report, f, indent=2)
+    print(f"Health/trend report written to {output_path}")
 
 def main():
     # Setup logging
@@ -17,68 +44,132 @@ def main():
     # Paths
     csv_path = os.path.join('data', 'csv', 'book_catalog.csv')
     json_path = os.path.join('data', 'json', 'author_profiles.json')
-    customers_json_path = os.path.join('data', 'mongodb', 'customers.json')
     orders_path = os.path.join('data', 'sqlserver', 'orders.csv')
     inventory_path = os.path.join('data', 'sqlserver', 'inventory.csv')
     customers_csv_path = os.path.join('data', 'sqlserver', 'customers.csv')
     sql_conn_str = f"mssql+pyodbc://{DATABASE_CONFIG['sql_server']['username']}:{DATABASE_CONFIG['sql_server']['password']}@localhost:1433/{DATABASE_CONFIG['sql_server']['database']}?driver=ODBC+Driver+17+for+SQL+Server"
 
-    logger.info('--- Extracting Data ---')
-    books = extractors.extract_csv_book_catalog(csv_path)
-    authors = extractors.extract_json_author_profiles(json_path)
-    with open(customers_json_path, 'r') as f:
-        customers = pd.DataFrame(json.load(f))
-    orders = pd.read_csv(orders_path)
-    inventory = pd.read_csv(inventory_path)
-    customers_sql = pd.read_csv(customers_csv_path)
-
-    logger.info('--- Cleaning Data ---')
-    books = cleaning.clean_text(books, 'title')
-    books = cleaning.clean_dates(books, 'pub_date')
-    books = cleaning.clean_emails(books, 'author') if 'author' in books.columns else books
-    authors = cleaning.clean_emails(authors, 'email')
-    customers = cleaning.clean_emails(customers, 'email')
-    customers_sql = cleaning.clean_emails(customers_sql, 'email')
-
-    logger.info('--- Validating Data ---')
-    book_rules = {
-        'isbn': {'type': 'string', 'pattern': r'^97[89]\d{10}$', 'required': True},
-        'title': {'type': 'string', 'min_length': 1, 'required': True},
-        'genre': {'type': 'string', 'allowed': ['Fiction', 'Non-Fiction', 'Sci-Fi', 'Fantasy', 'Mystery', 'Romance']},
-        'pub_date': {'type': 'string', 'pattern': r'^\d{4}-\d{2}-\d{2}$'},
-        'recommended': {'type': 'string', 'allowed': ['Yes', 'No', '']}
+    steps = []
+    errors = []
+    SLA_SECONDS = 60
+    # --- Extracting Data ---
+    t0 = datetime.now()
+    try:
+        books = extractors.extract_csv_book_catalog(csv_path)
+        authors = extractors.extract_json_author_profiles(json_path)
+        customers = extractors.extract_mongodb_customers(
+            DATABASE_CONFIG['mongodb']['connection_string'],
+            DATABASE_CONFIG['mongodb']['database'],
+            'customers'
+        )
+        orders = pd.read_csv(orders_path)
+        inventory = pd.read_csv(inventory_path)
+        customers_sql = pd.read_csv(customers_csv_path)
+        duration = (datetime.now() - t0).total_seconds()
+        steps.append({
+            "step": "extract_all_sources",
+            "duration_seconds": duration,
+            "records_processed": len(books) + len(authors) + len(customers) + len(orders) + len(inventory) + len(customers_sql),
+            "quality_score": 1.0,  # Extraction only
+            "sla_met": check_sla(duration, SLA_SECONDS)
+        })
+    except Exception as e:
+        errors.append({"step": "extract_all_sources", "error_type": "exception", "recovered": False, "message": str(e)})
+        raise
+    # --- Cleaning Data ---
+    t1 = datetime.now()
+    try:
+        books = cleaning.clean_text(books, 'title')
+        books = cleaning.clean_dates(books, 'pub_date')
+        books = cleaning.clean_emails(books, 'author') if 'author' in books.columns else books
+        authors = cleaning.clean_emails(authors, 'email')
+        customers = cleaning.clean_emails(customers, 'email')
+        customers_sql = cleaning.clean_emails(customers_sql, 'email')
+        # Drop or convert MongoDB _id field
+        if '_id' in customers.columns:
+            customers['_id'] = customers['_id'].astype(str)
+        duration = (datetime.now() - t1).total_seconds()
+        steps.append({
+            "step": "cleaning",
+            "duration_seconds": duration,
+            "records_processed": len(books) + len(authors) + len(customers),
+            "quality_score": 1.0,
+            "sla_met": check_sla(duration, SLA_SECONDS)
+        })
+    except Exception as e:
+        errors.append({"step": "cleaning", "error_type": "exception", "recovered": False, "message": str(e)})
+        raise
+    # --- Validating Data ---
+    t2 = datetime.now()
+    try:
+        book_rules = {
+            'isbn': {'type': 'string', 'pattern': r'^97[89]\d{10}$', 'required': True},
+            'title': {'type': 'string', 'min_length': 1, 'required': True},
+            'genre': {'type': 'string', 'allowed': ['Fiction', 'Non-Fiction', 'Sci-Fi', 'Fantasy', 'Mystery', 'Romance']},
+            'pub_date': {'type': 'string', 'pattern': r'^\d{4}-\d{2}-\d{2}$'},
+            'recommended': {'type': 'string', 'allowed': ['Yes', 'No', '']}
+        }
+        book_val = data_quality.validate_field_level(books, book_rules)
+        logger.info(data_quality.generate_quality_report(book_val))
+        duration = (datetime.now() - t2).total_seconds()
+        steps.append({
+            "step": "validation",
+            "duration_seconds": duration,
+            "records_processed": len(books),
+            "quality_score": 1.0,
+            "sla_met": check_sla(duration, SLA_SECONDS)
+        })
+    except Exception as e:
+        errors.append({"step": "validation", "error_type": "exception", "recovered": False, "message": str(e)})
+        raise
+    # --- Transforming Data ---
+    t3 = datetime.now()
+    try:
+        books = transformers.transform_book_series(books)
+        authors = transformers.transform_author_collaborations(authors)
+        customers = transformers.transform_reading_history(customers)
+        customers = transformers.transform_genre_preferences(customers)
+        books = transformers.transform_book_recommendations(books, customers)
+        duration = (datetime.now() - t3).total_seconds()
+        steps.append({
+            "step": "transformation",
+            "duration_seconds": duration,
+            "records_processed": len(books) + len(authors) + len(customers),
+            "quality_score": 1.0,
+            "sla_met": check_sla(duration, SLA_SECONDS)
+        })
+    except Exception as e:
+        errors.append({"step": "transformation", "error_type": "exception", "recovered": False, "message": str(e)})
+        raise
+    # --- Loading Data to SQL Server (Star Schema) ---
+    t4 = datetime.now()
+    try:
+        loaders.load_dimension_table(books, 'dim_book', sql_conn_str)
+        loaders.load_dimension_table(authors, 'dim_author', sql_conn_str)
+        loaders.load_dimension_table(customers, 'dim_customer', sql_conn_str)
+        loaders.load_fact_table(orders, 'fact_book_sales', sql_conn_str)
+        duration = (datetime.now() - t4).total_seconds()
+        steps.append({
+            "step": "load_sqlserver",
+            "duration_seconds": duration,
+            "records_processed": len(books) + len(authors) + len(customers) + len(orders),
+            "quality_score": 1.0,
+            "sla_met": check_sla(duration, SLA_SECONDS)
+        })
+    except Exception as e:
+        errors.append({"step": "load_sqlserver", "error_type": "exception", "recovered": False, "message": str(e)})
+        raise
+    # --- Field-level Quality Gaps ---
+    field_thresholds = {
+        "customer_id": 1.0,
+        "email": 0.95,
+        "first_name": 0.90,
+        "age": 0.60,
+        "city": 0.70
     }
-    book_val = data_quality.validate_field_level(books, book_rules)
-    logger.info(data_quality.generate_quality_report(book_val))
-
-    logger.info('--- Transforming Data ---')
-    books = transformers.transform_book_series(books)
-    authors = transformers.transform_author_collaborations(authors)
-    customers = transformers.transform_reading_history(customers)
-    customers = transformers.transform_genre_preferences(customers)
-    books = transformers.transform_book_recommendations(books, customers)
-
-    logger.info('--- Loading Data to SQL Server (Star Schema) ---')
-    loaders.load_dimension_table(books, 'dim_book', sql_conn_str)
-    loaders.load_dimension_table(authors, 'dim_author', sql_conn_str)
-    loaders.load_dimension_table(customers, 'dim_customer', sql_conn_str)
-    loaders.load_fact_table(orders, 'fact_book_sales', sql_conn_str)
-    logger.info('Loaded data to SQL Server.')
-
-    logger.info('--- Loading Customers to MongoDB ---')
-    mongo_uri = DATABASE_CONFIG['mongodb']['connection_string']
-    mongo_db = DATABASE_CONFIG['mongodb']['database']
-    client = pymongo.MongoClient(mongo_uri)
-    db = client[mongo_db]
-    collection = db['customers']
-    collection.delete_many({})  # Clear existing data for idempotency
-    records = customers.to_dict(orient='records')
-    if records:
-        collection.insert_many(records)
-        logger.info(f'Inserted {len(records)} customer records into MongoDB ({mongo_db}.customers).')
-    else:
-        logger.warning('No customer records to insert into MongoDB.')
-
+    field_quality_gaps = field_quality_gap_report(customers, field_thresholds)
+    # --- Write Health/Trend Report ---
+    write_health_trend_report(steps, field_quality_gaps, errors)
     logger.info('ETL pipeline completed successfully.')
 
 if __name__ == "__main__":
