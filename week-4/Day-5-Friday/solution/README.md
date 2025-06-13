@@ -66,27 +66,41 @@ docker-compose -f docker-compose-mongodb.yml up -d
 docker-compose -f docker-compose-sqlserver.yml up -d
 ```
 
-3. **Generate and Load Sample Data**
+3. **Create the BookHavenDW Database**
+```bash
+docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -Q "CREATE DATABASE BookHavenDW;"
+```
+> **Note:** You must create the database before loading data. If the database already exists, this command will error but is safe to re-run.
+
+4. **Generate Sample Data**
 ```bash
 python data_generators/csv_book_catalog_generator.py
 python data_generators/json_author_profiles_generator.py
 python data_generators/mongodb_customers_generator.py
 python data_generators/sqlserver_orders_inventory_generator.py
-python data_generators/load_csvs_to_sqlserver.py
+```
+
+5. **Load CSVs into SQL Server**
+```bash
+python -m data_generators.load_csvs_to_sqlserver
+```
+
+6. **Load Customers into MongoDB**
+```bash
 python data_generators/load_customers_to_mongodb.py
 ```
 
-4. **Create Star Schema in SQL Server**
+7. **Create Star Schema in SQL Server**
 ```bash
 type data\star_schema.sql | docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -d BookHavenDW
 ```
 
-5. **Run ETL Pipeline**
+8. **Run ETL Pipeline**
 ```bash
 set PYTHONPATH=. && python -m etl.etl_pipeline
 ```
 
-6. **Verify Data**
+9. **Verify Data**
 - **MongoDB**:  
   ```bash
   python -m etl.verify_mongodb
@@ -97,7 +111,7 @@ set PYTHONPATH=. && python -m etl.etl_pipeline
   pytest -v
   ```
 
-7. **Check Code Coverage**
+10. **Check Code Coverage**
 ```bash
 pytest --cov=etl --cov=tests --cov-report=term-missing
 ```
@@ -303,4 +317,8 @@ After each ETL/test run, output a JSON or CSV file with the following structure:
 
 ---
 
-**Good luck, and happy ETL-ing at BookHaven!** 
+**Good luck, and happy ETL-ing at BookHaven!**
+
+> **Troubleshooting: Import Errors in Subdirectories**
+>
+> If you see `ModuleNotFoundError: No module named 'config'` or similar errors when running scripts in subdirectories, use the `-m` flag from the project root (e.g., `python -m data_generators.load_csvs_to_sqlserver`). This ensures Python resolves imports correctly. 
