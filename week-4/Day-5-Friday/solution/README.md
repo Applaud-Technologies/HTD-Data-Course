@@ -66,13 +66,19 @@ docker-compose -f docker-compose-mongodb.yml up -d
 docker-compose -f docker-compose-sqlserver.yml up -d
 ```
 
-3. **Create the BookHavenDW Database**
+3. **Create the SQL Server Source Database**
+```bash
+python data_generators/create_sqlserver_source_database.py
+```
+> **Note:** This script creates the source database (BookHavenSource) for raw operational data. Safe to re-run.
+
+4. **Create the BookHavenDW Data Warehouse Database**
 ```bash
 python data_generators/create_sqlserver_database.py
 ```
-> **Note:** This script will create the database if it does not exist, or do nothing if it already exists. It works on all platforms and does not require sqlcmd or Docker exec.
+> **Note:** This script creates the data warehouse database (BookHavenDW) for the star schema. Safe to re-run.
 
-4. **Generate Sample Data**
+5. **Generate Sample Data**
 ```bash
 python data_generators/csv_book_catalog_generator.py
 python data_generators/json_author_profiles_generator.py
@@ -80,27 +86,28 @@ python data_generators/mongodb_customers_generator.py
 python data_generators/sqlserver_orders_inventory_generator.py
 ```
 
-5. **Load CSVs into SQL Server**
+6. **Load CSVs into SQL Server Source Database**
 ```bash
 python -m data_generators.load_csvs_to_sqlserver
 ```
 
-6. **Load Customers into MongoDB**
+7. **Create Star Schema in BookHavenDW**
+```bash
+python data_generators/create_star_schema.py
+```
+> **Note:** This script will create all star schema tables in the BookHavenDW database using the DDL in data/star_schema.sql. Safe to re-run.
+
+8. **Load Customers into MongoDB**
 ```bash
 python data_generators/load_customers_to_mongodb.py
 ```
 
-7. **Create Star Schema in SQL Server**
-```bash
-type data\star_schema.sql | docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -d BookHavenDW
-```
-
-8. **Run ETL Pipeline**
+9. **Run ETL Pipeline**
 ```bash
 set PYTHONPATH=. && python -m etl.etl_pipeline
 ```
 
-9. **Verify Data**
+10. **Verify Data**
 - **MongoDB**:  
   ```bash
   python -m etl.verify_mongodb
@@ -111,7 +118,7 @@ set PYTHONPATH=. && python -m etl.etl_pipeline
   pytest -v
   ```
 
-10. **Check Code Coverage**
+11. **Check Code Coverage**
 ```bash
 pytest --cov=etl --cov=tests --cov-report=term-missing
 ```
