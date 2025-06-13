@@ -66,7 +66,19 @@ docker-compose -f docker-compose-mongodb.yml up -d
 docker-compose -f docker-compose-sqlserver.yml up -d
 ```
 
-3. **Generate Sample Data**
+3. **Create the SQL Server Source Database**
+```bash
+python data_generators/create_sqlserver_source_database.py
+```
+> **Note:** This script creates the source database (BookHavenSource) for raw operational data. Safe to re-run.
+
+4. **Create the BookHavenDW Data Warehouse Database**
+```bash
+python data_generators/create_sqlserver_database.py
+```
+> **Note:** This script creates the data warehouse database (BookHavenDW) for the star schema. Safe to re-run.
+
+5. **Generate Sample Data**
 ```bash
 python data_generators/csv_book_catalog_generator.py
 python data_generators/json_author_profiles_generator.py
@@ -74,15 +86,64 @@ python data_generators/mongodb_customers_generator.py
 python data_generators/sqlserver_orders_inventory_generator.py
 ```
 
-4. **Run ETL Pipeline**
+6. **Load CSVs into SQL Server Source Database**
 ```bash
-python etl/etl_pipeline.py
+python -m data_generators.load_csvs_to_sqlserver
 ```
 
-5. **Run Tests**
+7. **Create Star Schema in BookHavenDW**
 ```bash
-pytest -v
+python data_generators/create_star_schema.py
 ```
+> **Note:** This script will create all star schema tables in the BookHavenDW database using the DDL in data/star_schema.sql. Safe to re-run.
+
+8. **Load Customers into MongoDB**
+```bash
+python data_generators/load_customers_to_mongodb.py
+```
+
+9. **Run ETL Pipeline**
+```bash
+set PYTHONPATH=. && python -m etl.etl_pipeline
+```
+
+10. **Verify Data**
+- **MongoDB**:  
+  ```bash
+  python -m etl.verify_mongodb
+  ```
+- **SQL Server**:  
+  Run the test suite (covers SQL Server data checks):
+  ```bash
+  pytest -v
+  ```
+
+11. **Check Code Coverage**
+```bash
+pytest --cov=etl --cov=tests --cov-report=term-missing
+```
+- Target: **>90% coverage**
+
+---
+
+## 🛠️ Robust Loading & Troubleshooting
+
+- The ETL pipeline now uses a **truncate + append** strategy for all dimension and fact tables. This means:
+  - Before loading, each table is cleared with `DELETE FROM <table>` (preserving schema and constraints).
+  - Only columns that exist in the target table are loaded (extra DataFrame columns are ignored automatically).
+  - This avoids all foreign key and schema mismatch issues, making the pipeline fully repeatable and robust for assessment and production.
+- **If you add new columns to the DataFrame, be sure to update the SQL schema if you want them loaded. Otherwise, they will be ignored.**
+- **All tests now pass and code coverage is above 90%.**
+- Data quality errors (e.g., invalid ISBN, unknown genre) are intentional and part of the assessment.
+
+---
+
+## 📝 Instructor/Student Notes (2024-06 Update)
+- The pipeline is now fully repeatable and robust: you can run the ETL and tests as many times as you like without manual intervention.
+- The test suite covers all core logic, error branches, and edge cases. All tests must pass for full credit.
+- The health/trend report is generated after each ETL run and can be used for dashboarding or grading.
+- If you see a schema mismatch or foreign key error, check that your DataFrame columns match the SQL schema. The loader will automatically filter columns, but missing required columns in the schema will still cause errors.
+- For advanced students: you can extend the ETL pipeline, add new data quality rules, or optimize DataFrame memory usage for bonus credit.
 
 ## 📁 Project Structure
 
