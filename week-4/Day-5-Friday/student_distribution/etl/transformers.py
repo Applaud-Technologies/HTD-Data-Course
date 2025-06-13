@@ -48,4 +48,37 @@ def transform_genre_preferences(df_customers):
         df_customers['num_genres'] = df_customers['genre_preferences'].apply(lambda x: len(x) if isinstance(x, (list, tuple)) else 0)
     else:
         df_customers['num_genres'] = 0
-    return df_customers 
+    return df_customers
+
+# Transformation module for BookHaven ETL (STUDENT VERSION)
+"""Business logic and star schema transformation functions.
+
+Instructions:
+- Implement each function to transform the input DataFrame for loading into the star schema.
+- Apply business rules, SCD Type 1 logic, and any required joins or aggregations (see 'ETL Transformations with Pandas').
+- Ensure output matches the target schema for each dimension/fact table.
+- Document your approach and any edge cases handled.
+"""
+def transform_books(books_df):
+    """Transform books data for star schema loading.
+    Hint: Normalize fields, handle series/recommendations, and ensure all required columns are present. See 'ETL Transformations with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
+
+def transform_authors(authors_df):
+    """Transform authors data for star schema loading.
+    Hint: Handle collaborations, normalize genres, and ensure all required columns are present. See 'ETL Transformations with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
+
+def transform_customers(customers_df):
+    """Transform customers data for star schema loading.
+    Hint: Flatten reading history, genre preferences, and recommendations. See 'ETL Transformations with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
+
+def transform_orders(orders_df):
+    """Transform orders data for star schema loading.
+    Hint: Join with dimension keys as needed. See 'ETL Transformations with Pandas' and 'Star Schema Design'.
+    """
+    raise NotImplementedError("Student must implement this function.") 

@@ -1,52 +1,59 @@
 """
-Data Cleaning for BookHaven ETL Assessment
+Data cleaning module for BookHaven ETL Assessment (Student Version)
 
-Example cleaning logic for common fields.
+Instructions:
+- Implement each function to clean and standardize the specified field in the DataFrame.
+- Use pandas string/date methods and regular expressions as needed (see 'Data Quality & Cleaning with Pandas').
+- Handle missing, invalid, or inconsistent data as described in the lessons.
+- Document your approach and any edge cases handled.
 """
 import pandas as pd
-import re
 
 # --- Clean Dates ---
 def clean_dates(df, field):
-    """Standardize date formats in the specified field (YYYY-MM-DD)."""
-    df[field] = pd.to_datetime(df[field], errors='coerce').dt.strftime('%Y-%m-%d')
-    return df
+    """Clean and standardize date fields to YYYY-MM-DD format.
+    Hint: Use pandas.to_datetime with error handling. See 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Clean Emails ---
 def clean_emails(df, field):
-    """Standardize and validate email addresses (set invalid to None)."""
-    email_pattern = re.compile(r'^[^@\s]+@[^@\s]+\.[^@\s]+$')
-    df[field] = df[field].apply(lambda x: x if pd.notnull(x) and email_pattern.match(str(x)) else None)
-    return df
+    """Clean and validate email fields (set invalid emails to None or NaN).
+    Hint: Use regular expressions and pandas apply. See 'Data Quality & Cleaning with Pandas' and 'Unit Testing for Data Transformations'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Clean Phone Numbers ---
 def clean_phone_numbers(df, field):
-    """Standardize phone numbers (remove non-digits, set invalid to None)."""
-    df[field] = df[field].apply(lambda x: re.sub(r'\D', '', str(x)) if pd.notnull(x) and len(re.sub(r'\D', '', str(x))) >= 7 else None)
-    return df
+    """Standardize phone numbers (remove non-digits, set invalid to None).
+    Hint: Use regular expressions and pandas string methods. See 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Clean Numerics ---
 def clean_numerics(df, field):
-    """Convert to numeric, set invalid to NaN."""
-    df[field] = pd.to_numeric(df[field], errors='coerce')
-    return df
+    """Convert to numeric, set invalid to NaN.
+    Hint: Use pandas.to_numeric with error handling. See 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Clean Text ---
 def clean_text(df, field):
-    """Trim whitespace and standardize case for text fields."""
-    df[field] = df[field].astype(str).str.strip().str.title()
-    return df
+    """Clean text fields (e.g., strip whitespace, standardize case, remove special characters).
+    Hint: Use pandas string methods. See 'Pandas Fundamentals for ETL' and 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Remove Duplicates ---
 def remove_duplicates(df, subset=None):
-    """Remove duplicate rows based on subset of fields."""
-    return df.drop_duplicates(subset=subset)
+    """Remove duplicate rows based on subset of fields.
+    Hint: Use pandas.drop_duplicates. See 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.")
 
 # --- Handle Missing Values ---
 def handle_missing_values(df, strategy='drop', fill_value=None):
-    """Handle missing values using specified strategy ('drop', 'fill')."""
-    if strategy == 'drop':
-        return df.dropna()
-    elif strategy == 'fill':
-        return df.fillna(fill_value)
-    return df 
+    """Handle missing values using specified strategy ('drop', 'fill').
+    Hint: Use pandas.dropna or pandas.fillna. See 'Data Quality & Cleaning with Pandas'.
+    """
+    raise NotImplementedError("Student must implement this function.") 
