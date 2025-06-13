@@ -44,9 +44,6 @@ def main():
     # Paths
     csv_path = os.path.join('data', 'csv', 'book_catalog.csv')
     json_path = os.path.join('data', 'json', 'author_profiles.json')
-    orders_path = os.path.join('data', 'sqlserver', 'orders.csv')
-    inventory_path = os.path.join('data', 'sqlserver', 'inventory.csv')
-    customers_csv_path = os.path.join('data', 'sqlserver', 'customers.csv')
     sql_conn_str = f"mssql+pyodbc://{DATABASE_CONFIG['sql_server']['username']}:{DATABASE_CONFIG['sql_server']['password']}@localhost:1433/{DATABASE_CONFIG['sql_server']['database']}?driver=ODBC+Driver+17+for+SQL+Server"
 
     steps = []
@@ -62,14 +59,13 @@ def main():
             DATABASE_CONFIG['mongodb']['database'],
             'customers'
         )
-        orders = pd.read_csv(orders_path)
-        inventory = pd.read_csv(inventory_path)
-        customers_sql = pd.read_csv(customers_csv_path)
+        orders = extractors.extract_sqlserver_table(sql_conn_str, 'orders')
+        inventory = extractors.extract_sqlserver_table(sql_conn_str, 'inventory')
         duration = (datetime.now() - t0).total_seconds()
         steps.append({
             "step": "extract_all_sources",
             "duration_seconds": duration,
-            "records_processed": len(books) + len(authors) + len(customers) + len(orders) + len(inventory) + len(customers_sql),
+            "records_processed": len(books) + len(authors) + len(customers) + len(orders) + len(inventory),
             "quality_score": 1.0,  # Extraction only
             "sla_met": check_sla(duration, SLA_SECONDS)
         })
@@ -84,7 +80,6 @@ def main():
         books = cleaning.clean_emails(books, 'author') if 'author' in books.columns else books
         authors = cleaning.clean_emails(authors, 'email')
         customers = cleaning.clean_emails(customers, 'email')
-        customers_sql = cleaning.clean_emails(customers_sql, 'email')
         # Drop or convert MongoDB _id field
         if '_id' in customers.columns:
             customers['_id'] = customers['_id'].astype(str)

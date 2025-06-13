@@ -265,6 +265,15 @@ After each ETL/test run, output a JSON or CSV file with the following structure:
 
 **All core ETL logic must be implemented by the student. All tests are provided and must pass.**
 
+> **Robust Loading Patterns & Troubleshooting**
+>
+> When loading data into SQL Server, do **not** drop tables that have foreign key constraints (e.g., dimension tables referenced by fact tables). Instead, use the following robust pattern:
+> - **Truncate** the target table before loading (e.g., `DELETE FROM <table>`), then use `pandas.DataFrame.to_sql` with `if_exists='append'`.
+> - **Match DataFrame columns to the table schema**: Before loading, filter your DataFrame to only include columns that exist in the target table. This avoids errors if your DataFrame has extra fields.
+> - This approach ensures your pipeline is repeatable, robust, and works with star schemas.
+>
+> See the hints in `etl/loaders.py` and the rubric for details.
+
 ### Step-by-Step Milestones
 
 1. **Setup & Data Generation**

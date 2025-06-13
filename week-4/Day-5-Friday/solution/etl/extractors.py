@@ -25,7 +25,9 @@ def extract_mongodb_customers(connection_string, db_name, collection_name):
 
 # --- SQL Server Extractor ---
 def extract_sqlserver_table(connection_string, table_name):
-    """Extract table from SQL Server."""
+    """Extract a table from SQL Server and return as a DataFrame.
+    Hint: Use SQLAlchemy to create an engine and pandas.read_sql_table. See 'Integration Testing with Quality Metrics for Data Sources'.
+    """
     engine = sqlalchemy.create_engine(connection_string)
     return pd.read_sql_table(table_name, engine)
 

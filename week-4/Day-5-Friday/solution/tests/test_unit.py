@@ -190,13 +190,17 @@ from unittest.mock import patch, MagicMock
 
 def test_load_dimension_table():
     df = pd.DataFrame({'a': [1]})
-    with patch('sqlalchemy.create_engine') as mock_engine, patch.object(df, 'to_sql') as mock_to_sql:
+    with patch('sqlalchemy.create_engine') as mock_engine, \
+         patch('etl.loaders.get_table_columns', return_value=['a']), \
+         patch('pandas.DataFrame.to_sql') as mock_to_sql:
         loaders.load_dimension_table(df, 'table', 'conn')
         mock_to_sql.assert_called_once()
 
 def test_load_fact_table():
     df = pd.DataFrame({'a': [1]})
-    with patch('sqlalchemy.create_engine') as mock_engine, patch.object(df, 'to_sql') as mock_to_sql:
+    with patch('sqlalchemy.create_engine') as mock_engine, \
+         patch('etl.loaders.get_table_columns', return_value=['a']), \
+         patch('pandas.DataFrame.to_sql') as mock_to_sql:
         loaders.load_fact_table(df, 'table', 'conn')
         mock_to_sql.assert_called_once()
 
