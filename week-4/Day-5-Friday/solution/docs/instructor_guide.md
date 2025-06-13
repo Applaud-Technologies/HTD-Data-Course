@@ -38,4 +38,55 @@
 
 ---
 
+## How to Run the BookHaven ETL Solution (Instructor Steps)
+
+### 1. Prerequisites
+- Docker and Docker Compose installed
+- Python 3.8+ and `venv`/requirements installed (if running scripts locally)
+- All code and data in the `solution` directory
+
+### 2. Start the Data Sources
+```
+docker-compose -f docker-compose-sqlserver.yml up -d
+docker-compose -f docker-compose-mongodb.yml up -d
+```
+
+### 3. Create the Data Warehouse Schema
+```
+docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -Q "CREATE DATABASE BookHavenDW;"
+docker exec -i bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -d BookHavenDW -i data/star_schema.sql
+```
+
+### 4. Generate and Load Source Data
+```
+python data_generators/sqlserver_orders_inventory_generator.py
+python data_generators/csv_book_catalog_generator.py
+python data_generators/json_author_profiles_generator.py
+python data_generators/mongodb_customers_generator.py
+python data_generators/load_customers_to_mongodb.py
+```
+
+### 5. Run the ETL Pipeline
+```
+set PYTHONPATH=. && python -m etl.etl_pipeline
+```
+
+### 6. Verify Data in the Data Warehouse
+```
+docker exec -it bookhaven-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'yourStrong(!)Password' -d BookHavenDW -Q "SELECT TOP 5 * FROM dim_book; SELECT TOP 5 * FROM dim_author; SELECT TOP 5 * FROM dim_customer; SELECT TOP 5 * FROM fact_book_sales;"
+```
+
+### 7. Review Health/Trend Report
+- Check the generated `health_trend_report.json` for ETL metrics, SLA, and quality gaps.
+
+### 8. Run and Check Tests
+```
+pytest --cov=etl --cov-report=term-missing
+```
+- Ensure all tests pass and code coverage is above 90%.
+
+---
+
+**Tip:** If you reset Docker or containers, repeat steps 2–6.
+
 **This guide is for instructor use only.** 
