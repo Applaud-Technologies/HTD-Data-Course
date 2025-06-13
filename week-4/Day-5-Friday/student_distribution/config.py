@@ -1,7 +1,14 @@
 # BookHaven ETL Assessment - Configuration
 
 DATABASE_CONFIG = {
-    'sql_server': {
+    'sql_server_source': {
+        'server': 'localhost',
+        'database': 'BookHavenSource',
+        'username': 'sa',
+        'password': 'yourStrong(!)Password',
+        'port': 1433
+    },
+    'sql_server_dw': {
         'server': 'localhost',
         'database': 'BookHavenDW',
         'username': 'sa',

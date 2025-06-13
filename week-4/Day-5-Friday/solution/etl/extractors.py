@@ -5,6 +5,14 @@ import pandas as pd
 from pymongo import MongoClient
 import sqlalchemy
 import pymongo
+from config import DATABASE_CONFIG
+
+def get_sql_server_conn_str(config_key):
+    cfg = DATABASE_CONFIG[config_key]
+    return (
+        f"mssql+pyodbc://{cfg['username']}:{cfg['password']}@{cfg['server']}:{cfg['port']}/"
+        f"{cfg['database']}?driver=ODBC+Driver+17+for+SQL+Server"
+    )
 
 # --- CSV Extractor ---
 def extract_csv_book_catalog(csv_path):
@@ -24,11 +32,12 @@ def extract_mongodb_customers(connection_string, db_name, collection_name):
     return pd.DataFrame(list(db[collection_name].find()))
 
 # --- SQL Server Extractor ---
-def extract_sqlserver_table(connection_string, table_name):
+def extract_sqlserver_table(table_name, config_key='sql_server_source'):
     """Extract a table from SQL Server and return as a DataFrame.
-    Hint: Use SQLAlchemy to create an engine and pandas.read_sql_table. See 'Integration Testing with Quality Metrics for Data Sources'.
+    config_key: 'sql_server_source' (default) or 'sql_server_dw'
     """
-    engine = sqlalchemy.create_engine(connection_string)
+    conn_str = get_sql_server_conn_str(config_key)
+    engine = sqlalchemy.create_engine(conn_str)
     return pd.read_sql_table(table_name, engine)
 
 def extract_customers_from_mongodb(connection_string, db_name):

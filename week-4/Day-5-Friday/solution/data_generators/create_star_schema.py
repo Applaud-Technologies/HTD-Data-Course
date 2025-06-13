@@ -3,10 +3,10 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import pyodbc
 from config import DATABASE_CONFIG
 
-server = DATABASE_CONFIG['sql_server']['server']
-database = DATABASE_CONFIG['sql_server']['database']
-username = DATABASE_CONFIG['sql_server']['username']
-password = DATABASE_CONFIG['sql_server']['password']
+server = DATABASE_CONFIG['sql_server_dw']['server']
+database = DATABASE_CONFIG['sql_server_dw']['database']
+username = DATABASE_CONFIG['sql_server_dw']['username']
+password = DATABASE_CONFIG['sql_server_dw']['password']
 
 conn_str = (
     f"DRIVER={{ODBC Driver 17 for SQL Server}};"

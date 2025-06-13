@@ -40,7 +40,7 @@ def test_extract_sqlserver_table(mock_engine):
     # Mock SQLAlchemy engine and pandas.read_sql_table
     with patch("pandas.read_sql_table") as mock_read:
         mock_read.return_value = pd.DataFrame({"order_id": [1]})
-        result = extractors.extract_sqlserver_table("conn_str", "orders")
+        result = extractors.extract_sqlserver_table("orders", config_key="sql_server_source")
         assert not result.empty
         assert "order_id" in result.columns
 

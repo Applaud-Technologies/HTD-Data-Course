@@ -8,6 +8,7 @@ import logging
 from etl import extractors, cleaning, data_quality, transformers, loaders
 from config import DATABASE_CONFIG
 from datetime import datetime
+import sqlalchemy
 
 def check_sla(duration, sla_seconds):
     return duration <= sla_seconds
@@ -36,6 +37,14 @@ def write_health_trend_report(steps, field_quality_gaps, errors, output_path="he
         json.dump(report, f, indent=2)
     print(f"Health/trend report written to {output_path}")
 
+# Helper to build connection strings
+def get_sql_server_conn_str(config_key):
+    cfg = DATABASE_CONFIG[config_key]
+    return (
+        f"mssql+pyodbc://{cfg['username']}:{cfg['password']}@{cfg['server']}:{cfg['port']}/"
+        f"{cfg['database']}?driver=ODBC+Driver+17+for+SQL+Server"
+    )
+
 def main():
     # Setup logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
@@ -44,7 +53,7 @@ def main():
     # Paths
     csv_path = os.path.join('data', 'csv', 'book_catalog.csv')
     json_path = os.path.join('data', 'json', 'author_profiles.json')
-    sql_conn_str = f"mssql+pyodbc://{DATABASE_CONFIG['sql_server']['username']}:{DATABASE_CONFIG['sql_server']['password']}@localhost:1433/{DATABASE_CONFIG['sql_server']['database']}?driver=ODBC+Driver+17+for+SQL+Server"
+    sql_conn_str = get_sql_server_conn_str('sql_server_source')
 
     steps = []
     errors = []
@@ -54,13 +63,9 @@ def main():
     try:
         books = extractors.extract_csv_book_catalog(csv_path)
         authors = extractors.extract_json_author_profiles(json_path)
-        customers = extractors.extract_mongodb_customers(
-            DATABASE_CONFIG['mongodb']['connection_string'],
-            DATABASE_CONFIG['mongodb']['database'],
-            'customers'
-        )
-        orders = extractors.extract_sqlserver_table(sql_conn_str, 'orders')
-        inventory = extractors.extract_sqlserver_table(sql_conn_str, 'inventory')
+        customers = extractors.extract_sqlserver_table('customers', config_key='sql_server_source')
+        orders = extractors.extract_sqlserver_table('orders', config_key='sql_server_source')
+        inventory = extractors.extract_sqlserver_table('inventory', config_key='sql_server_source')
         duration = (datetime.now() - t0).total_seconds()
         steps.append({
             "step": "extract_all_sources",
@@ -139,10 +144,10 @@ def main():
     # --- Loading Data to SQL Server (Star Schema) ---
     t4 = datetime.now()
     try:
-        loaders.load_dimension_table(books, 'dim_book', sql_conn_str)
-        loaders.load_dimension_table(authors, 'dim_author', sql_conn_str)
-        loaders.load_dimension_table(customers, 'dim_customer', sql_conn_str)
-        loaders.load_fact_table(orders, 'fact_book_sales', sql_conn_str)
+        loaders.load_dimension_table(books, 'dim_book', get_sql_server_conn_str('sql_server_dw'))
+        loaders.load_dimension_table(authors, 'dim_author', get_sql_server_conn_str('sql_server_dw'))
+        loaders.load_dimension_table(customers, 'dim_customer', get_sql_server_conn_str('sql_server_dw'))
+        loaders.load_fact_table(orders, 'fact_book_sales', get_sql_server_conn_str('sql_server_dw'))
         duration = (datetime.now() - t4).total_seconds()
         steps.append({
             "step": "load_sqlserver",

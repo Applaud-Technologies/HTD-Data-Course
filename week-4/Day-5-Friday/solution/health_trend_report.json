@@ -1,57 +1,57 @@
 {
-  "run_timestamp": "2025-06-13T16:35:55.884312Z",
+  "run_timestamp": "2025-06-13T19:35:51.260852Z",
   "steps": [
     {
       "step": "extract_all_sources",
-      "duration_seconds": 0.208372,
+      "duration_seconds": 1.094668,
       "records_processed": 3045,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "cleaning",
-      "duration_seconds": 0.012018,
+      "duration_seconds": 0.007999,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "validation",
-      "duration_seconds": 0.126826,
+      "duration_seconds": 0.062048,
       "records_processed": 1050,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "transformation",
-      "duration_seconds": 0.00604,
+      "duration_seconds": 0.002999,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "load_sqlserver",
-      "duration_seconds": 0.632109,
+      "duration_seconds": 1.054703,
       "records_processed": 2730,
       "quality_score": 1.0,
       "sla_met": true
     }
   ],
   "overall": {
-    "total_duration_seconds": 0.985365,
+    "total_duration_seconds": 2.222417,
     "all_sla_met": true,
     "average_quality_score": 1.0
   },
   "field_quality_gaps": {
     "customer_id": {
-      "actual": 0.0,
+      "actual": 1.0,
       "required": 1.0,
-      "gap": 1.0
+      "gap": 0.0
     },
     "email": {
-      "actual": 0.9504761904761905,
+      "actual": 0.9371428571428572,
       "required": 0.95,
-      "gap": 0.0
+      "gap": 0.01285714285714279
     },
     "first_name": {
       "actual": 0.0,

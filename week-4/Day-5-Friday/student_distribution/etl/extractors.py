@@ -8,31 +8,55 @@ Instructions:
 - Write clean, modular code and document any assumptions.
 """
 import pandas as pd
+from pymongo import MongoClient
+import sqlalchemy
+import pymongo
+from config import DATABASE_CONFIG
+
+def get_sql_server_conn_str(config_key):
+    cfg = DATABASE_CONFIG[config_key]
+    return (
+        f"mssql+pyodbc://{cfg['username']}:{cfg['password']}@{cfg['server']}:{cfg['port']}/"
+        f"{cfg['database']}?driver=ODBC+Driver+17+for+SQL+Server"
+    )
 
 # --- CSV Extractor ---
 def extract_csv_book_catalog(csv_path):
-    """Extract book catalog from a CSV file and return as a DataFrame.
-    Hint: Use pandas.read_csv. Check for missing or malformed data as shown in 'Pandas Fundamentals for ETL'.
-    """
-    raise NotImplementedError("Student must implement this function.")
+    """Extract book catalog from CSV file."""
+    return pd.read_csv(csv_path)
 
 # --- JSON Extractor ---
 def extract_json_author_profiles(json_path):
-    """Extract author profiles from a JSON file and return as a DataFrame.
-    Hint: Use pandas.read_json. Review 'ETL Transformations with Pandas' for handling nested or complex JSON.
-    """
-    raise NotImplementedError("Student must implement this function.")
+    """Extract author profiles from JSON file."""
+    return pd.read_json(json_path)
 
 # --- MongoDB Extractor ---
-def extract_mongodb_customers(connection_string, db_name):
-    """Extract customer data from a MongoDB collection and return as a DataFrame.
-    Hint: Use pymongo to connect and query, then convert results to a DataFrame. See 'NoSQL for Data Engineers' and 'MongoDB Data Extraction with Pandas'.
-    """
-    raise NotImplementedError("Student must implement this function.")
+def extract_mongodb_customers(connection_string, db_name, collection_name):
+    """Extract customer profiles from MongoDB."""
+    client = MongoClient(connection_string)
+    db = client[db_name]
+    return pd.DataFrame(list(db[collection_name].find()))
 
 # --- SQL Server Extractor ---
-def extract_sqlserver_orders(csv_path):
-    """Extract orders from SQL Server (simulated as CSV for students) and return as a DataFrame.
-    Hint: Use pandas.read_csv. In a real scenario, you would use SQLAlchemy and pandas.read_sql_table (see lesson: 'Integration Testing with Quality Metrics for Data Sources').
+def extract_sqlserver_table(table_name, config_key='sql_server_source'):
+    """Extract a table from SQL Server and return as a DataFrame.
+    config_key: 'sql_server_source' (default) or 'sql_server_dw'
     """
-    raise NotImplementedError("Student must implement this function.")
+    conn_str = get_sql_server_conn_str(config_key)
+    engine = sqlalchemy.create_engine(conn_str)
+    return pd.read_sql_table(table_name, engine)
+
+def extract_customers_from_mongodb(connection_string, db_name):
+    """Extract customer data from MongoDB."""
+    try:
+        client = pymongo.MongoClient(connection_string)
+        db = client[db_name]
+        collection = db['customers']
+        customers_data = list(collection.find())
+        customers_df = pd.DataFrame(customers_data)
+        client.close()
+        return customers_df
+    except pymongo.errors.ConnectionFailure as e:
+        raise pymongo.errors.ConnectionFailure(f"Failed to connect to MongoDB: {str(e)}")
+    except Exception as e:
+        raise Exception(f"Error extracting customers from MongoDB: {str(e)}")
