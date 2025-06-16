@@ -1,44 +1,44 @@
 {
-  "run_timestamp": "2025-06-13T20:14:16.885161Z",
+  "run_timestamp": "2025-06-16T14:56:34.656728Z",
   "steps": [
     {
       "step": "extract_all_sources",
-      "duration_seconds": 0.244945,
+      "duration_seconds": 0.260307,
       "records_processed": 3045,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "cleaning",
-      "duration_seconds": 0.010821,
+      "duration_seconds": 0.005999,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "validation",
-      "duration_seconds": 0.128783,
+      "duration_seconds": 0.056917,
       "records_processed": 1050,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "transformation",
-      "duration_seconds": 0.003499,
+      "duration_seconds": 0.001718,
       "records_processed": 1890,
       "quality_score": 1.0,
       "sla_met": true
     },
     {
       "step": "load_sqlserver",
-      "duration_seconds": 0.684916,
+      "duration_seconds": 1.051953,
       "records_processed": 2730,
       "quality_score": 1.0,
       "sla_met": true
     }
   ],
   "overall": {
-    "total_duration_seconds": 1.072964,
+    "total_duration_seconds": 1.3768939999999998,
     "all_sla_met": true,
     "average_quality_score": 1.0
   },

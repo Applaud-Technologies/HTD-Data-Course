@@ -399,4 +399,15 @@ After each ETL/test run, output a JSON or CSV file with the following structure:
 
 ---
 
-**Good luck, and happy ETL-ing at BookHaven!** 
+**Good luck, and happy ETL-ing at BookHaven!**
+
+## 🗝️ Star Schema and Business Keys
+
+- Each dimension table in the data warehouse now includes both a surrogate key (e.g., `customer_key`, `book_key`) and a business/natural key (e.g., `customer_id`, `isbn`).
+- **Why?** When loading the fact table, you must join on the business key to retrieve the surrogate key for each record. This is a standard data warehousing practice.
+- **What to do:**
+  - Load both the surrogate and business keys into each dimension table.
+  - When loading the fact table, use the business key from your source data to look up the surrogate key in the dimension table.
+  - Do not generate surrogate keys in your ETL logic; let the database handle it (via `IDENTITY`).
+- The provided `star_schema.sql` has been updated to include business keys in all dimension tables.
+- If you need to adjust your ETL logic to use these keys, you may do so (but do not change the provided tests). 

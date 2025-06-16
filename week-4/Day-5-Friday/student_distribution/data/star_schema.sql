@@ -3,11 +3,12 @@
 -- Dimension: Book
 CREATE TABLE dim_book (
     book_key INT IDENTITY(1,1) PRIMARY KEY,
-    isbn VARCHAR(20) NOT NULL,
+    isbn VARCHAR(20) NOT NULL, -- Business key
     title VARCHAR(255),
     genre VARCHAR(50),
     series VARCHAR(100),
     recommended VARCHAR(10)
+    -- Add any additional business keys as needed
 );
 
 -- Dimension: Author
@@ -16,12 +17,15 @@ CREATE TABLE dim_author (
     name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(30),
-    genres VARCHAR(255)
+    genres VARCHAR(255),
+    -- Business key: name + email (composite natural key)
+    -- Add any additional business keys as needed
 );
 
 -- Dimension: Customer
 CREATE TABLE dim_customer (
     customer_key INT IDENTITY(1,1) PRIMARY KEY,
+    customer_id INT NOT NULL, -- Business key
     name VARCHAR(100),
     email VARCHAR(100),
     phone VARCHAR(30),

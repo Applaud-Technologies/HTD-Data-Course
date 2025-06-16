@@ -1,3 +1,5 @@
+import pymongo
+
 """
 Stub for MongoDB verification script (student version).
 
