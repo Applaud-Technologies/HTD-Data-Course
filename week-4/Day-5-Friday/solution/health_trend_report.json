@@ -1,0 +1,73 @@
+{
+  "run_timestamp": "2025-06-16T14:56:34.656728Z",
+  "steps": [
+    {
+      "step": "extract_all_sources",
+      "duration_seconds": 0.260307,
+      "records_processed": 3045,
+      "quality_score": 1.0,
+      "sla_met": true
+    },
+    {
+      "step": "cleaning",
+      "duration_seconds": 0.005999,
+      "records_processed": 1890,
+      "quality_score": 1.0,
+      "sla_met": true
+    },
+    {
+      "step": "validation",
+      "duration_seconds": 0.056917,
+      "records_processed": 1050,
+      "quality_score": 1.0,
+      "sla_met": true
+    },
+    {
+      "step": "transformation",
+      "duration_seconds": 0.001718,
+      "records_processed": 1890,
+      "quality_score": 1.0,
+      "sla_met": true
+    },
+    {
+      "step": "load_sqlserver",
+      "duration_seconds": 1.051953,
+      "records_processed": 2730,
+      "quality_score": 1.0,
+      "sla_met": true
+    }
+  ],
+  "overall": {
+    "total_duration_seconds": 1.3768939999999998,
+    "all_sla_met": true,
+    "average_quality_score": 1.0
+  },
+  "field_quality_gaps": {
+    "customer_id": {
+      "actual": 1.0,
+      "required": 1.0,
+      "gap": 0.0
+    },
+    "email": {
+      "actual": 0.9314285714285714,
+      "required": 0.95,
+      "gap": 0.018571428571428572
+    },
+    "first_name": {
+      "actual": 0.0,
+      "required": 0.9,
+      "gap": 0.9
+    },
+    "age": {
+      "actual": 0.0,
+      "required": 0.6,
+      "gap": 0.6
+    },
+    "city": {
+      "actual": 0.0,
+      "required": 0.7,
+      "gap": 0.7
+    }
+  },
+  "errors": []
+}
