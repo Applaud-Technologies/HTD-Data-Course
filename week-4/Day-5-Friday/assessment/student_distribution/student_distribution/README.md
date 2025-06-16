@@ -124,24 +124,6 @@ pytest --cov=etl --cov=tests --cov-report=term-missing
 ```
 - Target: **>90% coverage**
 
-## 🧪 Running the Test Suite
-
-- **Install requirements:**
-  ```bash
-  pip install -r requirements.txt
-  ```
-- **Run all tests from the project root directory:**
-  ```bash
-  pytest --cov=etl --cov-report=term-missing
-  ```
-- Do **not** run pytest from inside the `tests/` directory, as this may cause import errors. Always run from the root of the project (where this README is located).
-- All tests are provided and must pass for full credit. Aim for >90% code coverage.
-
-## ℹ️ About `__init__.py` in `etl/`
-
-- The `etl/__init__.py` file is intentionally minimal. Its only purpose is to mark the `etl` directory as a Python package so that modules can be imported using `from etl import ...`.
-- It does **not** need to contain any code or imports for this project. This is standard Python practice.
-
 ---
 
 ## 🛠️ Robust Loading & Troubleshooting
@@ -399,15 +381,4 @@ After each ETL/test run, output a JSON or CSV file with the following structure:
 
 ---
 
-**Good luck, and happy ETL-ing at BookHaven!**
-
-## 🗝️ Star Schema and Business Keys
-
-- Each dimension table in the data warehouse now includes both a surrogate key (e.g., `customer_key`, `book_key`) and a business/natural key (e.g., `customer_id`, `isbn`).
-- **Why?** When loading the fact table, you must join on the business key to retrieve the surrogate key for each record. This is a standard data warehousing practice.
-- **What to do:**
-  - Load both the surrogate and business keys into each dimension table.
-  - When loading the fact table, use the business key from your source data to look up the surrogate key in the dimension table.
-  - Do not generate surrogate keys in your ETL logic; let the database handle it (via `IDENTITY`).
-- The provided `star_schema.sql` has been updated to include business keys in all dimension tables.
-- If you need to adjust your ETL logic to use these keys, you may do so (but do not change the provided tests). 
+**Good luck, and happy ETL-ing at BookHaven!** 
