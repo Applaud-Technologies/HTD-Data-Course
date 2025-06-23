@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+    Power BI Use Cases for Data Engineers
+  </text>
+
+  <!-- Quadrant lines -->
+  <line x1="300" y1="50" x2="300" y2="380" stroke="#ddd" stroke-width="2"/>
+  <line x1="50" y1="215" x2="550" y2="215" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Quadrant 1: Executive Reporting (Top Left) -->
+  <rect x="60" y="60" width="230" height="145" fill="#e1f5fe" stroke="#01579b" stroke-width="2" rx="8"/>
+  <text x="175" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#01579b">
+    📊 Executive Reporting
+  </text>
+  <text x="70" y="105" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • High-level KPIs for C-suite
+  </text>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Regulatory compliance reports
+  </text>
+  <text x="70" y="145" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Strategic performance monitoring
+  </text>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Board-ready visualizations
+  </text>
+  <text x="70" y="185" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Risk management dashboards
+  </text>
+
+  <!-- Quadrant 2: Operational Dashboards (Top Right) -->
+  <rect x="310" y="60" width="230" height="145" fill="#f3e5f5" stroke="#4a148c" stroke-width="2" rx="8"/>
+  <text x="425" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a148c">
+    ⚙️ Operational Dashboards
+  </text>
+  <text x="320" y="105" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Real-time fraud detection
+  </text>
+  <text x="320" y="125" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • System health monitoring
+  </text>
+  <text x="320" y="145" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Performance metrics
+  </text>
+  <text x="320" y="165" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Data quality scorecards
+  </text>
+  <text x="320" y="185" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Alert management
+  </text>
+
+  <!-- Quadrant 3: Self-Service Analytics (Bottom Left) -->
+  <rect x="60" y="225" width="230" height="145" fill="#e8f5e8" stroke="#1b5e20" stroke-width="2" rx="8"/>
+  <text x="175" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1b5e20">
+    🔍 Self-Service Analytics
+  </text>
+  <text x="70" y="270" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Business user exploration
+  </text>
+  <text x="70" y="290" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Ad-hoc reporting reduction
+  </text>
+  <text x="70" y="310" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Democratized data access
+  </text>
+  <text x="70" y="330" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Interactive exploration
+  </text>
+  <text x="70" y="350" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Drag-and-drop analytics
+  </text>
+
+  <!-- Quadrant 4: Pipeline Monitoring (Bottom Right) -->
+  <rect x="310" y="225" width="230" height="145" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="8"/>
+  <text x="425" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e65100">
+    🔧 Pipeline Monitoring
+  </text>
+  <text x="320" y="270" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • ETL job success/failure
+  </text>
+  <text x="320" y="290" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Data freshness indicators
+  </text>
+  <text x="320" y="310" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Performance optimization
+  </text>
+  <text x="320" y="330" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Processing time trends
+  </text>
+  <text x="320" y="350" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Data volume validation
+  </text>
+
+  <!-- Axis labels -->
+  <text x="30" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666" transform="rotate(-90, 30, 140)">
+    Business Focus
+  </text>
+  <text x="30" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666" transform="rotate(-90, 30, 300)">
+    Technical Focus
+  </text>
+  <text x="175" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">
+    Strategic
+  </text>
+  <text x="425" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">
+    Operational
+  </text>
+</svg>
