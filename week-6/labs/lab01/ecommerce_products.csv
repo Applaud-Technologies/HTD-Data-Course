@@ -1,0 +1,1001 @@
+product_id,product_name,category,price,stock_quantity,stock_status
+1,Product_Sports_0001,Sports,94.19,464,In Stock
+2,Product_Clothing_0002,Clothing,205.72,489,In Stock
+3,Product_Home & Garden_0003,Home & Garden,373.21,205,In Stock
+4,Product_Toys_0004,Toys,32.14,124,In Stock
+5,Product_Sports_0005,Sports,111.38,182,In Stock
+6,Product_Home & Garden_0006,Home & Garden,30.94,126,In Stock
+7,Product_Electronics_0007,Electronics,673.57,79,In Stock
+8,Product_Clothing_0008,Clothing,271.88,147,In Stock
+9,Product_Sports_0009,Sports,389.57,175,In Stock
+10,Product_Books_0010,Books,19.67,170,In Stock
+11,Product_Clothing_0011,Clothing,109.55,203,In Stock
+12,Product_Clothing_0012,Clothing,208.43,165,In Stock
+13,Product_Books_0013,Books,25.42,478,In Stock
+14,Product_Electronics_0014,Electronics,93.17,24,Medium Stock
+15,Product_Clothing_0015,Clothing,50.09,66,In Stock
+16,Product_Beauty_0016,Beauty,30.19,244,In Stock
+17,Product_Sports_0017,Sports,169.62,373,In Stock
+18,Product_Electronics_0018,Electronics,1634.82,25,Medium Stock
+19,Product_Books_0019,Books,19.43,453,In Stock
+20,Product_Toys_0020,Toys,18.6,440,In Stock
+21,Product_Clothing_0021,Clothing,230.57,343,In Stock
+22,Product_Sports_0022,Sports,133.48,246,In Stock
+23,Product_Electronics_0023,Electronics,1723.25,43,Medium Stock
+24,Product_Clothing_0024,Clothing,74.8,450,In Stock
+25,Product_Home & Garden_0025,Home & Garden,456.46,497,In Stock
+26,Product_Electronics_0026,Electronics,1543.32,25,Medium Stock
+27,Product_Books_0027,Books,27.02,467,In Stock
+28,Product_Sports_0028,Sports,387.18,459,In Stock
+29,Product_Clothing_0029,Clothing,60.22,425,In Stock
+30,Product_Toys_0030,Toys,137.1,243,In Stock
+31,Product_Home & Garden_0031,Home & Garden,293.03,396,In Stock
+32,Product_Sports_0032,Sports,314.89,205,In Stock
+33,Product_Toys_0033,Toys,91.1,259,In Stock
+34,Product_Clothing_0034,Clothing,199.11,392,In Stock
+35,Product_Home & Garden_0035,Home & Garden,303.38,198,In Stock
+36,Product_Home & Garden_0036,Home & Garden,89.2,73,In Stock
+37,Product_Home & Garden_0037,Home & Garden,350.1,90,In Stock
+38,Product_Beauty_0038,Beauty,81.6,151,In Stock
+39,Product_Electronics_0039,Electronics,858.64,76,In Stock
+40,Product_Beauty_0040,Beauty,70.74,489,In Stock
+41,Product_Sports_0041,Sports,215.21,337,In Stock
+42,Product_Clothing_0042,Clothing,,209,In Stock
+43,Product_Electronics_0043,Electronics,1073.54,53,In Stock
+44,Product_Clothing_0044,Clothing,38.78,407,In Stock
+45,Product_Home & Garden_0045,Home & Garden,257.29,130,In Stock
+46,Product_Sports_0046,Sports,304.28,109,In Stock
+47,Product_Sports_0047,Sports,178.58,350,In Stock
+48,Product_Books_0048,Books,33.08,208,In Stock
+49,Product_Home & Garden_0049,Home & Garden,304.65,69,In Stock
+50,Product_Toys_0050,Toys,,262,In Stock
+51,Product_Toys_0051,Toys,20.16,431,In Stock
+52,Product_Clothing_0052,Clothing,100.68,74,In Stock
+53,Product_Books_0053,Books,15.25,247,In Stock
+54,Product_Beauty_0054,Beauty,126.85,201,In Stock
+55,Product_Sports_0055,Sports,196.91,307,In Stock
+56,Product_Toys_0056,Toys,167.84,158,In Stock
+57,Product_Home & Garden_0057,Home & Garden,355.41,151,In Stock
+58,Product_Books_0058,Books,33.52,464,In Stock
+59,Product_Clothing_0059,Clothing,149.38,440,In Stock
+60,Product_Electronics_0060,Electronics,746.83,44,Medium Stock
+61,Product_Sports_0061,Sports,382.46,114,In Stock
+62,Product_Toys_0062,Toys,115.59,128,In Stock
+63,Product_Books_0063,Books,17.43,388,In Stock
+64,Product_Sports_0064,Sports,51.5,357,In Stock
+65,Product_Clothing_0065,Clothing,207.14,77,In Stock
+66,Product_Clothing_0066,Clothing,33.96,187,In Stock
+67,Product_Beauty_0067,Beauty,56.89,159,In Stock
+68,Product_Electronics_0068,Electronics,195.84,67,In Stock
+69,Product_Clothing_0069,Clothing,69.84,366,In Stock
+70,Product_Beauty_0070,Beauty,58.43,364,In Stock
+71,Product_Beauty_0071,Beauty,38.47,318,In Stock
+72,Product_Home & Garden_0072,Home & Garden,348.7,359,In Stock
+73,Product_Sports_0073,Sports,250.42,176,In Stock
+74,Product_Toys_0074,Toys,53.42,412,In Stock
+75,Product_Home & Garden_0075,Home & Garden,443.74,432,In Stock
+76,Product_Electronics_0076,Electronics,158.98,88,In Stock
+77,Product_Clothing_0077,Clothing,197.25,145,In Stock
+78,Product_Clothing_0078,Clothing,73.27,257,In Stock
+79,Product_Home & Garden_0079,Home & Garden,,86,In Stock
+80,Product_Clothing_0080,Clothing,104.19,247,In Stock
+81,Product_Books_0081,Books,47.83,135,In Stock
+82,Product_Sports_0082,Sports,318.59,464,In Stock
+83,Product_Clothing_0083,Clothing,96.23,169,In Stock
+84,Product_Home & Garden_0084,Home & Garden,406.46,409,In Stock
+85,Product_Home & Garden_0085,Home & Garden,425.66,73,In Stock
+86,Product_Toys_0086,Toys,23.69,253,In Stock
+87,Product_Electronics_0087,Electronics,341.7,97,In Stock
+88,Product_Home & Garden_0088,Home & Garden,78.56,91,In Stock
+89,Product_Beauty_0089,Beauty,18.12,323,In Stock
+90,Product_Clothing_0090,Clothing,71.71,379,In Stock
+91,Product_Toys_0091,Toys,137.2,258,In Stock
+92,Product_Toys_0092,Toys,194.74,134,In Stock
+93,Product_Home & Garden_0093,Home & Garden,128.64,252,In Stock
+94,Product_Electronics_0094,Electronics,484.69,46,Medium Stock
+95,Product_Sports_0095,Sports,40.17,193,In Stock
+96,Product_Electronics_0096,Electronics,1235.88,76,In Stock
+97,Product_Books_0097,Books,36.61,356,In Stock
+98,Product_Clothing_0098,Clothing,245.66,337,In Stock
+99,Product_Books_0099,Books,14.22,375,In Stock
+100,Product_Beauty_0100,Beauty,143.66,467,In Stock
+101,Product_Electronics_0101,Electronics,813.14,44,Medium Stock
+102,Product_Home & Garden_0102,Home & Garden,86.04,314,In Stock
+103,Product_Beauty_0103,Beauty,53.36,56,In Stock
+104,Product_Beauty_0104,Beauty,105.58,176,In Stock
+105,Product_Books_0105,Books,17.69,104,In Stock
+106,Product_Clothing_0106,Clothing,33.26,77,In Stock
+107,Product_Clothing_0107,Clothing,116.72,283,In Stock
+108,Product_Beauty_0108,Beauty,64.46,52,In Stock
+109,Product_Sports_0109,Sports,189.79,277,In Stock
+110,Product_Beauty_0110,Beauty,146.8,441,In Stock
+111,Product_Clothing_0111,Clothing,261.46,384,In Stock
+112,Product_Books_0112,Books,42.69,343,In Stock
+113,Product_Sports_0113,Sports,183.98,354,In Stock
+114,Product_Clothing_0114,Clothing,39.61,153,In Stock
+115,Product_Books_0115,Books,49.61,68,In Stock
+116,Product_Sports_0116,Sports,147.75,102,In Stock
+117,Product_Beauty_0117,Beauty,118.81,87,In Stock
+118,Product_Clothing_0118,Clothing,24.01,343,In Stock
+119,Product_Electronics_0119,Electronics,1760.75,64,In Stock
+120,Product_Beauty_0120,Beauty,54.85,68,In Stock
+121,Product_Clothing_0121,Clothing,242.0,62,In Stock
+122,Product_Toys_0122,Toys,158.04,97,In Stock
+123,Product_Books_0123,Books,19.71,200,In Stock
+124,Product_Home & Garden_0124,Home & Garden,128.25,464,In Stock
+125,Product_Beauty_0125,Beauty,67.24,484,In Stock
+126,Product_Beauty_0126,Beauty,66.52,279,In Stock
+127,Product_Beauty_0127,Beauty,60.0,168,In Stock
+128,Product_Home & Garden_0128,Home & Garden,313.51,388,In Stock
+129,Product_Electronics_0129,Electronics,1899.0,94,In Stock
+130,Product_Books_0130,Books,30.31,258,In Stock
+131,Product_Beauty_0131,Beauty,131.88,225,In Stock
+132,Product_Home & Garden_0132,Home & Garden,464.72,132,In Stock
+133,Product_Electronics_0133,Electronics,270.79,23,Medium Stock
+134,Product_Books_0134,Books,24.16,398,In Stock
+135,Product_Home & Garden_0135,Home & Garden,174.12,158,In Stock
+136,Product_Home & Garden_0136,Home & Garden,413.98,234,In Stock
+137,Product_Books_0137,Books,49.89,50,In Stock
+138,Product_Beauty_0138,Beauty,51.94,437,In Stock
+139,Product_Clothing_0139,Clothing,114.05,366,In Stock
+140,Product_Beauty_0140,Beauty,18.68,349,In Stock
+141,Product_Clothing_0141,Clothing,273.38,246,In Stock
+142,Product_Books_0142,Books,19.07,228,In Stock
+143,Product_Clothing_0143,Clothing,261.53,247,In Stock
+144,Product_Toys_0144,Toys,58.66,428,In Stock
+145,Product_Home & Garden_0145,Home & Garden,419.78,381,In Stock
+146,Product_Beauty_0146,Beauty,124.88,170,In Stock
+147,Product_Home & Garden_0147,Home & Garden,457.1,282,In Stock
+148,Product_Clothing_0148,Clothing,63.87,340,In Stock
+149,Product_Sports_0149,Sports,227.26,440,In Stock
+150,Product_Beauty_0150,Beauty,25.96,129,In Stock
+151,Product_Beauty_0151,Beauty,54.59,303,In Stock
+152,Product_Sports_0152,Sports,40.05,127,In Stock
+153,Product_Books_0153,Books,38.69,150,In Stock
+154,Product_Clothing_0154,Clothing,80.31,465,In Stock
+155,Product_Books_0155,Books,43.33,228,In Stock
+156,Product_Clothing_0156,Clothing,90.69,242,In Stock
+157,Product_Clothing_0157,Clothing,285.76,388,In Stock
+158,Product_Clothing_0158,Clothing,21.01,368,In Stock
+159,Product_Beauty_0159,Beauty,109.4,295,In Stock
+160,Product_Electronics_0160,Electronics,1970.56,59,In Stock
+161,Product_Books_0161,Books,30.03,389,In Stock
+162,Product_Home & Garden_0162,Home & Garden,450.86,409,In Stock
+163,Product_Clothing_0163,Clothing,100.02,173,In Stock
+164,Product_Electronics_0164,Electronics,1530.28,35,Medium Stock
+165,Product_Books_0165,Books,34.36,441,In Stock
+166,Product_Clothing_0166,Clothing,202.33,361,In Stock
+167,Product_Sports_0167,Sports,159.21,67,In Stock
+168,Product_Beauty_0168,Beauty,62.09,237,In Stock
+169,Product_Sports_0169,Sports,37.65,378,In Stock
+170,Product_Books_0170,Books,48.78,496,In Stock
+171,Product_Toys_0171,Toys,63.53,213,In Stock
+172,Product_Home & Garden_0172,Home & Garden,45.54,114,In Stock
+173,Product_Beauty_0173,Beauty,91.76,417,In Stock
+174,Product_Home & Garden_0174,Home & Garden,69.69,119,In Stock
+175,Product_Toys_0175,Toys,110.74,251,In Stock
+176,Product_Clothing_0176,Clothing,118.06,350,In Stock
+177,Product_Clothing_0177,Clothing,188.51,146,In Stock
+178,Product_Toys_0178,Toys,172.77,239,In Stock
+179,Product_Home & Garden_0179,Home & Garden,415.85,251,In Stock
+180,Product_Home & Garden_0180,Home & Garden,137.37,156,In Stock
+181,Product_Toys_0181,Toys,67.74,323,In Stock
+182,Product_Clothing_0182,Clothing,297.11,279,In Stock
+183,Product_Electronics_0183,Electronics,1533.04,47,Medium Stock
+184,Product_Toys_0184,Toys,107.24,371,In Stock
+185,Product_Electronics_0185,Electronics,781.36,56,In Stock
+186,Product_Electronics_0186,Electronics,861.57,39,Medium Stock
+187,Product_Beauty_0187,Beauty,74.23,171,In Stock
+188,Product_Home & Garden_0188,Home & Garden,285.04,117,In Stock
+189,Product_Books_0189,Books,44.25,480,In Stock
+190,Product_Clothing_0190,Clothing,250.07,420,In Stock
+191,Product_Books_0191,Books,22.02,252,In Stock
+192,Product_Clothing_0192,Clothing,121.12,432,In Stock
+193,Product_Books_0193,Books,19.23,127,In Stock
+194,Product_Toys_0194,Toys,119.23,114,In Stock
+195,Product_Toys_0195,Toys,18.82,486,In Stock
+196,Product_Clothing_0196,Clothing,26.39,218,In Stock
+197,Product_Clothing_0197,Clothing,261.36,138,In Stock
+198,Product_Electronics_0198,Electronics,,16,Low Stock
+199,Product_Electronics_0199,Electronics,862.84,95,In Stock
+200,Product_Beauty_0200,Beauty,99.11,457,In Stock
+201,Product_Sports_0201,Sports,155.91,391,In Stock
+202,Product_Toys_0202,Toys,144.76,78,In Stock
+203,Product_Home & Garden_0203,Home & Garden,221.84,217,In Stock
+204,Product_Toys_0204,Toys,119.52,262,In Stock
+205,Product_Sports_0205,Sports,181.39,349,In Stock
+206,Product_Clothing_0206,Clothing,222.6,337,In Stock
+207,Product_Books_0207,Books,30.05,179,In Stock
+208,Product_Books_0208,Books,18.33,432,In Stock
+209,Product_Beauty_0209,Beauty,143.0,313,In Stock
+210,Product_Toys_0210,Toys,71.07,94,In Stock
+211,Product_Home & Garden_0211,Home & Garden,407.08,50,In Stock
+212,Product_Books_0212,Books,31.92,428,In Stock
+213,Product_Toys_0213,Toys,111.84,121,In Stock
+214,Product_Home & Garden_0214,Home & Garden,35.38,148,In Stock
+215,Product_Electronics_0215,Electronics,64.47,48,Medium Stock
+216,Product_Toys_0216,Toys,87.59,242,In Stock
+217,Product_Home & Garden_0217,Home & Garden,425.01,369,In Stock
+218,Product_Books_0218,Books,34.38,398,In Stock
+219,Product_Clothing_0219,Clothing,253.49,412,In Stock
+220,Product_Electronics_0220,Electronics,153.64,61,In Stock
+221,Product_Electronics_0221,Electronics,572.09,35,Medium Stock
+222,Product_Clothing_0222,Clothing,207.74,161,In Stock
+223,Product_Clothing_0223,Clothing,209.46,185,In Stock
+224,Product_Electronics_0224,Electronics,337.04,77,In Stock
+225,Product_Home & Garden_0225,Home & Garden,462.12,396,In Stock
+226,Product_Beauty_0226,Beauty,145.78,288,In Stock
+227,Product_Sports_0227,Sports,278.43,175,In Stock
+228,Product_Books_0228,Books,34.91,261,In Stock
+229,Product_Electronics_0229,Electronics,1110.29,56,In Stock
+230,Product_Home & Garden_0230,Home & Garden,229.63,421,In Stock
+231,Product_Home & Garden_0231,Home & Garden,77.27,360,In Stock
+232,Product_Clothing_0232,Clothing,37.77,86,In Stock
+233,Product_Toys_0233,Toys,32.52,321,In Stock
+234,Product_Clothing_0234,Clothing,269.56,499,In Stock
+235,Product_Home & Garden_0235,Home & Garden,80.78,260,In Stock
+236,Product_Home & Garden_0236,Home & Garden,71.2,91,In Stock
+237,Product_Clothing_0237,Clothing,34.57,253,In Stock
+238,Product_Home & Garden_0238,Home & Garden,406.22,112,In Stock
+239,Product_Books_0239,Books,34.25,82,In Stock
+240,Product_Clothing_0240,Clothing,116.29,371,In Stock
+241,Product_Beauty_0241,Beauty,26.86,164,In Stock
+242,Product_Beauty_0242,Beauty,80.3,129,In Stock
+243,Product_Beauty_0243,Beauty,57.93,184,In Stock
+244,Product_Clothing_0244,Clothing,230.45,403,In Stock
+245,Product_Beauty_0245,Beauty,46.0,361,In Stock
+246,Product_Toys_0246,Toys,26.05,309,In Stock
+247,Product_Electronics_0247,Electronics,1211.23,90,In Stock
+248,Product_Sports_0248,Sports,385.33,83,In Stock
+249,Product_Home & Garden_0249,Home & Garden,27.27,286,In Stock
+250,Product_Books_0250,Books,21.59,57,In Stock
+251,Product_Home & Garden_0251,Home & Garden,251.91,125,In Stock
+252,Product_Electronics_0252,Electronics,997.66,83,In Stock
+253,Product_Home & Garden_0253,Home & Garden,360.58,415,In Stock
+254,Product_Books_0254,Books,17.41,166,In Stock
+255,Product_Clothing_0255,Clothing,90.28,225,In Stock
+256,Product_Electronics_0256,Electronics,1331.57,78,In Stock
+257,Product_Toys_0257,Toys,133.9,375,In Stock
+258,Product_Books_0258,Books,26.4,462,In Stock
+259,Product_Clothing_0259,Clothing,275.1,102,In Stock
+260,Product_Toys_0260,Toys,104.39,358,In Stock
+261,Product_Clothing_0261,Clothing,235.63,348,In Stock
+262,Product_Electronics_0262,Electronics,1542.9,89,In Stock
+263,Product_Beauty_0263,Beauty,31.86,482,In Stock
+264,Product_Toys_0264,Toys,197.25,145,In Stock
+265,Product_Toys_0265,Toys,104.25,364,In Stock
+266,Product_Clothing_0266,Clothing,182.96,181,In Stock
+267,Product_Home & Garden_0267,Home & Garden,114.89,400,In Stock
+268,Product_Home & Garden_0268,Home & Garden,336.99,439,In Stock
+269,Product_Electronics_0269,Electronics,700.17,90,In Stock
+270,Product_Electronics_0270,Electronics,1511.52,100,In Stock
+271,Product_Books_0271,Books,12.51,272,In Stock
+272,Product_Toys_0272,Toys,14.3,496,In Stock
+273,Product_Books_0273,Books,41.05,109,In Stock
+274,Product_Beauty_0274,Beauty,19.63,450,In Stock
+275,Product_Toys_0275,Toys,184.51,163,In Stock
+276,Product_Books_0276,Books,29.28,181,In Stock
+277,Product_Electronics_0277,Electronics,1145.81,100,In Stock
+278,Product_Home & Garden_0278,Home & Garden,389.81,214,In Stock
+279,Product_Home & Garden_0279,Home & Garden,346.54,295,In Stock
+280,Product_Electronics_0280,Electronics,309.26,52,In Stock
+281,Product_Electronics_0281,Electronics,138.77,54,In Stock
+282,Product_Books_0282,Books,41.76,387,In Stock
+283,Product_Books_0283,Books,33.0,78,In Stock
+284,Product_Sports_0284,Sports,152.37,248,In Stock
+285,Product_Clothing_0285,Clothing,108.0,135,In Stock
+286,Product_Sports_0286,Sports,85.62,321,In Stock
+287,Product_Electronics_0287,Electronics,1212.58,88,In Stock
+288,Product_Toys_0288,Toys,125.79,232,In Stock
+289,Product_Beauty_0289,Beauty,105.83,402,In Stock
+290,Product_Home & Garden_0290,Home & Garden,363.42,415,In Stock
+291,Product_Beauty_0291,Beauty,45.34,249,In Stock
+292,Product_Clothing_0292,Clothing,82.64,289,In Stock
+293,Product_Home & Garden_0293,Home & Garden,444.26,261,In Stock
+294,Product_Clothing_0294,Clothing,124.85,420,In Stock
+295,Product_Beauty_0295,Beauty,84.58,252,In Stock
+296,Product_Books_0296,Books,44.43,160,In Stock
+297,Product_Home & Garden_0297,Home & Garden,345.56,215,In Stock
+298,Product_Electronics_0298,Electronics,398.33,19,Low Stock
+299,Product_Home & Garden_0299,Home & Garden,255.0,53,In Stock
+300,Product_Toys_0300,Toys,194.42,213,In Stock
+301,Product_Beauty_0301,Beauty,57.61,367,In Stock
+302,Product_Toys_0302,Toys,140.97,300,In Stock
+303,Product_Home & Garden_0303,Home & Garden,355.31,166,In Stock
+304,Product_Electronics_0304,Electronics,335.0,83,In Stock
+305,Product_Beauty_0305,Beauty,102.15,475,In Stock
+306,Product_Clothing_0306,Clothing,160.19,300,In Stock
+307,Product_Toys_0307,Toys,130.0,211,In Stock
+308,Product_Home & Garden_0308,Home & Garden,73.36,84,In Stock
+309,Product_Clothing_0309,Clothing,293.94,379,In Stock
+310,Product_Home & Garden_0310,Home & Garden,243.84,180,In Stock
+311,Product_Home & Garden_0311,Home & Garden,443.79,187,In Stock
+312,Product_Books_0312,Books,37.75,87,In Stock
+313,Product_Home & Garden_0313,Home & Garden,29.11,395,In Stock
+314,Product_Toys_0314,Toys,190.33,250,In Stock
+315,Product_Toys_0315,Toys,189.3,283,In Stock
+316,Product_Beauty_0316,Beauty,107.42,413,In Stock
+317,Product_Beauty_0317,Beauty,96.07,125,In Stock
+318,Product_Electronics_0318,Electronics,812.88,60,In Stock
+319,Product_Toys_0319,Toys,76.72,287,In Stock
+320,Product_Beauty_0320,Beauty,27.58,103,In Stock
+321,Product_Clothing_0321,Clothing,118.27,236,In Stock
+322,Product_Electronics_0322,Electronics,282.23,47,Medium Stock
+323,Product_Electronics_0323,Electronics,1683.74,30,Medium Stock
+324,Product_Electronics_0324,Electronics,632.47,13,Low Stock
+325,Product_Electronics_0325,Electronics,1406.47,79,In Stock
+326,Product_Books_0326,Books,35.8,253,In Stock
+327,Product_Clothing_0327,Clothing,78.31,66,In Stock
+328,Product_Sports_0328,Sports,329.17,310,In Stock
+329,Product_Electronics_0329,Electronics,999.32,83,In Stock
+330,Product_Clothing_0330,Clothing,67.07,371,In Stock
+331,Product_Sports_0331,Sports,226.79,376,In Stock
+332,Product_Clothing_0332,Clothing,106.8,311,In Stock
+333,Product_Toys_0333,Toys,171.25,479,In Stock
+334,Product_Beauty_0334,Beauty,77.1,459,In Stock
+335,Product_Books_0335,Books,25.07,291,In Stock
+336,Product_Electronics_0336,Electronics,832.09,76,In Stock
+337,Product_Books_0337,Books,21.49,92,In Stock
+338,Product_Beauty_0338,Beauty,35.4,275,In Stock
+339,Product_Clothing_0339,Clothing,54.97,268,In Stock
+340,Product_Home & Garden_0340,Home & Garden,34.24,440,In Stock
+341,Product_Clothing_0341,Clothing,132.21,328,In Stock
+342,Product_Home & Garden_0342,Home & Garden,,144,In Stock
+343,Product_Clothing_0343,Clothing,,118,In Stock
+344,Product_Home & Garden_0344,Home & Garden,168.35,365,In Stock
+345,Product_Beauty_0345,Beauty,88.66,61,In Stock
+346,Product_Clothing_0346,Clothing,285.25,120,In Stock
+347,Product_Beauty_0347,Beauty,147.65,179,In Stock
+348,Product_Sports_0348,Sports,166.83,85,In Stock
+349,Product_Clothing_0349,Clothing,205.73,416,In Stock
+350,Product_Toys_0350,Toys,129.08,363,In Stock
+351,Product_Beauty_0351,Beauty,59.43,440,In Stock
+352,Product_Home & Garden_0352,Home & Garden,454.54,372,In Stock
+353,Product_Sports_0353,Sports,393.03,83,In Stock
+354,Product_Beauty_0354,Beauty,75.55,424,In Stock
+355,Product_Books_0355,Books,46.02,230,In Stock
+356,Product_Books_0356,Books,20.22,400,In Stock
+357,Product_Home & Garden_0357,Home & Garden,265.41,59,In Stock
+358,Product_Electronics_0358,Electronics,1500.34,20,Medium Stock
+359,Product_Electronics_0359,Electronics,839.59,24,Medium Stock
+360,Product_Beauty_0360,Beauty,78.12,402,In Stock
+361,Product_Beauty_0361,Beauty,61.15,181,In Stock
+362,Product_Toys_0362,Toys,49.8,115,In Stock
+363,Product_Electronics_0363,Electronics,1751.23,32,Medium Stock
+364,Product_Sports_0364,Sports,111.99,74,In Stock
+365,Product_Toys_0365,Toys,105.43,264,In Stock
+366,Product_Toys_0366,Toys,105.96,281,In Stock
+367,Product_Home & Garden_0367,Home & Garden,232.83,173,In Stock
+368,Product_Clothing_0368,Clothing,169.44,128,In Stock
+369,Product_Home & Garden_0369,Home & Garden,32.82,320,In Stock
+370,Product_Clothing_0370,Clothing,79.67,411,In Stock
+371,Product_Beauty_0371,Beauty,95.85,392,In Stock
+372,Product_Sports_0372,Sports,383.81,122,In Stock
+373,Product_Books_0373,Books,49.3,377,In Stock
+374,Product_Clothing_0374,Clothing,72.15,283,In Stock
+375,Product_Home & Garden_0375,Home & Garden,243.34,154,In Stock
+376,Product_Toys_0376,Toys,116.39,272,In Stock
+377,Product_Clothing_0377,Clothing,227.94,122,In Stock
+378,Product_Home & Garden_0378,Home & Garden,93.63,336,In Stock
+379,Product_Books_0379,Books,46.46,360,In Stock
+380,Product_Beauty_0380,Beauty,94.22,262,In Stock
+381,Product_Clothing_0381,Clothing,44.35,163,In Stock
+382,Product_Home & Garden_0382,Home & Garden,379.76,480,In Stock
+383,Product_Clothing_0383,Clothing,85.93,268,In Stock
+384,Product_Toys_0384,Toys,166.1,478,In Stock
+385,Product_Books_0385,Books,15.47,422,In Stock
+386,Product_Electronics_0386,Electronics,251.28,11,Low Stock
+387,Product_Books_0387,Books,,489,In Stock
+388,Product_Beauty_0388,Beauty,149.05,241,In Stock
+389,Product_Clothing_0389,Clothing,147.03,179,In Stock
+390,Product_Sports_0390,Sports,376.43,59,In Stock
+391,Product_Toys_0391,Toys,20.94,273,In Stock
+392,Product_Electronics_0392,Electronics,1521.46,84,In Stock
+393,Product_Sports_0393,Sports,74.96,65,In Stock
+394,Product_Home & Garden_0394,Home & Garden,393.7,197,In Stock
+395,Product_Clothing_0395,Clothing,263.96,426,In Stock
+396,Product_Electronics_0396,Electronics,1575.28,13,Low Stock
+397,Product_Books_0397,Books,22.61,423,In Stock
+398,Product_Sports_0398,Sports,318.39,300,In Stock
+399,Product_Toys_0399,Toys,79.88,123,In Stock
+400,Product_Sports_0400,Sports,250.98,261,In Stock
+401,Product_Home & Garden_0401,Home & Garden,446.85,137,In Stock
+402,Product_Electronics_0402,Electronics,600.12,85,In Stock
+403,Product_Books_0403,Books,17.13,99,In Stock
+404,Product_Toys_0404,Toys,133.04,53,In Stock
+405,Product_Home & Garden_0405,Home & Garden,410.13,59,In Stock
+406,Product_Home & Garden_0406,Home & Garden,285.95,462,In Stock
+407,Product_Electronics_0407,Electronics,763.12,83,In Stock
+408,Product_Electronics_0408,Electronics,1394.89,63,In Stock
+409,Product_Home & Garden_0409,Home & Garden,161.35,418,In Stock
+410,Product_Home & Garden_0410,Home & Garden,116.67,112,In Stock
+411,Product_Toys_0411,Toys,20.25,133,In Stock
+412,Product_Beauty_0412,Beauty,84.03,240,In Stock
+413,Product_Books_0413,Books,22.1,175,In Stock
+414,Product_Toys_0414,Toys,63.55,118,In Stock
+415,Product_Books_0415,Books,49.74,332,In Stock
+416,Product_Beauty_0416,Beauty,87.4,216,In Stock
+417,Product_Toys_0417,Toys,143.26,330,In Stock
+418,Product_Clothing_0418,Clothing,133.57,283,In Stock
+419,Product_Clothing_0419,Clothing,116.32,375,In Stock
+420,Product_Sports_0420,Sports,244.1,229,In Stock
+421,Product_Electronics_0421,Electronics,1761.02,17,Low Stock
+422,Product_Clothing_0422,Clothing,299.18,485,In Stock
+423,Product_Toys_0423,Toys,188.7,304,In Stock
+424,Product_Beauty_0424,Beauty,44.78,139,In Stock
+425,Product_Books_0425,Books,18.97,432,In Stock
+426,Product_Clothing_0426,Clothing,191.07,151,In Stock
+427,Product_Electronics_0427,Electronics,1940.44,15,Low Stock
+428,Product_Toys_0428,Toys,82.35,94,In Stock
+429,Product_Home & Garden_0429,Home & Garden,241.07,218,In Stock
+430,Product_Beauty_0430,Beauty,107.96,468,In Stock
+431,Product_Clothing_0431,Clothing,145.12,309,In Stock
+432,Product_Home & Garden_0432,Home & Garden,480.28,477,In Stock
+433,Product_Electronics_0433,Electronics,224.67,67,In Stock
+434,Product_Beauty_0434,Beauty,136.05,332,In Stock
+435,Product_Beauty_0435,Beauty,83.98,255,In Stock
+436,Product_Sports_0436,Sports,236.26,92,In Stock
+437,Product_Electronics_0437,Electronics,1211.88,45,Medium Stock
+438,Product_Electronics_0438,Electronics,683.73,12,Low Stock
+439,Product_Toys_0439,Toys,67.77,60,In Stock
+440,Product_Toys_0440,Toys,57.53,233,In Stock
+441,Product_Clothing_0441,Clothing,195.95,323,In Stock
+442,Product_Sports_0442,Sports,,309,In Stock
+443,Product_Beauty_0443,Beauty,20.43,438,In Stock
+444,Product_Toys_0444,Toys,47.3,110,In Stock
+445,Product_Beauty_0445,Beauty,69.12,271,In Stock
+446,Product_Beauty_0446,Beauty,105.67,484,In Stock
+447,Product_Electronics_0447,Electronics,1840.19,26,Medium Stock
+448,Product_Clothing_0448,Clothing,88.36,162,In Stock
+449,Product_Beauty_0449,Beauty,29.29,409,In Stock
+450,Product_Clothing_0450,Clothing,161.03,404,In Stock
+451,Product_Beauty_0451,Beauty,34.91,388,In Stock
+452,Product_Books_0452,Books,38.45,355,In Stock
+453,Product_Beauty_0453,Beauty,141.3,73,In Stock
+454,Product_Beauty_0454,Beauty,103.13,456,In Stock
+455,Product_Home & Garden_0455,Home & Garden,69.37,258,In Stock
+456,Product_Sports_0456,Sports,397.28,277,In Stock
+457,Product_Sports_0457,Sports,31.27,360,In Stock
+458,Product_Home & Garden_0458,Home & Garden,313.1,95,In Stock
+459,Product_Sports_0459,Sports,294.9,146,In Stock
+460,Product_Books_0460,Books,18.93,353,In Stock
+461,Product_Toys_0461,Toys,142.37,164,In Stock
+462,Product_Clothing_0462,Clothing,110.25,206,In Stock
+463,Product_Toys_0463,Toys,178.62,289,In Stock
+464,Product_Home & Garden_0464,Home & Garden,33.58,123,In Stock
+465,Product_Electronics_0465,Electronics,603.64,42,Medium Stock
+466,Product_Books_0466,Books,33.37,494,In Stock
+467,Product_Books_0467,Books,38.69,94,In Stock
+468,Product_Electronics_0468,Electronics,254.92,10,Low Stock
+469,Product_Clothing_0469,Clothing,63.36,484,In Stock
+470,Product_Electronics_0470,Electronics,1299.88,77,In Stock
+471,Product_Beauty_0471,Beauty,116.6,69,In Stock
+472,Product_Beauty_0472,Beauty,104.89,105,In Stock
+473,Product_Sports_0473,Sports,126.92,387,In Stock
+474,Product_Toys_0474,Toys,44.8,135,In Stock
+475,Product_Clothing_0475,Clothing,100.9,447,In Stock
+476,Product_Toys_0476,Toys,197.77,244,In Stock
+477,Product_Beauty_0477,Beauty,99.92,354,In Stock
+478,Product_Home & Garden_0478,Home & Garden,,81,In Stock
+479,Product_Sports_0479,Sports,379.27,313,In Stock
+480,Product_Clothing_0480,Clothing,113.46,284,In Stock
+481,Product_Beauty_0481,Beauty,35.23,433,In Stock
+482,Product_Toys_0482,Toys,106.42,393,In Stock
+483,Product_Toys_0483,Toys,73.99,345,In Stock
+484,Product_Sports_0484,Sports,206.08,350,In Stock
+485,Product_Books_0485,Books,,166,In Stock
+486,Product_Toys_0486,Toys,141.5,303,In Stock
+487,Product_Clothing_0487,Clothing,274.71,104,In Stock
+488,Product_Clothing_0488,Clothing,124.05,432,In Stock
+489,Product_Electronics_0489,Electronics,1804.93,83,In Stock
+490,Product_Clothing_0490,Clothing,92.5,377,In Stock
+491,Product_Toys_0491,Toys,163.05,490,In Stock
+492,Product_Electronics_0492,Electronics,1550.18,26,Medium Stock
+493,Product_Toys_0493,Toys,24.92,374,In Stock
+494,Product_Beauty_0494,Beauty,88.9,218,In Stock
+495,Product_Sports_0495,Sports,209.82,74,In Stock
+496,Product_Sports_0496,Sports,37.79,488,In Stock
+497,Product_Sports_0497,Sports,37.5,158,In Stock
+498,Product_Home & Garden_0498,Home & Garden,88.22,298,In Stock
+499,Product_Beauty_0499,Beauty,57.34,315,In Stock
+500,Product_Home & Garden_0500,Home & Garden,222.94,474,In Stock
+501,Product_Beauty_0501,Beauty,79.95,237,In Stock
+502,Product_Beauty_0502,Beauty,24.92,337,In Stock
+503,Product_Electronics_0503,Electronics,1125.49,75,In Stock
+504,Product_Toys_0504,Toys,24.2,383,In Stock
+505,Product_Electronics_0505,Electronics,355.27,43,Medium Stock
+506,Product_Books_0506,Books,25.96,344,In Stock
+507,Product_Beauty_0507,Beauty,24.71,406,In Stock
+508,Product_Electronics_0508,Electronics,,82,In Stock
+509,Product_Books_0509,Books,37.41,52,In Stock
+510,Product_Electronics_0510,Electronics,1890.42,73,In Stock
+511,Product_Clothing_0511,Clothing,219.69,365,In Stock
+512,Product_Home & Garden_0512,Home & Garden,123.04,363,In Stock
+513,Product_Beauty_0513,Beauty,125.46,422,In Stock
+514,Product_Home & Garden_0514,Home & Garden,300.47,202,In Stock
+515,Product_Clothing_0515,Clothing,213.16,210,In Stock
+516,Product_Clothing_0516,Clothing,256.34,378,In Stock
+517,Product_Clothing_0517,Clothing,24.14,495,In Stock
+518,Product_Clothing_0518,Clothing,73.49,191,In Stock
+519,Product_Home & Garden_0519,Home & Garden,113.8,72,In Stock
+520,Product_Sports_0520,Sports,115.51,347,In Stock
+521,Product_Sports_0521,Sports,241.93,137,In Stock
+522,Product_Toys_0522,Toys,199.98,119,In Stock
+523,Product_Beauty_0523,Beauty,117.6,444,In Stock
+524,Product_Home & Garden_0524,Home & Garden,380.34,195,In Stock
+525,Product_Toys_0525,Toys,14.44,202,In Stock
+526,Product_Books_0526,Books,18.72,475,In Stock
+527,Product_Books_0527,Books,28.66,340,In Stock
+528,Product_Books_0528,Books,32.04,250,In Stock
+529,Product_Toys_0529,Toys,114.92,459,In Stock
+530,Product_Beauty_0530,Beauty,58.18,177,In Stock
+531,Product_Home & Garden_0531,Home & Garden,243.15,383,In Stock
+532,Product_Clothing_0532,Clothing,126.34,157,In Stock
+533,Product_Books_0533,Books,33.21,314,In Stock
+534,Product_Books_0534,Books,24.07,370,In Stock
+535,Product_Clothing_0535,Clothing,191.25,491,In Stock
+536,Product_Electronics_0536,Electronics,543.41,16,Low Stock
+537,Product_Electronics_0537,Electronics,191.59,87,In Stock
+538,Product_Clothing_0538,Clothing,25.47,343,In Stock
+539,Product_Clothing_0539,Clothing,203.39,236,In Stock
+540,Product_Electronics_0540,Electronics,901.64,50,In Stock
+541,Product_Toys_0541,Toys,160.34,437,In Stock
+542,Product_Clothing_0542,Clothing,278.95,394,In Stock
+543,Product_Clothing_0543,Clothing,40.3,263,In Stock
+544,Product_Toys_0544,Toys,175.3,458,In Stock
+545,Product_Home & Garden_0545,Home & Garden,338.19,243,In Stock
+546,Product_Sports_0546,Sports,97.93,208,In Stock
+547,Product_Clothing_0547,Clothing,151.48,161,In Stock
+548,Product_Toys_0548,Toys,11.9,396,In Stock
+549,Product_Beauty_0549,Beauty,22.77,480,In Stock
+550,Product_Home & Garden_0550,Home & Garden,324.37,157,In Stock
+551,Product_Sports_0551,Sports,46.93,276,In Stock
+552,Product_Home & Garden_0552,Home & Garden,298.16,100,In Stock
+553,Product_Electronics_0553,Electronics,313.43,69,In Stock
+554,Product_Sports_0554,Sports,220.61,248,In Stock
+555,Product_Electronics_0555,Electronics,1093.72,97,In Stock
+556,Product_Toys_0556,Toys,12.96,148,In Stock
+557,Product_Books_0557,Books,12.95,63,In Stock
+558,Product_Electronics_0558,Electronics,343.78,10,Low Stock
+559,Product_Home & Garden_0559,Home & Garden,404.14,323,In Stock
+560,Product_Clothing_0560,Clothing,195.19,348,In Stock
+561,Product_Home & Garden_0561,Home & Garden,128.65,147,In Stock
+562,Product_Home & Garden_0562,Home & Garden,401.77,414,In Stock
+563,Product_Beauty_0563,Beauty,129.28,194,In Stock
+564,Product_Clothing_0564,Clothing,242.17,146,In Stock
+565,Product_Clothing_0565,Clothing,226.76,350,In Stock
+566,Product_Toys_0566,Toys,12.61,116,In Stock
+567,Product_Home & Garden_0567,Home & Garden,329.17,220,In Stock
+568,Product_Sports_0568,Sports,91.03,72,In Stock
+569,Product_Toys_0569,Toys,126.9,164,In Stock
+570,Product_Electronics_0570,Electronics,90.02,27,Medium Stock
+571,Product_Beauty_0571,Beauty,25.76,399,In Stock
+572,Product_Electronics_0572,Electronics,1170.92,50,In Stock
+573,Product_Books_0573,Books,37.48,284,In Stock
+574,Product_Home & Garden_0574,Home & Garden,390.34,405,In Stock
+575,Product_Toys_0575,Toys,61.51,219,In Stock
+576,Product_Sports_0576,Sports,373.18,195,In Stock
+577,Product_Sports_0577,Sports,280.42,129,In Stock
+578,Product_Clothing_0578,Clothing,169.84,403,In Stock
+579,Product_Books_0579,Books,38.01,121,In Stock
+580,Product_Toys_0580,Toys,16.39,175,In Stock
+581,Product_Electronics_0581,Electronics,202.0,72,In Stock
+582,Product_Sports_0582,Sports,76.13,267,In Stock
+583,Product_Books_0583,Books,22.99,218,In Stock
+584,Product_Home & Garden_0584,Home & Garden,119.6,349,In Stock
+585,Product_Beauty_0585,Beauty,94.13,232,In Stock
+586,Product_Toys_0586,Toys,119.17,226,In Stock
+587,Product_Electronics_0587,Electronics,383.2,15,Low Stock
+588,Product_Toys_0588,Toys,147.86,126,In Stock
+589,Product_Electronics_0589,Electronics,1422.37,62,In Stock
+590,Product_Home & Garden_0590,Home & Garden,164.0,178,In Stock
+591,Product_Electronics_0591,Electronics,1687.81,63,In Stock
+592,Product_Electronics_0592,Electronics,615.18,43,Medium Stock
+593,Product_Clothing_0593,Clothing,65.05,455,In Stock
+594,Product_Home & Garden_0594,Home & Garden,20.68,190,In Stock
+595,Product_Clothing_0595,Clothing,281.42,459,In Stock
+596,Product_Clothing_0596,Clothing,120.93,442,In Stock
+597,Product_Home & Garden_0597,Home & Garden,287.42,332,In Stock
+598,Product_Beauty_0598,Beauty,40.69,389,In Stock
+599,Product_Beauty_0599,Beauty,117.27,375,In Stock
+600,Product_Sports_0600,Sports,57.55,396,In Stock
+601,Product_Electronics_0601,Electronics,1208.32,11,Low Stock
+602,Product_Beauty_0602,Beauty,93.9,216,In Stock
+603,Product_Clothing_0603,Clothing,45.35,426,In Stock
+604,Product_Sports_0604,Sports,295.66,128,In Stock
+605,Product_Electronics_0605,Electronics,104.97,29,Medium Stock
+606,Product_Home & Garden_0606,Home & Garden,297.62,327,In Stock
+607,Product_Sports_0607,Sports,328.73,385,In Stock
+608,Product_Books_0608,Books,14.44,63,In Stock
+609,Product_Sports_0609,Sports,394.07,201,In Stock
+610,Product_Toys_0610,Toys,175.62,335,In Stock
+611,Product_Clothing_0611,Clothing,230.22,177,In Stock
+612,Product_Beauty_0612,Beauty,106.57,181,In Stock
+613,Product_Clothing_0613,Clothing,287.07,215,In Stock
+614,Product_Home & Garden_0614,Home & Garden,77.96,224,In Stock
+615,Product_Electronics_0615,Electronics,1312.66,16,Low Stock
+616,Product_Home & Garden_0616,Home & Garden,60.82,258,In Stock
+617,Product_Sports_0617,Sports,324.75,220,In Stock
+618,Product_Sports_0618,Sports,100.85,305,In Stock
+619,Product_Sports_0619,Sports,29.02,443,In Stock
+620,Product_Clothing_0620,Clothing,131.67,460,In Stock
+621,Product_Beauty_0621,Beauty,67.7,456,In Stock
+622,Product_Electronics_0622,Electronics,737.08,92,In Stock
+623,Product_Home & Garden_0623,Home & Garden,475.27,259,In Stock
+624,Product_Toys_0624,Toys,44.37,148,In Stock
+625,Product_Electronics_0625,Electronics,368.59,86,In Stock
+626,Product_Beauty_0626,Beauty,15.81,397,In Stock
+627,Product_Electronics_0627,Electronics,1099.02,14,Low Stock
+628,Product_Clothing_0628,Clothing,45.86,141,In Stock
+629,Product_Clothing_0629,Clothing,96.78,472,In Stock
+630,Product_Home & Garden_0630,Home & Garden,489.93,339,In Stock
+631,Product_Electronics_0631,Electronics,776.82,94,In Stock
+632,Product_Toys_0632,Toys,176.61,477,In Stock
+633,Product_Home & Garden_0633,Home & Garden,353.99,267,In Stock
+634,Product_Electronics_0634,Electronics,1439.46,82,In Stock
+635,Product_Toys_0635,Toys,112.12,401,In Stock
+636,Product_Home & Garden_0636,Home & Garden,105.85,81,In Stock
+637,Product_Books_0637,Books,33.62,241,In Stock
+638,Product_Sports_0638,Sports,34.78,396,In Stock
+639,Product_Books_0639,Books,33.8,103,In Stock
+640,Product_Clothing_0640,Clothing,78.33,360,In Stock
+641,Product_Clothing_0641,Clothing,219.28,379,In Stock
+642,Product_Books_0642,Books,43.83,286,In Stock
+643,Product_Clothing_0643,Clothing,275.38,419,In Stock
+644,Product_Sports_0644,Sports,173.13,224,In Stock
+645,Product_Electronics_0645,Electronics,551.12,32,Medium Stock
+646,Product_Toys_0646,Toys,68.97,156,In Stock
+647,Product_Clothing_0647,Clothing,73.08,156,In Stock
+648,Product_Beauty_0648,Beauty,52.21,363,In Stock
+649,Product_Clothing_0649,Clothing,136.02,273,In Stock
+650,Product_Home & Garden_0650,Home & Garden,214.5,133,In Stock
+651,Product_Home & Garden_0651,Home & Garden,410.04,245,In Stock
+652,Product_Beauty_0652,Beauty,122.77,87,In Stock
+653,Product_Electronics_0653,Electronics,1609.37,34,Medium Stock
+654,Product_Electronics_0654,Electronics,293.21,97,In Stock
+655,Product_Toys_0655,Toys,165.69,351,In Stock
+656,Product_Books_0656,Books,45.0,487,In Stock
+657,Product_Toys_0657,Toys,126.02,429,In Stock
+658,Product_Books_0658,Books,40.18,345,In Stock
+659,Product_Clothing_0659,Clothing,66.79,450,In Stock
+660,Product_Sports_0660,Sports,154.34,125,In Stock
+661,Product_Electronics_0661,Electronics,664.01,53,In Stock
+662,Product_Clothing_0662,Clothing,290.26,295,In Stock
+663,Product_Sports_0663,Sports,224.07,138,In Stock
+664,Product_Toys_0664,Toys,181.6,71,In Stock
+665,Product_Home & Garden_0665,Home & Garden,454.25,336,In Stock
+666,Product_Home & Garden_0666,Home & Garden,126.75,124,In Stock
+667,Product_Clothing_0667,Clothing,205.45,384,In Stock
+668,Product_Home & Garden_0668,Home & Garden,334.59,433,In Stock
+669,Product_Sports_0669,Sports,33.37,282,In Stock
+670,Product_Electronics_0670,Electronics,1088.72,50,In Stock
+671,Product_Electronics_0671,Electronics,1283.44,81,In Stock
+672,Product_Books_0672,Books,33.43,426,In Stock
+673,Product_Clothing_0673,Clothing,199.16,277,In Stock
+674,Product_Beauty_0674,Beauty,149.74,330,In Stock
+675,Product_Beauty_0675,Beauty,90.26,81,In Stock
+676,Product_Electronics_0676,Electronics,1378.82,29,Medium Stock
+677,Product_Toys_0677,Toys,50.25,388,In Stock
+678,Product_Clothing_0678,Clothing,61.72,405,In Stock
+679,Product_Sports_0679,Sports,177.46,63,In Stock
+680,Product_Electronics_0680,Electronics,1756.15,31,Medium Stock
+681,Product_Books_0681,Books,23.24,345,In Stock
+682,Product_Clothing_0682,Clothing,101.27,199,In Stock
+683,Product_Home & Garden_0683,Home & Garden,178.47,410,In Stock
+684,Product_Books_0684,Books,40.94,307,In Stock
+685,Product_Sports_0685,Sports,135.42,120,In Stock
+686,Product_Home & Garden_0686,Home & Garden,422.46,188,In Stock
+687,Product_Electronics_0687,Electronics,202.68,11,Low Stock
+688,Product_Books_0688,Books,35.56,263,In Stock
+689,Product_Clothing_0689,Clothing,228.66,470,In Stock
+690,Product_Books_0690,Books,46.93,268,In Stock
+691,Product_Electronics_0691,Electronics,1515.18,43,Medium Stock
+692,Product_Electronics_0692,Electronics,1152.32,98,In Stock
+693,Product_Books_0693,Books,25.54,468,In Stock
+694,Product_Beauty_0694,Beauty,15.59,140,In Stock
+695,Product_Home & Garden_0695,Home & Garden,120.32,161,In Stock
+696,Product_Sports_0696,Sports,41.15,288,In Stock
+697,Product_Beauty_0697,Beauty,128.14,290,In Stock
+698,Product_Beauty_0698,Beauty,35.6,324,In Stock
+699,Product_Books_0699,Books,,276,In Stock
+700,Product_Beauty_0700,Beauty,112.6,406,In Stock
+701,Product_Books_0701,Books,39.22,189,In Stock
+702,Product_Electronics_0702,Electronics,1080.88,71,In Stock
+703,Product_Clothing_0703,Clothing,292.33,447,In Stock
+704,Product_Beauty_0704,Beauty,113.99,272,In Stock
+705,Product_Toys_0705,Toys,75.9,364,In Stock
+706,Product_Toys_0706,Toys,71.8,360,In Stock
+707,Product_Sports_0707,Sports,301.16,128,In Stock
+708,Product_Electronics_0708,Electronics,754.07,29,Medium Stock
+709,Product_Electronics_0709,Electronics,1994.33,17,Low Stock
+710,Product_Electronics_0710,Electronics,1108.48,27,Medium Stock
+711,Product_Beauty_0711,Beauty,42.17,125,In Stock
+712,Product_Home & Garden_0712,Home & Garden,309.6,401,In Stock
+713,Product_Electronics_0713,Electronics,1568.18,100,In Stock
+714,Product_Clothing_0714,Clothing,79.09,243,In Stock
+715,Product_Books_0715,Books,26.41,274,In Stock
+716,Product_Toys_0716,Toys,177.21,224,In Stock
+717,Product_Home & Garden_0717,Home & Garden,189.24,302,In Stock
+718,Product_Clothing_0718,Clothing,94.92,314,In Stock
+719,Product_Books_0719,Books,42.2,67,In Stock
+720,Product_Clothing_0720,Clothing,73.23,423,In Stock
+721,Product_Home & Garden_0721,Home & Garden,48.48,327,In Stock
+722,Product_Sports_0722,Sports,219.38,456,In Stock
+723,Product_Home & Garden_0723,Home & Garden,160.72,403,In Stock
+724,Product_Toys_0724,Toys,27.19,378,In Stock
+725,Product_Beauty_0725,Beauty,65.86,206,In Stock
+726,Product_Beauty_0726,Beauty,113.38,495,In Stock
+727,Product_Electronics_0727,Electronics,1671.5,57,In Stock
+728,Product_Sports_0728,Sports,37.11,123,In Stock
+729,Product_Electronics_0729,Electronics,1289.47,77,In Stock
+730,Product_Sports_0730,Sports,304.99,113,In Stock
+731,Product_Sports_0731,Sports,272.32,439,In Stock
+732,Product_Sports_0732,Sports,240.66,184,In Stock
+733,Product_Clothing_0733,Clothing,275.47,400,In Stock
+734,Product_Electronics_0734,Electronics,764.8,57,In Stock
+735,Product_Sports_0735,Sports,185.18,188,In Stock
+736,Product_Electronics_0736,Electronics,178.66,61,In Stock
+737,Product_Books_0737,Books,48.59,93,In Stock
+738,Product_Books_0738,Books,30.27,93,In Stock
+739,Product_Clothing_0739,Clothing,91.87,334,In Stock
+740,Product_Electronics_0740,Electronics,582.26,81,In Stock
+741,Product_Home & Garden_0741,Home & Garden,,275,In Stock
+742,Product_Electronics_0742,Electronics,1449.57,99,In Stock
+743,Product_Toys_0743,Toys,187.99,50,In Stock
+744,Product_Books_0744,Books,12.11,449,In Stock
+745,Product_Sports_0745,Sports,66.29,254,In Stock
+746,Product_Sports_0746,Sports,317.26,102,In Stock
+747,Product_Sports_0747,Sports,381.96,70,In Stock
+748,Product_Sports_0748,Sports,284.95,382,In Stock
+749,Product_Clothing_0749,Clothing,278.94,78,In Stock
+750,Product_Electronics_0750,Electronics,1814.55,46,Medium Stock
+751,Product_Clothing_0751,Clothing,56.45,165,In Stock
+752,Product_Beauty_0752,Beauty,15.34,330,In Stock
+753,Product_Beauty_0753,Beauty,50.41,424,In Stock
+754,Product_Beauty_0754,Beauty,108.35,244,In Stock
+755,Product_Sports_0755,Sports,161.99,127,In Stock
+756,Product_Electronics_0756,Electronics,1668.64,47,Medium Stock
+757,Product_Electronics_0757,Electronics,775.9,95,In Stock
+758,Product_Books_0758,Books,29.29,84,In Stock
+759,Product_Electronics_0759,Electronics,324.2,83,In Stock
+760,Product_Electronics_0760,Electronics,1732.87,16,Low Stock
+761,Product_Electronics_0761,Electronics,1955.18,16,Low Stock
+762,Product_Electronics_0762,Electronics,265.13,73,In Stock
+763,Product_Books_0763,Books,13.2,235,In Stock
+764,Product_Books_0764,Books,44.03,140,In Stock
+765,Product_Electronics_0765,Electronics,1609.74,16,Low Stock
+766,Product_Home & Garden_0766,Home & Garden,92.35,390,In Stock
+767,Product_Electronics_0767,Electronics,1841.59,70,In Stock
+768,Product_Electronics_0768,Electronics,1740.23,90,In Stock
+769,Product_Books_0769,Books,11.56,399,In Stock
+770,Product_Home & Garden_0770,Home & Garden,411.46,66,In Stock
+771,Product_Sports_0771,Sports,208.29,395,In Stock
+772,Product_Beauty_0772,Beauty,31.25,290,In Stock
+773,Product_Toys_0773,Toys,170.82,369,In Stock
+774,Product_Sports_0774,Sports,331.71,292,In Stock
+775,Product_Books_0775,Books,37.01,285,In Stock
+776,Product_Books_0776,Books,24.22,384,In Stock
+777,Product_Books_0777,Books,20.3,220,In Stock
+778,Product_Home & Garden_0778,Home & Garden,151.18,494,In Stock
+779,Product_Electronics_0779,Electronics,677.63,51,In Stock
+780,Product_Beauty_0780,Beauty,66.45,433,In Stock
+781,Product_Sports_0781,Sports,90.7,433,In Stock
+782,Product_Home & Garden_0782,Home & Garden,70.71,475,In Stock
+783,Product_Electronics_0783,Electronics,1254.0,54,In Stock
+784,Product_Books_0784,Books,18.53,389,In Stock
+785,Product_Home & Garden_0785,Home & Garden,433.7,365,In Stock
+786,Product_Electronics_0786,Electronics,87.46,43,Medium Stock
+787,Product_Sports_0787,Sports,45.06,134,In Stock
+788,Product_Toys_0788,Toys,125.83,92,In Stock
+789,Product_Home & Garden_0789,Home & Garden,223.55,107,In Stock
+790,Product_Books_0790,Books,13.62,418,In Stock
+791,Product_Toys_0791,Toys,128.87,199,In Stock
+792,Product_Electronics_0792,Electronics,1147.03,97,In Stock
+793,Product_Electronics_0793,Electronics,84.23,21,Medium Stock
+794,Product_Books_0794,Books,35.94,146,In Stock
+795,Product_Books_0795,Books,17.34,449,In Stock
+796,Product_Books_0796,Books,12.26,442,In Stock
+797,Product_Books_0797,Books,32.16,277,In Stock
+798,Product_Sports_0798,Sports,360.8,457,In Stock
+799,Product_Beauty_0799,Beauty,147.39,429,In Stock
+800,Product_Toys_0800,Toys,156.74,451,In Stock
+801,Product_Toys_0801,Toys,174.78,279,In Stock
+802,Product_Sports_0802,Sports,53.27,108,In Stock
+803,Product_Electronics_0803,Electronics,1683.32,58,In Stock
+804,Product_Home & Garden_0804,Home & Garden,410.08,52,In Stock
+805,Product_Clothing_0805,Clothing,131.34,213,In Stock
+806,Product_Sports_0806,Sports,368.25,442,In Stock
+807,Product_Electronics_0807,Electronics,1729.88,68,In Stock
+808,Product_Beauty_0808,Beauty,57.6,386,In Stock
+809,Product_Clothing_0809,Clothing,33.01,235,In Stock
+810,Product_Electronics_0810,Electronics,980.16,88,In Stock
+811,Product_Electronics_0811,Electronics,428.3,76,In Stock
+812,Product_Beauty_0812,Beauty,92.09,190,In Stock
+813,Product_Books_0813,Books,17.5,363,In Stock
+814,Product_Beauty_0814,Beauty,132.18,79,In Stock
+815,Product_Home & Garden_0815,Home & Garden,457.59,469,In Stock
+816,Product_Beauty_0816,Beauty,113.73,307,In Stock
+817,Product_Sports_0817,Sports,64.52,195,In Stock
+818,Product_Clothing_0818,Clothing,38.72,395,In Stock
+819,Product_Electronics_0819,Electronics,358.7,42,Medium Stock
+820,Product_Beauty_0820,Beauty,47.38,63,In Stock
+821,Product_Toys_0821,Toys,123.49,345,In Stock
+822,Product_Clothing_0822,Clothing,159.2,157,In Stock
+823,Product_Clothing_0823,Clothing,295.51,241,In Stock
+824,Product_Beauty_0824,Beauty,18.54,212,In Stock
+825,Product_Toys_0825,Toys,147.0,275,In Stock
+826,Product_Electronics_0826,Electronics,1357.74,23,Medium Stock
+827,Product_Books_0827,Books,18.75,109,In Stock
+828,Product_Sports_0828,Sports,57.65,79,In Stock
+829,Product_Home & Garden_0829,Home & Garden,19.81,315,In Stock
+830,Product_Toys_0830,Toys,152.8,404,In Stock
+831,Product_Electronics_0831,Electronics,716.26,78,In Stock
+832,Product_Electronics_0832,Electronics,1544.9,96,In Stock
+833,Product_Electronics_0833,Electronics,1688.79,75,In Stock
+834,Product_Toys_0834,Toys,138.56,392,In Stock
+835,Product_Clothing_0835,Clothing,120.83,214,In Stock
+836,Product_Home & Garden_0836,Home & Garden,308.24,469,In Stock
+837,Product_Sports_0837,Sports,232.83,174,In Stock
+838,Product_Clothing_0838,Clothing,269.46,345,In Stock
+839,Product_Electronics_0839,Electronics,959.2,74,In Stock
+840,Product_Beauty_0840,Beauty,23.22,76,In Stock
+841,Product_Sports_0841,Sports,332.39,282,In Stock
+842,Product_Sports_0842,Sports,29.85,151,In Stock
+843,Product_Electronics_0843,Electronics,717.12,98,In Stock
+844,Product_Clothing_0844,Clothing,,322,In Stock
+845,Product_Sports_0845,Sports,136.36,438,In Stock
+846,Product_Toys_0846,Toys,150.71,129,In Stock
+847,Product_Clothing_0847,Clothing,126.09,489,In Stock
+848,Product_Electronics_0848,Electronics,1943.59,29,Medium Stock
+849,Product_Home & Garden_0849,Home & Garden,449.59,303,In Stock
+850,Product_Clothing_0850,Clothing,,118,In Stock
+851,Product_Electronics_0851,Electronics,1965.08,52,In Stock
+852,Product_Toys_0852,Toys,79.01,473,In Stock
+853,Product_Beauty_0853,Beauty,116.55,344,In Stock
+854,Product_Toys_0854,Toys,68.38,297,In Stock
+855,Product_Home & Garden_0855,Home & Garden,434.52,330,In Stock
+856,Product_Beauty_0856,Beauty,68.12,417,In Stock
+857,Product_Beauty_0857,Beauty,21.34,82,In Stock
+858,Product_Beauty_0858,Beauty,42.91,461,In Stock
+859,Product_Clothing_0859,Clothing,158.1,399,In Stock
+860,Product_Home & Garden_0860,Home & Garden,267.48,423,In Stock
+861,Product_Books_0861,Books,23.26,278,In Stock
+862,Product_Electronics_0862,Electronics,1548.54,10,Low Stock
+863,Product_Home & Garden_0863,Home & Garden,260.33,348,In Stock
+864,Product_Books_0864,Books,46.39,283,In Stock
+865,Product_Sports_0865,Sports,42.05,296,In Stock
+866,Product_Beauty_0866,Beauty,148.56,179,In Stock
+867,Product_Home & Garden_0867,Home & Garden,485.25,456,In Stock
+868,Product_Books_0868,Books,28.38,91,In Stock
+869,Product_Clothing_0869,Clothing,204.12,90,In Stock
+870,Product_Clothing_0870,Clothing,49.38,305,In Stock
+871,Product_Electronics_0871,Electronics,620.14,16,Low Stock
+872,Product_Home & Garden_0872,Home & Garden,282.76,226,In Stock
+873,Product_Clothing_0873,Clothing,295.54,368,In Stock
+874,Product_Clothing_0874,Clothing,143.47,142,In Stock
+875,Product_Electronics_0875,Electronics,558.22,64,In Stock
+876,Product_Electronics_0876,Electronics,1141.04,74,In Stock
+877,Product_Sports_0877,Sports,98.39,366,In Stock
+878,Product_Clothing_0878,Clothing,24.65,327,In Stock
+879,Product_Beauty_0879,Beauty,120.3,290,In Stock
+880,Product_Electronics_0880,Electronics,761.49,45,Medium Stock
+881,Product_Toys_0881,Toys,84.49,182,In Stock
+882,Product_Home & Garden_0882,Home & Garden,187.29,438,In Stock
+883,Product_Books_0883,Books,49.13,85,In Stock
+884,Product_Toys_0884,Toys,157.2,52,In Stock
+885,Product_Home & Garden_0885,Home & Garden,254.8,362,In Stock
+886,Product_Clothing_0886,Clothing,295.96,119,In Stock
+887,Product_Sports_0887,Sports,193.35,347,In Stock
+888,Product_Electronics_0888,Electronics,1064.94,37,Medium Stock
+889,Product_Toys_0889,Toys,109.38,51,In Stock
+890,Product_Electronics_0890,Electronics,93.08,87,In Stock
+891,Product_Clothing_0891,Clothing,277.1,406,In Stock
+892,Product_Toys_0892,Toys,189.62,389,In Stock
+893,Product_Sports_0893,Sports,234.3,407,In Stock
+894,Product_Books_0894,Books,31.56,178,In Stock
+895,Product_Sports_0895,Sports,182.08,177,In Stock
+896,Product_Sports_0896,Sports,70.6,63,In Stock
+897,Product_Clothing_0897,Clothing,254.08,480,In Stock
+898,Product_Toys_0898,Toys,112.41,320,In Stock
+899,Product_Electronics_0899,Electronics,1857.6,47,Medium Stock
+900,Product_Sports_0900,Sports,180.26,174,In Stock
+901,Product_Books_0901,Books,27.19,453,In Stock
+902,Product_Home & Garden_0902,Home & Garden,445.1,258,In Stock
+903,Product_Electronics_0903,Electronics,252.15,18,Low Stock
+904,Product_Electronics_0904,Electronics,662.3,62,In Stock
+905,Product_Electronics_0905,Electronics,478.97,61,In Stock
+906,Product_Electronics_0906,Electronics,493.03,26,Medium Stock
+907,Product_Clothing_0907,Clothing,28.84,172,In Stock
+908,Product_Books_0908,Books,32.75,81,In Stock
+909,Product_Electronics_0909,Electronics,1210.27,69,In Stock
+910,Product_Toys_0910,Toys,189.45,264,In Stock
+911,Product_Electronics_0911,Electronics,1600.99,42,Medium Stock
+912,Product_Clothing_0912,Clothing,37.82,493,In Stock
+913,Product_Clothing_0913,Clothing,110.09,168,In Stock
+914,Product_Home & Garden_0914,Home & Garden,335.63,67,In Stock
+915,Product_Sports_0915,Sports,117.21,116,In Stock
+916,Product_Clothing_0916,Clothing,106.35,203,In Stock
+917,Product_Clothing_0917,Clothing,299.9,77,In Stock
+918,Product_Beauty_0918,Beauty,146.62,275,In Stock
+919,Product_Sports_0919,Sports,177.35,140,In Stock
+920,Product_Home & Garden_0920,Home & Garden,251.96,383,In Stock
+921,Product_Home & Garden_0921,Home & Garden,416.74,301,In Stock
+922,Product_Home & Garden_0922,Home & Garden,158.37,261,In Stock
+923,Product_Beauty_0923,Beauty,130.35,132,In Stock
+924,Product_Home & Garden_0924,Home & Garden,338.89,283,In Stock
+925,Product_Electronics_0925,Electronics,1082.46,55,In Stock
+926,Product_Electronics_0926,Electronics,106.92,18,Low Stock
+927,Product_Books_0927,Books,22.13,103,In Stock
+928,Product_Sports_0928,Sports,361.03,89,In Stock
+929,Product_Electronics_0929,Electronics,1462.82,99,In Stock
+930,Product_Home & Garden_0930,Home & Garden,69.38,328,In Stock
+931,Product_Sports_0931,Sports,253.55,335,In Stock
+932,Product_Home & Garden_0932,Home & Garden,464.34,326,In Stock
+933,Product_Home & Garden_0933,Home & Garden,495.4,74,In Stock
+934,Product_Home & Garden_0934,Home & Garden,71.19,263,In Stock
+935,Product_Home & Garden_0935,Home & Garden,103.43,406,In Stock
+936,Product_Books_0936,Books,37.73,227,In Stock
+937,Product_Home & Garden_0937,Home & Garden,62.39,311,In Stock
+938,Product_Home & Garden_0938,Home & Garden,54.51,255,In Stock
+939,Product_Sports_0939,Sports,321.39,231,In Stock
+940,Product_Toys_0940,Toys,38.27,412,In Stock
+941,Product_Books_0941,Books,32.7,90,In Stock
+942,Product_Toys_0942,Toys,129.18,64,In Stock
+943,Product_Electronics_0943,Electronics,900.89,80,In Stock
+944,Product_Sports_0944,Sports,287.61,140,In Stock
+945,Product_Beauty_0945,Beauty,39.37,88,In Stock
+946,Product_Toys_0946,Toys,21.24,389,In Stock
+947,Product_Toys_0947,Toys,172.98,326,In Stock
+948,Product_Sports_0948,Sports,300.62,349,In Stock
+949,Product_Electronics_0949,Electronics,130.89,50,In Stock
+950,Product_Electronics_0950,Electronics,220.35,88,In Stock
+951,Product_Books_0951,Books,18.62,351,In Stock
+952,Product_Beauty_0952,Beauty,75.18,360,In Stock
+953,Product_Sports_0953,Sports,269.83,208,In Stock
+954,Product_Clothing_0954,Clothing,88.09,306,In Stock
+955,Product_Clothing_0955,Clothing,243.06,404,In Stock
+956,Product_Books_0956,Books,20.14,196,In Stock
+957,Product_Beauty_0957,Beauty,22.39,68,In Stock
+958,Product_Sports_0958,Sports,189.66,72,In Stock
+959,Product_Sports_0959,Sports,372.8,392,In Stock
+960,Product_Sports_0960,Sports,190.74,395,In Stock
+961,Product_Electronics_0961,Electronics,1622.38,88,In Stock
+962,Product_Home & Garden_0962,Home & Garden,51.53,493,In Stock
+963,Product_Sports_0963,Sports,134.44,96,In Stock
+964,Product_Electronics_0964,Electronics,1810.36,31,Medium Stock
+965,Product_Home & Garden_0965,Home & Garden,151.27,131,In Stock
+966,Product_Sports_0966,Sports,357.21,156,In Stock
+967,Product_Electronics_0967,Electronics,1391.31,58,In Stock
+968,Product_Sports_0968,Sports,103.72,200,In Stock
+969,Product_Home & Garden_0969,Home & Garden,58.3,276,In Stock
+970,Product_Sports_0970,Sports,342.8,433,In Stock
+971,Product_Electronics_0971,Electronics,1642.1,59,In Stock
+972,Product_Beauty_0972,Beauty,61.83,327,In Stock
+973,Product_Sports_0973,Sports,25.02,448,In Stock
+974,Product_Toys_0974,Toys,114.57,291,In Stock
+975,Product_Books_0975,Books,36.59,286,In Stock
+976,Product_Books_0976,Books,44.27,64,In Stock
+977,Product_Books_0977,Books,,126,In Stock
+978,Product_Books_0978,Books,16.84,297,In Stock
+979,Product_Toys_0979,Toys,139.51,165,In Stock
+980,Product_Sports_0980,Sports,394.56,274,In Stock
+981,Product_Electronics_0981,Electronics,885.76,10,Low Stock
+982,Product_Clothing_0982,Clothing,196.52,390,In Stock
+983,Product_Beauty_0983,Beauty,145.45,471,In Stock
+984,Product_Home & Garden_0984,Home & Garden,396.32,376,In Stock
+985,Product_Toys_0985,Toys,139.83,466,In Stock
+986,Product_Clothing_0986,Clothing,190.2,437,In Stock
+987,Product_Toys_0987,Toys,197.64,375,In Stock
+988,Product_Books_0988,Books,45.48,295,In Stock
+989,Product_Clothing_0989,Clothing,88.9,267,In Stock
+990,Product_Toys_0990,Toys,35.69,382,In Stock
+991,Product_Electronics_0991,Electronics,870.07,67,In Stock
+992,Product_Books_0992,Books,34.15,415,In Stock
+993,Product_Clothing_0993,Clothing,277.77,78,In Stock
+994,Product_Toys_0994,Toys,84.49,159,In Stock
+995,Product_Home & Garden_0995,Home & Garden,355.71,232,In Stock
+996,Product_Sports_0996,Sports,168.36,290,In Stock
+997,Product_Home & Garden_0997,Home & Garden,183.8,114,In Stock
+998,Product_Clothing_0998,Clothing,148.28,162,In Stock
+999,Product_Sports_0999,Sports,303.24,392,In Stock
+1000,Product_Beauty_1000,Beauty,65.59,137,In Stock
