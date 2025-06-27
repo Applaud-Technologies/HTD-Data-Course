@@ -1,13 +1,19 @@
 # Azure DevOps & ADF ARM Template Deployment - 2-Hour Workshop
 
+
+
 ## Workshop Overview
+
 **Duration:** 2 hours  
 **Level:** Intermediate  
 **Prerequisites:** Basic Azure familiarity, existing Azure Data Factory with at least one pipeline
 
 **⚠️ Important Note:** Due to Microsoft's parallelism policy, pipelines will fail during the workshop. Students will need to request approval from Microsoft and re-run pipelines after the workshop (1-3 business days).
 
+
+
 ## Learning Objectives
+
 Students will learn to:
 - Set up Azure DevOps organization, project, and repository
 - Export ARM templates from Azure Data Factory
@@ -16,6 +22,8 @@ Students will learn to:
 - Understand the distinction between data orchestration and infrastructure deployment
 
 ---
+
+
 
 ## Module 1: DevOps Setup (25 minutes)
 
@@ -46,16 +54,21 @@ Students will learn to:
    /parameters
    ```
 
+
+
 ### 1.4 Understanding Two Types of Pipelines (5 minutes)
+
 **This is a critical concept that often confuses students:**
 
 **Azure Data Factory Pipelines** = **Data Orchestration**
+
 - **Purpose**: Move, transform, and process data
 - **Components**: Activities like Copy Data, Data Flow, Execute Pipeline
 - **Triggers**: Schedule-based, event-based, or manual
 - **Example**: "Every night at 2 AM, copy data from SQL Server to Data Lake, then run analytics"
 
 **Azure DevOps Pipelines** = **Infrastructure & Code Deployment**
+
 - **Purpose**: Deploy infrastructure, applications, and configurations
 - **Components**: Build steps, deployment tasks, environment management  
 - **Triggers**: Code commits, pull requests, manual releases
@@ -67,7 +80,13 @@ Students will learn to:
 
 **Real-World Scenario**: You build a data pipeline in ADF that processes customer orders every hour. You use a DevOps pipeline to automatically deploy that ADF pipeline (and any updates) across development, test, and production environments.
 
+
+
+
+
 ---
+
+
 
 ## Module 2: Export ADF ARM Template (25 minutes)
 
@@ -96,6 +115,7 @@ Students will learn to:
 Think of ARM templates as "blueprints" for your Azure resources. Just like architectural blueprints describe how to build a house, ARM templates describe how to build your Azure Data Factory.
 
 **Why Use ARM Templates for ADF?**
+
 - **Consistency**: Deploy identical ADF structures across environments  
 - **Version Control**: Track changes to your data infrastructure over time
 - **Automation**: Deploy complex ADF setups with a single command
@@ -105,6 +125,8 @@ Think of ARM templates as "blueprints" for your Azure resources. Just like archi
 The template describes WHAT to build (pipelines, datasets), while parameters describe WHERE and HOW (connection strings, storage accounts, environment-specific settings). This separation allows one template to work across development, test, and production environments.
 
 ---
+
+
 
 ## Module 3: Create YAML Pipeline (30 minutes)
 
@@ -231,6 +253,7 @@ The YAML pipeline might look complex, but it follows a logical pattern:
 - Easier to maintain than hardcoding values everywhere
 
 **AzureResourceManagerTemplateDeployment Task**:
+
 - This is the "magic" task that takes your ARM template and creates actual Azure resources
 - It's like saying "Azure, here's my blueprint (ARM template), please build it"
 - The task handles authentication, resource creation, and error reporting
@@ -242,6 +265,8 @@ The YAML pipeline might look complex, but it follows a logical pattern:
 - **Environment Consistency**: Same process for dev, test, and production
 
 ---
+
+
 
 ## Module 4: Pipeline Configuration & Testing (35 minutes)
 
@@ -307,6 +332,7 @@ Microsoft changed their policy in 2021. New Azure DevOps organizations no longer
 7. Click "Run" (expect it to fail with parallelism error)
 
 **Request Parallelism Approval:**
+
 1. When the pipeline fails, click the link in the error message: https://aka.ms/azpipelines-parallelism-request
 2. Fill out the form with:
    - **Organization**: Your Azure DevOps organization name
@@ -320,6 +346,8 @@ Microsoft changed their policy in 2021. New Azure DevOps organizations no longer
 - Verify ADF resources deployed in Azure Portal
 
 ---
+
+
 
 ## Module 5: Best Practices & Troubleshooting (15 minutes)
 
