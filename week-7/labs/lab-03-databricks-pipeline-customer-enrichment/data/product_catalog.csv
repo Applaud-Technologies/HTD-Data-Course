@@ -1,0 +1,501 @@
+product_id,product_name,category,brand,price,cost,profit_margin,launch_date
+PROD_0001,Triple-buffered radical encryption Food,Food & Beverages,"Brown, Scott and Barnett",52.77,26.79,49.24,2023-12-17
+PROD_0002,Horizontal didactic paradigm Sports,Sports & Outdoors,"Best, Lewis and Dixon",85.46,41.45,51.49,2024-03-09
+PROD_0003,Exclusive well-modulated frame Food,Food & Beverages,Barnes Inc,177.91,110.3,38.0,2023-09-11
+PROD_0004,Multi-lateral leadingedge Local Area Network Beauty,Beauty & Health,"Nelson, Duarte and Armstrong",93.55,53.8,42.49,2023-07-10
+PROD_0005,Inverse scalable open system Jewelry,Jewelry & Accessories,"Baird, Ortiz and Smith",130.0,46.86,63.96,2025-03-08
+PROD_0006,Stand-alone logistical architecture Clothing,Clothing,Quinn Inc,262.41,137.83,47.48,2024-07-02
+PROD_0007,Multi-tiered motivating encryption Automotive,Automotive,"Torres, Taylor and Lee",1124.13,553.36,50.77,2023-09-24
+PROD_0008,Streamlined attitude-oriented budgetary management Toys,Toys & Games,Jordan Ltd,188.34,99.19,47.33,2024-07-08
+PROD_0009,Re-engineered demand-driven open architecture Toys,Toys & Games,Bryan Ltd,45.49,25.19,44.63,2023-08-28
+PROD_0010,Seamless zero-defect analyzer Electronics,Electronics,Mcgee LLC,307.22,136.73,55.49,2025-05-29
+PROD_0011,Devolved full-range instruction set Clothing,Clothing,Greene-Goodman,103.72,47.36,54.34,2024-07-02
+PROD_0012,Optional mission-critical framework Automotive,Automotive,"Palmer, Adams and Hernandez",1277.34,576.66,54.85,2023-08-29
+PROD_0013,Exclusive asymmetric knowledgebase Beauty,Beauty & Health,Diaz Ltd,155.93,83.29,46.58,2024-08-10
+PROD_0014,Reduced heuristic definition Toys,Toys & Games,Reynolds-Turner,39.86,23.73,40.46,2024-07-14
+PROD_0015,Organized human-resource synergy Jewelry,Jewelry & Accessories,Hall Inc,228.01,108.78,52.29,2024-04-15
+PROD_0016,Centralized content-based approach Food,Food & Beverages,Hess-Rodriguez,178.14,118.79,33.32,2023-08-15
+PROD_0017,User-friendly 6thgeneration archive Automotive,Automotive,Swanson and Sons,816.14,552.31,32.33,2024-03-05
+PROD_0018,Expanded context-sensitive help-desk Automotive,Automotive,"Garcia, Bishop and Copeland",1470.69,993.08,32.48,2025-06-21
+PROD_0019,Synergized directional attitude Food,Food & Beverages,Molina-Mullins,115.82,75.05,35.2,2023-12-20
+PROD_0020,Front-line background approach Books,Books & Media,"Stevens, Wilkerson and Barnett",92.47,42.6,53.93,2024-05-03
+PROD_0021,Profound dedicated support Jewelry,Jewelry & Accessories,"Schwartz, Davis and Smith",74.99,29.86,60.19,2025-04-19
+PROD_0022,Multi-channeled executive forecast Sports,Sports & Outdoors,"Kelley, Williams and White",67.27,29.43,56.25,2025-03-24
+PROD_0023,Compatible maximized encryption Clothing,Clothing,"Pollard, Luna and Barker",139.5,82.76,40.67,2023-12-30
+PROD_0024,Automated intermediate hub Jewelry,Jewelry & Accessories,Woods Group,278.11,84.0,69.79,2024-09-12
+PROD_0025,Enhanced explicit system engine Automotive,Automotive,Miller Inc,854.88,473.88,44.57,2025-04-18
+PROD_0026,User-friendly value-added definition Sports,Sports & Outdoors,"Chan, Turner and Henderson",240.61,126.42,47.46,2024-08-02
+PROD_0027,Cloned mobile firmware Toys,Toys & Games,Wolf-Dominguez,45.08,29.99,33.46,2024-01-23
+PROD_0028,Intuitive contextually-based Graphic Interface Automotive,Automotive,Parsons Ltd,1455.66,724.46,50.23,2024-01-11
+PROD_0029,Cross-platform non-volatile emulation Clothing,Clothing,"Scott, Jones and Monroe",269.73,168.63,37.48,2024-03-31
+PROD_0030,Programmable bifurcated monitoring Books,Books & Media,"Delgado, Malone and Williams",40.32,23.25,42.33,2025-03-16
+PROD_0031,Customizable logistical implementation Automotive,Automotive,Jimenez-Rodriguez,921.41,643.57,30.15,2025-03-09
+PROD_0032,Persistent real-time toolset Beauty,Beauty & Health,"Garrett, Carter and Williams",39.41,23.71,39.84,2024-09-20
+PROD_0033,Sharable asynchronous frame Toys,Toys & Games,"Flynn, Hammond and George",46.02,22.02,52.15,2024-11-14
+PROD_0034,Pre-emptive demand-driven hub Home,Home & Garden,"Edwards, Fitzpatrick and Martin",111.98,75.92,32.2,2024-12-12
+PROD_0035,Focused contextually-based intranet Beauty,Beauty & Health,Anderson-Gonzalez,68.19,36.78,46.07,2023-11-09
+PROD_0036,Horizontal client-server productivity Jewelry,Jewelry & Accessories,Mahoney and Sons,446.62,237.66,46.79,2023-08-08
+PROD_0037,Open-source optimizing application Automotive,Automotive,Rice-Drake,1359.44,675.33,50.32,2023-08-14
+PROD_0038,Progressive zero-defect strategy Home,Home & Garden,Williams-Dean,37.43,21.12,43.57,2025-03-19
+PROD_0039,Ergonomic static access Food,Food & Beverages,Pierce Group,55.21,34.83,36.91,2025-06-16
+PROD_0040,Stand-alone client-driven access Books,Books & Media,Rhodes LLC,126.43,59.97,52.57,2023-08-30
+PROD_0041,Public-key heuristic extranet Food,Food & Beverages,Chang Inc,28.71,18.3,36.26,2023-09-09
+PROD_0042,Realigned national knowledge user Beauty,Beauty & Health,Ortiz PLC,22.29,13.47,39.55,2023-11-10
+PROD_0043,Phased hybrid software Sports,Sports & Outdoors,Moore-Nelson,129.93,57.87,55.47,2025-05-26
+PROD_0044,Implemented actuating throughput Electronics,Electronics,"Chandler, Lopez and Carpenter",662.82,344.85,47.97,2024-04-25
+PROD_0045,Face-to-face directional leverage Toys,Toys & Games,"Rodriguez, Hill and Rodriguez",39.72,18.99,52.18,2024-12-17
+PROD_0046,Profound zero tolerance open system Sports,Sports & Outdoors,Henderson-Williamson,95.43,50.05,47.56,2023-07-25
+PROD_0047,Total 24hour hub Food,Food & Beverages,Sharp Ltd,117.79,78.97,32.96,2023-12-18
+PROD_0048,Front-line multi-tasking frame Food,Food & Beverages,"Green, Black and Hanson",12.99,6.87,47.1,2024-12-01
+PROD_0049,Object-based directional structure Sports,Sports & Outdoors,King PLC,121.09,77.44,36.05,2023-09-26
+PROD_0050,Future-proofed background initiative Electronics,Electronics,Patterson-Howard,181.8,75.26,58.6,2023-08-06
+PROD_0051,Organic national interface Jewelry,Jewelry & Accessories,Williams-Gibson,96.73,30.6,68.36,2024-06-08
+PROD_0052,Persistent maximized toolset Clothing,Clothing,Freeman-Becker,108.91,66.25,39.17,2024-02-23
+PROD_0053,Enhanced clear-thinking leverage Food,Food & Beverages,"Martin, Green and Lawrence",192.43,119.85,37.72,2023-08-31
+PROD_0054,Secured next generation complexity Home,Home & Garden,Jackson-Harris,67.08,37.96,43.42,2023-07-15
+PROD_0055,Profit-focused bi-directional toolset Sports,Sports & Outdoors,Ross LLC,224.04,99.62,55.53,2025-04-02
+PROD_0056,Secured exuding instruction set Toys,Toys & Games,"Stevens, Richmond and Olson",126.65,59.52,53.01,2024-10-15
+PROD_0057,Synergistic high-level service-desk Food,Food & Beverages,Benjamin-Mckenzie,192.22,91.42,52.44,2024-11-14
+PROD_0058,Devolved mobile approach Toys,Toys & Games,Wilson-Bryan,74.58,36.3,51.33,2025-01-12
+PROD_0059,Organized zero administration archive Jewelry,Jewelry & Accessories,Brennan-Bentley,83.89,33.9,59.59,2025-05-04
+PROD_0060,Visionary bandwidth-monitored encoding Jewelry,Jewelry & Accessories,Mahoney PLC,91.52,44.96,50.88,2025-04-30
+PROD_0061,Synergized analyzing info-mediaries Automotive,Automotive,"Williams, Davenport and Soto",1425.63,657.93,53.85,2023-10-09
+PROD_0062,Future-proofed systematic concept Automotive,Automotive,"Hill, Greene and Murillo",81.6,52.5,35.67,2024-09-26
+PROD_0063,Implemented leadingedge workforce Toys,Toys & Games,"Rios, Johnson and Morales",131.3,91.86,30.04,2023-12-05
+PROD_0064,Customer-focused systematic hardware Electronics,Electronics,"Reyes, Anderson and Bell",619.49,255.14,58.81,2023-12-27
+PROD_0065,Down-sized tangible encryption Sports,Sports & Outdoors,Koch Inc,165.06,90.18,45.37,2025-06-30
+PROD_0066,Reduced attitude-oriented initiative Jewelry,Jewelry & Accessories,Mays-Page,294.2,96.91,67.06,2024-06-03
+PROD_0067,Polarized uniform methodology Electronics,Electronics,Elliott-Thompson,1010.02,414.77,58.93,2023-10-19
+PROD_0068,Function-based 6thgeneration info-mediaries Books,Books & Media,Russo-Randolph,153.95,86.88,43.57,2024-02-10
+PROD_0069,Down-sized bifurcated collaboration Home,Home & Garden,Martin LLC,75.92,42.42,44.13,2024-01-05
+PROD_0070,Extended didactic monitoring Home,Home & Garden,Gonzalez Ltd,147.18,77.79,47.14,2024-10-08
+PROD_0071,Down-sized empowering secured line Books,Books & Media,Barber-Glass,166.93,81.91,50.93,2024-03-23
+PROD_0072,Integrated secondary installation Food,Food & Beverages,Hernandez-Weber,74.69,48.33,35.29,2024-09-28
+PROD_0073,Polarized multi-state neural-net Electronics,Electronics,Rodriguez Group,726.54,484.36,33.33,2024-05-13
+PROD_0074,Self-enabling cohesive superstructure Food,Food & Beverages,Green PLC,30.81,15.02,51.25,2025-01-13
+PROD_0075,Open-source tangible ability Jewelry,Jewelry & Accessories,Black-Murphy,34.66,10.47,69.78,2024-07-16
+PROD_0076,Persevering national utilization Automotive,Automotive,Cline-Mcdaniel,1260.36,839.67,33.38,2024-11-05
+PROD_0077,Synchronized national middleware Sports,Sports & Outdoors,Hall-Cooper,200.61,111.27,44.53,2025-05-03
+PROD_0078,Configurable 6thgeneration portal Home,Home & Garden,"Carlson, Thompson and Watkins",97.78,51.9,46.92,2024-10-09
+PROD_0079,Programmable regional hierarchy Books,Books & Media,Tate-Oconnor,125.55,74.55,40.63,2025-03-30
+PROD_0080,Digitized coherent matrices Sports,Sports & Outdoors,"Johnson, Burton and Rodgers",215.71,90.99,57.82,2024-09-01
+PROD_0081,Operative interactive ability Beauty,Beauty & Health,"Williams, Baldwin and Mclean",155.64,93.09,40.19,2025-05-31
+PROD_0082,Phased high-level throughput Home,Home & Garden,Simmons-Lopez,120.8,75.65,37.38,2025-06-25
+PROD_0083,Re-contextualized intangible projection Food,Food & Beverages,Wilson PLC,87.75,45.55,48.09,2024-06-02
+PROD_0084,Reverse-engineered composite challenge Food,Food & Beverages,Moore Group,22.06,14.73,33.24,2024-02-14
+PROD_0085,Digitized optimal challenge Books,Books & Media,Washington-Spencer,187.14,127.6,31.81,2024-08-24
+PROD_0086,Enterprise-wide value-added software Food,Food & Beverages,Butler-Marshall,91.07,60.22,33.87,2025-03-21
+PROD_0087,Balanced local forecast Electronics,Electronics,Casey PLC,960.91,505.66,47.38,2023-08-28
+PROD_0088,Proactive eco-centric algorithm Home,Home & Garden,Perez-Nguyen,37.82,24.37,35.55,2025-01-23
+PROD_0089,Streamlined global challenge Home,Home & Garden,Edwards-Jackson,33.21,18.35,44.74,2024-02-22
+PROD_0090,Customer-focused even-keeled attitude Sports,Sports & Outdoors,"Lynn, Marshall and Frazier",61.18,39.01,36.24,2024-12-04
+PROD_0091,Automated foreground parallelism Food,Food & Beverages,Love Ltd,196.18,91.61,53.3,2024-05-22
+PROD_0092,Decentralized needs-based Graphic Interface Home,Home & Garden,Miles-White,128.25,89.11,30.52,2023-07-11
+PROD_0093,Cross-group national installation Clothing,Clothing,Beltran LLC,272.81,126.09,53.78,2024-11-07
+PROD_0094,Intuitive bifurcated synergy Home,Home & Garden,Frank-Anderson,161.9,96.95,40.12,2024-04-24
+PROD_0095,Team-oriented client-driven instruction set Toys,Toys & Games,Hull-Brooks,155.38,103.27,33.54,2024-05-27
+PROD_0096,Exclusive foreground application Jewelry,Jewelry & Accessories,Kidd and Sons,485.47,269.31,44.53,2023-12-14
+PROD_0097,Cloned empowering complexity Beauty,Beauty & Health,Gonzalez LLC,148.79,97.47,34.49,2024-08-19
+PROD_0098,Balanced secondary protocol Clothing,Clothing,Adams Group,207.29,93.57,54.86,2023-07-31
+PROD_0099,Reverse-engineered bandwidth-monitored software Electronics,Electronics,King-Boyd,1004.04,607.2,39.52,2023-12-18
+PROD_0100,Programmable 24/7 system engine Home,Home & Garden,Bates-Harvey,44.44,21.03,52.68,2024-02-03
+PROD_0101,Cloned uniform archive Clothing,Clothing,Perez PLC,93.97,43.94,53.24,2023-12-20
+PROD_0102,Future-proofed next generation forecast Electronics,Electronics,Smith and Sons,188.93,84.29,55.39,2025-05-04
+PROD_0103,Optimized zero-defect archive Books,Books & Media,"Clayton, Torres and Farley",43.96,26.96,38.67,2025-05-25
+PROD_0104,Ameliorated bottom-line monitoring Clothing,Clothing,Barnes-Parsons,157.93,86.22,45.41,2024-01-16
+PROD_0105,Multi-channeled didactic function Automotive,Automotive,Coleman Ltd,1127.34,571.05,49.35,2024-04-14
+PROD_0106,Proactive user-facing structure Home,Home & Garden,Paul and Sons,44.33,27.86,37.16,2025-01-27
+PROD_0107,Sharable fault-tolerant implementation Automotive,Automotive,Preston PLC,440.56,246.82,43.98,2024-12-25
+PROD_0108,Distributed encompassing frame Electronics,Electronics,Brooks-Ritter,1102.13,704.28,36.1,2023-08-28
+PROD_0109,User-centric client-driven product Automotive,Automotive,Lozano Ltd,1424.36,915.95,35.69,2023-12-13
+PROD_0110,Open-architected object-oriented support Sports,Sports & Outdoors,Martinez Ltd,85.99,51.07,40.61,2023-10-22
+PROD_0111,Vision-oriented modular leverage Food,Food & Beverages,Chambers PLC,17.55,8.88,49.38,2023-09-13
+PROD_0112,Adaptive global throughput Home,Home & Garden,Torres Inc,174.84,101.05,42.21,2023-12-07
+PROD_0113,Enterprise-wide transitional orchestration Automotive,Automotive,"Horne, Mccormick and Reynolds",147.7,94.59,35.96,2024-12-10
+PROD_0114,Persistent optimizing customer loyalty Home,Home & Garden,Atkinson-Fisher,197.54,131.79,33.29,2023-09-04
+PROD_0115,Grass-roots systemic Graphical User Interface Beauty,Beauty & Health,"Sanchez, Williams and Moore",50.53,34.35,32.02,2024-10-19
+PROD_0116,Upgradable national emulation Home,Home & Garden,"Stout, Sullivan and Foster",56.44,33.67,40.34,2025-04-23
+PROD_0117,User-friendly bottom-line moratorium Jewelry,Jewelry & Accessories,Wright PLC,314.64,146.77,53.35,2023-11-18
+PROD_0118,User-centric upward-trending contingency Books,Books & Media,"Hill, Harper and Martinez",189.94,104.84,44.8,2024-02-04
+PROD_0119,Integrated value-added conglomeration Sports,Sports & Outdoors,Walsh-Miller,90.3,40.1,55.59,2024-08-08
+PROD_0120,Fundamental homogeneous definition Books,Books & Media,Velez-Alvarez,126.31,61.5,51.31,2024-03-08
+PROD_0121,Open-source cohesive installation Home,Home & Garden,"Jones, Rodriguez and Richard",168.85,84.92,49.71,2025-04-25
+PROD_0122,Fully-configurable incremental collaboration Clothing,Clothing,"Brown, Acevedo and Vasquez",295.75,150.43,49.14,2025-06-28
+PROD_0123,Open-source explicit productivity Automotive,Automotive,Turner Group,143.95,88.67,38.4,2025-01-26
+PROD_0124,Persevering coherent neural-net Books,Books & Media,"Owens, Byrd and Crosby",173.71,120.85,30.43,2025-05-26
+PROD_0125,Team-oriented fresh-thinking product Home,Home & Garden,Forbes and Sons,193.16,88.05,54.42,2024-09-03
+PROD_0126,Persistent directional implementation Sports,Sports & Outdoors,Avery Group,268.17,168.2,37.28,2024-09-24
+PROD_0127,Devolved systematic definition Automotive,Automotive,Rojas and Sons,179.65,112.09,37.6,2025-03-05
+PROD_0128,Organized intermediate moratorium Electronics,Electronics,"Diaz, Case and Hernandez",1016.52,473.08,53.46,2025-04-21
+PROD_0129,Down-sized heuristic emulation Food,Food & Beverages,Taylor-Foster,195.54,114.96,41.21,2024-02-28
+PROD_0130,Implemented intangible throughput Beauty,Beauty & Health,Brewer Ltd,175.9,93.39,46.91,2024-11-26
+PROD_0131,Compatible attitude-oriented encryption Sports,Sports & Outdoors,"Anderson, Wright and Roberson",237.7,120.78,49.19,2023-07-17
+PROD_0132,Enhanced background data-warehouse Automotive,Automotive,Garcia-Turner,761.69,330.64,56.59,2024-12-01
+PROD_0133,Monitored reciprocal time-frame Sports,Sports & Outdoors,"Blair, Thompson and Bryant",26.13,13.1,49.84,2024-10-30
+PROD_0134,Focused stable installation Books,Books & Media,Butler-Jimenez,19.64,11.25,42.7,2023-07-25
+PROD_0135,Public-key scalable installation Electronics,Electronics,"Frederick, Turner and Johnson",1365.28,724.41,46.94,2024-08-26
+PROD_0136,User-centric analyzing challenge Clothing,Clothing,"Hunt, Black and Davis",111.18,59.94,46.09,2024-03-12
+PROD_0137,Focused 24hour database Home,Home & Garden,"Davis, Rogers and Wright",160.3,99.95,37.65,2023-11-29
+PROD_0138,Synchronized dynamic system engine Food,Food & Beverages,Shea and Sons,114.58,74.81,34.71,2023-09-06
+PROD_0139,Operative systemic parallelism Automotive,Automotive,Lewis PLC,408.13,249.11,38.96,2025-04-14
+PROD_0140,Progressive stable solution Clothing,Clothing,Gonzalez-Blake,290.14,147.43,49.19,2024-07-30
+PROD_0141,Programmable multi-state flexibility Food,Food & Beverages,Porter-Valencia,172.9,87.46,49.41,2024-07-19
+PROD_0142,Business-focused human-resource intranet Food,Food & Beverages,Mcneil Inc,198.04,101.51,48.74,2023-07-12
+PROD_0143,Networked neutral website Home,Home & Garden,Terry-Thompson,110.74,68.98,37.71,2023-12-19
+PROD_0144,Proactive full-range service-desk Food,Food & Beverages,"Taylor, Villa and Mosley",83.0,52.31,36.98,2024-10-02
+PROD_0145,Business-focused intangible website Toys,Toys & Games,Jones-Banks,133.11,81.25,38.96,2024-04-18
+PROD_0146,Pre-emptive secondary open system Sports,Sports & Outdoors,"Mcfarland, Lamb and Rivera",165.58,103.49,37.5,2024-02-22
+PROD_0147,Centralized heuristic core Home,Home & Garden,Bishop Inc,26.73,17.06,36.16,2024-10-22
+PROD_0148,Multi-tiered maximized parallelism Food,Food & Beverages,Munoz-Sandoval,133.19,64.14,51.84,2024-04-10
+PROD_0149,Reverse-engineered directional initiative Toys,Toys & Games,"Mclaughlin, Campbell and May",13.83,7.24,47.61,2024-01-01
+PROD_0150,Horizontal content-based benchmark Toys,Toys & Games,"Smith, Jones and Chan",43.83,23.57,46.23,2025-05-04
+PROD_0151,Synergized content-based adapter Beauty,Beauty & Health,"Aguilar, Flores and Kim",17.58,9.05,48.52,2025-05-22
+PROD_0152,Sharable human-resource strategy Jewelry,Jewelry & Accessories,Davis Ltd,275.98,102.43,62.89,2025-03-12
+PROD_0153,Grass-roots eco-centric encoding Clothing,Clothing,"Craig, Patterson and Castillo",290.94,181.24,37.71,2023-12-09
+PROD_0154,Balanced content-based budgetary management Home,Home & Garden,Hall-Cunningham,151.92,77.5,48.99,2024-04-08
+PROD_0155,Reverse-engineered bifurcated benchmark Toys,Toys & Games,"Weber, Berger and Miller",50.89,35.0,31.22,2024-02-22
+PROD_0156,Quality-focused content-based database Books,Books & Media,Jimenez and Sons,39.44,23.46,40.51,2025-06-13
+PROD_0157,Balanced mobile moratorium Books,Books & Media,Williams Group,164.07,112.38,31.5,2024-05-08
+PROD_0158,Multi-channeled content-based definition Toys,Toys & Games,Price-Wells,81.08,38.83,52.11,2023-11-01
+PROD_0159,Implemented didactic monitoring Home,Home & Garden,Dean PLC,93.98,56.34,40.05,2024-09-23
+PROD_0160,Down-sized empowering application Home,Home & Garden,"Martinez, Garcia and Haney",90.0,50.22,44.2,2023-07-14
+PROD_0161,Secured bi-directional frame Automotive,Automotive,Lozano-Clark,1109.38,623.46,43.8,2025-06-07
+PROD_0162,Secured optimal initiative Beauty,Beauty & Health,Baker-Davis,152.79,82.99,45.69,2024-06-17
+PROD_0163,Intuitive discrete standardization Home,Home & Garden,Rogers Group,89.86,61.45,31.62,2024-07-19
+PROD_0164,Multi-tiered real-time neural-net Beauty,Beauty & Health,Pineda-Johnson,167.58,80.08,52.21,2025-01-14
+PROD_0165,Streamlined actuating solution Books,Books & Media,Murray LLC,161.27,76.81,52.37,2025-01-31
+PROD_0166,Vision-oriented regional algorithm Beauty,Beauty & Health,Kennedy Inc,149.72,100.45,32.91,2025-02-26
+PROD_0167,Customizable scalable complexity Food,Food & Beverages,Coleman Group,171.28,109.96,35.8,2025-04-18
+PROD_0168,Innovative web-enabled paradigm Toys,Toys & Games,Gibson PLC,168.26,92.6,44.96,2023-11-12
+PROD_0169,Balanced web-enabled installation Toys,Toys & Games,Cruz Inc,109.81,75.1,31.6,2024-07-21
+PROD_0170,Compatible motivating knowledge user Automotive,Automotive,"Duncan, Reyes and Jackson",228.01,134.51,41.01,2025-05-14
+PROD_0171,Reverse-engineered 3rdgeneration framework Beauty,Beauty & Health,Coleman Group,150.13,96.55,35.69,2024-09-05
+PROD_0172,Up-sized client-driven approach Home,Home & Garden,Miller-Cameron,159.06,79.5,50.02,2025-06-03
+PROD_0173,Open-architected secondary orchestration Home,Home & Garden,"Marshall, Mooney and Boyer",59.38,34.66,41.62,2025-06-04
+PROD_0174,Up-sized dedicated initiative Beauty,Beauty & Health,Schmitt-Gibson,160.99,75.92,52.84,2024-02-28
+PROD_0175,Decentralized content-based projection Automotive,Automotive,Turner LLC,402.54,256.62,36.25,2024-11-16
+PROD_0176,Mandatory dedicated leverage Food,Food & Beverages,Brown-Ruiz,91.24,56.89,37.64,2024-03-06
+PROD_0177,Optimized coherent conglomeration Clothing,Clothing,"Thompson, Alvarez and Cordova",129.82,54.32,58.16,2023-11-12
+PROD_0178,Organic methodical pricing structure Food,Food & Beverages,Malone-Mcguire,144.88,69.63,51.94,2024-03-02
+PROD_0179,Progressive multi-state leverage Clothing,Clothing,Hamilton LLC,166.74,66.73,59.98,2024-10-12
+PROD_0180,Compatible value-added structure Sports,Sports & Outdoors,Martin Ltd,110.52,61.7,44.17,2025-04-14
+PROD_0181,Devolved upward-trending definition Electronics,Electronics,Mckinney-Roberson,290.82,133.35,54.15,2024-11-10
+PROD_0182,Multi-layered multi-tasking knowledge user Beauty,Beauty & Health,Wolf-Ellis,123.0,78.8,35.93,2023-07-12
+PROD_0183,Customizable local concept Books,Books & Media,"Lyons, Jones and Stephens",109.49,71.61,34.6,2023-08-26
+PROD_0184,Re-contextualized motivating database Sports,Sports & Outdoors,"Graham, Anderson and Avery",197.04,110.8,43.77,2024-06-02
+PROD_0185,Mandatory transitional methodology Beauty,Beauty & Health,Gordon-Black,45.29,23.49,48.13,2024-08-01
+PROD_0186,Realigned value-added protocol Electronics,Electronics,"Clark, Caldwell and Robinson",831.59,337.1,59.46,2024-06-13
+PROD_0187,Multi-channeled local synergy Clothing,Clothing,Garrett-Rodriguez,135.27,69.08,48.93,2023-11-12
+PROD_0188,Self-enabling attitude-oriented service-desk Books,Books & Media,Wade PLC,126.37,81.07,35.85,2024-07-21
+PROD_0189,Profit-focused asymmetric functionalities Sports,Sports & Outdoors,Mckenzie Ltd,66.03,33.39,49.44,2025-02-06
+PROD_0190,User-friendly composite hub Clothing,Clothing,Walker-Scott,175.13,93.98,46.34,2024-05-14
+PROD_0191,Configurable scalable Internet solution Home,Home & Garden,"Nguyen, Brown and King",121.1,76.39,36.92,2025-03-15
+PROD_0192,Advanced context-sensitive Graphical User Interface Food,Food & Beverages,Barron LLC,170.48,76.74,54.98,2024-04-03
+PROD_0193,Persistent optimal focus group Beauty,Beauty & Health,Barrett-Chen,13.76,7.4,46.19,2025-03-23
+PROD_0194,Configurable human-resource encoding Automotive,Automotive,Davis-Hernandez,588.24,398.87,32.19,2024-10-01
+PROD_0195,Multi-tiered modular archive Home,Home & Garden,Bass-Hendricks,121.92,62.79,48.5,2024-03-29
+PROD_0196,Self-enabling encompassing portal Toys,Toys & Games,Montgomery Ltd,146.09,85.1,41.75,2024-12-22
+PROD_0197,Innovative executive function Beauty,Beauty & Health,Woods-Scott,98.95,54.32,45.1,2023-12-07
+PROD_0198,Mandatory encompassing extranet Automotive,Automotive,"Macdonald, Choi and Goodwin",1360.48,793.11,41.7,2023-12-28
+PROD_0199,Reduced 4thgeneration solution Toys,Toys & Games,Leon Group,127.43,76.86,39.69,2024-09-14
+PROD_0200,Profit-focused heuristic collaboration Toys,Toys & Games,Caldwell-Krueger,91.27,55.93,38.72,2025-06-28
+PROD_0201,Fully-configurable intermediate open system Clothing,Clothing,"Hernandez, Roberts and Andrews",215.56,123.44,42.73,2024-10-27
+PROD_0202,Proactive asynchronous encryption Sports,Sports & Outdoors,Trujillo-Johnson,52.63,29.06,44.78,2025-06-05
+PROD_0203,Ergonomic grid-enabled pricing structure Electronics,Electronics,Chambers-Payne,1217.32,631.33,48.14,2024-11-22
+PROD_0204,Robust multimedia extranet Toys,Toys & Games,Olson LLC,186.03,91.72,50.7,2024-06-26
+PROD_0205,Customer-focused multimedia firmware Toys,Toys & Games,"Bennett, Hernandez and Buck",60.23,30.39,49.56,2024-10-14
+PROD_0206,Robust client-server groupware Automotive,Automotive,"Stephens, Scott and Singleton",681.06,286.7,57.9,2024-09-27
+PROD_0207,Networked explicit open architecture Automotive,Automotive,"Watson, Cross and Lopez",592.63,291.29,50.85,2023-12-24
+PROD_0208,Balanced systematic product Jewelry,Jewelry & Accessories,"Lopez, Baldwin and Arnold",459.18,252.7,44.97,2023-07-10
+PROD_0209,Devolved maximized methodology Food,Food & Beverages,Williams LLC,130.37,80.32,38.39,2024-05-29
+PROD_0210,Total content-based policy Electronics,Electronics,"Jacobs, Jacobs and Martinez",295.16,206.35,30.09,2023-09-10
+PROD_0211,Reverse-engineered systematic synergy Books,Books & Media,Kelly Inc,96.67,61.57,36.3,2023-10-06
+PROD_0212,Ergonomic disintermediate matrix Electronics,Electronics,"Aguilar, Tucker and Perez",870.69,499.98,42.58,2023-09-10
+PROD_0213,Balanced eco-centric definition Clothing,Clothing,Dixon PLC,192.62,111.57,42.08,2025-01-31
+PROD_0214,Cloned client-server approach Beauty,Beauty & Health,"Smith, Aguilar and Fitzgerald",52.12,27.3,47.62,2024-08-21
+PROD_0215,Sharable needs-based definition Sports,Sports & Outdoors,Luna-Cantrell,274.92,156.46,43.09,2024-09-15
+PROD_0216,Persistent 4thgeneration conglomeration Clothing,Clothing,"Morales, Reed and Lewis",265.29,161.28,39.21,2024-07-08
+PROD_0217,Versatile asynchronous knowledgebase Home,Home & Garden,Edwards-Garcia,138.48,71.55,48.33,2025-05-01
+PROD_0218,Expanded optimal interface Beauty,Beauty & Health,Barrett Ltd,98.16,67.19,31.56,2024-06-30
+PROD_0219,De-engineered zero tolerance time-frame Electronics,Electronics,Payne-Reynolds,1431.37,905.23,36.76,2023-08-08
+PROD_0220,Synchronized leadingedge definition Toys,Toys & Games,Robinson-Wilson,77.47,42.21,45.51,2024-01-16
+PROD_0221,Adaptive logistical concept Toys,Toys & Games,Hernandez-Cameron,128.1,71.65,44.07,2025-03-22
+PROD_0222,Function-based scalable algorithm Automotive,Automotive,"Schmidt, Martin and Green",245.45,171.33,30.2,2024-05-17
+PROD_0223,Re-contextualized radical Graphic Interface Food,Food & Beverages,Campos and Sons,144.39,70.8,50.96,2024-03-26
+PROD_0224,Focused directional solution Automotive,Automotive,"Collins, Dillon and Castillo",1330.48,701.25,47.29,2025-05-21
+PROD_0225,Customizable dynamic success Home,Home & Garden,"Mccoy, King and Woods",67.76,46.2,31.82,2025-04-10
+PROD_0226,Polarized encompassing attitude Beauty,Beauty & Health,Mosley LLC,92.49,57.81,37.49,2023-11-18
+PROD_0227,Synergistic multi-state website Books,Books & Media,Underwood-Ruiz,159.82,90.72,43.24,2024-01-06
+PROD_0228,Quality-focused context-sensitive forecast Electronics,Electronics,"Wallace, Gates and Harris",883.48,382.02,56.76,2023-11-03
+PROD_0229,Assimilated reciprocal toolset Automotive,Automotive,Smith Inc,922.01,446.17,51.61,2024-10-19
+PROD_0230,Persistent needs-based array Automotive,Automotive,"Phillips, Martinez and Wade",1312.65,691.91,47.29,2024-10-29
+PROD_0231,Vision-oriented high-level alliance Electronics,Electronics,Ramos-Parker,607.71,268.78,55.77,2023-08-11
+PROD_0232,Devolved systemic functionalities Toys,Toys & Games,Carey and Sons,52.34,26.5,49.37,2024-07-18
+PROD_0233,User-centric systemic customer loyalty Electronics,Electronics,Williams-Warren,457.9,218.34,52.32,2024-02-08
+PROD_0234,Ameliorated full-range product Sports,Sports & Outdoors,Hahn-Lyons,56.7,24.57,56.67,2024-04-04
+PROD_0235,Multi-lateral demand-driven knowledge user Books,Books & Media,Davis and Sons,91.15,50.22,44.91,2024-11-02
+PROD_0236,De-engineered client-driven model Sports,Sports & Outdoors,"Green, Horne and Jensen",103.22,52.01,49.61,2025-01-31
+PROD_0237,User-centric mobile synergy Home,Home & Garden,Phelps-Brooks,131.58,70.58,46.36,2024-11-04
+PROD_0238,Fully-configurable full-range function Jewelry,Jewelry & Accessories,Ramirez-Medina,452.63,265.54,41.33,2024-12-28
+PROD_0239,Persevering transitional algorithm Beauty,Beauty & Health,"Spencer, Davis and Pena",133.94,60.51,54.82,2024-07-03
+PROD_0240,Operative clear-thinking structure Books,Books & Media,Barajas Group,103.31,61.68,40.3,2024-11-10
+PROD_0241,Cross-group high-level middleware Home,Home & Garden,Alvarado Ltd,193.08,132.42,31.42,2023-09-17
+PROD_0242,Versatile contextually-based workforce Jewelry,Jewelry & Accessories,Washington-Johnson,419.16,134.32,67.95,2023-08-16
+PROD_0243,Reverse-engineered zero tolerance hierarchy Toys,Toys & Games,Reese-Garcia,11.57,7.59,34.43,2024-04-22
+PROD_0244,Enhanced motivating benchmark Toys,Toys & Games,"Lambert, Hobbs and Salinas",142.03,81.75,42.44,2024-09-02
+PROD_0245,Organized systematic secured line Books,Books & Media,"Frank, Kramer and Shields",49.8,29.96,39.83,2023-09-21
+PROD_0246,Secured value-added capacity Beauty,Beauty & Health,Herrera Ltd,91.96,43.78,52.39,2024-03-10
+PROD_0247,Ameliorated asymmetric analyzer Electronics,Electronics,Chen Group,1173.53,767.57,34.59,2024-12-07
+PROD_0248,Implemented web-enabled database Jewelry,Jewelry & Accessories,"Martinez, Reynolds and Mayo",31.92,17.13,46.34,2024-03-28
+PROD_0249,Vision-oriented actuating website Clothing,Clothing,"Mcpherson, Brady and Gibson",255.62,103.87,59.37,2025-01-17
+PROD_0250,Pre-emptive modular function Home,Home & Garden,"Shaw, Flores and Peterson",170.41,95.18,44.14,2023-07-08
+PROD_0251,Versatile bi-directional knowledgebase Electronics,Electronics,Miranda Group,1370.12,935.25,31.74,2024-11-15
+PROD_0252,Stand-alone full-range orchestration Electronics,Electronics,Carter PLC,477.59,192.62,59.67,2024-02-27
+PROD_0253,Streamlined human-resource support Beauty,Beauty & Health,"Hernandez, Griffin and Lozano",61.1,29.97,50.95,2024-04-08
+PROD_0254,Fundamental grid-enabled standardization Home,Home & Garden,Duran and Sons,170.27,90.11,47.08,2023-07-27
+PROD_0255,Persevering radical emulation Automotive,Automotive,Bailey-Dickerson,320.78,176.6,44.95,2023-11-21
+PROD_0256,Team-oriented mission-critical service-desk Sports,Sports & Outdoors,"Reese, Munoz and Meyer",215.41,114.86,46.68,2024-03-18
+PROD_0257,User-centric fault-tolerant frame Electronics,Electronics,Brandt-Thomas,1398.31,892.26,36.19,2024-12-14
+PROD_0258,Multi-lateral heuristic Internet solution Electronics,Electronics,"Clark, Hamilton and Kelly",1491.85,652.43,56.27,2023-10-30
+PROD_0259,Horizontal didactic adapter Beauty,Beauty & Health,Stark-Clarke,173.02,103.58,40.13,2025-05-26
+PROD_0260,Secured transitional infrastructure Electronics,Electronics,"Ruiz, Allen and Calderon",1184.02,599.3,49.38,2025-03-17
+PROD_0261,Face-to-face content-based model Food,Food & Beverages,"Cruz, Thomas and Rodriguez",115.38,64.14,44.41,2024-03-20
+PROD_0262,Multi-layered intangible portal Sports,Sports & Outdoors,Lang and Sons,198.58,97.44,50.93,2024-02-21
+PROD_0263,Fundamental empowering throughput Automotive,Automotive,Bryant-Schwartz,392.24,221.12,43.63,2024-01-05
+PROD_0264,Exclusive systematic methodology Books,Books & Media,Smith and Sons,18.1,9.09,49.75,2023-11-03
+PROD_0265,Devolved fresh-thinking collaboration Beauty,Beauty & Health,Turner Inc,15.69,10.59,32.49,2024-01-02
+PROD_0266,Managed 4thgeneration protocol Food,Food & Beverages,Jenkins-Moss,126.88,66.55,47.55,2025-02-14
+PROD_0267,Enterprise-wide incremental projection Home,Home & Garden,Melton and Sons,103.68,50.52,51.28,2024-09-02
+PROD_0268,De-engineered zero-defect application Beauty,Beauty & Health,Smith-Owens,69.07,40.59,41.23,2023-11-22
+PROD_0269,Business-focused static approach Automotive,Automotive,Ellis Inc,236.41,148.26,37.29,2024-04-25
+PROD_0270,Synergistic bottom-line artificial intelligence Books,Books & Media,"Mueller, Cohen and Navarro",152.09,103.64,31.86,2024-11-18
+PROD_0271,Innovative next generation data-warehouse Books,Books & Media,Smith-Thomas,189.59,89.77,52.65,2024-09-21
+PROD_0272,Intuitive cohesive budgetary management Clothing,Clothing,Thompson Inc,118.45,76.75,35.21,2025-05-05
+PROD_0273,Multi-channeled real-time contingency Books,Books & Media,"Miller, Myers and Serrano",128.63,73.42,42.92,2024-08-16
+PROD_0274,Enterprise-wide intangible installation Clothing,Clothing,George LLC,86.95,48.91,43.75,2025-06-27
+PROD_0275,Organized 3rdgeneration definition Toys,Toys & Games,Hall PLC,78.0,53.0,32.06,2025-06-26
+PROD_0276,Devolved scalable data-warehouse Jewelry,Jewelry & Accessories,"Anderson, Smith and Frank",473.1,249.16,47.33,2024-07-31
+PROD_0277,Managed value-added budgetary management Food,Food & Beverages,Allen-Hughes,113.76,55.59,51.14,2024-01-21
+PROD_0278,Re-engineered asymmetric encryption Jewelry,Jewelry & Accessories,"Carter, Smith and Burke",440.05,209.82,52.32,2024-04-21
+PROD_0279,Exclusive eco-centric budgetary management Sports,Sports & Outdoors,"Shaw, Chapman and Peters",26.6,14.16,46.77,2025-06-28
+PROD_0280,Open-source modular Internet solution Home,Home & Garden,Carter LLC,19.41,8.84,54.44,2023-11-16
+PROD_0281,Realigned actuating service-desk Home,Home & Garden,"Hooper, Ramos and Green",130.9,85.28,34.85,2025-06-21
+PROD_0282,Upgradable cohesive function Books,Books & Media,Ross-Snyder,110.73,61.74,44.24,2024-11-13
+PROD_0283,Expanded reciprocal service-desk Electronics,Electronics,"Garcia, Armstrong and Espinoza",1332.73,822.82,38.26,2024-12-17
+PROD_0284,Pre-emptive human-resource synergy Beauty,Beauty & Health,Conner Ltd,178.03,119.48,32.89,2024-01-17
+PROD_0285,Multi-tiered dynamic Internet solution Sports,Sports & Outdoors,Kennedy-Stevens,216.21,96.09,55.55,2023-11-08
+PROD_0286,Devolved radical conglomeration Home,Home & Garden,Becker-Baker,21.59,11.62,46.17,2025-06-29
+PROD_0287,Programmable human-resource model Beauty,Beauty & Health,Smith Ltd,99.23,57.02,42.54,2025-05-17
+PROD_0288,Up-sized motivating hardware Electronics,Electronics,"Smith, Bernard and Hernandez",966.98,645.79,33.22,2023-07-31
+PROD_0289,Reduced actuating archive Books,Books & Media,Larson Inc,95.05,50.35,47.02,2023-12-01
+PROD_0290,Triple-buffered dedicated knowledgebase Sports,Sports & Outdoors,Lee-Aguilar,281.97,182.46,35.29,2023-11-03
+PROD_0291,Upgradable eco-centric migration Clothing,Clothing,Mcdowell Inc,156.17,95.5,38.85,2023-11-22
+PROD_0292,Upgradable solution-oriented attitude Electronics,Electronics,Fox PLC,662.2,346.15,47.73,2024-06-07
+PROD_0293,Adaptive executive firmware Sports,Sports & Outdoors,"Nichols, Brooks and Brooks",123.26,64.42,47.74,2024-12-29
+PROD_0294,Optimized static infrastructure Jewelry,Jewelry & Accessories,Wright and Sons,361.2,204.89,43.28,2024-08-18
+PROD_0295,Pre-emptive encompassing Internet solution Home,Home & Garden,"Strickland, Wilson and Boyle",185.71,101.98,45.09,2023-11-30
+PROD_0296,Assimilated zero-defect data-warehouse Food,Food & Beverages,Wood LLC,73.44,49.27,32.92,2025-02-20
+PROD_0297,Vision-oriented clear-thinking Graphical User Interface Electronics,Electronics,Jones-Salas,1356.74,627.66,53.74,2023-10-25
+PROD_0298,Virtual radical definition Books,Books & Media,"Hall, Lin and Edwards",57.57,29.31,49.08,2024-10-07
+PROD_0299,User-friendly context-sensitive focus group Toys,Toys & Games,Johnson-Wall,197.15,115.08,41.63,2024-03-09
+PROD_0300,Reverse-engineered multi-tasking application Automotive,Automotive,"Serrano, Everett and Lopez",607.83,251.12,58.69,2024-03-22
+PROD_0301,Stand-alone static framework Electronics,Electronics,Michael-Farmer,579.84,372.27,35.8,2024-02-28
+PROD_0302,Compatible 4thgeneration portal Jewelry,Jewelry & Accessories,Snyder-Taylor,31.15,15.47,50.34,2024-10-05
+PROD_0303,Versatile methodical artificial intelligence Beauty,Beauty & Health,Smith Ltd,116.98,73.12,37.5,2025-01-05
+PROD_0304,Object-based solution-oriented infrastructure Food,Food & Beverages,Marshall-Bradley,20.76,9.5,54.23,2024-09-05
+PROD_0305,Streamlined bottom-line conglomeration Books,Books & Media,Ruiz-Jefferson,128.32,81.09,36.81,2024-10-08
+PROD_0306,Quality-focused needs-based collaboration Books,Books & Media,"Dalton, Howell and Lara",177.75,95.81,46.1,2023-09-01
+PROD_0307,Optional stable support Food,Food & Beverages,Warren Group,104.77,68.52,34.6,2024-04-27
+PROD_0308,Public-key intermediate Graphical User Interface Food,Food & Beverages,"Barnett, Collins and Sanders",14.89,6.73,54.82,2023-10-24
+PROD_0309,Robust real-time model Jewelry,Jewelry & Accessories,Robertson LLC,492.46,163.02,66.9,2024-12-27
+PROD_0310,Reactive tertiary time-frame Home,Home & Garden,Reyes PLC,114.17,54.0,52.7,2023-10-21
+PROD_0311,Implemented didactic policy Food,Food & Beverages,"Perez, Lawrence and Miller",112.16,77.48,30.92,2024-10-02
+PROD_0312,Universal 5thgeneration moderator Jewelry,Jewelry & Accessories,Lambert Group,187.77,109.63,41.61,2024-07-17
+PROD_0313,Organized foreground Graphic Interface Jewelry,Jewelry & Accessories,Lane-Pearson,204.34,91.39,55.28,2025-05-08
+PROD_0314,Focused static open system Home,Home & Garden,"Myers, Choi and Romero",109.43,49.97,54.33,2025-03-08
+PROD_0315,Front-line 3rdgeneration protocol Books,Books & Media,"Vargas, Walker and Perez",25.32,13.13,48.15,2024-09-18
+PROD_0316,Sharable human-resource benchmark Food,Food & Beverages,Lynn PLC,28.61,18.29,36.08,2023-09-03
+PROD_0317,Self-enabling system-worthy protocol Sports,Sports & Outdoors,Wong-Gomez,214.9,90.72,57.79,2023-12-16
+PROD_0318,Expanded web-enabled matrix Sports,Sports & Outdoors,Hale Ltd,65.86,28.14,57.27,2024-09-23
+PROD_0319,Synergized upward-trending paradigm Automotive,Automotive,"Hall, Banks and Thompson",695.94,420.99,39.51,2024-05-21
+PROD_0320,Future-proofed uniform architecture Electronics,Electronics,Crawford PLC,256.71,123.63,51.84,2025-01-12
+PROD_0321,Sharable asymmetric solution Clothing,Clothing,Barrett-Thornton,143.27,80.57,43.77,2024-09-30
+PROD_0322,Enhanced analyzing open system Jewelry,Jewelry & Accessories,"Tanner, Ali and Chen",257.93,112.9,56.23,2025-06-06
+PROD_0323,Centralized contextually-based methodology Sports,Sports & Outdoors,"Smith, Gonzalez and Andrews",71.68,38.24,46.65,2024-04-19
+PROD_0324,Customer-focused client-server Graphic Interface Beauty,Beauty & Health,Williams Inc,77.82,36.58,52.99,2024-05-13
+PROD_0325,Persevering 4thgeneration moratorium Books,Books & Media,Martinez-Mills,181.13,123.84,31.63,2023-08-11
+PROD_0326,Phased solution-oriented open architecture Toys,Toys & Games,Ellis-Perkins,137.52,82.15,40.26,2024-11-05
+PROD_0327,Quality-focused foreground moratorium Jewelry,Jewelry & Accessories,"Chase, Mueller and Velez",210.84,81.42,61.38,2024-11-22
+PROD_0328,Optimized asynchronous hub Toys,Toys & Games,"Scott, Gomez and Mullen",51.3,31.46,38.67,2024-10-28
+PROD_0329,Inverse foreground system engine Books,Books & Media,Davis Group,79.11,37.05,53.17,2024-06-01
+PROD_0330,Intuitive modular migration Jewelry,Jewelry & Accessories,"Roberts, Munoz and Gill",31.08,13.11,57.82,2024-10-01
+PROD_0331,Reduced local paradigm Clothing,Clothing,"Robinson, Chandler and Dixon",242.92,118.89,51.06,2023-11-09
+PROD_0332,Profound logistical moderator Sports,Sports & Outdoors,"Gordon, Ellis and Reyes",205.96,115.26,44.04,2025-02-20
+PROD_0333,Fully-configurable static system engine Books,Books & Media,Dickerson Group,142.95,70.22,50.88,2023-09-01
+PROD_0334,Upgradable needs-based open system Food,Food & Beverages,Smith-Hamilton,139.04,85.9,38.22,2024-07-12
+PROD_0335,Open-source empowering toolset Beauty,Beauty & Health,Huerta-Wall,24.64,11.38,53.82,2025-02-20
+PROD_0336,Re-contextualized incremental array Beauty,Beauty & Health,Jones-Sosa,27.89,19.25,30.98,2025-02-18
+PROD_0337,Extended high-level pricing structure Home,Home & Garden,Mckenzie-Burns,73.21,41.99,42.64,2024-05-11
+PROD_0338,Synchronized composite help-desk Toys,Toys & Games,Mckay-Cameron,49.79,25.1,49.59,2024-08-12
+PROD_0339,User-friendly mission-critical Graphic Interface Home,Home & Garden,Leonard PLC,168.04,117.16,30.28,2025-06-06
+PROD_0340,Proactive multimedia matrices Automotive,Automotive,Foley-Lopez,892.22,565.01,36.67,2025-03-30
+PROD_0341,Multi-tiered empowering customer loyalty Automotive,Automotive,Hall-Colon,134.32,55.33,58.81,2023-09-05
+PROD_0342,User-friendly disintermediate matrices Toys,Toys & Games,"Brennan, Davis and May",123.07,76.21,38.08,2023-10-04
+PROD_0343,Synchronized bandwidth-monitored contingency Automotive,Automotive,Morales-Bell,440.78,262.49,40.45,2023-12-27
+PROD_0344,Cross-platform eco-centric strategy Electronics,Electronics,"Vasquez, Frazier and Mcmillan",216.97,102.88,52.58,2024-11-14
+PROD_0345,Implemented non-volatile pricing structure Books,Books & Media,Miller PLC,173.0,82.05,52.57,2023-08-18
+PROD_0346,Adaptive bi-directional definition Jewelry,Jewelry & Accessories,Palmer LLC,337.59,185.95,44.92,2024-10-15
+PROD_0347,Compatible 4thgeneration interface Food,Food & Beverages,Stephens-Mitchell,191.95,113.21,41.02,2025-03-23
+PROD_0348,Public-key asynchronous capability Beauty,Beauty & Health,Salazar-Griffin,186.28,116.38,37.53,2025-03-05
+PROD_0349,De-engineered 5thgeneration conglomeration Electronics,Electronics,"Anderson, Washington and Noble",450.31,281.28,37.54,2024-12-05
+PROD_0350,Multi-channeled optimal workforce Food,Food & Beverages,Williams-Mitchell,179.22,114.67,36.02,2025-05-30
+PROD_0351,Multi-lateral analyzing emulation Toys,Toys & Games,"Wagner, Doyle and Kelly",45.79,24.31,46.91,2023-08-05
+PROD_0352,Organic uniform migration Automotive,Automotive,Anderson Ltd,1169.38,596.3,49.01,2024-02-02
+PROD_0353,Focused dedicated hierarchy Books,Books & Media,Brown-Garcia,94.82,55.85,41.1,2024-10-17
+PROD_0354,Configurable fresh-thinking superstructure Home,Home & Garden,Mejia-Jackson,91.46,55.32,39.52,2025-04-13
+PROD_0355,Decentralized value-added paradigm Electronics,Electronics,Jacobson Ltd,840.46,545.86,35.05,2023-11-20
+PROD_0356,Reverse-engineered 3rdgeneration knowledgebase Jewelry,Jewelry & Accessories,Watson PLC,260.23,137.52,47.15,2023-08-30
+PROD_0357,Automated stable algorithm Clothing,Clothing,Garrett-Jones,69.58,42.09,39.51,2024-08-30
+PROD_0358,Multi-layered system-worthy orchestration Electronics,Electronics,Simon Ltd,1050.84,486.47,53.71,2024-12-11
+PROD_0359,Face-to-face zero administration solution Clothing,Clothing,"Lewis, Williams and Gonzalez",184.99,110.5,40.27,2024-08-15
+PROD_0360,Optimized dynamic ability Sports,Sports & Outdoors,Carter Ltd,39.59,17.19,56.59,2023-08-29
+PROD_0361,Self-enabling bandwidth-monitored matrices Home,Home & Garden,Bush-Adams,12.34,6.69,45.8,2024-08-18
+PROD_0362,Self-enabling motivating projection Food,Food & Beverages,Harmon-Hendrix,70.28,42.29,39.82,2024-01-29
+PROD_0363,Ameliorated real-time migration Home,Home & Garden,Burns LLC,96.47,60.17,37.63,2023-11-09
+PROD_0364,Grass-roots asymmetric access Toys,Toys & Games,Williams-Dorsey,11.79,6.96,41.0,2024-11-10
+PROD_0365,Future-proofed explicit throughput Beauty,Beauty & Health,"Rodriguez, Bryant and Morgan",133.2,82.51,38.06,2023-07-10
+PROD_0366,Re-contextualized stable workforce Clothing,Clothing,Smith PLC,68.23,32.61,52.21,2025-03-01
+PROD_0367,Multi-tiered actuating knowledge user Clothing,Clothing,Hernandez-Murray,266.62,127.34,52.24,2024-11-07
+PROD_0368,Self-enabling human-resource challenge Clothing,Clothing,Brown Inc,224.57,101.02,55.01,2025-03-15
+PROD_0369,Centralized dynamic info-mediaries Electronics,Electronics,Fernandez-Small,1471.69,654.99,55.49,2023-11-22
+PROD_0370,Phased web-enabled firmware Food,Food & Beverages,"Mays, Ramirez and Berry",199.18,98.4,50.6,2023-08-25
+PROD_0371,Progressive modular interface Books,Books & Media,Ford LLC,82.78,53.41,35.48,2025-02-16
+PROD_0372,Optional bandwidth-monitored strategy Home,Home & Garden,"Harding, Lewis and Khan",160.93,79.95,50.32,2024-01-14
+PROD_0373,Fundamental upward-trending implementation Automotive,Automotive,Kennedy Group,1083.4,525.72,51.47,2024-04-22
+PROD_0374,Quality-focused national system engine Sports,Sports & Outdoors,Stein-Hanson,274.99,141.66,48.49,2023-09-02
+PROD_0375,Enhanced bottom-line extranet Electronics,Electronics,"Ewing, Carter and Stevens",365.94,172.43,52.88,2023-11-04
+PROD_0376,Switchable analyzing forecast Books,Books & Media,Sandoval-Evans,82.81,48.9,40.95,2024-06-18
+PROD_0377,Business-focused discrete contingency Electronics,Electronics,Martinez-Campbell,994.99,599.69,39.73,2024-12-10
+PROD_0378,Grass-roots uniform model Food,Food & Beverages,Everett-Foley,136.98,75.12,45.15,2025-05-02
+PROD_0379,Visionary systematic open system Home,Home & Garden,"Bennett, Mendoza and Franco",84.94,56.37,33.64,2023-12-14
+PROD_0380,Object-based client-driven instruction set Electronics,Electronics,Miller-Saunders,1274.82,594.85,53.34,2023-08-20
+PROD_0381,Enhanced empowering Internet solution Electronics,Electronics,Bennett-Peterson,858.14,567.96,33.82,2024-01-11
+PROD_0382,Monitored national parallelism Clothing,Clothing,Warren PLC,48.93,23.75,51.46,2023-07-12
+PROD_0383,Triple-buffered coherent hub Jewelry,Jewelry & Accessories,"Blair, Ho and Ashley",246.05,118.36,51.9,2023-08-17
+PROD_0384,Grass-roots demand-driven matrix Toys,Toys & Games,"Dominguez, Parsons and Lopez",77.06,53.92,30.02,2024-06-06
+PROD_0385,Open-architected 6thgeneration firmware Books,Books & Media,"Bryant, Lambert and Powell",19.08,11.93,37.45,2025-06-29
+PROD_0386,Networked mission-critical flexibility Electronics,Electronics,"Cox, Fitzgerald and Wise",1356.35,717.21,47.12,2023-12-01
+PROD_0387,Networked dynamic solution Books,Books & Media,Wagner Ltd,111.99,74.29,33.66,2024-01-22
+PROD_0388,Devolved grid-enabled task-force Home,Home & Garden,"Sandoval, Fitzgerald and Rivera",182.58,124.99,31.54,2024-05-29
+PROD_0389,Upgradable asynchronous array Toys,Toys & Games,Harris-Avila,110.5,52.41,52.57,2024-10-11
+PROD_0390,Phased composite website Jewelry,Jewelry & Accessories,Brooks-Hopkins,380.31,186.51,50.96,2023-07-28
+PROD_0391,Open-architected 3rdgeneration info-mediaries Home,Home & Garden,"Walter, Chambers and Bird",144.44,88.72,38.58,2023-10-15
+PROD_0392,Inverse national circuit Electronics,Electronics,Perez-Scott,1169.46,797.33,31.82,2023-07-25
+PROD_0393,Balanced reciprocal hub Home,Home & Garden,Jones-Wood,108.83,67.18,38.27,2024-10-06
+PROD_0394,Cross-platform didactic task-force Sports,Sports & Outdoors,Leon and Sons,260.33,130.32,49.94,2023-07-11
+PROD_0395,Progressive asynchronous system engine Clothing,Clothing,Lowery Ltd,279.8,162.26,42.01,2023-07-20
+PROD_0396,Managed even-keeled info-mediaries Automotive,Automotive,Ramirez-White,951.96,520.99,45.27,2024-10-05
+PROD_0397,Monitored maximized Graphic Interface Home,Home & Garden,Becker-Murphy,151.1,80.34,46.83,2025-04-26
+PROD_0398,Managed non-volatile info-mediaries Toys,Toys & Games,Lane-Joseph,112.75,74.43,33.98,2023-08-03
+PROD_0399,Compatible national groupware Electronics,Electronics,Barber Group,1260.92,585.6,53.56,2023-12-07
+PROD_0400,Polarized human-resource data-warehouse Food,Food & Beverages,Lynch-Morris,147.28,90.95,38.25,2025-03-22
+PROD_0401,Persevering demand-driven structure Beauty,Beauty & Health,Martin-Munoz,141.6,84.64,40.23,2023-08-16
+PROD_0402,Robust transitional matrix Home,Home & Garden,"Johnson, Wilkerson and Fernandez",135.97,81.7,39.92,2024-04-20
+PROD_0403,Down-sized web-enabled matrix Toys,Toys & Games,Phillips-Lara,71.7,46.33,35.37,2025-03-10
+PROD_0404,Multi-lateral dynamic portal Home,Home & Garden,Mcdowell-Griffin,151.45,74.84,50.59,2024-10-26
+PROD_0405,Up-sized non-volatile website Automotive,Automotive,Gardner-Nichols,64.08,44.47,30.61,2024-01-05
+PROD_0406,Synergized leadingedge concept Clothing,Clothing,Davis-Johnston,131.87,60.96,53.77,2024-05-04
+PROD_0407,Reverse-engineered zero-defect leverage Electronics,Electronics,"Davis, Mejia and Phillips",203.43,138.58,31.88,2025-04-27
+PROD_0408,Fully-configurable local analyzer Books,Books & Media,Moran-Robinson,157.98,75.94,51.93,2023-08-24
+PROD_0409,Multi-layered 4thgeneration initiative Food,Food & Beverages,Hooper and Sons,101.37,52.67,48.05,2023-07-13
+PROD_0410,Vision-oriented optimizing approach Toys,Toys & Games,"Chapman, King and Hernandez",60.17,35.62,40.79,2025-04-04
+PROD_0411,Proactive maximized neural-net Clothing,Clothing,"Miller, Mcdonald and Hogan",261.16,119.27,54.33,2024-07-22
+PROD_0412,Compatible tangible task-force Beauty,Beauty & Health,"Maldonado, Robinson and Keller",60.56,34.05,43.77,2024-09-23
+PROD_0413,Customer-focused multimedia ability Home,Home & Garden,"Brown, Ross and Garcia",173.63,119.06,31.43,2024-10-31
+PROD_0414,Reduced actuating groupware Books,Books & Media,"Rangel, Brown and Reed",133.11,77.84,41.52,2025-03-19
+PROD_0415,Upgradable intermediate infrastructure Automotive,Automotive,White-Baldwin,1337.24,864.61,35.34,2024-01-30
+PROD_0416,Synergized cohesive archive Automotive,Automotive,Bowman-Hodge,257.98,125.18,51.48,2024-09-23
+PROD_0417,Reverse-engineered full-range knowledgebase Home,Home & Garden,Brown Group,170.26,108.48,36.29,2023-08-10
+PROD_0418,Configurable multimedia approach Beauty,Beauty & Health,Davis PLC,173.62,105.16,39.43,2024-12-04
+PROD_0419,Decentralized directional Graphic Interface Books,Books & Media,Harmon-Deleon,53.27,29.99,43.7,2024-11-21
+PROD_0420,Expanded upward-trending installation Books,Books & Media,"Robinson, Ashley and Garcia",68.93,40.38,41.42,2024-09-19
+PROD_0421,Open-architected eco-centric circuit Beauty,Beauty & Health,Austin-Robinson,164.14,103.4,37.0,2025-05-22
+PROD_0422,Right-sized fault-tolerant concept Beauty,Beauty & Health,Alvarez-Morris,176.18,86.74,50.77,2023-12-06
+PROD_0423,Total mission-critical Graphical User Interface Home,Home & Garden,Williams-Boyd,48.79,34.05,30.22,2024-02-05
+PROD_0424,Operative dynamic extranet Electronics,Electronics,Parker-Gutierrez,423.02,190.64,54.93,2025-04-05
+PROD_0425,Configurable exuding Internet solution Home,Home & Garden,"Thomas, Hicks and Myers",33.97,22.65,33.34,2025-06-29
+PROD_0426,Progressive grid-enabled solution Sports,Sports & Outdoors,Harris LLC,88.53,40.62,54.11,2024-02-18
+PROD_0427,Up-sized solution-oriented attitude Jewelry,Jewelry & Accessories,Peterson Group,387.87,171.1,55.89,2024-10-23
+PROD_0428,Decentralized bandwidth-monitored open system Books,Books & Media,"Silva, Clark and Klein",193.99,88.07,54.6,2024-08-22
+PROD_0429,Synergistic impactful firmware Electronics,Electronics,"Brown, Bowen and Morse",881.44,585.1,33.62,2024-09-16
+PROD_0430,Organic methodical application Electronics,Electronics,Rogers-Smith,147.06,77.19,47.51,2024-03-09
+PROD_0431,Re-contextualized stable toolset Toys,Toys & Games,"Mckee, Flores and Knapp",173.09,111.44,35.62,2024-02-27
+PROD_0432,Cross-group next generation artificial intelligence Beauty,Beauty & Health,Zimmerman-Anderson,121.7,81.65,32.91,2023-12-26
+PROD_0433,Upgradable asynchronous neural-net Food,Food & Beverages,Bush LLC,108.98,74.91,31.26,2023-11-29
+PROD_0434,Progressive directional productivity Clothing,Clothing,Kelly-Scott,258.0,110.4,57.21,2023-09-13
+PROD_0435,Configurable interactive focus group Food,Food & Beverages,Perry-Davis,102.59,56.99,44.45,2024-12-16
+PROD_0436,Operative context-sensitive info-mediaries Sports,Sports & Outdoors,Walker Ltd,90.91,36.68,59.65,2023-08-21
+PROD_0437,Synergized client-driven initiative Home,Home & Garden,Ellis-Holmes,92.79,59.2,36.2,2023-10-24
+PROD_0438,Mandatory dedicated project Sports,Sports & Outdoors,Moore LLC,194.29,125.2,35.56,2023-07-04
+PROD_0439,Cross-platform background utilization Beauty,Beauty & Health,Snyder LLC,183.76,113.22,38.39,2025-04-06
+PROD_0440,Profit-focused mission-critical circuit Beauty,Beauty & Health,"Hernandez, Alexander and Graham",189.73,113.05,40.42,2024-08-14
+PROD_0441,Right-sized discrete intranet Food,Food & Beverages,Flores-Howell,85.58,39.19,54.2,2024-08-03
+PROD_0442,Open-architected fault-tolerant capacity Clothing,Clothing,Sanchez and Sons,286.41,125.61,56.14,2025-02-04
+PROD_0443,Seamless non-volatile orchestration Jewelry,Jewelry & Accessories,Sparks Group,446.77,229.19,48.7,2024-03-25
+PROD_0444,Open-source static portal Beauty,Beauty & Health,"Moran, Gonzalez and Hughes",184.75,124.85,32.42,2023-12-13
+PROD_0445,Persevering optimizing benchmark Books,Books & Media,Williams-Weeks,167.68,78.76,53.03,2025-03-10
+PROD_0446,Organic motivating focus group Clothing,Clothing,Johnson LLC,147.99,96.19,35.0,2025-05-28
+PROD_0447,Open-architected maximized projection Food,Food & Beverages,"Jensen, Levy and Richardson",167.94,101.65,39.47,2025-02-03
+PROD_0448,Expanded background data-warehouse Beauty,Beauty & Health,Brown-Jones,122.97,78.48,36.18,2023-10-14
+PROD_0449,Focused homogeneous extranet Home,Home & Garden,Casey Ltd,141.59,92.58,34.61,2024-06-18
+PROD_0450,Streamlined coherent forecast Automotive,Automotive,Burton LLC,1478.97,1003.96,32.12,2024-09-16
+PROD_0451,Virtual logistical initiative Jewelry,Jewelry & Accessories,Norman-Woods,287.83,124.06,56.9,2024-11-07
+PROD_0452,Decentralized bottom-line knowledge user Home,Home & Garden,Stafford LLC,96.15,64.3,33.13,2023-09-06
+PROD_0453,Stand-alone multi-state budgetary management Home,Home & Garden,"Rodriguez, Garza and Hicks",71.35,36.32,49.09,2024-10-25
+PROD_0454,Organized value-added Internet solution Sports,Sports & Outdoors,"Jacobs, Rhodes and Vargas",161.34,97.49,39.58,2024-08-27
+PROD_0455,Networked client-driven success Home,Home & Garden,Young-Lopez,134.68,90.11,33.09,2024-11-17
+PROD_0456,Organized composite attitude Clothing,Clothing,Kennedy-Wilson,297.97,139.31,53.25,2024-12-28
+PROD_0457,Business-focused tangible ability Automotive,Automotive,"Moore, Davis and Smith",648.98,376.34,42.01,2023-08-28
+PROD_0458,Re-engineered dedicated protocol Books,Books & Media,"Clark, Campbell and Scott",27.47,17.14,37.61,2025-06-02
+PROD_0459,Exclusive systematic moderator Toys,Toys & Games,"Jenkins, Molina and Ruiz",21.89,14.64,33.13,2025-03-29
+PROD_0460,Function-based client-server utilization Automotive,Automotive,Parker-Crawford,1214.1,684.17,43.65,2024-11-18
+PROD_0461,Right-sized homogeneous Local Area Network Jewelry,Jewelry & Accessories,Brown-Mora,134.71,41.98,68.83,2024-08-15
+PROD_0462,Networked national algorithm Beauty,Beauty & Health,Humphrey Inc,54.25,36.53,32.65,2025-04-07
+PROD_0463,Vision-oriented 3rdgeneration knowledge user Toys,Toys & Games,Owens PLC,70.27,32.79,53.34,2024-10-21
+PROD_0464,Object-based encompassing parallelism Electronics,Electronics,Moore LLC,1160.41,473.0,59.24,2025-01-30
+PROD_0465,Secured impactful solution Sports,Sports & Outdoors,"Weber, Huffman and Jackson",228.53,95.17,58.36,2024-08-14
+PROD_0466,Operative cohesive monitoring Books,Books & Media,Delacruz-Brooks,191.48,124.99,34.72,2023-12-31
+PROD_0467,Visionary clear-thinking process improvement Automotive,Automotive,Hudson Inc,1212.94,650.01,46.41,2024-03-24
+PROD_0468,Reverse-engineered multi-tasking architecture Automotive,Automotive,Jones Inc,1190.46,750.1,36.99,2024-02-13
+PROD_0469,Right-sized clear-thinking superstructure Toys,Toys & Games,Hill PLC,22.82,11.22,50.86,2025-01-10
+PROD_0470,Secured multi-state array Beauty,Beauty & Health,Noble Ltd,119.99,54.58,54.52,2024-01-28
+PROD_0471,Implemented attitude-oriented concept Sports,Sports & Outdoors,"Copeland, Hunt and Roberts",274.24,126.73,53.79,2023-11-08
+PROD_0472,Adaptive interactive circuit Books,Books & Media,Campbell and Sons,100.65,50.12,50.2,2025-06-23
+PROD_0473,Multi-channeled background success Jewelry,Jewelry & Accessories,Roberts-Adams,368.6,217.81,40.91,2024-12-24
+PROD_0474,Multi-tiered disintermediate interface Sports,Sports & Outdoors,"Davidson, Dillon and Baker",160.51,72.91,54.57,2024-02-28
+PROD_0475,Managed cohesive installation Home,Home & Garden,Hunter-Castro,11.92,8.16,31.61,2024-09-17
+PROD_0476,Monitored global definition Sports,Sports & Outdoors,"Nicholson, Walker and Torres",213.3,120.06,43.71,2023-11-05
+PROD_0477,Mandatory disintermediate conglomeration Beauty,Beauty & Health,Delacruz LLC,180.85,112.52,37.78,2023-08-23
+PROD_0478,Pre-emptive national migration Books,Books & Media,Smith Ltd,145.64,87.39,39.99,2023-11-20
+PROD_0479,Innovative object-oriented ability Automotive,Automotive,Lewis-Rocha,1318.09,588.5,55.35,2024-09-23
+PROD_0480,Implemented mission-critical policy Toys,Toys & Games,"Ayers, Medina and Ayers",106.86,61.91,42.07,2024-09-07
+PROD_0481,Multi-tiered national project Clothing,Clothing,Bell-Porter,95.22,48.34,49.23,2024-07-01
+PROD_0482,Vision-oriented encompassing conglomeration Food,Food & Beverages,"Kirby, Mullins and Simon",152.34,100.81,33.83,2023-07-19
+PROD_0483,Customizable systemic extranet Electronics,Electronics,"Cannon, Gonzalez and Hernandez",166.08,81.02,51.22,2023-12-07
+PROD_0484,Team-oriented coherent open system Jewelry,Jewelry & Accessories,Williams Ltd,61.52,22.14,64.02,2024-07-09
+PROD_0485,Devolved bi-directional database Books,Books & Media,Romero-Hammond,77.82,36.7,52.84,2023-07-26
+PROD_0486,Synchronized content-based capability Home,Home & Garden,Franklin Ltd,64.47,36.48,43.42,2024-07-25
+PROD_0487,Decentralized impactful methodology Clothing,Clothing,Prince and Sons,164.37,92.54,43.7,2025-05-14
+PROD_0488,Virtual grid-enabled strategy Beauty,Beauty & Health,"Parsons, Morton and Hawkins",175.31,107.93,38.43,2023-08-06
+PROD_0489,User-centric explicit throughput Beauty,Beauty & Health,"Nelson, Jimenez and Baker",100.73,66.16,34.32,2025-02-20
+PROD_0490,Progressive zero-defect Internet solution Home,Home & Garden,"Stewart, Martin and Hunter",118.26,64.69,45.3,2023-12-09
+PROD_0491,Mandatory neutral synergy Toys,Toys & Games,Bates and Sons,195.66,101.99,47.87,2023-10-11
+PROD_0492,Enterprise-wide hybrid service-desk Food,Food & Beverages,"Black, Meyer and Duarte",40.72,27.02,33.65,2025-06-08
+PROD_0493,Fundamental national focus group Jewelry,Jewelry & Accessories,Carey Group,292.83,140.22,52.12,2023-07-19
+PROD_0494,Object-based multi-state info-mediaries Toys,Toys & Games,Schroeder-Hall,125.34,73.17,41.62,2024-11-03
+PROD_0495,Profound uniform policy Sports,Sports & Outdoors,"Reese, Hernandez and Allen",152.75,81.99,46.32,2025-03-04
+PROD_0496,User-friendly foreground model Home,Home & Garden,Long-Butler,184.15,96.2,47.76,2024-01-19
+PROD_0497,Exclusive bottom-line forecast Home,Home & Garden,Daugherty Inc,33.1,22.38,32.4,2024-09-21
+PROD_0498,Inverse upward-trending neural-net Jewelry,Jewelry & Accessories,"Reynolds, Oneill and Bennett",462.06,251.49,45.57,2024-12-10
+PROD_0499,Operative even-keeled budgetary management Sports,Sports & Outdoors,Ortiz Group,50.12,32.01,36.13,2025-02-06
+PROD_0500,Devolved intangible standardization Food,Food & Beverages,"Arroyo, Meza and Carroll",133.15,90.07,32.35,2024-11-10
