@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Machine Learning for Data Engineers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0078d4 0%, #00bcf2 50%, #40e0d0 100%);
+            color: white;
+            overflow: hidden;
+        }
+
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide {
+            display: none;
+            padding: 40px 60px;
+            text-align: center;
+            width: 90%;
+            max-width: 1200px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .slide.active {
+            display: block;
+        }
+
+        .slide h1 {
+            font-size: 3.2em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .slide h2 {
+            font-size: 2.8em;
+            margin-bottom: 30px;
+            font-weight: 600;
+            color: #FFD700;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .slide h3 {
+            font-size: 2em;
+            margin: 25px 0 15px 0;
+            font-weight: 500;
+            color: #87CEEB;
+        }
+
+        .slide p {
+            font-size: 1.4em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slide ul {
+            font-size: 1.3em;
+            line-height: 1.8;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .slide li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .comparison-item {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .comparison-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .comparison-item h4 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            color: #FFD700;
+        }
+
+        .integration-pattern {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            border-left: 4px solid #FFD700;
+        }
+
+        .integration-pattern h4 {
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+
+        .lifecycle-steps {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .lifecycle-step {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .lifecycle-step:hover {
+            transform: scale(1.1);
+        }
+
+        .lifecycle-step h4 {
+            font-size: 1.1em;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        .azure-components {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .azure-component {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .azure-component h4 {
+            color: #87CEEB;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .nav-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .slide-counter {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: #FFD700;
+            transition: width 0.3s ease;
+            z-index: 1000;
+        }
+
+        .subtitle {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            color: #87CEEB;
+            font-weight: 300;
+        }
+
+        .highlight {
+            color: #FFD700;
+            font-weight: 600;
+        }
+
+        .key-takeaway {
+            background: rgba(255,215,0,0.1);
+            border-left: 4px solid #FFD700;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+            font-style: italic;
+        }
+
+        .metaphor-box {
+            background: rgba(135,206,235,0.1);
+            border-left: 4px solid #87CEEB;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+
+        .code-snippet {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .business-impact {
+            background: rgba(64,224,208,0.1);
+            border-left: 4px solid #40E0D0;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .slide {
+                padding: 30px 20px;
+            }
+            
+            .slide h1 {
+                font-size: 2.5em;
+            }
+            
+            .slide h2 {
+                font-size: 2em;
+            }
+            
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .lifecycle-steps {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="slide-counter" id="slideCounter">1 / 1</div>
+    
+    <div class="slideshow-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Azure Machine Learning</h1>
+            <p class="subtitle">A Practical Guide for Data Engineers</p>
+            <p>Understanding how ML fits into your existing data infrastructure</p>
+        </div>
+
+        <!-- Slide 2: Learning Objectives -->
+        <div class="slide">
+            <h2>What You'll Learn Today</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🔧 Integration</h4>
+                    <p>How Azure ML complements your existing tools (Databricks, ADF, SQL)</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🏗️ Patterns</h4>
+                    <p>3 common integration patterns between data pipelines and ML workflows</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>⚖️ Decisions</h4>
+                    <p>When to recommend Azure ML vs. other solutions</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🚀 Production</h4>
+                    <p>Operational requirements for supporting ML in production</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Why ML Matters to Data Engineers -->
+        <div class="slide">
+            <h2>Why Should Data Engineers Care About ML?</h2>
+            <div class="metaphor-box">
+                <p><strong>"Data is the fuel. ML is the engine. Pipelines are the highway."</strong></p>
+            </div>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>📊 Foundation</h4>
+                    <p>Every model begins and ends with data pipelines</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🏗️ Infrastructure</h4>
+                    <p>ML needs dependable infrastructure - that's your domain</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔄 Integration</h4>
+                    <p>ML builds on top of your existing work, doesn't replace it</p>
+                </div>
+            </div>
+            <div class="key-takeaway">
+                <strong>Key Insight:</strong> You make ML possible, even if you never write model code
+            </div>
+        </div>
+
+        <!-- Slide 4: Air Traffic Controller Metaphor -->
+        <div class="slide">
+            <h2>Your Role in the ML Ecosystem</h2>
+            <div class="metaphor-box">
+                <p><strong>"If data scientists are the pilots, data engineers are the air traffic controllers."</strong></p>
+            </div>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>✈️ Data Scientists</h4>
+                    <p>Decide where the plane flies<br>Choose models and algorithms<br>Optimize for business outcomes</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🏗️ Data Engineers</h4>
+                    <p>Make sure planes take off and land safely<br>Supply data, connect systems<br>Monitor and maintain infrastructure</p>
+                </div>
+            </div>
+            <p>You connect ML to every step: <span class="highlight">Supplying data → Triggering training → Serving predictions → Monitoring results</span></p>
+        </div>
+
+        <!-- Slide 5: ML Lifecycle -->
+        <div class="slide">
+            <h2>The ML Lifecycle - Your Perspective</h2>
+            <div class="lifecycle-steps">
+                <div class="lifecycle-step">
+                    <h4>📥 Ingest</h4>
+                </div>
+                <div class="lifecycle-step">
+                    <h4>⚙️ Engineer Features</h4>
+                </div>
+                <div class="lifecycle-step">
+                    <h4>🎓 Train Model</h4>
+                </div>
+                <div class="lifecycle-step">
+                    <h4>✅ Validate</h4>
+                </div>
+                <div class="lifecycle-step">
+                    <h4>🚀 Deploy</h4>
+                </div>
+                <div class="lifecycle-step">
+                    <h4>📊 Serve + Monitor</h4>
+                </div>
+            </div>
+            <div class="key-takeaway">
+                <strong>Reality Check:</strong> ML is just another train running on your rails
+            </div>
+        </div>
+
+        <!-- Slide 6: DE Responsibilities in ML -->
+        <div class="slide">
+            <h2>Your Work Mapped to ML Stages</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🔧 Your Bread & Butter</h4>
+                    <p><strong>Ingest:</strong> Pipelines, connections, formats<br>
+                    <strong>Features:</strong> Aggregations, ratios, flags you already build</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🤝 Collaboration</h4>
+                    <p><strong>Train:</strong> Pass clean data to data scientists<br>
+                    <strong>Validate:</strong> Better pipelines = better metrics</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🚀 Production</h4>
+                    <p><strong>Deploy:</strong> Maintain data consistency<br>
+                    <strong>Monitor:</strong> Build logs, wire up alerts</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Azure ML Overview -->
+        <div class="slide">
+            <h2>Azure ML - Your Team's ML Command Center</h2>
+            <p class="subtitle">Structured, trackable environment for ML operations</p>
+            <div class="azure-components">
+                <div class="azure-component">
+                    <h4>🏢 Workspaces</h4>
+                    <p>Project containers with ML governance</p>
+                </div>
+                <div class="azure-component">
+                    <h4>📊 Datasets</h4>
+                    <p>Versioned, tracked, schema-validated data</p>
+                </div>
+                <div class="azure-component">
+                    <h4>💻 Compute</h4>
+                    <p>Auto-shutdown, cost-effective ML workloads</p>
+                </div>
+                <div class="azure-component">
+                    <h4>🧪 Experiments</h4>
+                    <p>Git-like version control for ML training</p>
+                </div>
+                <div class="azure-component">
+                    <h4>🤖 Models</h4>
+                    <p>Automatically versioned (v1, v2, v3...)</p>
+                </div>
+                <div class="azure-component">
+                    <h4>🔗 Endpoints</h4>
+                    <p>REST APIs for real-time predictions</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Azure ML Analogy -->
+        <div class="slide">
+            <h2>Think of Azure ML Like This...</h2>
+            <div class="metaphor-box">
+                <p><strong>"Azure ML is to models what a data warehouse is to reports"</strong></p>
+            </div>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>📊 Data Warehouse</h4>
+                    <p>• Stores structured data<br>
+                    • Tracks data lineage<br>
+                    • Serves reports reliably<br>
+                    • Governs data access</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🤖 Azure ML</h4>
+                    <p>• Stores trained models<br>
+                    • Tracks model lineage<br>
+                    • Serves predictions reliably<br>
+                    • Governs model deployment</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Integration Patterns -->
+        <div class="slide">
+            <h2>3 Common Integration Patterns</h2>
+            <div class="integration-pattern">
+                <h4>🏭 Pattern 1: Feature Factory (Databricks → Azure ML)</h4>
+                <p>Complex features in Spark, self-service ML experimentation</p>
+            </div>
+            <div class="integration-pattern">
+                <h4>🏗️ Pattern 2: Assembly Line (ADF Orchestrated)</h4>
+                <p>ML as part of regular data pipeline, automated training</p>
+            </div>
+            <div class="integration-pattern">
+                <h4>⚡ Pattern 3: Fast Lane (Real-time Scoring)</h4>
+                <p>Real-time predictions via REST APIs for operational decisions</p>
+            </div>
+            <div class="key-takeaway">
+                <strong>Remember:</strong> Azure ML extends your tools, doesn't replace them
+            </div>
+        </div>
+
+        <!-- Slide 10: Pattern 1 Detail -->
+        <div class="slide">
+            <h2>Pattern 1: Feature Factory</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>📊 Databricks</h4>
+                    <p>Create rich feature tables using Spark<br>
+                    Complex transformations and aggregations</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔄 Export</h4>
+                    <p>Register as Azure ML datasets<br>
+                    Automatic versioning and tracking</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🧪 Azure ML</h4>
+                    <p>Data scientists experiment with features<br>
+                    AutoML or custom training</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🚀 Deploy</h4>
+                    <p>Best models become REST endpoints<br>
+                    Results feed back to Databricks</p>
+                </div>
+            </div>
+            <div class="code-snippet">
+# Export Databricks DataFrame to Azure ML
+from azureml.core import Dataset, Workspace
+dataset = Dataset.Tabular.register_spark_dataframe(
+    spark_df, target=(datastore, 'features_v2'), name='customer_features'
+)
+            </div>
+        </div>
+
+        <!-- Slide 11: AutoML -->
+        <div class="slide">
+            <h2>AutoML - Your Entry Point to ML</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🤖 What AutoML Does</h4>
+                    <p>• Selects best algorithm<br>
+                    • Tests dozens of variations<br>
+                    • Optimizes parameters<br>
+                    • Provides leaderboard</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔧 Your Role</h4>
+                    <p>• Provide clean dataset<br>
+                    • Choose target column<br>
+                    • Define success metric<br>
+                    • Ensure data quality</p>
+                </div>
+            </div>
+            <div class="metaphor-box">
+                <p><strong>"AutoML is AutoTune for models - you bring the data, it handles the optimization"</strong></p>
+            </div>
+            <div class="key-takeaway">
+                <strong>Truth:</strong> AutoML isn't magic - it's your data doing the heavy lifting
+            </div>
+        </div>
+
+        <!-- Slide 12: Deployment -->
+        <div class="slide">
+            <h2>From Science Experiment to Business Tool</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🔄 Deployment Process</h4>
+                    <p>• Select best model<br>
+                    • Click "Deploy"<br>
+                    • Choose compute target<br>
+                    • Get secure endpoint URL</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>📡 Real-time Predictions</h4>
+                    <p>• REST API accepts JSON<br>
+                    • Returns predictions<br>
+                    • Call from anywhere<br>
+                    • Databricks, ADF, apps</p>
+                </div>
+            </div>
+            <div class="code-snippet">
+// Input JSON
+{
+  "policy_type": "auto",
+  "claim_rate": 0.12,
+  "tenure_years": 4
+}
+
+// Output JSON
+{
+  "renewal_probability": 0.87
+}
+            </div>
+            <div class="key-takeaway">
+                <strong>Game Changer:</strong> A model without deployment is a science experiment. With deployment, it becomes a business tool.
+            </div>
+        </div>
+
+        <!-- Slide 13: Production Considerations -->
+        <div class="slide">
+            <h2>Production: Where Your Skills Shine</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>📊 Data Quality</h4>
+                    <p>• Schema changes break models<br>
+                    • Missing values cause failures<br>
+                    • Need drift detection</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>💰 Cost Management</h4>
+                    <p>• AutoML: $50-200 per run<br>
+                    • Auto-shutdown critical<br>
+                    • Serving costs scale</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔒 Security</h4>
+                    <p>• Models inherit permissions<br>
+                    • Audit trails needed<br>
+                    • Version control required</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>📈 Monitoring</h4>
+                    <p>• Performance tracking<br>
+                    • Data drift detection<br>
+                    • Integration health</p>
+                </div>
+            </div>
+            <div class="key-takeaway">
+                <strong>Reality:</strong> ML models decay quietly over time. Monitoring catches issues before business impact.
+            </div>
+        </div>
+
+        <!-- Slide 14: Business Value Case Study -->
+        <div class="slide">
+            <h2>Real-World Impact: Insurance Retention</h2>
+            <div class="business-impact">
+                <h3>The Challenge</h3>
+                <p>Insurance company losing customers to competitors - need to predict and prevent churn</p>
+            </div>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>📊 Data Sources</h4>
+                    <p>• Policy types and duration<br>
+                    • Claim history<br>
+                    • Customer interactions<br>
+                    • Premium amounts</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔧 Your Role</h4>
+                    <p>• Join and clean data<br>
+                    • Daily/weekly delivery<br>
+                    • Feed business systems<br>
+                    • Monitor data quality</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>💼 Business Actions</h4>
+                    <p>• Targeted outreach<br>
+                    • Retention discounts<br>
+                    • Priority service<br>
+                    • Measurable ROI</p>
+                </div>
+            </div>
+            <div class="key-takeaway">
+                <strong>Value Creation:</strong> ML delivers value when data is rich, timely, and connected to action
+            </div>
+        </div>
+
+        <!-- Slide 15: Decision Framework -->
+        <div class="slide">
+            <h2>When to Use What</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🎯 Use Azure ML When</h4>
+                    <p>• Need automated selection<br>
+                    • Want built-in governance<br>
+                    • Require explainability<br>
+                    • Focus on data, not algorithms</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>⚡ Use Databricks When</h4>
+                    <p>• Custom algorithms required<br>
+                    • Deep Spark integration<br>
+                    • Maximum flexibility<br>
+                    • Strong ML expertise</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🤝 Use Both When</h4>
+                    <p>• Complex features in Databricks<br>
+                    • Automated training in Azure ML<br>
+                    • Best of both platforms<br>
+                    • Hybrid architecture</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 16: Key Takeaways -->
+        <div class="slide">
+            <h2>Key Takeaways</h2>
+            <div class="azure-components">
+                <div class="azure-component">
+                    <h4>🏗️ ML is Infrastructure</h4>
+                    <p>Treat ML systems like any other production system</p>
+                </div>
+                <div class="azure-component">
+                    <h4>👑 Data Quality is King</h4>
+                    <p>Better data leads to better models</p>
+                </div>
+                <div class="azure-component">
+                    <h4>🎯 Start Simple</h4>
+                    <p>Focus on clear use cases and measurable outcomes</p>
+                </div>
+                <div class="azure-component">
+                    <h4>🔗 Integration Over Innovation</h4>
+                    <p>Connect ML to existing workflows</p>
+                </div>
+                <div class="azure-component">
+                    <h4>📊 Monitor Everything</h4>
+                    <p>ML systems need operational rigor</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 17: Next Steps -->
+        <div class="slide">
+            <h2>Your Next Steps</h2>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>🔍 Identify</h4>
+                    <p>Find high-value use cases in your organization</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>📊 Assess</h4>
+                    <p>Evaluate your data readiness and quality</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🚀 Start</h4>
+                    <p>Begin with simple, well-defined problems</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🔄 Iterate</h4>
+                    <p>Build, measure, learn, improve</p>
+                </div>
+            </div>
+            <div class="key-takeaway">
+                <strong>Success Formula:</strong> Business value + Data quality + Simple start = ML success
+            </div>
+        </div>
+
+        <!-- Slide 18: Questions -->
+        <div class="slide">
+            <h2>Questions & Discussion</h2>
+            <p class="subtitle">How can Azure ML enhance your data engineering workflows?</p>
+            <br>
+            <div class="comparison-grid">
+                <div class="comparison-item">
+                    <h4>💭 Common Questions</h4>
+                    <p>Integration with existing tools?<br>
+                    Cost considerations?<br>
+                    Getting started?</p>
+                </div>
+                <div class="comparison-item">
+                    <h4>🎯 Your Scenarios</h4>
+                    <p>What use cases do you see?<br>
+                    What data do you have?<br>
+                    What are your constraints?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">Previous</button>
+        <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+            
+            // Update counter
+            document.getElementById('slideCounter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+            
+            // Update progress bar
+            const progress = ((currentSlide + 1) / totalSlides) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
+            
+            // Update navigation buttons
+            document.getElementById('prevBtn').disabled = currentSlide === 0;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+        }
+
+        function changeSlide(n) {
+            if (n > 0 && currentSlide < totalSlides - 1) {
+                showSlide(currentSlide + 1);
+            } else if (n < 0 && currentSlide > 0) {
+                showSlide(currentSlide - 1);
+            }
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === 'ArrowRight') changeSlide(1);
+        });
+
+        // Initialize
+        showSlide(0);
+    </script>
+</body>
+</html>
