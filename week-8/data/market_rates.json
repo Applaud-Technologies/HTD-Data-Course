@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "generated_date": "2025-07-03T16:29:54.402088",
+    "version": "1.0",
+    "description": "Insurance market rates and pricing benchmarks"
+  },
+  "base_rates": {
+    "Auto": {
+      "liability_rate": 0.018,
+      "comprehensive_rate": 0.022,
+      "collision_rate": 0.025,
+      "minimum_premium": 500
+    },
+    "Home": {
+      "dwelling_rate": 0.006,
+      "personal_property_rate": 0.008,
+      "liability_rate": 0.002,
+      "minimum_premium": 800
+    },
+    "Life": {
+      "term_rate": 0.003,
+      "whole_life_rate": 0.008,
+      "universal_life_rate": 0.006,
+      "minimum_premium": 300
+    },
+    "Health": {
+      "individual_rate": 0.12,
+      "family_rate": 0.08,
+      "group_rate": 0.06,
+      "minimum_premium": 200
+    },
+    "Travel": {
+      "domestic_rate": 0.08,
+      "international_rate": 0.15,
+      "business_rate": 0.12,
+      "minimum_premium": 50
+    },
+    "Business": {
+      "general_liability_rate": 0.008,
+      "professional_liability_rate": 0.012,
+      "cyber_liability_rate": 0.015,
+      "minimum_premium": 1000
+    }
+  },
+  "risk_multipliers": {
+    "Low": 0.8,
+    "Medium": 1.0,
+    "High": 1.3,
+    "Very High": 1.6
+  },
+  "age_factors": {
+    "18-25": 1.4,
+    "26-35": 1.1,
+    "36-45": 1.0,
+    "46-55": 0.95,
+    "56-65": 0.9,
+    "65+": 1.1
+  },
+  "state_factors": {
+    "CA": 1.2,
+    "NY": 1.15,
+    "FL": 1.1,
+    "TX": 1.05,
+    "PA": 1.0,
+    "IL": 1.0,
+    "OH": 0.95,
+    "GA": 0.9,
+    "NC": 0.9,
+    "MI": 0.95,
+    "AZ": 1.0,
+    "VA": 0.95,
+    "WA": 1.05,
+    "MA": 1.1,
+    "IN": 0.9,
+    "TN": 0.85,
+    "MO": 0.9,
+    "MD": 1.0,
+    "WI": 0.9,
+    "CO": 1.0
+  },
+  "credit_score_factors": {
+    "300-549": 1.5,
+    "550-649": 1.2,
+    "650-749": 1.0,
+    "750-850": 0.8
+  },
+  "seasonal_adjustments": {
+    "Q1": 0.95,
+    "Q2": 1.0,
+    "Q3": 1.05,
+    "Q4": 1.02
+  },
+  "competitive_rates": {
+    "market_leader_discount": 0.9,
+    "market_follower_premium": 1.05,
+    "new_customer_discount": 0.85,
+    "loyalty_discount": 0.9,
+    "multi_policy_discount": 0.85
+  }
+}
